@@ -1,0 +1,66 @@
+{
+  "_aciklama": "GBRI izlenen kaynaklar. Faz 0 testinde her kaynak icin aday adresler denenir; kalici izleme adresleri test sonucuna gore secilecek.",
+  "sources": [
+    {"id": "eba", "name": "European Banking Authority (EBA)", "region": "international", "candidates": [
+      "https://www.eba.europa.eu/",
+      "https://www.eba.europa.eu/publications-and-media/press-releases",
+      "https://www.eba.europa.eu/publications-and-media/publications"
+    ]},
+    {"id": "bis", "name": "Bank for International Settlements (BIS)", "region": "international", "candidates": [
+      "https://www.bis.org/",
+      "https://www.bis.org/doclist/all_pressrels.rss",
+      "https://www.bis.org/list/press_releases/index.htm"
+    ]},
+    {"id": "bcbs", "name": "Basel Committee on Banking Supervision (BCBS)", "region": "international", "candidates": [
+      "https://www.bis.org/bcbs/",
+      "https://www.bis.org/bcbs/publications.htm",
+      "https://www.bis.org/doclist/bcbs_publications.rss"
+    ]},
+    {"id": "ifrs", "name": "IFRS Foundation", "region": "international", "candidates": [
+      "https://www.ifrs.org/",
+      "https://www.ifrs.org/news-and-events/news/"
+    ]},
+    {"id": "issb", "name": "International Sustainability Standards Board (ISSB)", "region": "international", "candidates": [
+      "https://www.ifrs.org/groups/international-sustainability-standards-board/"
+    ]},
+    {"id": "worldbank", "name": "World Bank", "region": "international", "candidates": [
+      "https://www.worldbank.org/en/news",
+      "https://documents.worldbank.org/en/publication/documents-reports"
+    ]},
+    {"id": "fsb", "name": "Financial Stability Board (FSB)", "region": "international", "candidates": [
+      "https://www.fsb.org/",
+      "https://www.fsb.org/feed/",
+      "https://www.fsb.org/publications/"
+    ]},
+    {"id": "ecb", "name": "European Central Bank (ECB)", "region": "international", "candidates": [
+      "https://www.ecb.europa.eu/rss/press.html",
+      "https://www.ecb.europa.eu/rss/pub.html",
+      "https://www.bankingsupervision.europa.eu/press/html/index.en.html"
+    ]},
+    {"id": "oecd", "name": "OECD", "region": "international", "candidates": [
+      "https://www.oecd.org/en/publications.html",
+      "https://www.oecd.org/en/about/news.html"
+    ]},
+    {"id": "bddk", "name": "Bankacilik Duzenleme ve Denetleme Kurumu (BDDK)", "region": "tr", "candidates": [
+      "https://www.bddk.org.tr/",
+      "https://www.bddk.org.tr/Mevzuat",
+      "https://www.bddk.org.tr/Duyuru"
+    ]},
+    {"id": "tcmb", "name": "Turkiye Cumhuriyet Merkez Bankasi (TCMB)", "region": "tr", "candidates": [
+      "https://www.tcmb.gov.tr/",
+      "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular"
+    ]},
+    {"id": "kgk", "name": "Kamu Gozetimi, Muhasebe ve Denetim Standartlari Kurumu (KGK)", "region": "tr", "candidates": [
+      "https://www.kgk.gov.tr/"
+    ]},
+    {"id": "spk", "name": "Sermaye Piyasasi Kurulu (SPK)", "region": "tr", "candidates": [
+      "https://spk.gov.tr/",
+      "https://spk.gov.tr/spk-bultenleri"
+    ]},
+    {"id": "resmigazete", "name": "Resmi Gazete", "region": "tr", "candidates": [
+      "https://www.resmigazete.gov.tr/",
+      "https://www.resmigazete.gov.tr/eskiler/{YYYY}/{MM}/{YYYY}{MM}{DD}.htm",
+      "https://www.mevzuat.gov.tr/"
+    ]}
+  ]
+}

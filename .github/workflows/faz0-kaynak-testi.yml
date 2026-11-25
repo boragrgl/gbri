@@ -1,0 +1,35 @@
+name: Faz 0 - Kaynak erisim testi
+
+on:
+  push:
+    branches: [faz0-kaynak-testi]
+    paths:
+      - "config/sources.json"
+      - "scripts/faz0_kaynak_testi.py"
+      - ".github/workflows/faz0-kaynak-testi.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kaynaklari dene
+        run: |
+          mkdir -p reports
+          python scripts/faz0_kaynak_testi.py config/sources.json reports
+          cat reports/faz0-kaynak-testi.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Raporu repoya kaydet
+        run: |
+          git config user.name "gbri-bot"
+          git config user.email "gbri-bot@users.noreply.github.com"
+          git add reports/
+          git commit -m "Faz 0 kaynak erisim testi raporu" || echo "Degisiklik yok"
+          git push
