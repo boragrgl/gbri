@@ -33,13 +33,13 @@ KAYNAKLAR = [
          "tarih_once": 600, "tarih_sonra": 0, "kategori": "Basın"},
     ]},
     {"id": "ifrs", "ad": "IFRS Vakfı", "bolge": "uluslararasi", "okuyucular": [
-        {"tip": "rss_kesif", "url": "https://www.ifrs.org/news-and-events/news.rss", "kategori": "Haber"},
+        {"tip": "site_haritasi", "url": "https://www.ifrs.org/sitemap.xml",
+         "href_desen": r"/news-and-events/news/(?P<y>20\d\d)/(?P<m>\d\d)/[^/]+/?$", "kategori": "Haber"},
     ]},
     {"id": "issb", "ad": "ISSB", "bolge": "uluslararasi", "not": "IFRS haber beslemesinden ISSB ile ilgili olanlar ayrilir",
      "okuyucular": []},
     {"id": "worldbank", "ad": "Dünya Bankası", "bolge": "uluslararasi", "okuyucular": [
-        {"tip": "dunya_bankasi", "sorgular": ["banking regulation", "banking supervision", "climate risk financial sector",
-                                               "non-performing loans", "financial stability"]},
+        {"tip": "dunya_bankasi", "sorgular": ["banking regulation", "banking supervision", "climate risk financial sector"], "satir": 25},
     ]},
     {"id": "bddk", "ad": "BDDK", "bolge": "tr", "okuyucular": [
         {"tip": "liste", "url": "https://www.bddk.org.tr/Duyuru/Liste/40", "href_desen": r"/Duyuru/Detay/\d+",

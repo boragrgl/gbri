@@ -12,7 +12,7 @@ from ortak import getir, rss_tarih, tarih_bul, temiz
 _A = re.compile(r'<a\b([^>]*)>(.*?)</a>', re.S | re.I)
 _HREF = re.compile(r'href\s*=\s*["\']([^"\']+)["\']', re.I)
 _BAS_TARIH = re.compile(r"^\s*(\d{1,2}[./]\d{1,2}[./]\d{4}|\d{1,2}\s+\w+\.?\s+\d{4})\s*")
-_GENEL = re.compile(r"^(download( document)?|read more|devam[ıi]|detay|indir|pdf)$", re.I)
+_GENEL = re.compile(r"^(\.*\s*)?(download( document)?|read more|devam[ıi]|detay|indir|pdf)\.*$", re.I)
 _BASLIK_ETIKETI = re.compile(r'<h[1-6][^>]*>(.*?)</h[1-6]>', re.S | re.I)
 
 
@@ -177,13 +177,20 @@ def tarihsiz_pdf_listesi(kurum, url, href_desen, kategori="", **_):
             yield k
 
 
-def dunya_bankasi(kurum, sorgular, baslangic, **_):
+WB_DISLA = re.compile(r"ISR|ESRS|Procurement|Notice|Agreement|Project Information|Environmental|Resettlement|"
+                      r"Implementation Status|Disclosable|Official Documents|Loan|Letter|Minutes|Stakeholder|"
+                      r"Integrated Safeguards|Appraisal|Restructuring|Audit|Grant|Credit Number|Financing", re.I)
+
+
+def dunya_bankasi(kurum, sorgular, baslangic, satir=25, **_):
     for q in sorgular:
-        u = ("https://search.worldbank.org/api/v3/wds?format=json&rows=50&os=0&fl=docdt,display_title,pdfurl,url,docty"
+        u = (f"https://search.worldbank.org/api/v3/wds?format=json&rows={satir}&os=0&fl=docdt,display_title,pdfurl,url,docty"
              f"&qterm={urllib.parse.quote(q)}&strdate={baslangic:%Y-%m-%d}&sort=docdt&order=desc")
         veri = json.loads(getir(u)["metin"])
         for d in (veri.get("documents") or {}).values():
             if not isinstance(d, dict) or "display_title" not in d:
+                continue
+            if WB_DISLA.search(d["display_title"]) or WB_DISLA.search(d.get("docty", "")):
                 continue
             tarih = rss_tarih(d.get("docdt", ""))
             yield {"kurum": kurum, "url": d.get("url") or d.get("pdfurl", ""), "baslik_orijinal": temiz(d["display_title"]),
@@ -215,5 +222,25 @@ def rss_kesif(kurum, url, kategori="", **_):
             continue
 
 
-OKUYUCULAR = {"rss": rss, "liste": liste, "resmi_gazete": resmi_gazete, "bddk_mevzuat": bddk_mevzuat,
+def site_haritasi(kurum, url, href_desen, baslangic, kategori="", **_):
+    """Site haritasindaki /YYYY/MM/ iceren adresler (IFRS). Tarih ay basina gore; Faz 2'de sayfadan netlesir."""
+    desen = re.compile(href_desen)
+    metin = getir(url)["metin"]
+    for loc in re.findall(r"<loc>([^<]+)</loc>", metin):
+        m = desen.search(loc)
+        if not m:
+            continue
+        try:
+            t = dt.date(int(m.group("y")), int(m.group("m")), 1)
+        except ValueError:
+            continue
+        if t < baslangic.replace(day=1):
+            continue
+        slug = loc.rstrip("/").rsplit("/", 1)[-1]
+        baslik = re.sub(r"-+", " ", slug).strip().capitalize()
+        yield {"kurum": kurum, "url": loc, "baslik_orijinal": baslik, "yayin_tarihi": max(t, baslangic),
+               "ozet_kaynak": "", "kategori": kategori, "tarih_kaynagi": "url_ay"}
+
+
+OKUYUCULAR = {"site_haritasi": site_haritasi, "rss": rss, "liste": liste, "resmi_gazete": resmi_gazete, "bddk_mevzuat": bddk_mevzuat,
               "tarihsiz_pdf_listesi": tarihsiz_pdf_listesi, "dunya_bankasi": dunya_bankasi, "rss_kesif": rss_kesif}

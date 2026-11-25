@@ -12,6 +12,7 @@ import glob
 import json
 import os
 import sys
+import re
 import traceback
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -106,7 +107,7 @@ def main():
                 eski[un]["son_gorulme"] = zaman.isoformat()
                 continue
             kurum = k["kurum"]
-            if kurum == "ifrs" and "sustainability" in (k["baslik_orijinal"] + k["url"]).lower():
+            if kurum == "ifrs" and re.search(r"issb|sustainab|ifrs-s[12]|climate", k["url"].lower()):
                 kurum = "issb"
             eski[un] = {
                 "aday_id": f"{kurum}-{t.isoformat() if t else 'tarihsiz'}-{kisa_hash(un)}",
@@ -133,7 +134,7 @@ def main():
     # aylara gore yaz
     aylar = {}
     for k in eski.values():
-        ay = (k["yayin_tarihi"] or "tarihsiz")[:7]
+        ay = k["yayin_tarihi"][:7] if k["yayin_tarihi"] else "tarihsiz"
         aylar.setdefault(ay, []).append(k)
     for ay, liste in aylar.items():
         liste.sort(key=lambda k: (k["yayin_tarihi"] or "", k["aday_id"]), reverse=True)
