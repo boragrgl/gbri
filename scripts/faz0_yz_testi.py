@@ -79,7 +79,15 @@ def call(model, doc_title, doc_text, token):
     t0 = time.time()
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
-            out = json.loads(r.read())
+            raw = r.read()
+            if r.headers.get("Content-Encoding") == "gzip":
+                import gzip
+                raw = gzip.decompress(raw)
+            try:
+                out = json.loads(raw)
+            except ValueError:
+                return {"ok": False, "elapsed": round(time.time() - t0, 1),
+                        "error": f"JSON degil: HTTP {r.status} {r.headers.get('Content-Type')} url={r.geturl()} govde={raw[:300]!r}"}
         return {"ok": True, "elapsed": round(time.time() - t0, 1), "usage": out.get("usage"),
                 "content": out["choices"][0]["message"]["content"]}
     except urllib.error.HTTPError as e:
@@ -96,6 +104,7 @@ def main(out_dir):
     token = os.environ["GITHUB_TOKEN"]
     # mevcut modeller
     cat = fetch(CATALOG)
+    print("katalog:", cat["status"], cat["content_type"], cat["body"][:200], flush=True)
     try:
         ids = [m.get("id") for m in json.loads(cat["body"])]
     except Exception:
