@@ -5,6 +5,7 @@ on:
     branches: [faz0-kaynak-testi]
     paths:
       - "scripts/faz0_yz_testi.py"
+      - "config/yz-tetik.txt"
       - ".github/workflows/faz0-yz-testi.yml"
   workflow_dispatch:
 
@@ -21,20 +22,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Uc nokta tanisi
+      - name: Yapay zeka ile analiz dene
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          for u in https://models.github.ai/inference/chat/completions https://models.inference.ai.azure.com/chat/completions; do
-            echo "=== $u"
-            curl -sS -i -m 60 "$u" -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" \
-              -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Merhaba, tek kelimeyle cevap ver."}]}' | head -c 1200; echo
-          done
-          echo "=== katalog"; curl -sS -i -m 30 https://models.github.ai/catalog/models | head -c 600; echo
-          env | grep -i proxy || echo "proxy degiskeni yok"
-      - name: GitHub Models ile analiz dene
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           mkdir -p reports
           python scripts/faz0_yz_testi.py reports

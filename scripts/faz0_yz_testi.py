@@ -22,7 +22,9 @@ from faz0_kaynak_testi import decode, fetch  # noqa: E402
 API = "https://models.github.ai/inference/chat/completions"
 CATALOG = "https://models.github.ai/catalog/models"
 PREFERRED = ["openai/gpt-4.1", "openai/gpt-4o", "openai/gpt-4.1-mini", "openai/gpt-4o-mini"]
-MAX_CHARS = 9000  # ucretsiz katmanin istek basina token sinirina sigmak icin
+MAX_CHARS = 9000  # GitHub Models ucretsiz katmani icin
+GEMINI_MAX_CHARS = 40000
+GEMINI_API = "https://generativelanguage.googleapis.com/v1beta"
 
 PROFILE = ("Kamu (devlet) bankasi; kredi riski icin Basel standart yaklasimini kullanir, IRD kullanmaz; "
            "TFRS 9 uygular. Onem duzeyini bu profile gore belirle: bu bankayi dogrudan baglamayan "
@@ -96,6 +98,41 @@ def call(model, doc_title, doc_text, token):
         return {"ok": False, "elapsed": round(time.time() - t0, 1), "error": f"{type(e).__name__}: {e}"[:400]}
 
 
+def gemini_pick_model(key):
+    req = urllib.request.Request(f"{GEMINI_API}/models?pageSize=200", headers={"x-goog-api-key": key})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        models = json.loads(r.read()).get("models", [])
+    names = [m["name"].split("/", 1)[1] for m in models
+             if "generateContent" in m.get("supportedGenerationMethods", [])]
+    flash = [n for n in names if "flash" in n and "lite" not in n and "image" not in n and "tts" not in n
+             and "live" not in n and "audio" not in n]
+    stable = [n for n in flash if "preview" not in n and "exp" not in n]
+    pick = (sorted(stable) or sorted(flash) or names)[-1:]
+    return pick, names
+
+
+def call_gemini(model, doc_title, doc_text, key):
+    body = json.dumps({
+        "systemInstruction": {"parts": [{"text": SYSTEM}]},
+        "contents": [{"role": "user", "parts": [{"text": f"Belge basligi: {doc_title}\n\nBelge metni:\n{doc_text}"}]}],
+        "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json"}}).encode()
+    req = urllib.request.Request(f"{GEMINI_API}/models/{model}:generateContent", data=body,
+                                 headers={"x-goog-api-key": key, "Content-Type": "application/json"})
+    t0 = time.time()
+    try:
+        with urllib.request.urlopen(req, timeout=180) as r:
+            out = json.loads(r.read())
+        um = out.get("usageMetadata", {})
+        text = "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
+        return {"ok": True, "elapsed": round(time.time() - t0, 1),
+                "usage": {"prompt_tokens": um.get("promptTokenCount"), "completion_tokens": um.get("candidatesTokenCount")},
+                "content": text}
+    except urllib.error.HTTPError as e:
+        return {"ok": False, "elapsed": round(time.time() - t0, 1), "error": f"HTTP {e.code}: {e.read()[:400].decode('utf-8', 'replace')}"}
+    except Exception as e:
+        return {"ok": False, "elapsed": round(time.time() - t0, 1), "error": f"{type(e).__name__}: {e}"[:400]}
+
+
 def norm(s):
     return re.sub(r"\s+", " ", s).strip().lower()
 
@@ -119,11 +156,24 @@ def main(out_dir):
     docs.append(("Resmi Gazete", "Resmi Gazete - gunun icindekiler", "https://www.resmigazete.gov.tr/",
                  page_text("https://www.resmigazete.gov.tr/")))
 
+    plan = [("github", m, MAX_CHARS) for m in models[:1]]
+    gkey = os.environ.get("GEMINI_API_KEY", "")
+    gem_all = []
+    if gkey:
+        try:
+            gpick, gem_all = gemini_pick_model(gkey)
+            plan += [("gemini", m, GEMINI_MAX_CHARS) for m in gpick]
+        except Exception as e:
+            print("gemini model listesi alinamadi:", type(e).__name__, str(e)[:200], flush=True)
+    print("plan:", plan, "| gemini modelleri:", gem_all[:40], flush=True)
+
     results = []
-    for model in models[:2]:
+    for provider, model, limit in plan:
         for src, title, link, text in docs:
-            r = call(model, title, text[:MAX_CHARS], token)
-            r.update({"model": model, "source": src, "title": title, "link": link, "chars_sent": min(len(text), MAX_CHARS)})
+            r = (call_gemini(model, title, text[:limit], gkey) if provider == "gemini"
+                 else call(model, title, text[:limit], token))
+            r.update({"model": f"{provider}:{model}", "source": src, "title": title, "link": link,
+                      "chars_sent": min(len(text), limit)})
             if r["ok"]:
                 try:
                     parsed = json.loads(r["content"])
@@ -134,13 +184,13 @@ def main(out_dir):
                 except ValueError:
                     r["parsed"] = None
             results.append(r)
-            print(model, src, r["ok"], r.get("error", ""), flush=True)
-            time.sleep(5)
+            print(r["model"], src, r["ok"], r.get("error", "")[:300], flush=True)
+            time.sleep(6)
 
     json.dump({"catalog_has": [m for m in PREFERRED if m in ids], "catalog_size": len(ids), "results": results},
               open(f"{out_dir}/faz0-yz-testi.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    L = ["# Faz 0 · Yapay zekâ testi (GitHub Models)", "",
-         f"Katalogdaki model sayısı: {len(ids)} · Denenenler: {', '.join(models[:2])}", "",
+    L = ["# Faz 0 · Yapay zekâ testi (GitHub Models ve Gemini)", "",
+         f"Denenenler: {', '.join(p[0] + ':' + p[1] for p in plan)}", "",
          "| Model | Kaynak | Sonuç | Süre (sn) | Gönderilen kr | Token (girdi/çıktı) | Teyitli alıntı birebir | Önem | Statü |",
          "|---|---|---|---|---|---|---|---|---|"]
     for r in results:
