@@ -1,0 +1,90 @@
+[
+ {
+  "zaman": "2026-11-26T00:57:45+03:00",
+  "pencere_baslangic": "2026-10-26",
+  "baslangic_arsivi": true,
+  "yeni": 149,
+  "kaynaklar": [
+   {
+    "kaynak": "ecb",
+    "bulunan": 40,
+    "yeni": 40,
+    "hata": 0
+   },
+   {
+    "kaynak": "fsb",
+    "bulunan": 13,
+    "yeni": 13,
+    "hata": 0
+   },
+   {
+    "kaynak": "bis",
+    "bulunan": 3,
+    "yeni": 3,
+    "hata": 0
+   },
+   {
+    "kaynak": "bcbs",
+    "bulunan": 3,
+    "yeni": 2,
+    "hata": 0
+   },
+   {
+    "kaynak": "eba",
+    "bulunan": 12,
+    "yeni": 12,
+    "hata": 0
+   },
+   {
+    "kaynak": "ifrs",
+    "bulunan": 17,
+    "yeni": 17,
+    "hata": 0
+   },
+   {
+    "kaynak": "issb",
+    "durum": "ayri_okuyucu_yok"
+   },
+   {
+    "kaynak": "worldbank",
+    "bulunan": 27,
+    "yeni": 26,
+    "hata": 0
+   },
+   {
+    "kaynak": "bddk",
+    "bulunan": 6,
+    "yeni": 6,
+    "hata": 0
+   },
+   {
+    "kaynak": "tcmb",
+    "bulunan": 5,
+    "yeni": 5,
+    "hata": 0
+   },
+   {
+    "kaynak": "kgk",
+    "bulunan": 11,
+    "yeni": 11,
+    "hata": 0
+   },
+   {
+    "kaynak": "spk",
+    "bulunan": 7,
+    "yeni": 7,
+    "hata": 0
+   },
+   {
+    "kaynak": "resmigazete",
+    "bulunan": 7,
+    "yeni": 7,
+    "hata": 0
+   },
+   {
+    "kaynak": "oecd",
+    "durum": "kapali"
+   }
+  ]
+ }
+]
