@@ -1,0 +1,759 @@
+{
+  "run_at": "2026-11-25 20:40 UTC",
+  "results": [
+    {
+      "id": "eba",
+      "name": "European Banking Authority (EBA)",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.eba.europa.eu/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.eba.europa.eu/",
+          "content_type": "text/html",
+          "bytes": 81440,
+          "elapsed_s": 1.05,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Homepage | European Banking Authority",
+            "visible_chars": 10367,
+            "links": 163,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.eba.europa.eu/publications-and-media/press-releases",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.eba.europa.eu/publications-and-media/press-releases",
+          "content_type": "text/html",
+          "bytes": 77920,
+          "elapsed_s": 1.08,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Press releases | European Banking Authority",
+            "visible_chars": 14671,
+            "links": 159,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.eba.europa.eu/publications-and-media/publications",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.eba.europa.eu/publications-and-media/publications",
+          "content_type": "text/html",
+          "bytes": 78747,
+          "elapsed_s": 0.87,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Publications | European Banking Authority",
+            "visible_chars": 6894,
+            "links": 183,
+            "pdf_links": 6,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "bis",
+      "name": "Bank for International Settlements (BIS)",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.bis.org/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/",
+          "content_type": "text/html",
+          "bytes": 222402,
+          "elapsed_s": 0.65,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Welcome to the BIS | Bank for International Settlements",
+            "visible_chars": 15650,
+            "links": 317,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.bis.org/doclist/all_pressrels.rss",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/doclist/all_pressrels.rss",
+          "content_type": "application/rss+xml",
+          "bytes": 4759,
+          "elapsed_s": 0.46,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 0,
+            "latest": []
+          },
+          "verdict": "BESLEME_BOS"
+        },
+        {
+          "url": "https://www.bis.org/list/press_releases/index.htm",
+          "robots_allowed": true,
+          "status": 404,
+          "final_url": "https://www.bis.org/list/press_releases/index.htm",
+          "content_type": "text/html",
+          "bytes": 14155,
+          "elapsed_s": 0.53,
+          "error": "HTTP 404",
+          "block_hints": [],
+          "html": {
+            "title": "Page not found | Bank for International Settlements",
+            "visible_chars": 361,
+            "links": 16,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "HATA"
+        }
+      ]
+    },
+    {
+      "id": "bcbs",
+      "name": "Basel Committee on Banking Supervision (BCBS)",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.bis.org/bcbs/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/committees/bcbs/overview",
+          "content_type": "text/html",
+          "bytes": 174305,
+          "elapsed_s": 1.3,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Basel Committee on Banking Supervision | Bank for International Settlements",
+            "visible_chars": 13125,
+            "links": 291,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.bis.org/bcbs/publications.htm",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.bis.org/bcbs/publications.htm",
+          "content_type": "text/html",
+          "bytes": 109850,
+          "elapsed_s": 1.27,
+          "error": "HTTP 403",
+          "block_hints": [
+            "access denied"
+          ],
+          "html": {
+            "title": "Access denied | Bank for International Settlements",
+            "visible_chars": 7620,
+            "links": 244,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        },
+        {
+          "url": "https://www.bis.org/doclist/bcbs_publications.rss",
+          "robots_allowed": true,
+          "status": 404,
+          "final_url": "https://www.bis.org/doclist/bcbs_publications.rss",
+          "content_type": "text/html",
+          "bytes": 14155,
+          "elapsed_s": 0.57,
+          "error": "HTTP 404",
+          "block_hints": [],
+          "html": {
+            "title": "Page not found | Bank for International Settlements",
+            "visible_chars": 361,
+            "links": 16,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "HATA"
+        }
+      ]
+    },
+    {
+      "id": "ifrs",
+      "name": "IFRS Foundation",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.ifrs.org/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.ifrs.org/",
+          "content_type": "text/html",
+          "bytes": 125350,
+          "elapsed_s": 0.94,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "IFRS - IFRS Foundation",
+            "visible_chars": 11908,
+            "links": 199,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.ifrs.org/news-and-events/news/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.ifrs.org/news-and-events/news/",
+          "content_type": "text/html",
+          "bytes": 102808,
+          "elapsed_s": 0.28,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "IFRS - IFRS Foundation news",
+            "visible_chars": 9693,
+            "links": 173,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "issb",
+      "name": "International Sustainability Standards Board (ISSB)",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.ifrs.org/groups/international-sustainability-standards-board/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.ifrs.org/groups/international-sustainability-standards-board/",
+          "content_type": "text/html",
+          "bytes": 112729,
+          "elapsed_s": 0.28,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "IFRS - International Sustainability Standards Board",
+            "visible_chars": 12416,
+            "links": 178,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "worldbank",
+      "name": "World Bank",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.worldbank.org/en/news",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.worldbank.org/ext/en/news",
+          "content_type": "text/html",
+          "bytes": 42977,
+          "elapsed_s": 0.17,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "News and Multimedia | World Bank Group",
+            "visible_chars": 5320,
+            "links": 32,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://documents.worldbank.org/en/publication/documents-reports",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://documents.worldbank.org/en/publication/documents-reports",
+          "content_type": "text/html",
+          "bytes": 48511,
+          "elapsed_s": 0.08,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Documents & Reports - All Documents | The World Bank",
+            "visible_chars": 2195,
+            "links": 56,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "fsb",
+      "name": "Financial Stability Board (FSB)",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.fsb.org/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.fsb.org/",
+          "content_type": "text/html",
+          "bytes": 436534,
+          "elapsed_s": 0.15,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Financial Stability Board - Promoting global financial stability through strong financial sector policies",
+            "visible_chars": 6152,
+            "links": 132,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.fsb.org/feed/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.fsb.org/feed/",
+          "content_type": "application/rss+xml",
+          "bytes": 11935,
+          "elapsed_s": 0.11,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 10,
+            "latest": [
+              {
+                "title": "FSB publishes 2026 G-SIB list",
+                "date": "Wed, 25 Nov 2026 17:00:00 +0000"
+              },
+              {
+                "title": "2026 List of Global Systemically Important Banks (G-SIBs)",
+                "date": "Wed, 25 Nov 2026 17:00:00 +0000"
+              },
+              {
+                "title": "FSB Regional Consultative Group for Asia meets in Sydney",
+                "date": "Tue, 24 Nov 2026 06:30:00 +0000"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK"
+        },
+        {
+          "url": "https://www.fsb.org/publications/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.fsb.org/publications/",
+          "content_type": "text/html",
+          "bytes": 413801,
+          "elapsed_s": 5.19,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Publications - Financial Stability Board",
+            "visible_chars": 6157,
+            "links": 110,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "ecb",
+      "name": "European Central Bank (ECB)",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.ecb.europa.eu/rss/press.html",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.ecb.europa.eu/rss/press.html",
+          "content_type": "application/rss+xml",
+          "bytes": 5738,
+          "elapsed_s": 0.36,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 15,
+            "latest": [
+              {
+                "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+                "date": "Wed, 25 Nov 2026 18:30:00 +0100"
+              },
+              {
+                "title": "Card payments edge past cash in shops; euro area consumers want both",
+                "date": "Wed, 25 Nov 2026 11:00:00 +0100"
+              },
+              {
+                "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+                "date": "Tue, 24 Nov 2026 12:00:00 +0100"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK"
+        },
+        {
+          "url": "https://www.ecb.europa.eu/rss/pub.html",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.ecb.europa.eu/rss/pub.html",
+          "content_type": "application/rss+xml",
+          "bytes": 20141,
+          "elapsed_s": 0.52,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 15,
+            "latest": [
+              {
+                "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
+                "date": "Tue, 24 Nov 2026 15:00:00 +0100"
+              },
+              {
+                "title": "The geography of financial frictions",
+                "date": "Mon, 23 Nov 2026 11:00:00 +0100"
+              },
+              {
+                "title": "Transatlantic securitisation gap revisited: comparing EU and US securitisation architectures",
+                "date": "Thu, 19 Nov 2026 11:00:00 +0100"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK"
+        },
+        {
+          "url": "https://www.bankingsupervision.europa.eu/press/html/index.en.html",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bankingsupervision.europa.eu/press/html/index.en.html",
+          "content_type": "text/html",
+          "bytes": 66649,
+          "elapsed_s": 0.63,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Overview of our news and publications",
+            "visible_chars": 9332,
+            "links": 239,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "oecd",
+      "name": "OECD",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.oecd.org/en/publications.html",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.oecd.org/en/publications.html",
+          "content_type": "text/html",
+          "bytes": 3336,
+          "elapsed_s": 0.06,
+          "error": "HTTP 403",
+          "block_hints": [],
+          "html": {
+            "title": "",
+            "visible_chars": 1448,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        },
+        {
+          "url": "https://www.oecd.org/en/about/news.html",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.oecd.org/en/about/news.html",
+          "content_type": "text/html",
+          "bytes": 3336,
+          "elapsed_s": 0.06,
+          "error": "HTTP 403",
+          "block_hints": [],
+          "html": {
+            "title": "",
+            "visible_chars": 1476,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        }
+      ]
+    },
+    {
+      "id": "bddk",
+      "name": "Bankacilik Duzenleme ve Denetleme Kurumu (BDDK)",
+      "region": "tr",
+      "checks": [
+        {
+          "url": "https://www.bddk.org.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bddk.org.tr/",
+          "content_type": "text/html",
+          "bytes": 3298704,
+          "elapsed_s": 11.57,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "BDDK",
+            "visible_chars": 8258,
+            "links": 108,
+            "pdf_links": 1,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.bddk.org.tr/Mevzuat",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bddk.org.tr/Mevzuat",
+          "content_type": "text/html",
+          "bytes": 64432,
+          "elapsed_s": 1.93,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Mevzuatlar",
+            "visible_chars": 8380,
+            "links": 95,
+            "pdf_links": 1,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.bddk.org.tr/Duyuru",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bddk.org.tr/Duyuru",
+          "content_type": "text/html",
+          "bytes": 62932,
+          "elapsed_s": 1.88,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Duyuru Kategorileri",
+            "visible_chars": 8124,
+            "links": 93,
+            "pdf_links": 1,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "tcmb",
+      "name": "Turkiye Cumhuriyet Merkez Bankasi (TCMB)",
+      "region": "tr",
+      "checks": [
+        {
+          "url": "https://www.tcmb.gov.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.tcmb.gov.tr/",
+          "content_type": "text/html",
+          "bytes": 81729,
+          "elapsed_s": 3.54,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "TCMB",
+            "visible_chars": 7572,
+            "links": 149,
+            "pdf_links": 6,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular",
+          "content_type": "text/html",
+          "bytes": 33355,
+          "elapsed_s": 3.54,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "TCMB - Duyurular ve Konuşmalar",
+            "visible_chars": 2760,
+            "links": 101,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "kgk",
+      "name": "Kamu Gozetimi, Muhasebe ve Denetim Standartlari Kurumu (KGK)",
+      "region": "tr",
+      "checks": [
+        {
+          "url": "https://www.kgk.gov.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.kgk.gov.tr/",
+          "content_type": "text/html",
+          "bytes": 103674,
+          "elapsed_s": 2.87,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "T.C. KAMU GÖZETİMİ, MUHASEBE VE DENETİM STANDARTLARI KURUMU",
+            "visible_chars": 3288,
+            "links": 107,
+            "pdf_links": 13,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "spk",
+      "name": "Sermaye Piyasasi Kurulu (SPK)",
+      "region": "tr",
+      "checks": [
+        {
+          "url": "https://spk.gov.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://spk.gov.tr/",
+          "content_type": "text/html",
+          "bytes": 35048,
+          "elapsed_s": 1.22,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Sermaye Piyasası Kurulu",
+            "visible_chars": 4806,
+            "links": 153,
+            "pdf_links": 6,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://spk.gov.tr/spk-bultenleri",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://spk.gov.tr/spk-bultenleri",
+          "content_type": "text/html",
+          "bytes": 30374,
+          "elapsed_s": 1.46,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Sermaye Piyasası Kurulu  - SPK Bültenleri",
+            "visible_chars": 2688,
+            "links": 138,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "resmigazete",
+      "name": "Resmi Gazete",
+      "region": "tr",
+      "checks": [
+        {
+          "url": "https://www.resmigazete.gov.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.resmigazete.gov.tr/",
+          "content_type": "text/html",
+          "bytes": 199949,
+          "elapsed_s": 1.46,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "T.C. Resmî Gazete",
+            "visible_chars": 41683,
+            "links": 30,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125.htm",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125.htm",
+          "content_type": "text/html",
+          "bytes": 7440,
+          "elapsed_s": 1.48,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "T.C. Resmî Gazete",
+            "visible_chars": 678,
+            "links": 7,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "JS_GEREKEBILIR"
+        },
+        {
+          "url": "https://www.mevzuat.gov.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.mevzuat.gov.tr/",
+          "content_type": "text/html",
+          "bytes": 554333,
+          "elapsed_s": 1.07,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "title": "Mevzuat Bilgi Sistemi",
+            "visible_chars": 37421,
+            "links": 43,
+            "pdf_links": 1,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    }
+  ]
+}
