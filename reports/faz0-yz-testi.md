@@ -4,12 +4,12 @@ Katalogdaki model sayısı: 0 · Denenenler: openai/gpt-4.1, openai/gpt-4o
 
 | Model | Kaynak | Sonuç | Süre (sn) | Gönderilen kr | Token (girdi/çıktı) | Teyitli alıntı birebir | Önem | Statü |
 |---|---|---|---|---|---|---|---|---|
-| openai/gpt-4.1 | BIS/BCBS | HATA | 0.1 | 2549 | -/- | -/- | - | - |
-| openai/gpt-4.1 | ECB | HATA | 0.1 | 9000 | -/- | -/- | - | - |
-| openai/gpt-4.1 | Resmi Gazete | HATA | 0.1 | 9000 | -/- | -/- | - | - |
-| openai/gpt-4o | BIS/BCBS | HATA | 0.1 | 2549 | -/- | -/- | - | - |
-| openai/gpt-4o | ECB | HATA | 0.1 | 9000 | -/- | -/- | - | - |
-| openai/gpt-4o | Resmi Gazete | HATA | 0.1 | 9000 | -/- | -/- | - | - |
+| openai/gpt-4.1 | BIS/BCBS | HATA | 0.2 | 2549 | -/- | -/- | - | - |
+| openai/gpt-4.1 | ECB | HATA | 0.2 | 9000 | -/- | -/- | - | - |
+| openai/gpt-4.1 | Resmi Gazete | HATA | 0.2 | 9000 | -/- | -/- | - | - |
+| openai/gpt-4o | BIS/BCBS | HATA | 0.2 | 2549 | -/- | -/- | - | - |
+| openai/gpt-4o | ECB | HATA | 0.2 | 9000 | -/- | -/- | - | - |
+| openai/gpt-4o | Resmi Gazete | HATA | 0.2 | 9000 | -/- | -/- | - | - |
 
 ## openai/gpt-4.1 · BIS/BCBS
 Belge: Basel Committee publishes more details on the 2026 assessment of global systemically important banks — https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks

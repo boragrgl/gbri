@@ -4,7 +4,7 @@
   "results": [
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4.1",
       "source": "BIS/BCBS",
@@ -14,7 +14,7 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4.1",
       "source": "ECB",
@@ -24,7 +24,7 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4.1",
       "source": "Resmi Gazete",
@@ -34,7 +34,7 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4o",
       "source": "BIS/BCBS",
@@ -44,7 +44,7 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4o",
       "source": "ECB",
@@ -54,7 +54,7 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4o",
       "source": "Resmi Gazete",
