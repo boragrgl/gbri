@@ -104,10 +104,9 @@ def gemini_pick_model(key):
         models = json.loads(r.read()).get("models", [])
     names = [m["name"].split("/", 1)[1] for m in models
              if "generateContent" in m.get("supportedGenerationMethods", [])]
-    flash = [n for n in names if "flash" in n and "lite" not in n and "image" not in n and "tts" not in n
-             and "live" not in n and "audio" not in n]
-    stable = [n for n in flash if "preview" not in n and "exp" not in n]
-    pick = (sorted(stable) or sorted(flash) or names)[-1:]
+    pref = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3-flash-preview",
+            "gemini-3.1-flash-lite", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+    pick = [n for n in pref if n in names]
     return pick, names
 
 
@@ -156,13 +155,20 @@ def main(out_dir):
     docs.append(("Resmi Gazete", "Resmi Gazete - gunun icindekiler", "https://www.resmigazete.gov.tr/",
                  page_text("https://www.resmigazete.gov.tr/")))
 
-    plan = [("github", m, MAX_CHARS) for m in models[:1]]
+    plan = [("github", m, MAX_CHARS) for m in models[:1]] if os.environ.get("RUN_GITHUB") else []
     gkey = os.environ.get("GEMINI_API_KEY", "")
     gem_all = []
     if gkey:
         try:
             gpick, gem_all = gemini_pick_model(gkey)
-            plan += [("gemini", m, GEMINI_MAX_CHARS) for m in gpick]
+            # ucretsiz katmanda calisan ilk modeli bul
+            for m in gpick:
+                probe = call_gemini(m, "deneme", "Bu bir baglanti denemesidir. ilgili_mi false olsun.", gkey)
+                print("gemini deneme", m, probe["ok"], probe.get("error", "")[:160].replace("\n", " "), flush=True)
+                if probe["ok"]:
+                    plan.append(("gemini", m, GEMINI_MAX_CHARS))
+                    break
+                time.sleep(4)
         except Exception as e:
             print("gemini model listesi alinamadi:", type(e).__name__, str(e)[:200], flush=True)
     print("plan:", plan, "| gemini modelleri:", gem_all[:40], flush=True)
