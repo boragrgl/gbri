@@ -38,11 +38,28 @@ def yaz_json(yol, veri):
         f.write("\n")
 
 
+ELEME = [
+    ("ecb", re.compile(r"/press/(inter|key)/|/speeches/|/interviews/|/economic-bulletin/|/scpwps/|/blog/", re.I), "url"),
+    ("worldbank", re.compile(r"Climate Finance Assessment|Country Climate and Development|Project|DPO\b|"
+                             r"Development Effectiveness|Clima|Climat|İklim ve Kalkınma|[^\x00-\u024F\u0130\u0131\u015E\u015F\u011E\u011F]"), "baslik_orijinal"),
+]
+
+
+def elenir(k):
+    """Bankacilik duzenlemesiyle ilgisi olmayacagi bastan belli olanlar (konusma, roportaj, proje belgesi)."""
+    for kurum, desen, alan in ELEME:
+        if k["kurum"] == kurum and desen.search(k.get(alan) or ""):
+            return True
+    return False
+
+
 def mevcut_adaylar():
     kayitlar = {}
     for yol in glob.glob(os.path.join(KOK, "adaylar", "*.json")):
         for k in oku_json(yol, []):
-            kayitlar[k["url_normal"]] = k
+            if not elenir(k):
+                kayitlar[k["url_normal"]] = k
+        os.remove(yol)  # yeniden yazilacak
     return kayitlar
 
 
@@ -100,6 +117,8 @@ def main():
                 continue
             t = k.get("yayin_tarihi")
             if t and (t < baslangic or t > bugun + dt.timedelta(days=1)):
+                continue
+            if elenir(k):
                 continue
             bulunan += 1
             un = normal_url(k["url"])
