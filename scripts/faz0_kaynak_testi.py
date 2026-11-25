@@ -94,13 +94,16 @@ def analyse_feed(text):
         root = ET.fromstring(text.encode("utf-8"))
     except ET.ParseError:
         return None
-    items = root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
-    out = []
-    for it in items[:3]:
-        title = it.findtext("title") or it.findtext("{http://www.w3.org/2005/Atom}title") or ""
-        date = (it.findtext("pubDate") or it.findtext("{http://www.w3.org/2005/Atom}updated")
-                or it.findtext("{http://purl.org/dc/elements/1.1/}date") or "")
-        out.append({"title": title.strip()[:120], "date": date.strip()})
+    local = lambda el: el.tag.rsplit("}", 1)[-1]
+    items = [el for el in root.iter() if local(el) in ("item", "entry")]
+
+    def child(el, *names):
+        for c in el:
+            if local(c) in names and (c.text or "").strip():
+                return c.text.strip()
+        return ""
+    out = [{"title": child(it, "title")[:120], "date": child(it, "pubDate", "updated", "date", "published")}
+           for it in items[:3]]
     return {"items": len(items), "latest": out}
 
 
@@ -112,13 +115,19 @@ def analyse_html(text, base):
     pdfs = {h for h in hrefs if ".pdf" in h.lower()}
     feeds = re.findall(r'<link[^>]+type=["\']application/(?:rss|atom)\+xml["\'][^>]*>', text, re.I)
     feed_urls = []
+    for h in hrefs:
+        hl = h.lower()
+        if hl.endswith(".rss") or hl.endswith(".xml") or "/rss/" in hl or hl.endswith("/feed/"):
+            feed_urls.append(urllib.parse.urljoin(base, html.unescape(h)))
     for f in feeds:
         m = re.search(r'href=["\']([^"\']+)["\']', f, re.I)
         if m:
             feed_urls.append(urllib.parse.urljoin(base, html.unescape(m.group(1))))
-    return {"title": html.unescape(title.group(1)).strip()[:150] if title else "",
+    frames = re.findall(r'<i?frame[^>]+src=["\']([^"\']+)["\']', text, re.I)
+    return {"frames": [urllib.parse.urljoin(base, f) for f in frames[:3]],
+            "title": html.unescape(title.group(1)).strip()[:150] if title else "",
             "visible_chars": len(visible), "links": len(hrefs), "pdf_links": len(pdfs),
-            "feed_links": feed_urls[:5]}
+            "feed_links": list(dict.fromkeys(feed_urls))[:8]}
 
 
 def check(url, robots_cache):
@@ -132,7 +141,13 @@ def check(url, robots_cache):
            "content_type": res["content_type"].split(";")[0], "bytes": len(res["body"]),
            "elapsed_s": res["elapsed"], "error": res["error"], "block_hints": blocked_hint}
     looks_feed = "xml" in row["content_type"] or text.lstrip().startswith("<?xml") or "<rss" in low[:500]
-    if text and looks_feed:
+    if text and "json" in row["content_type"]:
+        try:
+            j = json.loads(text)
+            row["json"] = {"keys": list(j.keys())[:10] if isinstance(j, dict) else f"list[{len(j)}]"}
+        except ValueError:
+            row["json"] = {"keys": "parse_error"}
+    elif text and looks_feed:
         row["feed"] = analyse_feed(text)
     elif text:
         row["html"] = analyse_html(text, res["final_url"])
@@ -149,6 +164,8 @@ def verdict(row):
         return "HATA"
     if not row["robots_allowed"]:
         return "ROBOTS_IZIN_YOK"
+    if row.get("json"):
+        return "JSON_OK" if row["json"]["keys"] != "parse_error" else "HATA"
     if row.get("feed"):
         return "BESLEME_OK" if row["feed"]["items"] else "BESLEME_BOS"
     h = row.get("html") or {}
@@ -157,7 +174,7 @@ def verdict(row):
     return "OK"
 
 
-def main(cfg_path, out_dir):
+def main(cfg_path, out_dir, name="faz0-kaynak-testi"):
     cfg = json.load(open(cfg_path, encoding="utf-8"))
     robots_cache, results = {}, []
     for src in cfg["sources"]:
@@ -168,7 +185,7 @@ def main(cfg_path, out_dir):
         # sayfada bulunan beslemeleri de bir kez dene
         seen = {r["url"] for r in rows}
         for r in list(rows):
-            for f in (r.get("html") or {}).get("feed_links", [])[:2]:
+            for f in (r.get("html") or {}).get("feed_links", [])[:src.get("max_discovered", 2)]:
                 if f not in seen:
                     seen.add(f)
                     fr = check(f, robots_cache)
@@ -179,18 +196,24 @@ def main(cfg_path, out_dir):
         print(src["id"], [r["verdict"] for r in rows], flush=True)
 
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    json.dump({"run_at": stamp, "results": results}, open(f"{out_dir}/faz0-kaynak-testi.json", "w", encoding="utf-8"),
+    json.dump({"run_at": stamp, "results": results}, open(f"{out_dir}/{name}.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=2)
-    lines = [f"# Faz 0 · Kaynak erişim testi", "", f"Çalıştırma: {stamp} · GitHub Actions sunucusu", "",
+    lines = [f"# Faz 0 · Kaynak erişim testi ({name})", "", f"Çalıştırma: {stamp} · GitHub Actions sunucusu", "",
              "| Kaynak | Adres | Sonuç | HTTP | Süre (sn) | Not |", "|---|---|---|---|---|---|"]
     for s in results:
         for r in s["checks"]:
             note = []
             if r.get("feed"):
                 note.append(f"besleme: {r['feed']['items']} kayıt")
+                if r["feed"]["latest"]:
+                    note.append("son: " + r["feed"]["latest"][0]["title"][:60].replace("|", "/"))
+            if r.get("json"):
+                note.append(f"JSON: {r['json']['keys']}")
             if r.get("html"):
                 h = r["html"]
                 note.append(f"metin {h['visible_chars']} kr, {h['pdf_links']} PDF")
+                if h.get("frames"):
+                    note.append("çerçeve: " + ", ".join(h["frames"]))
                 if h["feed_links"]:
                     note.append(f"besleme bağlantısı: {len(h['feed_links'])}")
             if r["error"]:
@@ -200,8 +223,8 @@ def main(cfg_path, out_dir):
             if r.get("discovered"):
                 note.append("sayfadan bulundu")
             lines.append(f"| {s['id']} | {r['url']} | {r['verdict']} | {r['status']} | {r['elapsed_s']} | {'; '.join(note)} |")
-    open(f"{out_dir}/faz0-kaynak-testi.md", "w", encoding="utf-8").write("\n".join(lines) + "\n")
+    open(f"{out_dir}/{name}.md", "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], *sys.argv[3:4])

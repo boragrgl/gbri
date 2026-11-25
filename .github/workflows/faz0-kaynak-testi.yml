@@ -5,6 +5,7 @@ on:
     branches: [faz0-kaynak-testi]
     paths:
       - "config/sources.json"
+      - "config/faz0-tur2.json"
       - "scripts/faz0_kaynak_testi.py"
       - ".github/workflows/faz0-kaynak-testi.yml"
   workflow_dispatch:
@@ -24,8 +25,8 @@ jobs:
       - name: Kaynaklari dene
         run: |
           mkdir -p reports
-          python scripts/faz0_kaynak_testi.py config/sources.json reports
-          cat reports/faz0-kaynak-testi.md >> "$GITHUB_STEP_SUMMARY"
+          python scripts/faz0_kaynak_testi.py config/faz0-tur2.json reports faz0-tur2
+          cat reports/faz0-tur2.md >> "$GITHUB_STEP_SUMMARY"
       - name: Raporu repoya kaydet
         run: |
           git config user.name "gbri-bot"

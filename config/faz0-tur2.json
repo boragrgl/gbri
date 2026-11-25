@@ -1,0 +1,30 @@
+{
+  "_aciklama": "Faz 0 ikinci tur: ilk turda sorunlu cikan kaynaklar icin alternatif adresler.",
+  "sources": [
+    {"id": "bis", "name": "BIS - besleme listesi ve tekrar", "region": "international", "max_discovered": 8, "candidates": [
+      "https://www.bis.org/doclist/all_pressrels.rss",
+      "https://www.bis.org/rss/index.htm",
+      "https://www.bis.org/press/index.htm"
+    ]},
+    {"id": "bcbs", "name": "BCBS - alternatif yayin yollari", "region": "international", "max_discovered": 4, "candidates": [
+      "https://www.bis.org/committees/bcbs/overview",
+      "https://www.bis.org/bcbs/publ/index.htm",
+      "https://www.bis.org/doclist/bcbs.rss",
+      "https://www.bis.org/doclist/bcbs_pubs.rss"
+    ]},
+    {"id": "oecd", "name": "OECD - alternatif yollar", "region": "international", "candidates": [
+      "https://www.oecd.org/en.html",
+      "https://www.oecd.org/en/topics/finance-and-investment.html",
+      "https://www.oecd.org/en/publications/reports.html",
+      "https://www.oecd-ilibrary.org/"
+    ]},
+    {"id": "worldbank", "name": "Dunya Bankasi - belge API'si", "region": "international", "candidates": [
+      "https://search.worldbank.org/api/v3/wds?format=json&rows=3&qterm=banking%20regulation",
+      "https://www.worldbank.org/en/topic/financialsector"
+    ]},
+    {"id": "resmigazete", "name": "Resmi Gazete - gunluk sayfa tekrar", "region": "tr", "candidates": [
+      "https://www.resmigazete.gov.tr/",
+      "https://www.resmigazete.gov.tr/eskiler/{YYYY}/{MM}/{YYYY}{MM}{DD}.htm"
+    ]}
+  ]
+}
