@@ -1,1 +1,2 @@
 Bu dosyayi degistirmek yapay zeka testini yeniden calistirir.
+Tetik: 2026-11-25T20:59:45Z Gemini anahtari eklendi
