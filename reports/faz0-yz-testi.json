@@ -14,7 +14,7 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.3,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "github:openai/gpt-4.1",
       "source": "ECB",
@@ -24,13 +24,43 @@
     },
     {
       "ok": false,
-      "elapsed": 0.1,
+      "elapsed": 0.2,
       "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "github:openai/gpt-4.1",
       "source": "Resmi Gazete",
       "title": "Resmi Gazete - gunun icindekiler",
       "link": "https://www.resmigazete.gov.tr/",
       "chars_sent": 9000
+    },
+    {
+      "ok": false,
+      "elapsed": 0.1,
+      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model",
+      "model": "gemini:gemini-omni-1.2-flash",
+      "source": "BIS/BCBS",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "link": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "chars_sent": 2549
+    },
+    {
+      "ok": false,
+      "elapsed": 0.1,
+      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model",
+      "model": "gemini:gemini-omni-1.2-flash",
+      "source": "ECB",
+      "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
+      "link": "https://www.ecb.europa.eu//pub/pdf/other/ecb.introproposalTRM2026.en.pdf",
+      "chars_sent": 40000
+    },
+    {
+      "ok": false,
+      "elapsed": 0.1,
+      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model",
+      "model": "gemini:gemini-omni-1.2-flash",
+      "source": "Resmi Gazete",
+      "title": "Resmi Gazete - gunun icindekiler",
+      "link": "https://www.resmigazete.gov.tr/",
+      "chars_sent": 40000
     }
   ]
 }
