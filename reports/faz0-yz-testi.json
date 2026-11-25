@@ -1,0 +1,66 @@
+{
+  "catalog_has": [],
+  "catalog_size": 0,
+  "results": [
+    {
+      "ok": false,
+      "elapsed": 0.0,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "model": "openai/gpt-4.1",
+      "source": "BIS/BCBS",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "link": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "chars_sent": 2549
+    },
+    {
+      "ok": false,
+      "elapsed": 0.0,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "model": "openai/gpt-4.1",
+      "source": "ECB",
+      "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
+      "link": "https://www.ecb.europa.eu//pub/pdf/other/ecb.introproposalTRM2026.en.pdf",
+      "chars_sent": 9000
+    },
+    {
+      "ok": false,
+      "elapsed": 0.0,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "model": "openai/gpt-4.1",
+      "source": "Resmi Gazete",
+      "title": "Resmi Gazete - gunun icindekiler",
+      "link": "https://www.resmigazete.gov.tr/",
+      "chars_sent": 9000
+    },
+    {
+      "ok": false,
+      "elapsed": 0.0,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "model": "openai/gpt-4o",
+      "source": "BIS/BCBS",
+      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+      "link": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+      "chars_sent": 2549
+    },
+    {
+      "ok": false,
+      "elapsed": 0.0,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "model": "openai/gpt-4o",
+      "source": "ECB",
+      "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
+      "link": "https://www.ecb.europa.eu//pub/pdf/other/ecb.introproposalTRM2026.en.pdf",
+      "chars_sent": 9000
+    },
+    {
+      "ok": false,
+      "elapsed": 0.0,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "model": "openai/gpt-4o",
+      "source": "Resmi Gazete",
+      "title": "Resmi Gazete - gunun icindekiler",
+      "link": "https://www.resmigazete.gov.tr/",
+      "chars_sent": 9000
+    }
+  ]
+}
