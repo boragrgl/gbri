@@ -4,8 +4,8 @@
   "results": [
     {
       "ok": false,
-      "elapsed": 0.0,
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "elapsed": 0.1,
+      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4.1",
       "source": "BIS/BCBS",
       "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
@@ -14,8 +14,8 @@
     },
     {
       "ok": false,
-      "elapsed": 0.0,
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "elapsed": 0.1,
+      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4.1",
       "source": "ECB",
       "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
@@ -24,8 +24,8 @@
     },
     {
       "ok": false,
-      "elapsed": 0.0,
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "elapsed": 0.1,
+      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4.1",
       "source": "Resmi Gazete",
       "title": "Resmi Gazete - gunun icindekiler",
@@ -34,8 +34,8 @@
     },
     {
       "ok": false,
-      "elapsed": 0.0,
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "elapsed": 0.1,
+      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4o",
       "source": "BIS/BCBS",
       "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
@@ -44,8 +44,8 @@
     },
     {
       "ok": false,
-      "elapsed": 0.0,
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "elapsed": 0.1,
+      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4o",
       "source": "ECB",
       "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
@@ -54,8 +54,8 @@
     },
     {
       "ok": false,
-      "elapsed": 0.0,
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "elapsed": 0.1,
+      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
       "model": "openai/gpt-4o",
       "source": "Resmi Gazete",
       "title": "Resmi Gazete - gunun icindekiler",
