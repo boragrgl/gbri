@@ -1,0 +1,475 @@
+{
+  "run_at": "2026-11-25 20:45 UTC",
+  "results": [
+    {
+      "id": "bis",
+      "name": "BIS - besleme listesi ve tekrar",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.bis.org/doclist/all_pressrels.rss",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/doclist/all_pressrels.rss",
+          "content_type": "application/rss+xml",
+          "bytes": 4759,
+          "elapsed_s": 0.5,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 3,
+            "latest": [
+              {
+                "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+                "date": "2026-11-25T00:00:00Z"
+              },
+              {
+                "title": "Basel Committee discusses risks and vulnerabilities faced by global banking system",
+                "date": "2026-11-18T00:00:00Z"
+              },
+              {
+                "title": "Appointments to BIS global payments standard-setting body and Consultative Council for the Americas",
+                "date": "2026-11-10T00:00:00Z"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK"
+        },
+        {
+          "url": "https://www.bis.org/rss/index.htm",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/rss",
+          "content_type": "text/html",
+          "bytes": 127113,
+          "elapsed_s": 1.15,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "RSS feeds | Bank for International Settlements",
+            "visible_chars": 7959,
+            "links": 254,
+            "pdf_links": 0,
+            "feed_links": [
+              "https://www.bis.org/doclist/all_pressrels.rss",
+              "https://www.bis.org/doclist/bis_fsi_publs.rss",
+              "https://www.bis.org/doclist/vacancies.rss",
+              "https://www.bis.org/doclist/mgmtspeeches.rss",
+              "https://www.bis.org/doclist/cbspeeches.rss"
+            ]
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.bis.org/press/index.htm",
+          "robots_allowed": true,
+          "status": 404,
+          "final_url": "https://www.bis.org/press/index.htm",
+          "content_type": "text/html",
+          "bytes": 14155,
+          "elapsed_s": 0.66,
+          "error": "HTTP 404",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "Page not found | Bank for International Settlements",
+            "visible_chars": 361,
+            "links": 16,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "HATA"
+        },
+        {
+          "url": "https://www.bis.org/doclist/bis_fsi_publs.rss",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/doclist/bis_fsi_publs.rss",
+          "content_type": "application/rss+xml",
+          "bytes": 49580,
+          "elapsed_s": 1.68,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 20,
+            "latest": [
+              {
+                "title": "When the unthinkable happens: perceptions of monetary policy in tail events",
+                "date": "2026-11-24T00:00:00Z"
+              },
+              {
+                "title": "Immigrants' skills and capital deepening: evidence from Chile",
+                "date": "2026-11-17T00:00:00Z"
+              },
+              {
+                "title": "\"Eppur si muove\": convergence within and between countries",
+                "date": "2026-11-13T00:00:00Z"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK",
+          "discovered": true
+        },
+        {
+          "url": "https://www.bis.org/doclist/vacancies.rss",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/doclist/vacancies.rss",
+          "content_type": "application/rss+xml",
+          "bytes": 6123,
+          "elapsed_s": 0.5,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 5,
+            "latest": [
+              {
+                "title": "Counsel",
+                "date": "2026-10-27T08:00:00Z"
+              },
+              {
+                "title": "Deputy to the Secretary General, FSB",
+                "date": "2026-10-27T12:20:01Z"
+              },
+              {
+                "title": "Senior Counsel",
+                "date": "2026-11-12T15:10:00Z"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK",
+          "discovered": true
+        },
+        {
+          "url": "https://www.bis.org/doclist/mgmtspeeches.rss",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/doclist/mgmtspeeches.rss",
+          "content_type": "application/rss+xml",
+          "bytes": 12764,
+          "elapsed_s": 0.5,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 10,
+            "latest": [
+              {
+                "title": "Uncertainty, policymaking and the role of research",
+                "date": "2026-11-16T00:00:00Z"
+              },
+              {
+                "title": "Inflation risks, public debt, AI and BIS Campus",
+                "date": "2026-11-07T00:00:00Z"
+              },
+              {
+                "title": "The central bank balance sheet",
+                "date": "2026-11-05T00:00:00Z"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK",
+          "discovered": true
+        },
+        {
+          "url": "https://www.bis.org/doclist/cbspeeches.rss",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/doclist/cbspeeches.rss",
+          "content_type": "application/rss+xml",
+          "bytes": 66195,
+          "elapsed_s": 0.5,
+          "error": null,
+          "block_hints": [],
+          "feed": {
+            "items": 50,
+            "latest": [
+              {
+                "title": "Made in Europe",
+                "date": "2026-11-19T00:00:00Z"
+              },
+              {
+                "title": "Economic activity, prices, and monetary policy in Japan",
+                "date": "2026-11-19T00:00:00Z"
+              },
+              {
+                "title": "Governance - the cornerstone of a credible financial sector",
+                "date": "2026-11-19T00:00:00Z"
+              }
+            ]
+          },
+          "verdict": "BESLEME_OK",
+          "discovered": true
+        }
+      ]
+    },
+    {
+      "id": "bcbs",
+      "name": "BCBS - alternatif yayin yollari",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.bis.org/committees/bcbs/overview",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.bis.org/committees/bcbs/overview",
+          "content_type": "text/html",
+          "bytes": 174305,
+          "elapsed_s": 0.65,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "Basel Committee on Banking Supervision | Bank for International Settlements",
+            "visible_chars": 13125,
+            "links": 291,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.bis.org/bcbs/publ/index.htm",
+          "robots_allowed": true,
+          "status": 404,
+          "final_url": "https://www.bis.org/bcbs/publ/index.htm",
+          "content_type": "text/html",
+          "bytes": 14155,
+          "elapsed_s": 0.65,
+          "error": "HTTP 404",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "Page not found | Bank for International Settlements",
+            "visible_chars": 361,
+            "links": 16,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "HATA"
+        },
+        {
+          "url": "https://www.bis.org/doclist/bcbs.rss",
+          "robots_allowed": true,
+          "status": 404,
+          "final_url": "https://www.bis.org/doclist/bcbs.rss",
+          "content_type": "text/html",
+          "bytes": 14155,
+          "elapsed_s": 0.97,
+          "error": "HTTP 404",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "Page not found | Bank for International Settlements",
+            "visible_chars": 361,
+            "links": 16,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "HATA"
+        },
+        {
+          "url": "https://www.bis.org/doclist/bcbs_pubs.rss",
+          "robots_allowed": true,
+          "status": 404,
+          "final_url": "https://www.bis.org/doclist/bcbs_pubs.rss",
+          "content_type": "text/html",
+          "bytes": 14155,
+          "elapsed_s": 0.64,
+          "error": "HTTP 404",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "Page not found | Bank for International Settlements",
+            "visible_chars": 361,
+            "links": 16,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "HATA"
+        }
+      ]
+    },
+    {
+      "id": "oecd",
+      "name": "OECD - alternatif yollar",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://www.oecd.org/en.html",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.oecd.org/en.html",
+          "content_type": "text/html",
+          "bytes": 3310,
+          "elapsed_s": 0.03,
+          "error": "HTTP 403",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "",
+            "visible_chars": 1473,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        },
+        {
+          "url": "https://www.oecd.org/en/topics/finance-and-investment.html",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.oecd.org/en/topics/finance-and-investment.html",
+          "content_type": "text/html",
+          "bytes": 3370,
+          "elapsed_s": 0.03,
+          "error": "HTTP 403",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "",
+            "visible_chars": 1858,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/reports.html",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.oecd.org/en/publications/reports.html",
+          "content_type": "text/html",
+          "bytes": 3343,
+          "elapsed_s": 0.03,
+          "error": "HTTP 403",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "",
+            "visible_chars": 1349,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        },
+        {
+          "url": "https://www.oecd-ilibrary.org/",
+          "robots_allowed": true,
+          "status": 403,
+          "final_url": "https://www.oecd-ilibrary.org/",
+          "content_type": "text/html",
+          "bytes": 3334,
+          "elapsed_s": 0.03,
+          "error": "HTTP 403",
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "",
+            "visible_chars": 1836,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "ENGEL_SUPHESI"
+        }
+      ]
+    },
+    {
+      "id": "worldbank",
+      "name": "Dunya Bankasi - belge API'si",
+      "region": "international",
+      "checks": [
+        {
+          "url": "https://search.worldbank.org/api/v3/wds?format=json&rows=3&qterm=banking%20regulation",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://search.worldbank.org/api/v3/wds?format=json&rows=3&qterm=banking%20regulation",
+          "content_type": "text/plain",
+          "bytes": 18107,
+          "elapsed_s": 0.18,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "",
+            "visible_chars": 18107,
+            "links": 0,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.worldbank.org/en/topic/financialsector",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.worldbank.org/ext/en/topic/financial-sector",
+          "content_type": "text/html",
+          "bytes": 53412,
+          "elapsed_s": 0.15,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "Financial Services Sector | World Bank Group",
+            "visible_chars": 11230,
+            "links": 39,
+            "pdf_links": 0,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        }
+      ]
+    },
+    {
+      "id": "resmigazete",
+      "name": "Resmi Gazete - gunluk sayfa tekrar",
+      "region": "tr",
+      "checks": [
+        {
+          "url": "https://www.resmigazete.gov.tr/",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.resmigazete.gov.tr/",
+          "content_type": "text/html",
+          "bytes": 199949,
+          "elapsed_s": 1.06,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "T.C. Resmî Gazete",
+            "visible_chars": 41683,
+            "links": 30,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "OK"
+        },
+        {
+          "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125.htm",
+          "robots_allowed": true,
+          "status": 200,
+          "final_url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125.htm",
+          "content_type": "text/html",
+          "bytes": 7440,
+          "elapsed_s": 0.78,
+          "error": null,
+          "block_hints": [],
+          "html": {
+            "frames": [],
+            "title": "T.C. Resmî Gazete",
+            "visible_chars": 678,
+            "links": 7,
+            "pdf_links": 2,
+            "feed_links": []
+          },
+          "verdict": "JS_GEREKEBILIR"
+        }
+      ]
+    }
+  ]
+}
