@@ -1,0 +1,38 @@
+name: Faz 0 - Yapay zeka testi
+
+on:
+  push:
+    branches: [faz0-kaynak-testi]
+    paths:
+      - "scripts/faz0_yz_testi.py"
+      - ".github/workflows/faz0-yz-testi.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: GitHub Models ile analiz dene
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p reports
+          python scripts/faz0_yz_testi.py reports
+          cat reports/faz0-yz-testi.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Raporu repoya kaydet
+        run: |
+          git config user.name "gbri-bot"
+          git config user.email "gbri-bot@users.noreply.github.com"
+          git add reports/
+          git commit -m "Faz 0 yapay zeka testi raporu" || echo "Degisiklik yok"
+          git pull --rebase
+          git push
