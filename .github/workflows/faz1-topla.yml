@@ -1,0 +1,38 @@
+name: Faz 1 - Toplama (3 ay)
+
+on:
+  push:
+    branches: [faz1-toplama]
+    paths: ["pipeline/**", ".github/workflows/faz1-topla.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gbri-veri
+  cancel-in-progress: false
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kaynaklari tara (son 92 gun, baslangic arsivi)
+        run: python pipeline/topla.py --geri-gun 92 --baslangic-arsivi 2>&1 | tee topla.log
+      - name: Ozet
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -E "bulunan=|TOPLAM" topla.log >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Veriyi kaydet
+        run: |
+          git config user.name "gbri-bot"
+          git config user.email "gbri-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Toplama: $(date -u +%F) adaylar" || echo "Degisiklik yok"
+          git pull --rebase && git push
