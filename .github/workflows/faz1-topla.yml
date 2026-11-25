@@ -1,4 +1,4 @@
-name: Faz 1 - Toplama (3 ay)
+name: Faz 1 - Toplama
 
 on:
   push:
@@ -22,8 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Kaynaklari tara (son 92 gun, baslangic arsivi)
-        run: python pipeline/topla.py --geri-gun 92 --baslangic-arsivi 2>&1 | tee topla.log
+      - name: Kaynaklari tara (son 31 gun, baslangic arsivi)
+        run: python pipeline/topla.py --geri-gun 31 --baslangic-arsivi 2>&1 | tee topla.log
       - name: Ozet
         run: |
           echo '```' >> "$GITHUB_STEP_SUMMARY"

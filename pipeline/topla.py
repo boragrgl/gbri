@@ -129,7 +129,7 @@ def main():
             d["son_hata"] = hatalar[0] if hatalar else None
         durumlar[kaynak["id"]] = d
         ozet.append({"kaynak": kaynak["id"], "bulunan": bulunan, "yeni": eklenen, "hata": len(hatalar)})
-        print(f"{kaynak['id']:12s} bulunan={bulunan:4d} yeni={eklenen:4d} hata={len(hatalar)}", flush=True)
+        print(f"{simdi():%H:%M:%S} {kaynak['id']:12s} bulunan={bulunan:4d} yeni={eklenen:4d} hata={len(hatalar)}", flush=True)
 
     # aylara gore yaz
     aylar = {}
