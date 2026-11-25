@@ -3,64 +3,145 @@
   "catalog_size": 0,
   "results": [
     {
-      "ok": false,
-      "elapsed": 0.2,
-      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
-      "model": "github:openai/gpt-4.1",
+      "ok": true,
+      "elapsed": 8.4,
+      "usage": {
+        "prompt_tokens": 953,
+        "completion_tokens": 686
+      },
+      "content": "{\n  \"ilgili_mi\": true,\n  \"konu\": \"Basel\",\n  \"statu\": \"Nihai\",\n  \"onem\": \"Dusuk\",\n  \"onem_gerekcesi\": \"Belge, kuresel sistemik oneme sahip bankalarin (G-SIB) degerlendirilmesine iliskin metodolojik detaylari icermektedir. Yerel bir kamu bankasinin G-SIB listesinde yer alma olasiligi dusuk oldugundan, dogrudan bir sermaye yukumlulugu dogurmamaktadir.\",\n  \"yonetici_ozeti\": \"Basel Komitesi, 2026 yili G-SIB degerlendirmesine iliskin metodolojik gostergeleri, payda degerlerini ve esik puanlarini yayımlamistir. Bu calisma, Finansal Istikrar Konseyi (FSB) tarafindan guncellenen G-SIB listesiyle es zamanli olarak paylasilmistir. Degerlendirme, bankalarin 2025 mali yil sonu verilerine dayanmakta ve sistemik onem puanlarina gore ek sermaye yukumluluklerini belirlemektedir.\",\n  \"teyitli\": [\n    {\n      \"hukum\": \"G-SIB puanlarini hesaplamak icin kullanilan gosterge paydalari ve banka verileri yayimlanmistir.\",\n      \"alinti\": \"The publication accompanies the Financial Stability Board's release of the updated list of G-SIBs and includes: The denominators of the high-level indicators...\"\n    },\n    {\n      \"hukum\": \"Metodoloji, bankalarin sistemik onemini bir onceki mali yil sonu verilerini kullanarak degerlendirmektedir.\",\n      \"alinti\": \"The Committee's methodology assesses the systemic importance of global banks using indicators calculated from data for the previous fiscal year-end (2025)...\"\n    }\n  ],\n  \"olasi_etki\": [\n    \"Bankanin G-SIB listesinde yer almamasi durumunda dogrudan bir ek sermaye tamponu (higher loss-absorbency) etkisi beklenmemektedir.\",\n    \"Yerel duzenleyici kurumun (BDDK) D-SIB (Yurt Ici Sistemik Onemli Bankalar) metodolojisini bu guncellemelerle uyumlu hale getirmesi durumunda raporlama surecleri etkilenebilir.\",\n    \"Kuresel piyasalardaki sistemik risk algisinin ve bankalarin goreceli konumlarinin izlenmesi acisindan bilgi amacli kullanilabilir.\"\n  ],\n  \"tarihler\": [\n    {\n      \"tur\": \"Yayin Tarihi\",\n      \"tarih\": \"2026-11-25\"\n    },\n    {\n      \"tur\": \"Veri Referans Tarihi\",\n      \"tarih\": \"2025-12-31\"\n    }\n  ],\n  \"etkilenen_alanlar\": [\n    \"Raporlama\",\n    \"RWA\"\n  ]\n}",
+      "model": "gemini:gemini-3-flash-preview",
       "source": "BIS/BCBS",
       "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
       "link": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
-      "chars_sent": 2549
+      "chars_sent": 2549,
+      "quotes_total": 2,
+      "quotes_verbatim": 0,
+      "parsed": {
+        "ilgili_mi": true,
+        "konu": "Basel",
+        "statu": "Nihai",
+        "onem": "Dusuk",
+        "onem_gerekcesi": "Belge, kuresel sistemik oneme sahip bankalarin (G-SIB) degerlendirilmesine iliskin metodolojik detaylari icermektedir. Yerel bir kamu bankasinin G-SIB listesinde yer alma olasiligi dusuk oldugundan, dogrudan bir sermaye yukumlulugu dogurmamaktadir.",
+        "yonetici_ozeti": "Basel Komitesi, 2026 yili G-SIB degerlendirmesine iliskin metodolojik gostergeleri, payda degerlerini ve esik puanlarini yayımlamistir. Bu calisma, Finansal Istikrar Konseyi (FSB) tarafindan guncellenen G-SIB listesiyle es zamanli olarak paylasilmistir. Degerlendirme, bankalarin 2025 mali yil sonu verilerine dayanmakta ve sistemik onem puanlarina gore ek sermaye yukumluluklerini belirlemektedir.",
+        "teyitli": [
+          {
+            "hukum": "G-SIB puanlarini hesaplamak icin kullanilan gosterge paydalari ve banka verileri yayimlanmistir.",
+            "alinti": "The publication accompanies the Financial Stability Board's release of the updated list of G-SIBs and includes: The denominators of the high-level indicators..."
+          },
+          {
+            "hukum": "Metodoloji, bankalarin sistemik onemini bir onceki mali yil sonu verilerini kullanarak degerlendirmektedir.",
+            "alinti": "The Committee's methodology assesses the systemic importance of global banks using indicators calculated from data for the previous fiscal year-end (2025)..."
+          }
+        ],
+        "olasi_etki": [
+          "Bankanin G-SIB listesinde yer almamasi durumunda dogrudan bir ek sermaye tamponu (higher loss-absorbency) etkisi beklenmemektedir.",
+          "Yerel duzenleyici kurumun (BDDK) D-SIB (Yurt Ici Sistemik Onemli Bankalar) metodolojisini bu guncellemelerle uyumlu hale getirmesi durumunda raporlama surecleri etkilenebilir.",
+          "Kuresel piyasalardaki sistemik risk algisinin ve bankalarin goreceli konumlarinin izlenmesi acisindan bilgi amacli kullanilabilir."
+        ],
+        "tarihler": [
+          {
+            "tur": "Yayin Tarihi",
+            "tarih": "2026-11-25"
+          },
+          {
+            "tur": "Veri Referans Tarihi",
+            "tarih": "2025-12-31"
+          }
+        ],
+        "etkilenen_alanlar": [
+          "Raporlama",
+          "RWA"
+        ]
+      }
     },
     {
-      "ok": false,
-      "elapsed": 0.3,
-      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
-      "model": "github:openai/gpt-4.1",
+      "ok": true,
+      "elapsed": 32.5,
+      "usage": {
+        "prompt_tokens": 38741,
+        "completion_tokens": 456
+      },
+      "content": "{\n  \"ilgili_mi\": true,\n  \"konu\": \"Diger\",\n  \"statu\": \"Bilgi amacli\",\n  \"onem\": \"Dusuk\",\n  \"onem_gerekcesi\": \"Belge, yasal bir zorunluluk veya sermaye yeterliligi hesaplamasini etkileyen bir kural getirmemektedir. Yalnizca dijital varlik ekosistemi icin kavramsal bir referans modeli sunmaktadir.\",\n  \"yonetici_ozeti\": \"Avrupa Merkez Bankasi (ECB) tarafindan sunulan bu belge, tokenizasyon ekosistemi icin ortak bir terminoloji ve teknik referans modeli olusturmayi amaclamaktadir. Belge, farkli platformlar arasindaki birlikte calisabilirligi artirmak icin bir tartisma cercevesi sunar. Mevcut bankacilik operasyonlari veya risk yonetimi modelleri uzerinde dogrudan bir yukumluluk yaratmamaktadir.\",\n  \"teyitli\": [\n    {\n      \"hukum\": \"Belge, standardizasyon tartismalari icin bir cerceve sunan referans modelidir.\",\n      \"alinti\": \"Introduction to the ECB Token Reference Model - a framework for standardisation discussions\"\n    }\n  ],\n  \"olasi_etki\": [\n    \"Gelecekteki dijital varlik ve saklama hizmetleri altyapisinin bu modele gore tasarlanmasi\",\n    \"Dijital varlik ekosistemine yonelik stratejik teknoloji planlamasi\",\n    \"Sektorel standartlasma tartismalarina uyum saglanmasi\"\n  ],\n  \"tarihler\": [\n    {\n      \"tur\": \"Yayin Tarihi\",\n      \"tarih\": \"belirtilmemis\"\n    }\n  ],\n  \"etkilenen_alanlar\": [\n    \"Diger (Dijital Varlik Altyapisi)\",\n    \"Raporlama\"\n  ]\n}",
+      "model": "gemini:gemini-3-flash-preview",
       "source": "ECB",
       "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
       "link": "https://www.ecb.europa.eu//pub/pdf/other/ecb.introproposalTRM2026.en.pdf",
-      "chars_sent": 9000
+      "chars_sent": 40000,
+      "quotes_total": 1,
+      "quotes_verbatim": 1,
+      "parsed": {
+        "ilgili_mi": true,
+        "konu": "Diger",
+        "statu": "Bilgi amacli",
+        "onem": "Dusuk",
+        "onem_gerekcesi": "Belge, yasal bir zorunluluk veya sermaye yeterliligi hesaplamasini etkileyen bir kural getirmemektedir. Yalnizca dijital varlik ekosistemi icin kavramsal bir referans modeli sunmaktadir.",
+        "yonetici_ozeti": "Avrupa Merkez Bankasi (ECB) tarafindan sunulan bu belge, tokenizasyon ekosistemi icin ortak bir terminoloji ve teknik referans modeli olusturmayi amaclamaktadir. Belge, farkli platformlar arasindaki birlikte calisabilirligi artirmak icin bir tartisma cercevesi sunar. Mevcut bankacilik operasyonlari veya risk yonetimi modelleri uzerinde dogrudan bir yukumluluk yaratmamaktadir.",
+        "teyitli": [
+          {
+            "hukum": "Belge, standardizasyon tartismalari icin bir cerceve sunan referans modelidir.",
+            "alinti": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions"
+          }
+        ],
+        "olasi_etki": [
+          "Gelecekteki dijital varlik ve saklama hizmetleri altyapisinin bu modele gore tasarlanmasi",
+          "Dijital varlik ekosistemine yonelik stratejik teknoloji planlamasi",
+          "Sektorel standartlasma tartismalarina uyum saglanmasi"
+        ],
+        "tarihler": [
+          {
+            "tur": "Yayin Tarihi",
+            "tarih": "belirtilmemis"
+          }
+        ],
+        "etkilenen_alanlar": [
+          "Diger (Dijital Varlik Altyapisi)",
+          "Raporlama"
+        ]
+      }
     },
     {
-      "ok": false,
-      "elapsed": 0.2,
-      "error": "JSON degil: HTTP 200 text/plain url=https://models.github.ai/inference/chat/completions govde=b'OK\\r\\n'",
-      "model": "github:openai/gpt-4.1",
+      "ok": true,
+      "elapsed": 33.7,
+      "usage": {
+        "prompt_tokens": 20098,
+        "completion_tokens": 478
+      },
+      "content": "{\n  \"ilgili_mi\": true,\n  \"konu\": \"Diger\",\n  \"statu\": \"Nihai\",\n  \"onem\": \"Dusuk\",\n  \"onem_gerekcesi\": \"Belge iceriginde bankacilik sektorunu, Basel standartlarini veya TFRS 9 uygulamalarini dogrudan etkileyen yeni bir duzenleme bulunmamaktadir. Sadece rutin operasyonel veri paylasimi mevcuttur.\",\n  \"yonetici_ozeti\": \"26 Kasim 2026 tarihli Resmi Gazete'nin icindekiler bolumunu iceren belgede, universite yonetmeliklerinin iptali, ithalatta haksiz rekabetin onlenmesine dair bir teblig ve cesitli yargi kararlari yer almaktadir. Bankacilik faaliyetlerini dogrudan ilgilendiren tek madde, Merkez Bankasi'nin gunluk doviz kurlari ve borclanma senetleri degerlerini duyurmasidir. Kamu bankasinin risk yonetimi veya raporlama standartlarinda bir degisiklik yaratmamaktadir.\",\n  \"teyitli\": [\n    {\n      \"hukum\": \"Merkez Bankasi gunluk verilerinin yayimi\",\n      \"alinti\": \"T.C. Merkez Bankasınca Belirlenen Döviz Kurları ve Devlet İç Borçlanma Senetlerinin Günlük Değerleri\"\n    }\n  ],\n  \"olasi_etki\": [\n    \"Gunluk doviz kuru ve DIBS degerlemeleri uzerinden rutin muhasebe ve raporlama surecleri devam edecektir.\",\n    \"Bankanin Basel standart yaklasimi veya TFRS 9 karsilik hesaplama yontemleri uzerinde herhangi bir etkisi bulunmamaktadir.\"\n  ],\n  \"tarihler\": [\n    {\n      \"tur\": \"Yayin Tarihi\",\n      \"tarih\": \"2026-11-26\"\n    }\n  ],\n  \"etkilenen_alanlar\": [\n    \"Raporlama\"\n  ]\n}",
+      "model": "gemini:gemini-3-flash-preview",
       "source": "Resmi Gazete",
       "title": "Resmi Gazete - gunun icindekiler",
       "link": "https://www.resmigazete.gov.tr/",
-      "chars_sent": 9000
-    },
-    {
-      "ok": false,
-      "elapsed": 0.1,
-      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model",
-      "model": "gemini:gemini-omni-1.2-flash",
-      "source": "BIS/BCBS",
-      "title": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
-      "link": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
-      "chars_sent": 2549
-    },
-    {
-      "ok": false,
-      "elapsed": 0.1,
-      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model",
-      "model": "gemini:gemini-omni-1.2-flash",
-      "source": "ECB",
-      "title": "Introduction to the ECB Token Reference Model - a framework for standardisation discussions",
-      "link": "https://www.ecb.europa.eu//pub/pdf/other/ecb.introproposalTRM2026.en.pdf",
-      "chars_sent": 40000
-    },
-    {
-      "ok": false,
-      "elapsed": 0.1,
-      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model",
-      "model": "gemini:gemini-omni-1.2-flash",
-      "source": "Resmi Gazete",
-      "title": "Resmi Gazete - gunun icindekiler",
-      "link": "https://www.resmigazete.gov.tr/",
-      "chars_sent": 40000
+      "chars_sent": 40000,
+      "quotes_total": 1,
+      "quotes_verbatim": 1,
+      "parsed": {
+        "ilgili_mi": true,
+        "konu": "Diger",
+        "statu": "Nihai",
+        "onem": "Dusuk",
+        "onem_gerekcesi": "Belge iceriginde bankacilik sektorunu, Basel standartlarini veya TFRS 9 uygulamalarini dogrudan etkileyen yeni bir duzenleme bulunmamaktadir. Sadece rutin operasyonel veri paylasimi mevcuttur.",
+        "yonetici_ozeti": "26 Kasim 2026 tarihli Resmi Gazete'nin icindekiler bolumunu iceren belgede, universite yonetmeliklerinin iptali, ithalatta haksiz rekabetin onlenmesine dair bir teblig ve cesitli yargi kararlari yer almaktadir. Bankacilik faaliyetlerini dogrudan ilgilendiren tek madde, Merkez Bankasi'nin gunluk doviz kurlari ve borclanma senetleri degerlerini duyurmasidir. Kamu bankasinin risk yonetimi veya raporlama standartlarinda bir degisiklik yaratmamaktadir.",
+        "teyitli": [
+          {
+            "hukum": "Merkez Bankasi gunluk verilerinin yayimi",
+            "alinti": "T.C. Merkez Bankasınca Belirlenen Döviz Kurları ve Devlet İç Borçlanma Senetlerinin Günlük Değerleri"
+          }
+        ],
+        "olasi_etki": [
+          "Gunluk doviz kuru ve DIBS degerlemeleri uzerinden rutin muhasebe ve raporlama surecleri devam edecektir.",
+          "Bankanin Basel standart yaklasimi veya TFRS 9 karsilik hesaplama yontemleri uzerinde herhangi bir etkisi bulunmamaktadir."
+        ],
+        "tarihler": [
+          {
+            "tur": "Yayin Tarihi",
+            "tarih": "2026-11-26"
+          }
+        ],
+        "etkilenen_alanlar": [
+          "Raporlama"
+        ]
+      }
     }
   ]
 }
