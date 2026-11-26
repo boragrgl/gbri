@@ -4946,9 +4946,9 @@
   "belge_turu": "Standart",
   "statu": "Nihai",
   "onem": "Orta",
-  "onem_gerekcesi": "Kamu Gözetimi Kurumu (KGK) kararları, TFRS 9 uygulayan bankaların finansal raporlama ve muhasebe standartlarına uyumunu doğrudan etkileme potansiyeline sahiptir.",
-  "konu": "TFRS 9",
-  "ozet_tek_satir": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun muhasebe ve denetim standartlarına yönelik düzenleme içeren kurul kararıdır.",
+  "onem_gerekcesi": "Kamu Gözetimi Kurumu (KGK) kararları, TFRS 9 uygulayan bankaların finansal raporlama ve muhasebe standartlarına uyum yükümlülüklerini doğrudan etkileme potansiyeline sahiptir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Kamu Gözetimi Kurumu tarafından alınan ve bankaların finansal raporlama standartlarını veya denetim esaslarını etkileyen kurul kararıdır.",
   "yayin_tarihi": "2026-11-04",
   "tarih_kaynagi": "gazete_gunu",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -4962,7 +4962,8 @@
    }
   ],
   "alt_konular": [
-   "Finansal Raporlama"
+   "Finansal Raporlama",
+   "Muhasebe Standartları"
   ],
   "etkilenen_alanlar": [
    "Raporlama",
@@ -4972,37 +4973,38 @@
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "İlgili belge, Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun (KGK) 30 Ekim 2026 tarihli bir kararını içermektedir. Belge metni sadece başlık ve sayfa numaralarından oluştuğu için düzenlemenin getirdiği spesifik teknik değişiklikler analiz edilememektedir. Genel olarak bu tür kararlar muhasebe standartları ve finansal raporlama esaslarını düzenler.",
+   "yonetici_ozeti": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulu tarafından 30/10/2026 tarihinde yeni bir karar alınmış ve 04/11/2026 tarihli Resmî Gazete'de yayımlanmıştır. Belge metni detay içermemekle birlikte, 104 sayfalık bir kurul kararı olması kapsamlı bir düzenleme değişikliğine işaret etmektedir. Bankanın finansal raporlama birimlerinin kararın tam metnini muhasebe standartları açısından incelemesi gerekmektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Kararın içeriğine bağlı olarak bankanın TFRS 9 kapsamındaki finansal tablo dipnotları veya muhasebe politikaları güncellenebilir.",
-     "Belge, Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 tarihli kararının yayımlanması amacını taşımaktadır. (belgeden birebir doğrulanamadı)"
+     "Karar, bankanın uygulamakta olduğu TFRS 9 veya diğer Türkiye Finansal Raporlama Standartları'nda güncellemeler getiriyor olabilir.",
+     "Finansal tablo dipnotlarında veya sunum esaslarında değişiklik yapılması gerekebilir.",
+     "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulu tarafından belirli bir karar alınmıştır. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
     "teyitli": [],
     "olasi_etki": [
-     "Mevcut TFRS/TMS standartları ve KGK'nın önceki kurul kararları çerçevesinde raporlama yapılmaktadır."
+     "Mevcut muhasebe uygulamaları ve KGK tarafından daha önce yayımlanan standartlar bu kararla güncellenmiş olabilir."
     ],
     "karsilastirma_kaynagi": "genel_bilgi"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Metin içeriği paylaşılmadığı için teknik bir etki saptanamamıştır."
+     "Muhasebe kayıt sistemlerinde ve raporlama şablonlarında teknik güncellemeler gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Muhasebe ve raporlama birimlerinin yeni karara uyum için sistem veya süreç güncellemesi yapması gerekebilir."
+     "Mali işler ve raporlama ekiplerinin yeni standartlara uyum için eğitim alması gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Muhasebe standartlarındaki değişiklikler özkaynakları etkileyerek dolaylı yoldan sermaye yeterlilik rasyosuna etki edebilir."
+     "Muhasebe standartlarındaki değişiklikler özkaynak kalemlerini etkileyerek dolaylı yoldan sermaye yeterlilik rasyosuna etki edebilir."
     ]
    },
    "iklim": {
@@ -5010,23 +5012,30 @@
     "olasi_etki": [],
     "ilgili_degil": true
    },
-   "degisiklikler": [],
+   "degisiklikler": [
+    {
+     "konu": "Kurul Kararı",
+     "onceki": "Belirtilmemiş",
+     "yeni": "30/10/2026 tarihli ve 75935942-050.01.04-[01/47201] sayılı karar",
+     "referans": "Sayfa 1"
+    }
+   ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "İlgili değil",
-     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
+     "not": "Belge metninde parametrik bir veri bulunmamaktadır."
     },
     "LGD": {
      "duzey": "İlgili değil",
-     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
+     "not": "Belge metninde parametrik bir veri bulunmamaktadır."
     },
     "EAD": {
      "duzey": "İlgili değil",
-     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
+     "not": "Belge metninde parametrik bir veri bulunmamaktadır."
     },
     "ECL": {
      "duzey": "İlgili değil",
-     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
+     "not": "Belge metninde parametrik bir veri bulunmamaktadır."
     }
    },
    "tarihler": [
@@ -5038,8 +5047,8 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Karar İçeriğinin Tam Metni",
-     "aciklama": "Resmi Gazete'de yayımlanan kararın tam metni ve varsa ekleri, bankanın muhasebe politikaları üzerindeki etkisi açısından incelenmelidir."
+     "baslik": "KGK Karar İçeriği",
+     "aciklama": "104 sayfalık kararın tam metni muhasebe ve raporlama birimleri tarafından detaylıca incelenmelidir."
     }
    ],
    "referanslar": [
@@ -5052,7 +5061,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3-flash-preview",
-   "olusturma_zamani": "2026-11-26T15:01:36+03:00",
+   "olusturma_zamani": "2026-11-26T15:12:49+03:00",
    "gonderilen_karakter": 3228,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
