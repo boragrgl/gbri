@@ -1,5 +1,28 @@
 [
  {
+  "aday_id": "eba-2026-11-26-0f22c5",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-follow-review-confirms-high-level-supervisory-convergence-applying-default-rules-across-eueea",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-follow-review-confirms-high-level-supervisory-convergence-applying-default-rules-across-eueea",
+  "baslik_orijinal": "The EBA follow-up review confirms high level of supervisory convergence in applying default rules across the EU/EEA",
+  "yayin_tarihi": "2026-11-26",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T13:46:13+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "TFRS 9 / IFRS 9"
+   ]
+  }
+ },
+ {
   "aday_id": "worldbank-2026-11-25-85f3e2",
   "kurum": "worldbank",
   "url": "http://documents.worldbank.org/curated/en/099112526135515730",
@@ -10,7 +33,7 @@
   "kategori": "banking regulation",
   "ozet_kaynak": "Implementation Completion Report Review",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -30,7 +53,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -50,7 +73,7 @@
   "kategori": "",
   "ozet_kaynak": "Total number of global systemically important banks remains at 29, with two banks moving to different buckets.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -72,7 +95,7 @@
   "kategori": "",
   "ozet_kaynak": "2026 list of G-SIBs remains at 29, with one bank moving to a higher bucket and one bank moving to a lower bucket.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -94,7 +117,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -114,7 +137,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -134,7 +157,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -154,7 +177,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -174,7 +197,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "Basel Committee provides additional information regarding the 2026 G-SIB assessment. Further details include global denominators and individual bank indicators. The release accompanies the Financial Stability Board's updated G-SIB list.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -198,7 +221,7 @@
   "kategori": "",
   "ozet_kaynak": "Reserve Bank of Australia hosts FSB Asia group in Sydney.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -218,7 +241,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -238,7 +261,7 @@
   "kategori": "",
   "ozet_kaynak": "List of insurers subject to resolution standards rises from 17 to 24.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -258,7 +281,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -280,7 +303,7 @@
   "kategori": "Duyuru",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -302,7 +325,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -324,7 +347,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -344,7 +367,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "This paper revisits the transatlantic gap in securitisation issuance. In comparing the securitisation frameworks in the European Union (EU) and United States, we adopt a granular approach, distinguishing between instrument types and considering the broader funding and risk transfer frameworks in which securitisation operates. We conclude that the apparent gap in terms of scale stems from methodological and structural differences in how securitisation is defined and measured across jurisdictions, rather than from a structurally weaker or less developed EU securitisation market. In particular, c",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -366,7 +389,7 @@
   "kategori": "Bankacılık Denetimi",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -388,7 +411,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -408,7 +431,7 @@
   "kategori": "mevzuat-56",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -432,7 +455,7 @@
   "kategori": "mevzuat-56",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -456,7 +479,7 @@
   "kategori": "mevzuat-52",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -480,7 +503,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -502,7 +525,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "A new wave of equity issuance, concentrated in AI-related sectors, has brought public equity financing back to the forefront of capital markets. SpaceX’s record initial public offering (IPO) has led the way, with OpenAI and Anthropic planning to follow. This special feature assesses the financial stability implications of large IPOs and equity issuance in general, as well as how these interact with the trend towards passive investing. Primary equity financing supports financial stability by absorbing losses and limiting leverage at the firm level, but aggregate equity issuance is highly cyclic",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -524,7 +547,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -546,7 +569,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -568,7 +591,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "The rapid adoption of artificial intelligence (AI) is reshaping the financial industry as well as the broader economy, creating both opportunities and risks. Banks and asset managers, which represent key channels of financial intermediation in the euro area, are increasingly using AI for tasks such as credit scoring, fraud detection and portfolio management. While AI adoption can support innovation and enhance operational efficiency, it may also introduce new risks and amplify existing vulnerabilities, including a reliance on a small number of technology providers that creates concentration an",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -590,7 +613,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -610,7 +633,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "The Basel Committee on Banking Supervision met in Basel on 18 November 2026 to discuss a range of analytical, supervisory and regulatory initiatives.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -634,7 +657,7 @@
   "kategori": "",
   "ozet_kaynak": "FSB members met in Basel to discuss vulnerabilities in the global financial system and the FSB work programme for 2027.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -656,7 +679,7 @@
   "kategori": "mevzuat-55",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -679,7 +702,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -702,7 +725,7 @@
   "kategori": "",
   "ozet_kaynak": "Meaningful progress toward the G20 Roadmap’s goals will depend on effective jurisdictional implementation, public-private coordination, and sustained support from international organisations.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -722,7 +745,7 @@
   "kategori": "",
   "ozet_kaynak": "Implementation of the toolkits and recommendations developed under the G20 Roadmap for Enhancing Cross-border Payments is progressing, but continued efforts by the public and private sector are required.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -742,7 +765,7 @@
   "kategori": "",
   "ozet_kaynak": "The FSB will host a virtual outreach event on its proposed principles to assist financial authorities in their modernisation efforts on Tuesday 15 December.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -764,7 +787,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "This occasional paper extends previous analyses by the WGF Expert Group on Productivity of the impact of monetary policy on productivity by exploring new interactions, particularly the influence of market power and the role of productivity in the transmission of monetary policy through the banking system. Using a consistent definition of monetary policy shocks throughout the report and several large-scale micro distribution exercises across euro area countries, our study examines the short-run procyclical effects of monetary policy shocks on productivity through investment decisions. The resul",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -784,7 +807,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "The rapid evolution of artificial intelligence (AI) is reshaping the cyber threat landscape, with significant implications for financial stability in the euro area. This special feature explores the complex interplay between AI and cybersecurity, highlighting how advanced AI models are enabling attackers and defenders alike to enhance their capabilities. Highly capable and agentic AI systems are increasing the scale, speed and sophistication of attacks while also introducing new vulnerabilities. These include AI models themselves being exposed to novel types of attack and AI agents failing to ",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -806,7 +829,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -826,7 +849,7 @@
   "kategori": "climate risk financial sector",
   "ozet_kaynak": "Publication",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -846,7 +869,7 @@
   "kategori": "",
   "ozet_kaynak": "FSB Chair, Andrew Bailey, discusses the importance of transparency and cooperation in managing systemic risks at the IOSCO Conference celebrating 25 years of standard setting from Madrid.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -868,7 +891,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -888,7 +911,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -911,7 +934,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -933,7 +956,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -955,7 +978,7 @@
   "kategori": "",
   "ozet_kaynak": "Peer review assesses Türkiye’s progress in implementing the FSB recommendations for the regulation and supervision of crypto-asset activities, including stablecoins.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -977,7 +1000,7 @@
   "kategori": "",
   "ozet_kaynak": "Türkiye should operationalise a financial stability monitoring framework, establish a regime for stablecoins, strengthen supervision and enforcement, and promote cross-border cooperation and information sharing.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1000,7 +1023,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1022,7 +1045,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "Bank of Korea Governor Hyun Song Shin appointed Chair of the Bank for International Settlements (BIS) Committee on Payments and Market Infrastructures (CPMI) for a three-year term from 1 November. In addition, the Board of Directors has extended the term of Tiff Macklem, Governor of the Bank of Canada, as Chair of the Consultative Council for the Americas (CCA) until 31 March 2027.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1042,7 +1065,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1062,7 +1085,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1082,7 +1105,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1102,7 +1125,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1124,7 +1147,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1147,7 +1170,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1169,7 +1192,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1189,7 +1212,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1211,7 +1234,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1234,7 +1257,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1257,7 +1280,7 @@
   "kategori": "Basın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1279,7 +1302,7 @@
   "kategori": "Yayın",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1301,7 +1324,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1321,7 +1344,7 @@
   "kategori": "Resmî Gazete",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1344,7 +1367,7 @@
   "kategori": "mevzuat-55",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1367,7 +1390,7 @@
   "kategori": "",
   "ozet_kaynak": "Swiss National Bank hosts the FSB Europe group in Bern.",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1387,7 +1410,7 @@
   "kategori": "banking regulation",
   "ozet_kaynak": "Report",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1407,7 +1430,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1430,7 +1453,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1453,7 +1476,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1475,7 +1498,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1497,7 +1520,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1519,7 +1542,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1541,7 +1564,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -1563,7 +1586,7 @@
   "kategori": "Haber",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T01:06:36+03:00",
+  "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
