@@ -1,0 +1,20 @@
+name: Faz 3 - Site derleme kontrolu
+on:
+  workflow_dispatch:
+  push:
+    branches: [faz3-site]
+    paths: ["site/**", "pipeline/site_verisi.py", "data/yayinlar/**"]
+jobs:
+  derle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Bagimliliklar ve derleme
+        working-directory: site
+        run: |
+          npm install
+          npm run build
+      - uses: actions/upload-artifact@v4
+        with: { name: gbri-site, path: site/dist }
