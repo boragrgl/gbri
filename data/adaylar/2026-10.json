@@ -144,7 +144,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "tamam",
+  "analiz_durumu": "liste_sayfasi",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: rehber",

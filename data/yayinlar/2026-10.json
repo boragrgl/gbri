@@ -179,11 +179,11 @@
   "baslik_tr": "2026 Yılı Sürdürülebilirlik Raporlaması Muafiyetlerine İlişkin Kurul Kararları Hakkında Duyuru",
   "url": "https://www.kgk.gov.tr/Portalv2Uploads/files/Duyurular/v2/Surdurulebilirlik/Duyuru/Duyuru%20-%2041.pdf",
   "belge_turu": "Basın duyurusu",
-  "statu": "Yürürlükte",
+  "statu": "Nihai",
   "onem": "Yüksek",
-  "onem_gerekcesi": "Kamu bankası olarak 2026 yılı itibarıyla sürdürülebilirlik raporlaması zorunluluğu kapsamına girilmesi ve Kapsam 3 emisyon muafiyetlerinin sona ermesi operasyonel süreçleri doğrudan etkilemektedir.",
+  "onem_gerekcesi": "Banka ve banka dışı mali kuruluşlar için daha önce tanınan büyüklük bazlı muafiyetlerin kaldırılması ve tüm bankaların (TMSF hariç) zorunlu raporlama kapsamına alınması nedeniyle kritik önemdedir.",
   "konu": "Sürdürülebilirlik",
-  "ozet_tek_satir": "KGK, 2026 yılı sürdürülebilirlik raporlaması dönemine ilişkin muafiyetleri ve bankalar için ihtiyari raporlama imkanının kaldırılmasını düzenleyen kurul kararlarını duyurmuştur.",
+  "ozet_tek_satir": "2026 yılı sürdürülebilirlik raporlaması için raporlama zamanı ve kapsam muafiyetleri ile bankalar için şube/çalışan sayısına bağlı ihtiyari raporlama imkanının kaldırıldığı açıklanmıştır.",
   "yayin_tarihi": "2026-10-27",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -193,97 +193,134 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "579248ee6a5492d1"
+    "icerik_hash": "5d789cddadaefc93"
    }
   ],
   "alt_konular": [
-   "TSRS",
-   "Sürdürülebilirlik Raporlaması",
-   "Kapsam 3 Emisyonları"
+   "TSRS 1",
+   "TSRS 2",
+   "Kapsam 3 Sera Gazı Emisyonları",
+   "Raporlama Muafiyetleri"
   ],
   "etkilenen_alanlar": [
-   "Sürdürülebilirlik Raporlama",
-   "Risk Yönetimi",
-   "Operasyonel Süreçler"
+   "Raporlama",
+   "Uyum",
+   "Risk Yönetimi"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2026-01-01",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "KGK, 2026 yılı sürdürülebilirlik raporlaması için muafiyetleri güncellemiştir. Kamu bankaları için şube veya çalışan sayısına bağlı ihtiyari raporlama muafiyeti kaldırılmış olup, 2026 yılı itibarıyla zorunlu raporlama kapsamına girilmiştir. İlk iki yıl için Kapsam 3 emisyon raporlama muafiyeti devam etmektedir.",
+   "yonetici_ozeti": "2026 yılı sürdürülebilirlik raporlaması için muafiyetler ve kapsam genişlemesi netleşmiştir. Bankalar için çalışan veya şube sayısına bağlı ihtiyari raporlama sona ermiş, tüm bankalar zorunlu kapsama alınmıştır. Ancak raporlama zamanı ve Kapsam 3 emisyonları gibi konularda geçiş kolaylıkları devam etmektedir.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "Banka ve banka dışı mali kuruluşlar için çalışan veya şube sayısına bağlı olan ihtiyari raporlama muafiyeti 2026 yılı raporlama dönemi itibarıyla sona ermiştir.",
-      "alinti": "Dolayısıyla, banka ve banka dışı mali kuruluşlar için çalışan veya şube sayısına bağlı olan ihtiyari raporlama muafiyeti 2026 yılı raporlama dönemi itibarıyla sona ermiş bulunmaktadır.",
-      "sayfa": 2,
+      "hukum": "2026 yılı raporlama dönemine ilişkin sürdürülebilirlik raporlarının hazırlanmasında uygulanacak muafiyetlerin belirlenmesi.",
+      "alinti": "2026 yılı raporlama dönemine ilişkin muafiyetler belirlenmiştir.",
+      "sayfa": 1,
       "paragraf": null,
       "alinti_dogrulandi": true
      }
     ],
     "olasi_etki": [
-     "Bankanın sürdürülebilirlik verisi toplama altyapısının 2026 yılı raporlama dönemi için hızla devreye alınması gerekebilir.",
-     "Kapsam 3 emisyonları için veri toplama süreçlerinin ilk iki yıllık muafiyet süresi içerisinde kurulması beklenmektedir."
+     "Bankanın sürdürülebilirlik raporlama süreçlerini finansal raporlama takvimiyle uyumlu hale getirmesi için hazırlık yapması beklenir."
     ]
    },
    "onceki_cerceve": {
     "teyitli": [],
     "olasi_etki": [
-     "Daha önce belirli eşiklerin altındaki bankalar için raporlama ihtiyari bırakılmıştı. (belgeden birebir doğrulanamadı)"
+     "Daha önce kapsam dışı kalan küçük ölçekli iştirak bankaların da artık zorunlu raporlama yapması gerekebilir.",
+     "Şube sayısı 1'i veya çalışan sayısı 250 kişiyi aşmayan bankalar için raporlama ihtiyari bırakılmıştı. (belgeden birebir doğrulanamadı)"
     ],
     "karsilastirma_kaynagi": "arsiv"
    },
    "teknik_etkiler": {
-    "teyitli": [],
+    "teyitli": [
+     {
+      "hukum": "İşletmelerin sürdürülebilirlik açıklamalarını finansal tablolarıyla eş zamanlı yayımlama zorunluluğu 2026 yılında aranmayacaktır.",
+      "alinti": "sürdürülebilirlik açıklamalarını finansal tablolarıyla eş zamanlı yayımlama zorunluluğu, tüm işletmeler için 2026 yılı raporlama döneminde de aranmayacaktır.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
     "olasi_etki": [
-     "TSRS 1 ve TSRS 2 standartlarına uyum için veri yönetişim sistemlerinin güncellenmesi gerekebilir."
+     "Raporlama takviminin finansal raporlamadan bağımsız olarak yönetilmesi operasyonel esneklik sağlayabilir."
     ]
    },
    "operasyonel_etki": {
-    "teyitli": [],
+    "teyitli": [
+     {
+      "hukum": "Hazırlanacak ilk iki yıllık sürdürülebilirlik raporlarında Kapsam 3 sera gazı emisyonlarını açıklama muafiyeti tanınmıştır.",
+      "alinti": "hazırlayacakları ilk iki yıllık sürdürülebilirlik raporlarında Kapsam 3 sera gazı emisyonlarını açıklama muafiyetinden",
+      "sayfa": 3,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
     "olasi_etki": [
-     "Sürdürülebilirlik raporunun finansal tablolarla eş zamanlı yayımlanması zorunlu değildir, ancak dokuz aylık süre içerisinde tamamlanması gerekmektedir."
+     "Kapsam 3 verilerinin toplanması için gerekli olan veri altyapısının kurulması için iki yıllık bir hazırlık süreci oluşacaktır."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Doğrudan bir RWA etkisi bulunmamakla birlikte, sürdürülebilirlik raporlaması uyum maliyetleri operasyonel giderleri etkileyebilir."
+    ]
    },
    "iklim": {
-    "teyitli": [],
+    "teyitli": [
+     {
+      "hukum": "Yalnızca TSRS 2 uyarınca iklimle ilgili risk ve fırsatların raporlanabilmesine imkan tanınmıştır.",
+      "alinti": "Yalnızca TSRS 2 İklimle İlgili Açıklamalar uyarınca iklimle ilgili risk ve fırsatlara ilişkin bilgilerin raporlanabilmesine imkân tanıyan muafiyet",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
     "olasi_etki": [
-     "İklim dışı sürdürülebilirlik konularında 2027 yılı için karşılaştırmalı bilgi sunma yükümlülüğü muafiyeti, bankanın raporlama stratejisini etkileyebilir.",
-     "İşletmeler, TSRS 2 kapsamında iklimle ilgili risk ve fırsatları raporlayabilir. (belgeden birebir doğrulanamadı)"
+     "Bankanın iklim dışı sürdürülebilirlik konularında (sosyal, yönetişim) raporlama yapmama opsiyonunu değerlendirmesi gerekebilir."
     ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
-     "konu": "İhtiyari raporlama muafiyeti",
-     "onceki": "Şube/çalışan sayısı eşiğinin altındaki bankalar için raporlama ihtiyariydi.",
-     "yeni": "Tasarruf Mevduatı Sigorta Fonu bünyesinde yer alanlar dışındaki bankalar için eşik olmaksızın zorunlu raporlama getirildi.",
-     "referans": "Sayfa 2-3"
+     "konu": "Banka Raporlama Kapsamı",
+     "onceki": "Şube sayısı 1 veya çalışan sayısı 250 altındaki bankalar için ihtiyari.",
+     "yeni": "TMSF bünyesindekiler hariç tüm bankalar için zorunlu.",
+     "referans": "Sayfa 3"
+    },
+    {
+     "konu": "Raporlama Zamanı",
+     "onceki": "Finansal tablolarla eş zamanlılık aranmıyordu.",
+     "yeni": "2026 yılında da eş zamanlılık aranmayacak, 9 aya kadar süre tanınacak.",
+     "referans": "Sayfa 1"
     }
    ],
    "parametre_etkisi": {
     "PD": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
+     "duzey": "İlgili değil",
+     "not": "Düzenleme raporlama usulleri ile ilgilidir."
     },
     "LGD": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
+     "duzey": "İlgili değil",
+     "not": "Düzenleme raporlama usulleri ile ilgilidir."
     },
     "EAD": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
+     "duzey": "İlgili değil",
+     "not": "Düzenleme raporlama usulleri ile ilgilidir."
     },
     "ECL": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
+     "duzey": "İlgili değil",
+     "not": "Düzenleme raporlama usulleri ile ilgilidir."
     }
    },
    "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-10-27",
+     "referans": "Sayfa 1"
+    },
     {
      "tur": "Yürürlük",
      "tarih": "2026-01-01",
@@ -292,12 +329,12 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Sürdürülebilirlik Raporlama Altyapısı",
-     "aciklama": "2026 yılı raporlama dönemi için zorunlu raporlama hazırlıklarının tamamlanması."
+     "baslik": "Raporlama Kapsamı Kontrolü",
+     "aciklama": "Bankanın ve iştiraklerinin 2026 yılı itibarıyla zorunlu raporlama kapsamına girip girmediği teyit edilmelidir."
     },
     {
-     "baslik": "Kapsam 3 Emisyon Veri Seti",
-     "aciklama": "İlk iki yıllık muafiyet süresince Kapsam 3 verilerinin toplanması için gerekli sistemlerin kurulması."
+     "baslik": "Veri Toplama Süreçleri",
+     "aciklama": "Kapsam 3 emisyonları için tanınan 2 yıllık muafiyet süresince veri toplama metodolojisi oluşturulmalıdır."
     }
    ],
    "referanslar": [
@@ -314,12 +351,12 @@
    ]
   },
   "analiz_bilgisi": {
-   "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:35:41+03:00",
-   "gonderilen_karakter": 7008,
-   "alinti_dogrulanan": 1,
-   "alinti_toplam": 3,
-   "guven": "Düşük"
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T16:11:57+03:00",
+   "gonderilen_karakter": 6888,
+   "alinti_dogrulanan": 4,
+   "alinti_toplam": 5,
+   "guven": "Orta"
   }
  },
  {

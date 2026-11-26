@@ -3,14 +3,14 @@
   "id": "eba-2026-11-26-0f22c5",
   "kurum": "eba",
   "baslik_orijinal": "The EBA follow-up review confirms high level of supervisory convergence in applying default rules across the EU/EEA",
-  "baslik_tr": "EBA takip incelemesi, AB/AEA genelinde temerrüt kurallarının uygulanmasında yüksek düzeyde denetim uyumu olduğunu teyit ediyor",
+  "baslik_tr": "EBA takip incelemesi, AB/AEA genelinde temerrüt kurallarının uygulanmasında yüksek düzeyde denetimsel yakınsama olduğunu teyit ediyor",
   "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-follow-review-confirms-high-level-supervisory-convergence-applying-default-rules-across-eueea",
   "belge_turu": "Rapor",
   "statu": "Nihai",
   "onem": "Orta",
-  "onem_gerekcesi": "Banka standart yaklaşım (SA) kullandığı için, EBA'nın temerrüt tanımı (DoD) konusundaki denetim beklentileri ve SA bankalarına yönelik artan gözetim odağı bankanın uyum süreçlerini doğrudan etkilemektedir.",
+  "onem_gerekcesi": "Banka standart yaklaşım (SA) kullandığı için, EBA'nın temerrüt tanımı (DoD) konusundaki denetim beklentileri ve uyum süreçleri bankanın kredi riski yönetimi ve raporlama süreçlerini doğrudan etkilemektedir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "EBA, temerrüt tanımına ilişkin rehberin (EBA/GL/2016/07) AB genelindeki denetim otoriteleri tarafından uygulanma düzeyini değerlendiren bir takip raporu yayınlamıştır. Rapor, temerrüt tanımının standart yaklaşım ve içsel derecelendirme yaklaşımları üzerindeki etkilerine ve denetim uyumuna odaklanmaktadır.",
+  "ozet_tek_satir": "EBA'nın temerrüt tanımı rehberinin (DoD) AB genelindeki uygulama düzeyini değerlendiren rapor, denetim makamlarının kuralları büyük oranda uyumlaştırdığını ve hem standart hem de içsel derecelendirme yaklaşımları için kritik olduğunu belirtmektedir.",
   "yayin_tarihi": "2026-11-26",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T13:46:13+03:00",
@@ -20,7 +20,7 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T13:46:13+03:00",
-    "icerik_hash": "f708c02765757dbe"
+    "icerik_hash": "9913f3fdf6bfdbdd"
    }
   ],
   "alt_konular": [
@@ -31,19 +31,19 @@
   "etkilenen_alanlar": [
    "Kredi riski",
    "Raporlama",
-   "İç kontrol ve denetim"
+   "İç kontrol"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA, temerrüt tanımı (DoD) kılavuzlarının uygulanmasına ilişkin bir takip raporu yayımlamıştır. Rapor, özellikle standart yaklaşım (SA) kullanan bankaların denetiminde tutarlılığın artırılması gerektiğini vurgulamaktadır. Bankamızın SA kullanması nedeniyle, temerrüt tanımlarının sistemlere, politikalara ve süreçlere entegrasyonu ile IT sistemlerinin doğruluğu üzerindeki denetimlerin sıkılaşması beklenmektedir.",
+   "yonetici_ozeti": "EBA, temerrüt tanımı (DoD) rehberlerinin uygulanmasına ilişkin bir takip raporu yayımlamıştır. Rapor, AB genelinde denetimsel yakınsamanın yüksek olduğunu ancak standart yaklaşım (SA) kullanan bankaların denetiminde farklılıklar bulunduğunu belirtmektedir. Bankamızın SA kullanması nedeniyle, denetleyici otoritelerin temerrüt tanımı uyumunu izlemek için daha resmi ve dokümante edilmiş çerçeveler geliştirmesi beklenmektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Düzenleyici otoritelerin SA bankalarına yönelik denetim derinliğini artırması ve daha sıkı temerrüt izleme raporları talep etmesi olasıdır.",
-     "Temerrüt tanımı ile ilgili IT sistemlerinin ve veri işleme süreçlerinin daha detaylı denetimlerden geçmesi beklenebilir.",
-     "EBA'nın temerrüt tanımı kılavuzlarının uygulanmasına ilişkin denetimlerin etkinliğinin değerlendirilmesi. (belgeden birebir doğrulanamadı)"
+     "Denetleyici otoritelerin, standart yaklaşım kullanan bankalar için temerrüt tanımı uyumunu izlemek üzere daha sıkı ve dokümante edilmiş denetim süreçleri uygulaması beklenebilir.",
+     "Bankanın temerrüt tanımı ile ilgili iç politikalarının ve IT sistemlerinin, EBA rehberleri ile tam uyumunun sağlanması için ek denetimler gerekebilir.",
+     "EBA, temerrüt tanımının AB bankacılık sektöründe tutarlı uygulanmasını teşvik etmek amacıyla rehberler yayımlamıştır. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
@@ -54,21 +54,21 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Temerrüt hesaplamalarında kullanılan IT sistemlerinin, EBA kılavuzlarına tam uyum açısından yeniden gözden geçirilmesi gerekebilir.",
-     "UTP (ödemenin olası olmadığı) göstergelerinin ve temerrütten çıkış kriterlerinin sistemlere daha sıkı entegre edilmesi gerekebilir."
+     "Temerrüt tanımı (DoD) ile ilgili IT sistemlerinin, özellikle 'gün bazında gecikme' (DpD) ve 'ödememe olasılığı' (UTP) göstergelerini doğru hesaplayacak şekilde güncellenmesi gerekebilir.",
+     "Temerrüt tanımının grup düzeyinde tutarlı uygulanması için veri altyapısının güçlendirilmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Kredi risk yönetimi politikalarının, temerrüt tanımı kılavuzları ile tam uyumlu hale getirilmesi için güncellenmesi gerekebilir.",
-     "İç denetim biriminin, temerrüt tanımı uygulamalarını daha sıkı bir şekilde test etmesi beklenebilir."
+     "Temerrüt tanımı uyumuna ilişkin iç denetim ve risk yönetimi raporlamalarının sıklığı ve derinliği artabilir.",
+     "Temerrüt tanımı ile ilgili süreçlerin (UTP göstergeleri, çıkış kriterleri) daha detaylı dokümante edilmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Temerrüt tanımındaki iyileştirmeler, risk ağırlıklı varlıkların (RWA) hesaplanmasında daha doğru bir risk görünümü sağlayabilir."
+     "Temerrüt tanımının daha tutarlı uygulanması, risk ağırlıklı varlıkların (RWA) hesaplanmasında daha doğru sonuçlar doğurabilir."
     ]
    },
    "iklim": {
@@ -78,20 +78,20 @@
    },
    "degisiklikler": [
     {
-     "konu": "SA bankaları için denetim çerçevesi",
-     "onceki": "SA bankaları için daha az formalize edilmiş denetim süreçleri.",
-     "yeni": "SA bankaları için daha standart ve dokümante edilmiş denetim çerçevesi beklentisi.",
+     "konu": "Denetim Yaklaşımı",
+     "onceki": "SA bankaları için daha az resmi denetim süreçleri",
+     "yeni": "SA bankaları için daha resmi ve dokümante edilmiş denetim çerçeveleri beklentisi",
      "referans": "Sayfa 39"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Orta",
-     "not": "Temerrüt tanımındaki değişiklikler, PD tahminlerinin doğruluğunu ve tutarlılığını etkileyebilir."
+     "not": "Temerrüt tanımındaki değişiklikler, temerrüt olasılığı (PD) tahminlerini doğrudan etkileyebilir."
     },
     "LGD": {
      "duzey": "Dolaylı",
-     "not": "Temerrüt tanımının netleşmesi, temerrüt sonrası kayıp verilerinin kalitesini etkileyebilir."
+     "not": "Temerrüt tanımının netleşmesi, temerrüt durumunda kayıp (LGD) hesaplamalarında kullanılan verilerin kalitesini etkileyebilir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
@@ -99,7 +99,7 @@
     },
     "ECL": {
      "duzey": "Orta",
-     "not": "Temerrüt tanımındaki güncellemeler, TFRS 9 kapsamında beklenen kredi zararı hesaplamalarını etkileyebilir."
+     "not": "Temerrüt tanımındaki güncellemeler, TFRS 9 kapsamında beklenen kredi zararı (ECL) hesaplamalarını etkileyebilir."
     }
    },
    "tarihler": [
@@ -111,12 +111,12 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Temerrüt Tanımı (DoD) Politikaları",
-     "aciklama": "EBA/GL/2016/07 kılavuzu ile uyumun, özellikle UTP göstergeleri ve temerrütten çıkış kriterleri açısından gözden geçirilmesi."
+     "baslik": "Temerrüt Tanımı Politikaları",
+     "aciklama": "EBA/GL/2016/07 rehberleri ile uyumun, özellikle UTP göstergeleri ve çıkış kriterleri açısından gözden geçirilmesi."
     },
     {
-     "baslik": "IT Sistemleri ve Veri Kalitesi",
-     "aciklama": "Temerrüt hesaplamalarında kullanılan IT sistemlerinin, EBA'nın beklediği asgari kontrolleri karşılayıp karşılamadığının test edilmesi."
+     "baslik": "IT Sistemleri",
+     "aciklama": "Temerrüt hesaplamalarında kullanılan IT sistemlerinin, EBA rehberlerindeki teknik gereklilikleri karşılayıp karşılamadığının kontrolü."
     }
    ],
    "referanslar": [
@@ -124,18 +124,13 @@
      "metin": "Implementation of EBA/GL/2016/07",
      "sayfa": 12,
      "paragraf": null
-    },
-    {
-     "metin": "Follow-up measures for CAs / recommendations",
-     "sayfa": 38,
-     "paragraf": null
     }
    ]
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:37:22+03:00",
-   "gonderilen_karakter": 103428,
+   "olusturma_zamani": "2026-11-26T16:14:42+03:00",
+   "gonderilen_karakter": 102973,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
@@ -173,11 +168,11 @@
   "baslik_tr": "2026 Küresel Sistemik Öneme Sahip Bankalar (G-SIB) Listesi",
   "url": "https://www.fsb.org/2026/11/2026-list-of-global-systemically-important-banks-g-sibs/",
   "belge_turu": "Basın duyurusu",
-  "statu": "Yürürlükte",
+  "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Banka kamu sermayeli olup G-SIB (Küresel Sistemik Önemli Banka) statüsünde değildir. Düzenleme yalnızca G-SIB listesindeki bankaları ve onların ek sermaye tamponu yükümlülüklerini kapsamaktadır.",
+  "onem_gerekcesi": "Banka kamu sermayeli olup G-SIB (Küresel Sistemik Önemli Banka) statüsünde değildir; bu nedenle liste doğrudan bankayı bağlamamaktadır.",
   "konu": "Basel",
-  "ozet_tek_satir": "Finansal İstikrar Kurulu (FSB), 2026 yılı için küresel sistemik öneme sahip 29 bankayı belirlemiş ve bu bankaların sermaye tamponu gerekliliklerini güncelleyerek 2028 yılından itibaren geçerli olacak yeni risk yönetimi çerçevesini duyurmuştur.",
+  "ozet_tek_satir": "Finansal İstikrar Kurulu (FSB), 2026 yılı için küresel sistemik öneme sahip 29 bankayı belirlemiş ve bu bankaların sermaye tamponu gerekliliklerini güncelleyerek 2028 yılından itibaren geçerli olacak yeni sınıflandırmaları duyurmuştur.",
   "yayin_tarihi": "2026-11-25",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -187,7 +182,7 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "c0b0d37acb56b6c6"
+    "icerik_hash": "1370ec4e4b678157"
    }
   ],
   "alt_konular": [
@@ -195,19 +190,18 @@
    "Sermaye Tamponları"
   ],
   "etkilenen_alanlar": [
-   "Sermaye yeterliliği",
-   "Risk yönetimi"
+   "Risk Yönetimi"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2028-01-01",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "Finansal İstikrar Kurulu (FSB), 2026 yılı için güncellenmiş Küresel Sistemik Önemli Bankalar (G-SIB) listesini yayımlamıştır. Listede toplam 29 banka yer almakta olup, bazı bankaların risk skorlarına göre sermaye tamponu kovalarında (bucket) değişiklik yapılmıştır. Bu değişiklikler, ilgili bankalar için 1 Ocak 2028 tarihinden itibaren geçerli olacak ek sermaye yükümlülüklerini belirlemektedir.",
+   "yonetici_ozeti": "Finansal İstikrar Kurulu (FSB), 2026 yılı için küresel sistemik öneme sahip bankalar (G-SIB) listesini yayımlamıştır. Liste, 29 bankadan oluşmakta olup, bazı bankaların sermaye tamponu gereksinimlerini belirleyen 'bucket' (kategori) dağılımlarında değişiklik yapılmıştır. Bu değişiklikler, ilgili bankalar için 1 Ocak 2028 tarihinden itibaren geçerli olacak ek sermaye tamponu gereksinimlerini belirlemektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Küresel piyasalarda faaliyet gösteren bankalar için sermaye maliyetlerinde ve likidite yönetiminde dolaylı etkiler oluşabilir.",
-     "FSB, 2026 yılı için küresel sistemik önemli bankalar listesini belirlemiştir. (belgeden birebir doğrulanamadı)"
+     "Küresel piyasalarda faaliyet gösteren bankalar için sermaye maliyetlerinde ve rekabet koşullarında dolaylı etkiler oluşabilir.",
+     "FSB, 2026 yılı için küresel sistemik öneme sahip bankaları belirlemiştir. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
@@ -218,7 +212,7 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "G-SIB listesindeki bankalarla muhabir bankacılık ilişkisi olan kurumlar için karşı taraf risk yönetimi süreçleri güncellenebilir."
+     "G-SIB listesindeki bankalarla çalışan muhabir bankacılık ilişkilerinde risk yönetimi süreçleri güncellenebilir."
     ]
    },
    "operasyonel_etki": {
@@ -228,7 +222,7 @@
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "G-SIB listesindeki bankaların sermaye yeterlilik rasyolarında 2028 itibarıyla artış beklenebilir."
+     "G-SIB statüsündeki bankaların sermaye yeterlilik rasyoları üzerinde 2028 itibarıyla baskı oluşabilir."
     ]
    },
    "iklim": {
@@ -238,9 +232,9 @@
    },
    "degisiklikler": [
     {
-     "konu": "G-SIB Kova Dağılımı",
-     "onceki": "2025 G-SIB listesi kova dağılımları",
-     "yeni": "2026 G-SIB listesi kova dağılımları (BNP Paribas 2'den 3'e, MUFG 2'den 1'e geçmiştir)",
+     "konu": "G-SIB Kategori (Bucket) Dağılımı",
+     "onceki": "2025 listesindeki kategori dağılımı",
+     "yeni": "BNP Paribas 2. bucket'tan 3'e, MUFG 2. bucket'tan 1'e geçmiştir.",
      "referans": "Sayfa 3"
     }
    ],
@@ -271,8 +265,8 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Karşı Taraf Risk Analizi",
-     "aciklama": "G-SIB listesindeki bankalarla olan işlemlerin risk ağırlıkları ve limitleri, bu bankaların değişen sermaye tamponu gereksinimleri ışığında gözden geçirilmelidir."
+     "baslik": "Muhabir Banka Risk Analizi",
+     "aciklama": "G-SIB listesindeki bankalarla olan ilişkilerin, bu bankaların değişen sermaye tamponu gereksinimleri ışığında risk yönetimi politikaları kapsamında değerlendirilmesi."
     }
    ],
    "referanslar": [
@@ -285,8 +279,8 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:37:46+03:00",
-   "gonderilen_karakter": 13116,
+   "olusturma_zamani": "2026-11-26T16:15:01+03:00",
+   "gonderilen_karakter": 13024,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
@@ -296,14 +290,14 @@
   "id": "eba-2026-11-25-bd2fc0",
   "kurum": "eba",
   "baslik_orijinal": "EBA publishes hotfix for the reporting framework v4.4 - Phase 1",
-  "baslik_tr": "EBA, 4.4 sürüm raporlama çerçevesi için 1. aşama teknik düzeltmesini yayınladı",
+  "baslik_tr": "EBA, 4.4 sürüm raporlama çerçevesi için düzeltme paketi yayınladı - Faz 1",
   "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-hotfix-reporting-framework-v44-phase-1",
   "belge_turu": "Standart",
   "statu": "Yürürlükte",
   "onem": "Orta",
-  "onem_gerekcesi": "EBA raporlama çerçevesi v4.4 için yayınlanan bu düzeltme (hotfix), bankanın düzenleyici raporlama süreçlerini ve veri doğrulama kurallarını doğrudan etkilemektedir.",
+  "onem_gerekcesi": "Düzenleyici raporlama çerçevesinde yapılan teknik düzeltmeler, bankanın raporlama sistemlerinde veri doğruluğunu ve uyumluluğu sağlamak için teknik güncellemeler gerektirmektedir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "EBA, raporlama çerçevesi v4.4 (1. aşama) kapsamında teknik hataları gidermek, doğrulama kurallarını güncellemek ve Pillar 3 modülleri için referans tarihlerini düzenlemek amacıyla bir teknik düzeltme paketi yayınlamıştır.",
+  "ozet_tek_satir": "EBA, raporlama çerçevesi v4.4 Faz 1 için teknik hataları gideren, doğrulama kurallarını güncelleyen ve Pillar 3 modülleri için referans tarihlerini düzenleyen bir düzeltme paketi yayınlamıştır.",
   "yayin_tarihi": "2026-11-25",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -313,30 +307,30 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "c9e50a13df91e26c"
+    "icerik_hash": "a9e8d4fa38ca6f05"
    }
   ],
   "alt_konular": [
    "Raporlama Çerçevesi",
    "XBRL Taksonomi",
-   "Veri Doğrulama"
+   "Veri Doğrulama Kuralları"
   ],
   "etkilenen_alanlar": [
    "Raporlama",
-   "Kredi riski",
-   "Pillar 3"
+   "Bilgi Teknolojileri",
+   "Kredi Riski"
   ],
   "gorus_son_tarihi": null,
-  "yururluk_tarihi": "2026-12-31",
-  "uyum_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": "2026-12-31",
   "analiz": {
-   "yonetici_ozeti": "EBA, raporlama çerçevesi v4.4 için teknik bir düzeltme (hotfix) yayınlamıştır. Bu güncelleme, eksik bir üyenin eklenmesini, bazı doğrulama kurallarının güncellenmesini ve Pillar 3 modülleri için referans tarihlerinin revize edilmesini içermektedir. Bankanın raporlama sistemlerini ve XBRL taksonomi altyapısını bu değişikliklere göre güncellemesi gerekmektedir.",
+   "yonetici_ozeti": "EBA, raporlama çerçevesi v4.4 - Faz 1 için teknik bir düzeltme (hotfix) yayımlamıştır. Bu güncelleme, eksik bir üyenin eklenmesini, sınırlı sayıda doğrulama kuralının düzeltilmesini ve Pillar 3 modülleri için referans tarihlerinin güncellenmesini içermektedir. Bankanın 31 Aralık 2026 tarihli ilk raporlama dönemi için bu teknik değişiklikleri sistemlerine entegre etmesi gerekmektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
      "Bankanın mevcut raporlama yazılımı ve XBRL üretim süreçlerinde teknik uyum çalışmaları gerekebilir.",
-     "Pillar 3 raporlama takviminde yapılan güncellemeler nedeniyle raporlama süreçlerinin yeniden gözden geçirilmesi gerekebilir.",
-     "Raporlama çerçevesi v4.4 - Faz 1 için teknik sorunların giderilmesi. (belgeden birebir doğrulanamadı)"
+     "Pillar 3 raporlama modüllerinde tarih güncellemeleri nedeniyle veri hazırlama takviminde değişiklikler olabilir.",
+     "Raporlama çerçevesi v4.4 - Faz 1 için teknik sorunları gideren bir düzeltme yayımlanmıştır. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
@@ -347,26 +341,29 @@
    "teknik_etkiler": {
     "teyitli": [
      {
-      "hukum": "XBRL taksonomi, DPM veritabanı ve örnek CSV paketlerinde değişiklikler yapılmıştır.",
-      "alinti": "Artifacts amended: taxonomy, DPM database, sample csv reporting package.",
+      "hukum": "Eksik bir üye qNT (qx2054) eklenmiştir.",
+      "alinti": "Added a missing member to qNT (qx2054 – Finnish Supervisory Agency) and included this member in the CA_2 subcategory in the AMLA modules.",
       "sayfa": 1,
       "paragraf": null,
       "alinti_dogrulandi": true
      }
     ],
     "olasi_etki": [
-     "Bankanın kullandığı XBRL dönüştürücülerin güncellenmesi gerekebilir."
+     "XBRL taksonomi paketlerinin güncellenmesi gerekecektir.",
+     "Doğrulama kuralı Excel dosyalarının yeni versiyonları ile sistemlerin güncellenmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Raporlama birimlerinin güncellenen doğrulama kuralları nedeniyle hata mesajlarını yeniden analiz etmesi gerekebilir."
+     "Raporlama birimlerinin yeni taksonomi paketlerini test etmesi ve geçiş sürecini yönetmesi gerekecektir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Raporlama hatalarının önlenmesi sayesinde sermaye yeterliliği hesaplamalarında veri kalitesinin artması beklenmektedir."
+    ]
    },
    "iklim": {
     "teyitli": [],
@@ -375,15 +372,15 @@
    },
    "degisiklikler": [
     {
-     "konu": "Pillar 3 referans tarihleri",
+     "konu": "Pillar 3 modülleri referans tarihleri",
      "onceki": "Belirtilmemiş",
-     "yeni": "Pillar 3 modülleri için güncellenmiş referans tarihleri",
+     "yeni": "Güncellenmiş referans tarihleri",
      "referans": "Sayfa 1"
     },
     {
      "konu": "Doğrulama kuralları",
-     "onceki": "v6465_m ve v90349_m kuralları",
-     "yeni": "Eksik ön koşulların eklenmesi ve v90347_m, v90348_m, v90349_m kurallarının uyarı seviyesine çekilmesi",
+     "onceki": "Belirtilmemiş",
+     "yeni": "Sınırlı sayıda kural değişikliği",
      "referans": "Sayfa 1"
     }
    ],
@@ -415,11 +412,11 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "XBRL Taksonomi Güncellemesi",
-     "aciklama": "Bankanın raporlama sisteminde kullanılan XBRL taksonomi paketinin v4.4 hotfix sürümü ile değiştirilmesi."
+     "aciklama": "Bankanın raporlama sistemlerinde kullanılan taksonomi paketlerinin v4.4 Faz 1 düzeltme paketi ile güncellenmesi."
     },
     {
-     "baslik": "Doğrulama Kuralları",
-     "aciklama": "Güncellenen v6465_m, v90349_m ve uyarı seviyesine çekilen diğer kuralların banka içi raporlama kontrollerine entegrasyonu."
+     "baslik": "Pillar 3 Raporlama Takvimi",
+     "aciklama": "Güncellenen referans tarihlerinin bankanın iç raporlama takvimi ile uyumunun kontrol edilmesi."
     }
    ],
    "referanslar": [
@@ -432,7 +429,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:38:07+03:00",
+   "olusturma_zamani": "2026-11-26T16:15:19+03:00",
    "gonderilen_karakter": 150000,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 2,
@@ -449,9 +446,9 @@
   "belge_turu": "Rapor",
   "statu": "Nihai",
   "onem": "Orta",
-  "onem_gerekcesi": "Kamu bankası olarak doğrudan MiCA kapsamında ihraççı veya CASP olmasa da, DeFi ekosistemindeki stablecoin kullanımı ve CeFi-DeFi etkileşimi, bankanın dijital varlık stratejileri ve risk yönetimi açısından izlenmesi gereken bir gelişmedir.",
+  "onem_gerekcesi": "Düzenleme, MiCA kapsamında yetkilendirilmiş EMT'lerin DeFi ekosistemindeki kullanımını ve bu durumun tüketici koruması ile düzenleyici arbitraj üzerindeki etkilerini analiz etmektedir. Bankanın doğrudan bir DeFi faaliyeti olmasa da, stabilcoin ihraççıları ve CASP'lerle olan etkileşimler nedeniyle risk yönetimi açısından önem arz etmektedir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "EBA, MiCA kapsamındaki stabil coinlerin DeFi'deki rolünü, tüketici risklerini ve düzenleyici arbitraj potansiyelini analiz eden bir rapor yayınlamıştır.",
+  "ozet_tek_satir": "EBA, MiCA kapsamında ihraç edilen EMT'lerin DeFi ekosistemindeki rolünü, tüketici koruma risklerini ve düzenleyici arbitraj potansiyelini analiz eden bir rapor yayınlamıştır.",
   "yayin_tarihi": "2026-11-25",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -461,32 +458,32 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "418e781f188e86fe"
+    "icerik_hash": "e462446e6243cf22"
    }
   ],
   "alt_konular": [
-   "Stablecoin",
    "DeFi",
-   "MiCA",
-   "Regülasyon Arbitrajı"
+   "Stabilcoin (EMT)",
+   "Düzenleyici Arbitraj",
+   "Tüketici Koruma"
   ],
   "etkilenen_alanlar": [
    "Kredi riski",
    "Operasyonel risk",
    "Uyum",
-   "Stratejik planlama"
+   "Raporlama"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA, DeFi ekosisteminde stablecoin (özellikle EMT) kullanımını analiz eden bir rapor yayımlamıştır. Rapor, DeFi'nin likidite ve teminat sağlama rolünü vurgularken, tüketici koruma riskleri ve MiCA düzenlemelerinin etrafından dolaşılması (regülasyon arbitrajı) konularında uyarıda bulunmaktadır. Bankaların DeFi ile etkileşimi arttıkça, operasyonel ve itibari risklerin CeFi tarafına bulaşma potansiyeli artmaktadır. EBA, CASP'lerin DeFi erişimini kolaylaştırmasına yönelik ek düzenleyici gerekliliklerin değerlendirilmesini önermektedir.",
+   "yonetici_ozeti": "EBA, stabilcoinlerin (EMT'ler dahil) DeFi ekosistemindeki rolünü inceleyen bir rapor yayımlamıştır. Rapor, DeFi'nin likidite ve teminat sağlama gibi kritik işlevlerine dikkat çekerken, tüketici koruması, operasyonel riskler ve MiCA düzenlemelerinin etrafından dolaşılmasına yönelik arbitraj risklerini vurgulamaktadır. Bankalar için, DeFi ile etkileşime giren CASP'ler ve stabilcoin ihraççıları üzerinden dolaylı risk bulaşma kanalları oluşabileceği belirtilmektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Bankanın dijital varlık saklama veya aracılık hizmetleri sunması durumunda, DeFi protokolleri ile olan etkileşimler nedeniyle operasyonel risklerin artması olasıdır.",
-     "DeFi üzerinden sağlanan yüksek getirili ürünlerin, bankanın mevduat toplama faaliyetleri üzerinde dolaylı bir rekabet baskısı oluşturması beklenebilir.",
-     "EBA, DeFi ekosisteminde EMT ve diğer stablecoinlerin kullanımını ve bunların tüketiciler ile denetleyiciler üzerindeki etkilerini analiz eden bir rapor yayımlamıştır. (belgeden birebir doğrulanamadı)"
+     "Bankanın stabilcoin ihraççıları veya DeFi protokollerine erişim sağlayan CASP'lerle olan ilişkileri, operasyonel ve itibari riskler açısından yeniden değerlendirilebilir.",
+     "DeFi üzerinden sağlanan yüksek kaldıraçlı pozisyonlar ve stabilcoin teminatlı krediler, bankanın karşı taraf risk yönetimi süreçlerini etkileyebilir.",
+     "EBA, EMT'lerin ve diğer seçilmiş stabilcoinlerin DeFi'deki kullanımını ve tüketiciler ile denetleyiciler üzerindeki etkilerini analiz eden bir rapor yayımlamıştır. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
@@ -497,51 +494,44 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Bankanın teknoloji altyapısında, DeFi protokolleri ile entegrasyon veya bu protokollerden gelen verilerin izlenmesi için yeni izleme araçlarına ihtiyaç duyulabilir."
+     "DeFi protokollerinde kullanılan stabilcoinlerin likidite yapısı, bankanın bu varlıklara olan maruziyetini etkileyebilir.",
+     "Akıllı sözleşme açıklarından kaynaklanan operasyonel riskler, bankanın teknolojik risk değerlendirme modellerine dahil edilebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "DeFi ile etkileşimi olan üçüncü taraf hizmet sağlayıcıların (CASP) risk profillerinin yeniden değerlendirilmesi gerekebilir.",
-     "Müşterilerin DeFi üzerinden stablecoin kullanımıyla ilgili artan riskler konusunda bilgilendirilmesi için uyum süreçlerinin güncellenmesi gerekebilir."
+     "CASP'ler aracılığıyla DeFi'ye erişim sağlayan müşterilerin risk profilleri, bankanın Müşterini Tanı (KYC) ve Kara Para Aklama (AML) süreçlerinde daha detaylı izleme gerektirebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "DeFi ile ilişkili varlıkların sermaye yeterliliği hesaplamalarında risk ağırlıklarının artırılmasına yönelik gelecekteki düzenlemeler sermaye maliyetini etkileyebilir."
+     "DeFi ile bağlantılı risklerin artması durumunda, bankanın operasyonel risk sermaye gereksinimi üzerinde dolaylı bir baskı oluşabilir."
     ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [],
-    "ilgili_degil": false
+    "ilgili_degil": true
    },
-   "degisiklikler": [
-    {
-     "konu": "MiCA Kapsamı",
-     "onceki": "MiCA, DeFi faaliyetlerini kapsam dışı bırakmaktadır.",
-     "yeni": "EBA, DeFi erişimini kolaylaştıran CASP'ler için ek düzenleyici gereklilikler getirilmesini önermektedir.",
-     "referans": "Sayfa 3"
-    }
-   ],
+   "degisiklikler": [],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Dolaylı",
-     "not": "DeFi protokollerinde teminat olarak kullanılan stablecoinlerin değer kaybı, karşı taraf riskini dolaylı olarak etkileyebilir."
+     "not": "DeFi protokollerindeki teminatlı kredilerin geri ödenmeme riski, dolaylı olarak karşı tarafın kredi değerliliğini etkileyebilir."
     },
     "LGD": {
      "duzey": "Dolaylı",
-     "not": "DeFi protokollerindeki likidite krizleri, teminatların nakde çevrilme kabiliyetini düşürebilir."
+     "not": "DeFi'de teminat olarak kullanılan stabilcoinlerin değer kaybı veya likidite sorunları, teminatın geri kazanım oranını etkileyebilir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Doğrudan bir kredi maruziyeti öngörülmemektedir."
+     "not": ""
     },
     "ECL": {
      "duzey": "Dolaylı",
-     "not": "DeFi ile bağlantılı varlıkların değerlemesindeki oynaklık, TFRS 9 kapsamında beklenen kredi zararı hesaplamalarında dolaylı etki yaratabilir."
+     "not": "DeFi ekosistemindeki genel piyasa oynaklığı, bankanın stabilcoin ihraççılarına olan maruziyetine ilişkin beklenen kredi zararı hesaplamalarını dolaylı etkileyebilir."
     }
    },
    "tarihler": [
@@ -553,12 +543,12 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "DeFi Risk İştahı",
-     "aciklama": "Bankanın DeFi ekosistemiyle etkileşimi olan karşı taraflara yönelik risk iştahı ve izleme prosedürleri gözden geçirilmelidir."
+     "baslik": "DeFi ve CASP İlişkisi",
+     "aciklama": "Bankanın iş birliği yaptığı veya hizmet aldığı CASP'lerin DeFi protokollerine erişim sağlama faaliyetlerinin denetimi."
     },
     {
-     "baslik": "Stablecoin Maruziyeti",
-     "aciklama": "Banka portföyünde veya müşteri işlemlerinde kullanılan stablecoinlerin MiCA uyumluluğu ve DeFi bağlantılı riskleri analiz edilmelidir."
+     "baslik": "Stabilcoin Maruziyeti",
+     "aciklama": "Portföyde bulunan veya teminat olarak kabul edilen stabilcoinlerin MiCA uyumluluğu ve DeFi ekosistemindeki kullanım yoğunluğu."
     }
    ],
    "referanslar": [
@@ -571,8 +561,8 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:38:26+03:00",
-   "gonderilen_karakter": 57544,
+   "olusturma_zamani": "2026-11-26T16:15:35+03:00",
+   "gonderilen_karakter": 57263,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
@@ -721,9 +711,9 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Banka kamu sermayeli bir Türk bankası olup Eurosystem kredi operasyonlarına doğrudan taraf değildir. Düzenleme, Avrupa finansal piyasalarındaki tokenizasyon eğilimlerini yansıtan bir bilgilendirme niteliğindedir.",
+  "onem_gerekcesi": "Banka kamu sermayeli bir Türk bankasıdır ve Eurosystem kredi operasyonlarına doğrudan taraf değildir. Düzenleme, Euro Bölgesi'ndeki teminat çerçevesini ilgilendirmektedir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "Avrupa Merkez Bankası, AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen varlıkların Eurosystem kredi operasyonlarında teminat olarak kabul edileceğini duyurmuştur. Bu adım, Eurosystem'in tokenize edilmiş finansal piyasalara uyum sağlama stratejisinin bir parçasıdır.",
+  "ozet_tek_satir": "Avrupa Merkez Bankası, AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen varlıkların, Eurosystem kredi operasyonlarında teminat olarak kabul edileceğini duyurmuştur.",
   "yayin_tarihi": "2026-11-23",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -748,13 +738,12 @@
   "yururluk_tarihi": "2027-06-01",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "Avrupa Merkez Bankası (ECB), AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen varlıkların Eurosystem kredi operasyonlarında teminat olarak kabul edileceğini duyurmuştur. Bu adım, Eurosystem'in tokenize edilmiş finansal piyasalara uyum sağlama yol haritasının bir parçasıdır. Uygulama detaylarının 2027 baharında açıklanması ve Haziran 2027'de yürürlüğe girmesi planlanmaktadır.",
+   "yonetici_ozeti": "Avrupa Merkez Bankası (ECB), AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen varlıkların Eurosystem kredi operasyonlarında teminat olarak kabul edileceğini duyurmuştur. Bu adım, tokenize edilmiş finansal piyasalara uyum sağlama yol haritasının bir parçasıdır. Bankamızın doğrudan Eurosystem operasyonları bulunmamakla birlikte, DLT tabanlı varlıkların teminat olarak kabul edilmesi küresel finansal piyasalardaki dijitalleşme eğilimini yansıtmaktadır.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Bankanın Avrupa piyasalarındaki dijital varlık yatırımları veya karşı taraf riskleri üzerinde dolaylı bir etki yaratabilir.",
-     "Tokenizasyon süreçlerinin standartlaşması, bankanın gelecekteki dijital varlık stratejileri için bir referans çerçevesi oluşturabilir.",
-     "DLT platformlarında ihraç edilen varlıkların Eurosystem kredi operasyonları için teminat olarak kabul edilmesi onaylanmıştır. (belgeden birebir doğrulanamadı)"
+     "DLT tabanlı varlıkların teminat olarak kabul edilmesi, Avrupa piyasalarında tokenizasyonun hızlanmasına ve bankamızın uluslararası muhabir bankacılık ilişkilerinde dijital varlık kabulünün artmasına neden olabilir.",
+     "DLT platformlarında ihraç edilen varlıkların Eurosystem kredi operasyonlarında teminat olarak kabul edilmesi onaylanmıştır. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
@@ -773,19 +762,19 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "DLT tabanlı varlıkların teminat olarak mobilizasyonu için teknik altyapı gereksinimlerinin (TARGET2-Securities entegrasyonu gibi) güncellenmesi gerekebilir."
+     "Bankanın dijital varlık saklama ve mutabakat altyapısı, gelecekteki olası DLT tabanlı teminat yönetimi süreçlerine uyum sağlamak adına gözden geçirilebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "DLT platformlarının yasal kesinlik ve operasyonel güvenlik gereksinimlerine uyum sağlaması gerekecektir."
+     "DLT tabanlı varlıkların operasyonel süreçlere entegrasyonu için yeni yasal ve teknik güvenlik standartlarının takip edilmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Dolaylı olarak, tokenize varlıkların risk ağırlıklandırması konusunda ileride oluşabilecek düzenleyici yaklaşımlar bankayı etkileyebilir."
+     "Doğrudan bir sermaye etkisi beklenmemektedir."
     ]
    },
    "iklim": {
@@ -796,27 +785,27 @@
    "degisiklikler": [
     {
      "konu": "Teminat uygunluğu",
-     "onceki": "Sadece geleneksel CSD hizmetleri üzerinden ihraç edilen varlıklar.",
-     "yeni": "AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen varlıklar.",
+     "onceki": "Geleneksel CSD hizmetleri ile sınırlı teminat kabulü.",
+     "yeni": "AB DLT Pilot Rejimi kapsamında lisanslı DLT platformlarında ihraç edilen varlıkların teminat olarak kabulü.",
      "referans": "Sayfa 1"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Banka profili ile doğrudan ilişkili değildir."
+     "not": "Banka Eurosystem operasyonlarına dahil değildir."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Banka profili ile doğrudan ilişkili değildir."
+     "not": "Banka Eurosystem operasyonlarına dahil değildir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Banka profili ile doğrudan ilişkili değildir."
+     "not": "Banka Eurosystem operasyonlarına dahil değildir."
     },
     "ECL": {
      "duzey": "Etki beklenmiyor",
-     "not": "Banka profili ile doğrudan ilişkili değildir."
+     "not": "Banka Eurosystem operasyonlarına dahil değildir."
     }
    },
    "tarihler": [
@@ -828,8 +817,8 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Tokenizasyon Stratejisi",
-     "aciklama": "Eurosystem'in tokenizasyon yol haritası ve DLT varlıklarına yönelik standartları, bankanın dijital varlık stratejisi ile uyum açısından izlenmelidir."
+     "baslik": "Dijital Varlık Stratejisi",
+     "aciklama": "Euro Bölgesi'ndeki DLT tabanlı teminat kabulü standartlarının, bankanın gelecekteki dijital varlık stratejisi ile uyumu değerlendirilmelidir."
     }
    ],
    "referanslar": [
@@ -842,7 +831,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:40:11+03:00",
+   "olusturma_zamani": "2026-11-26T16:15:49+03:00",
    "gonderilen_karakter": 4214,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 2,
@@ -1282,11 +1271,11 @@
   "baslik_tr": "AB/AEA bankaları devlet borcu baskıları, borçlu kırılganlıkları ve artan siber tehditler karşısında dayanıklılık göstermeye devam ediyor",
   "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eueea-banks-continue-display-resilience-amid-sovereign-debt-pressures-borrower-vulnerabilities-and",
   "belge_turu": "Rapor",
-  "statu": "Nihai",
-  "onem": "Yüksek",
-  "onem_gerekcesi": "Rapor, bankacılık sektöründe siber riskler, yapay zeka kaynaklı operasyonel riskler ve kredi kalitesindeki bölgesel bozulmalara dair kritik uyarılar içermektedir. Kamu sermayeli bir banka olarak, özellikle KOBİ kredileri ve operasyonel dayanıklılık konularındaki bulgular doğrudan risk yönetimi süreçlerini etkilemektedir.",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "EBA'nın 2026 Güz Risk Değerlendirme Raporu, bankacılık sektöründeki operasyonel riskler, siber tehditler ve yapay zeka adaptasyonuna ilişkin kritik uyarılar içermektedir. Kamu sermayeli bir banka olarak, bu risklerin yönetimi ve sermaye yeterliliği üzerindeki etkileri yakından izlenmelidir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "EBA'nın 2026 Sonbahar Risk Değerlendirme Raporu, AB bankalarının güçlü sermaye ve likidite yapısını koruduğunu, ancak siber riskler, KOBİ kredilerindeki kırılganlıklar ve devlet tahvili getirilerindeki dalgalanmaların yakından izlenmesi gerektiğini vurgulamaktadır.",
+  "ozet_tek_satir": "EBA'nın 2026 Sonbahar Risk Değerlendirme Raporu, bankaların sermaye ve likidite açısından güçlü olduğunu ancak siber riskler, KOBİ kredilerindeki kırılganlıklar ve yapay zeka kullanımından kaynaklanan yeni risklerin yakından izlenmesi gerektiğini vurgulamaktadır.",
   "yayin_tarihi": "2026-11-19",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -1296,41 +1285,41 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "fc3ab377e64f1bf0"
+    "icerik_hash": "6bb693af82c6791d"
    }
   ],
   "alt_konular": [
-   "Operasyonel risk",
-   "Siber güvenlik",
-   "Yapay zeka riskleri",
-   "Kredi kalitesi",
-   "SME kredileri"
+   "Operasyonel Risk",
+   "Siber Güvenlik",
+   "Yapay Zeka",
+   "Kredi Riski",
+   "Sermaye Yeterliliği"
   ],
   "etkilenen_alanlar": [
-   "Kredi riski",
-   "Operasyonel risk yönetimi",
-   "Bilgi teknolojileri",
-   "Sermaye planlaması"
+   "Risk Yönetimi",
+   "Bilgi Teknolojileri",
+   "Kredi Riski",
+   "Sermaye Planlaması"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA'nın 2026 Sonbahar Risk Değerlendirme Raporu, bankacılık sektörünün genel dayanıklılığını korumasına rağmen, siber tehditler, yapay zeka kullanımı ve KOBİ portföylerindeki kırılganlıkların arttığını vurgulamaktadır. Bankaların operasyonel dayanıklılıklarını güçlendirmeleri, üçüncü taraf bağımlılıklarını yönetmeleri ve kredi standartlarını sıkı tutmaları önerilmektedir. Ayrıca, yapay zeka modellerinin kullanımıyla ortaya çıkan yeni model riskleri ve siber saldırı yüzeyindeki genişleme yakından izlenmelidir.",
+   "yonetici_ozeti": "EBA, 2026 Güz raporunda bankaların genel olarak dirençli olduğunu ancak siber tehditler, yapay zeka kaynaklı riskler ve KOBİ portföylerindeki kırılganlıkların arttığını belirtmektedir. Bankaların sermaye ve likidite planlamasında ihtiyatlı olmaları, operasyonel dayanıklılığı güçlendirmeleri ve üçüncü taraf bağımlılıklarını yönetmeleri beklenmektedir. Özellikle yapay zeka kullanımı ve siber güvenlik, operasyonel risk yönetimi stratejilerinin merkezine yerleştirilmelidir.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "EBA, bankaların ihtiyatlı sermaye ve likidite planlaması, sağlam kredi standartları ve kırılgan borçluların yakından izlenmesinin önemini vurgulamaktadır.",
-      "alinti": "The EBA emphasises the importance of prudent capital and liquidity planning, sound lending standards and close monitoring of vulnerable borrowers and concentrated exposures.",
+      "hukum": "EBA, 2026 Güz Risk Değerlendirme Raporu'nu yayımlayarak bankacılık sektöründeki riskleri ve direnç düzeyini değerlendirmiştir.",
+      "alinti": "The EBA today published its Autumn 2026 Risk Assessment Report (RAR) together with a thematic note on lending to small and medium-sized enterprises (SMEs)",
       "sayfa": null,
-      "paragraf": 24,
+      "paragraf": 9,
       "alinti_dogrulandi": true
      }
     ],
     "olasi_etki": [
-     "Bankanın KOBİ kredi portföyündeki olası bozulmalar karşısında karşılık ayırma politikalarının gözden geçirilmesi gerekebilir.",
-     "Yapay zeka kullanımının artmasıyla birlikte, bankanın siber güvenlik ve model risk yönetimi çerçevesinin güncellenmesi gerekebilir.",
-     "Üçüncü taraf ICT sağlayıcılarına olan bağımlılığın artması, operasyonel risk yönetimi süreçlerinde daha sıkı denetim gerektirebilir."
+     "Bankanın siber güvenlik ve yapay zeka yönetişim politikalarını güncellemesi gerekebilir.",
+     "KOBİ ve ticari gayrimenkul portföylerindeki kredi riski izleme süreçlerinin sıkılaştırılması gerekebilir.",
+     "Üçüncü taraf ICT sağlayıcılarına olan bağımlılığın gözden geçirilmesi gerekebilir."
     ]
    },
    "onceki_cerceve": {
@@ -1341,54 +1330,54 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Yapay zeka modellerinin doğrulanması ve yönetişimi için yeni teknik altyapı gereksinimleri doğabilir.",
-     "Kuantum bilgisayarlara hazırlık kapsamında kriptografik varlık envanterinin oluşturulması gerekebilir."
+     "Yapay zeka modellerinin denetimi ve yönetişimi için yeni teknik altyapı ihtiyaçları doğabilir.",
+     "Kuantum sonrası kriptografi (PQC) hazırlıklarının stratejik bir öncelik haline gelmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Siber güvenlik incident raporlama süreçlerinin DORA uyumu kapsamında daha detaylı hale getirilmesi gerekebilir.",
-     "KOBİ kredilerindeki risk artışı nedeniyle kredi izleme birimlerinin iş yükü artabilir."
+     "Üçüncü taraf risk yönetimi süreçlerinin DORA gereklilikleri ile uyumlu hale getirilmesi zorunlu olabilir.",
+     "Dolandırıcılık tespit sistemlerinin yapay zeka ile güçlendirilmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Operasyonel risk RWA hesaplamalarında, artan siber tehditler ve kayıplar nedeniyle sermaye yükümlülüklerinde artış olabilir."
+     "Artan operasyonel risk ağırlıkları ve kredi büyümesi, sermaye yeterlilik rasyoları üzerinde baskı oluşturabilir."
     ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "Çevre kaynaklı dava risklerinin artması, bankanın itibar ve operasyonel risk yönetimi süreçlerine dahil edilmelidir."
+     "Çevresel davalara ilişkin risklerin ICAAP süreçlerine dahil edilmesi gerekebilir."
     ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
      "konu": "Operasyonel Risk",
-     "onceki": "Geleneksel sistem hataları ön plandaydı.",
-     "yeni": "Yapay zeka destekli dolandırıcılık ve siber saldırılar operasyonel risklerin merkezine yerleşti.",
+     "onceki": "Geleneksel siber güvenlik yaklaşımları",
+     "yeni": "Yapay zeka destekli siber tehditlere karşı proaktif savunma ve DORA uyumu",
      "referans": "Sayfa 5"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Orta",
-     "not": "KOBİ ve ticari gayrimenkul portföylerinde artan insolvensi riskleri nedeniyle PD tahminlerinde yukarı yönlü revizyon gerekebilir."
+     "not": "KOBİ ve ticari gayrimenkul portföylerinde artan insolvensi riskleri nedeniyle PD tahminlerinde ihtiyatlı olunmalıdır."
     },
     "LGD": {
      "duzey": "Orta",
-     "not": "Ticari gayrimenkul teminat değerlerindeki olası düşüşler LGD oranlarını olumsuz etkileyebilir."
+     "not": "Ticari gayrimenkul teminat değerlerindeki olası dalgalanmalar LGD üzerinde baskı yaratabilir."
     },
     "EAD": {
      "duzey": "Düşük",
-     "not": "Kredi limitlerinin kullanımı konusunda temkinli bir yaklaşım izlenmesi gerekebilir."
+     "not": "Kredi limitlerinin kullanımı ve taahhütlerin izlenmesi önemini korumaktadır."
     },
     "ECL": {
      "duzey": "Yüksek",
-     "not": "Stage 2 oranlarındaki artış, TFRS 9 kapsamında beklenen kredi zararı karşılıklarını artırabilir."
+     "not": "TFRS 9 kapsamında, makroekonomik belirsizlikler ve sektör bazlı kırılganlıklar karşılık hesaplamalarını etkileyebilir."
     }
    },
    "tarihler": [
@@ -1400,20 +1389,15 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "KOBİ Kredi Portföyü",
-     "aciklama": "KOBİ kredilerindeki temerrüt eğilimleri ve Stage 2 geçişleri yakından izlenmelidir."
+     "baslik": "Yapay Zeka Yönetişimi",
+     "aciklama": "Yapay zeka modellerinin kullanımı, veri kalitesi ve üçüncü taraf bağımlılıklarının yönetimi."
     },
     {
-     "baslik": "Yapay Zeka Yönetişimi",
-     "aciklama": "Bankanın kullandığı yapay zeka modellerinin risk yönetimi ve veri güvenliği açısından denetimi yapılmalıdır."
+     "baslik": "KOBİ Kredi Portföyü",
+     "aciklama": "KOBİ'lerdeki artan insolvensi ve borç ödeme yükü nedeniyle kredi kalitesinin yakından izlenmesi."
     }
    ],
    "referanslar": [
-    {
-     "metin": "Executive summary",
-     "sayfa": 4,
-     "paragraf": null
-    },
     {
      "metin": "Operational risks and resilience",
      "sayfa": 5,
@@ -1423,7 +1407,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:41:23+03:00",
+   "olusturma_zamani": "2026-11-26T16:16:07+03:00",
    "gonderilen_karakter": 150000,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -1732,7 +1716,7 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Karar, belirli bir özel bankanın TMSF'ye devrine ilişkin olup bankamızın operasyonel veya finansal yapısını doğrudan etkileyen genel bir düzenleme içermemektedir.",
+  "onem_gerekcesi": "Karar, münferit bir bankanın Tasarruf Mevduatı Sigorta Fonu'na devrine ilişkin olup, bankamızın operasyonel süreçlerini veya sermaye yeterliliğini doğrudan etkileyen genel bir düzenleme içermemektedir.",
   "konu": "Diğer",
   "ozet_tek_satir": "Adil Katılım Bankası A.Ş.'nin temettü hariç ortaklık hakları ile yönetim ve denetiminin 5411 sayılı Bankacılık Kanunu uyarınca Tasarruf Mevduatı Sigorta Fonuna devredilmesine karar verilmiştir.",
   "yayin_tarihi": "2026-11-18",
@@ -1758,11 +1742,11 @@
   "yururluk_tarihi": "2026-11-17",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "BDDK, Adil Katılım Bankası A.Ş.'nin yönetim ve denetiminin 5411 sayılı Bankacılık Kanunu'nun 71. maddesi kapsamında Tasarruf Mevduatı Sigorta Fonu'na (TMSF) devredilmesine karar vermiştir. Söz konusu karar, bankacılık sektöründeki münferit bir kurumsal müdahaleyi ifade etmektedir. Bankamızın standart yaklaşım uygulayan kamu sermayeli yapısı üzerinde doğrudan bir etkisi bulunmamaktadır.",
+   "yonetici_ozeti": "BDDK, Adil Katılım Bankası A.Ş.'nin yönetim ve denetiminin Tasarruf Mevduatı Sigorta Fonu'na (TMSF) devredilmesine karar vermiştir. Karar, 5411 sayılı Bankacılık Kanunu'nun 71. maddesi kapsamında alınmıştır. Bankamız için doğrudan bir uyum yükümlülüğü veya operasyonel değişiklik doğurmamaktadır.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "Adil Katılım Bankası A.Ş.'nin yönetim ve denetiminin TMSF'ye devredilmesi.",
+      "hukum": "Adil Katılım Bankası A.Ş.'nin TMSF'ye devri.",
       "alinti": "Adil Katılım Bankası A.Ş.'nin temettü hariç ortaklık hakları ile yönetim ve denetiminin 5411 sayılı Bankacılık Kanununun 71 inci maddesinin birinci fıkrasının",
       "sayfa": 1,
       "paragraf": null,
@@ -1770,7 +1754,7 @@
      }
     ],
     "olasi_etki": [
-     "Sektörel güven ortamı ve bankalararası piyasa likiditesi üzerinde dolaylı etkiler gözlemlenebilir."
+     "Sektörel güven ortamı ve piyasa algısı üzerinde dolaylı etkiler gözlemlenebilir."
     ]
    },
    "onceki_cerceve": {
@@ -1799,19 +1783,19 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Bankamızın kredi riski hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+     "not": ""
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Bankamızın kredi riski hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+     "not": ""
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Bankamızın kredi riski hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+     "not": ""
     },
     "ECL": {
      "duzey": "Etki beklenmiyor",
-     "not": "TFRS 9 karşılık hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+     "not": ""
     }
    },
    "tarihler": [
@@ -1837,7 +1821,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:43:12+03:00",
+   "olusturma_zamani": "2026-11-26T16:16:23+03:00",
    "gonderilen_karakter": 614,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -1854,9 +1838,9 @@
   "belge_turu": "Rapor",
   "statu": "Bilgi amaçlı",
   "onem": "Orta",
-  "onem_gerekcesi": "Düzenleme, sermaye piyasalarındaki halka arz dalgalarının finansal istikrar üzerindeki etkilerini ve pasif yatırımın piyasa dinamiklerini nasıl değiştirdiğini analiz etmektedir. Kamu bankası için doğrudan bir uyum yükümlülüğü içermemekle birlikte, piyasa riskleri ve varlık değerlemeleri açısından izlenmesi gereken bir makro-finansal değerlendirmedir.",
+  "onem_gerekcesi": "Rapor, öz sermaye ihracındaki döngüselliğin ve pasif yatırımın piyasa dinamikleri üzerindeki etkilerini analiz etmektedir. Kamu bankası olarak doğrudan İRD kullanmasak da, piyasa riskleri ve sermaye piyasası faaliyetleri üzerindeki dolaylı etkiler izlenmelidir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "Avrupa Merkez Bankası tarafından hazırlanan bu rapor, yapay zeka sektöründeki büyük halka arzların ve pasif yatırım trendlerinin piyasa döngüselliği ve finansal istikrar üzerindeki etkilerini incelemektedir.",
+  "ozet_tek_satir": "Rapor, yapay zeka sektöründeki büyük halka arzların ve pasif yatırım trendlerinin piyasa döngüselliği ve özkaynak finansmanı üzerindeki finansal istikrar etkilerini değerlendirmektedir.",
   "yayin_tarihi": "2026-11-18",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -1866,56 +1850,53 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "4e40908954d4823f"
+    "icerik_hash": "6467bf3615b350c8"
    }
   ],
   "alt_konular": [
-   "Halka arz (IPO)",
-   "Sermaye piyasaları",
+   "Öz sermaye ihracı",
    "Pasif yatırım",
-   "Finansal istikrar"
+   "Piyasa döngüselliği"
   ],
   "etkilenen_alanlar": [
+   "Kredi riski",
    "Piyasa riski",
-   "Yatırım stratejileri",
-   "Kredi riski"
+   "Hazine faaliyetleri"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "ECB, özellikle yapay zeka sektöründeki yoğun halka arzların ve pasif yatırımın artışının piyasa döngüselliğini nasıl etkilediğini incelemektedir. Halka arzların pro-döngüsel doğası, ekonomik gerileme dönemlerinde sermaye finansmanının kurumasına yol açabilir. Pasif yatırımın yarattığı fiyat duyarsızlığı, hisse senedi arzlarını kolaylaştırırken, piyasa oynaklığını artırabilir. Banka, bu piyasa dinamiklerini ve olası varlık fiyat düzeltmelerinin portföy üzerindeki etkilerini göz önünde bulundurmalıdır.",
+   "yonetici_ozeti": "ECB raporu, özellikle yapay zeka sektöründeki büyük halka arzların (IPO) ve öz sermaye ihraçlarının finansal istikrar üzerindeki etkilerini incelemektedir. Pasif yatırımın artan rolü, hisse senedi talebini daha inelastik hale getirerek ihraç hacimlerini artırmaktadır. Bu durum, piyasa döngüselliğini güçlendirebilir ve ekonomik gerileme dönemlerinde öz sermaye finansmanının kuruması riskini doğurabilir. Bankamızın piyasa riskleri ve sermaye piyasası stratejileri açısından bu eğilimlerin izlenmesi önerilmektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Halka arz piyasasındaki aşırı değerlemeler, piyasa düzeltmeleri durumunda bankanın elindeki özkaynak yatırımlarının değerinde düşüşe neden olabilir.",
-     "Pasif yatırımın artan etkisi, piyasa likiditesinin ve fiyat keşif mekanizmasının zayıflamasına yol açabilir.",
-     "Halka arzların ve genel olarak özkaynak ihracının finansal istikrar üzerindeki etkilerinin değerlendirilmesi. (belgeden birebir doğrulanamadı)"
+     "Piyasa duyarlılığındaki değişimlerin, bankanın öz sermaye piyasalarındaki yatırım portföyü üzerinde oynaklığı artırabileceği değerlendirilmektedir.",
+     "Pasif yatırımın artan etkisi nedeniyle, piyasa likiditesinin stres dönemlerinde beklenenden daha hızlı daralabileceği öngörülebilir.",
+     "Büyük halka arzların ve genel olarak öz sermaye ihracının finansal istikrar üzerindeki etkilerinin değerlendirilmesi. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
     "teyitli": [],
-    "olasi_etki": [
-     "Önceki dönemlerde halka arzlar daha çok temel değerlemelere dayalıyken, mevcut dönemde pasif yatırım akışlarının etkisiyle daha fazla fiyat duyarsızlığı gözlemlenmektedir."
-    ],
+    "olasi_etki": [],
     "karsilastirma_kaynagi": "genel_bilgi"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Hisse senedi piyasalarındaki oynaklığın artması, bankanın piyasa riski sermaye hesaplamalarında kullanılan parametreleri etkileyebilir."
+     "Pasif yatırımın inelastik talebi, hisse senedi fiyatlarının temel göstergelerden kopmasına ve fiyat keşfi süreçlerinin zayıflamasına neden olabilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Yatırım bankacılığı ve varlık yönetimi birimlerinin, halka arz süreçlerindeki piyasa duyarlılığı ve pasif yatırımcı davranışlarını daha yakından izlemesi gerekebilir."
+     "Halka arzlara katılım veya bu piyasalardaki pozisyon yönetimi süreçlerinde, pasif yatırımcı akışlarının piyasa üzerindeki etkisinin daha yakından izlenmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Piyasa riski altındaki varlıkların değerlemesindeki oynaklık, standart yaklaşım altındaki sermaye yeterlilik oranlarını etkileyebilir."
+     "Piyasa riskine maruz kalan öz sermaye pozisyonlarının değerlemesindeki oynaklık, sermaye yeterlilik rasyoları üzerinde kısa vadeli dalgalanmalara yol açabilir."
     ]
    },
    "iklim": {
@@ -1927,19 +1908,19 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Dolaylı",
-     "not": "Halka arzların başarısızlığı veya piyasa düzeltmeleri, şirketlerin temerrüt riskini dolaylı olarak etkileyebilir."
+     "not": "Öz sermaye finansmanının döngüselliği, ekonomik gerileme dönemlerinde firmaların sermaye artırma kapasitesini etkileyerek dolaylı olarak kredi riskini artırabilir."
     },
     "LGD": {
-     "duzey": "Dolaylı",
-     "not": "Özkaynak finansmanının azalması, şirketlerin borç ödeme kapasitesini ve dolayısıyla temerrüt durumundaki geri kazanım oranlarını etkileyebilir."
+     "duzey": "Etki beklenmiyor",
+     "not": ""
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
      "not": ""
     },
     "ECL": {
-     "duzey": "Orta",
-     "not": "Piyasa koşullarının kötüleşmesi, özkaynak piyasasına erişimi olan şirketlerin finansal durumunu bozarak TFRS 9 kapsamında beklenen kredi zararı karşılıklarını etkileyebilir."
+     "duzey": "Dolaylı",
+     "not": "Piyasa oynaklığının artması, öz sermaye bazlı varlıkların değerlemesinde ve dolayısıyla TFRS 9 kapsamında beklenen kredi zararı hesaplamalarında dolaylı etki yaratabilir."
     }
    },
    "tarihler": [
@@ -1951,8 +1932,12 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Piyasa Duyarlılığı ve Halka Arz Stratejisi",
-     "aciklama": "Banka, özkaynak piyasalarındaki döngüsel zirvelerin ve pasif yatırımcı akışlarının varlık değerlemeleri üzerindeki etkisini izlemelidir."
+     "baslik": "Piyasa Duyarlılığı ve Öz Sermaye İhracı",
+     "aciklama": "Öz sermaye ihraçlarındaki döngüsel zirvelerin, piyasa düzeltmelerine öncü bir gösterge olup olmadığının izlenmesi."
+    },
+    {
+     "baslik": "Pasif Yatırım Etkisi",
+     "aciklama": "Pasif yatırımcıların inelastik talebinin, bankanın piyasa risk yönetimi modellerindeki likidite varsayımları üzerindeki etkisinin gözden geçirilmesi."
     }
    ],
    "referanslar": [
@@ -1965,8 +1950,8 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:43:30+03:00",
-   "gonderilen_karakter": 50654,
+   "olusturma_zamani": "2026-11-26T16:16:40+03:00",
+   "gonderilen_karakter": 50528,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
@@ -2117,9 +2102,9 @@
   "belge_turu": "Rapor",
   "statu": "Nihai",
   "onem": "Yüksek",
-  "onem_gerekcesi": "Rapor, bankacılık sektörü için kredi riski, piyasa riski ve operasyonel risk (siber tehditler) açısından önemli sistemik uyarılar içermektedir. Kamu sermayeli bir banka olarak, makro-finansal koşulların bozulması ve devlet tahvili portföyündeki değerleme riskleri doğrudan bankanın sermaye yeterliliğini etkileyebilir.",
+  "onem_gerekcesi": "Rapor, bankacılık sektörünü doğrudan etkileyen makro-finansal riskleri, yapay zeka kaynaklı piyasa oynaklığını ve egemen borç risklerini detaylandırmaktadır. Kamu sermayeli bir banka için bu risklerin kredi riski ve sermaye yeterliliği üzerindeki etkileri kritiktir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "Avrupa Merkez Bankası tarafından yayınlanan bu rapor, yapay zeka kaynaklı riskler, kamu borçluluğu ve jeopolitik gerilimlerin finansal istikrar üzerindeki etkilerini değerlendirmektedir.",
+  "ozet_tek_satir": "Rapor, yapay zeka kaynaklı riskler, kamu borçluluğu ve jeopolitik gerilimlerin finansal istikrar üzerindeki etkilerini analiz ederek bankacılık sektörü için potansiyel kredi riski ve yayılma etkilerine dikkat çekmektedir.",
   "yayin_tarihi": "2026-11-18",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -2129,32 +2114,32 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "ef653492d76e408c"
+    "icerik_hash": "460c49a6c0cfdaaa"
    }
   ],
   "alt_konular": [
    "Kredi riski",
    "Piyasa riski",
    "Operasyonel risk",
-   "Sovereign risk"
+   "Sermaye yeterliliği"
   ],
   "etkilenen_alanlar": [
    "Kredi riski",
    "Hazine ve piyasa işlemleri",
-   "Sermaye yönetimi",
-   "Bilgi teknolojileri ve siber güvenlik"
+   "Operasyonel risk yönetimi",
+   "Sermaye planlaması"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "ECB'nin Kasım 2026 Finansal İstikrar Raporu, yapay zeka (AI) yatırımları, yüksek kamu borçluluğu ve jeopolitik gerilimlerin oluşturduğu sistemik risklere dikkat çekmektedir. Bankalar, AI ile bağlantılı varlıklardaki olası düzeltmelerden doğrudan etkilenmese de, banka dışı finansal kuruluşlarla olan güçlü bağlantılar üzerinden dolaylı risklerle karşı karşıyadır. Ayrıca, artan enerji maliyetleri ve jeopolitik belirsizlikler, kredi riskini artırabilir ve devlet tahvili portföylerinde değerleme kayıplarına yol açabilir.",
+   "yonetici_ozeti": "ECB'nin Kasım 2026 Finansal İstikrar Raporu, yapay zeka (AI) yatırımlarına dayalı piyasa değerlemeleri, artan egemen borç yükü ve jeopolitik gerilimlerin finansal istikrar üzerindeki baskılarını vurgulamaktadır. Bankalar genel olarak dirençli olsa da, AI bağlantılı varlıklardaki olası bir düzeltmenin banka-dışı finansal kuruluşlar üzerinden bankalara sıçrama riski bulunmaktadır. Ayrıca, enerji arzı kesintileri ve yüksek faiz ortamı, kredi kalitesinde bozulma potansiyeli taşımaktadır. Bankaların sermaye ve likidite tamponlarını korumaları, makro-ihtiyati politikaların temel önceliği olarak belirlenmiştir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
      "Bankanın kredi portföyünde enerji yoğun sektörlere yönelik risklerin artması beklenebilir.",
-     "Devlet tahvili portföyündeki değerleme kayıpları, bankanın özkaynakları üzerinde baskı oluşturabilir.",
-     "Siber güvenlik yatırımlarının artırılması zorunlu hale gelebilir.",
+     "Yapay zeka teknolojilerine bağımlı firmalara verilen kredilerde teminat yapısının zayıflığı nedeniyle risk artışı görülebilir.",
+     "Sovereign (egemen) borç piyasalarındaki oynaklık, bankanın elindeki devlet tahvili portföyünün değerlemesini olumsuz etkileyebilir.",
      "Rapor, sistemik risklerin farkındalığını artırmayı ve finansal istikrarı teşvik etmeyi amaçlamaktadır. (belgeden birebir doğrulanamadı)"
     ]
    },
@@ -2167,26 +2152,26 @@
     "teyitli": [],
     "olasi_etki": [
      "TFRS 9 kapsamında beklenen kredi zararı (ECL) modellerinde, jeopolitik riskler ve enerji fiyat şokları nedeniyle ileriye dönük senaryoların güncellenmesi gerekebilir.",
-     "Devlet tahvili portföyünün değerleme yöntemleri (FVTPL/FVOCI) üzerindeki piyasa oynaklığı etkisi artabilir."
+     "Siber risklerin artması, operasyonel risk sermaye hesaplamalarında daha yüksek stres testi senaryolarını zorunlu kılabilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Siber güvenlik altyapısının, yapay zeka destekli saldırılara karşı güçlendirilmesi gerekebilir.",
-     "Üçüncü taraf hizmet sağlayıcılarına olan bağımlılığın gözden geçirilmesi ve operasyonel dayanıklılık testlerinin sıklaştırılması gerekebilir."
+     "Üçüncü taraf ICT sağlayıcılarına olan bağımlılığın gözden geçirilmesi ve siber güvenlik protokollerinin sıkılaştırılması gerekebilir.",
+     "Dijital bankacılık kanallarında yapay zeka kullanımı nedeniyle artan siber saldırı risklerine karşı savunma mekanizmaları güçlendirilmelidir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Piyasa riskindeki artışlar, standart yaklaşım uygulayan bankanın RWA hesaplamalarında sermaye yeterlilik rasyosunu olumsuz etkileyebilir."
+     "Piyasa riskine maruz kalan varlıkların değerlemesindeki oynaklık, RWA hesaplamalarında artışa neden olabilir."
     ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "Fiziksel iklim risklerinin (aşırı hava olayları) kredi portföyü üzerindeki etkisinin izlenmesi gerekmektedir."
+     "Aşırı hava olaylarının fiziksel riskleri, kredi portföyündeki tarım ve enerji sektörlerini doğrudan etkileyebilir."
     ],
     "ilgili_degil": false
    },
@@ -2194,19 +2179,19 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Yüksek",
-     "not": "Enerji fiyat şokları ve jeopolitik gerilimler, kurumsal müşterilerin temerrüt olasılığını artırabilir."
+     "not": "Enerji yoğun sektörlerdeki firmaların borç ödeme kapasitesindeki düşüş, temerrüt olasılığını artırabilir."
     },
     "LGD": {
      "duzey": "Orta",
-     "not": "Teminat değerlerindeki (özellikle gayrimenkul) olası düşüşler LGD üzerinde baskı yaratabilir."
+     "not": "Gayrimenkul piyasasındaki olası bir durgunluk, teminat değerlerini etkileyerek LGD üzerinde baskı oluşturabilir."
     },
     "EAD": {
-     "duzey": "Düşük",
-     "not": "Kredi limitlerinin kullanımı, ekonomik yavaşlama durumunda artış gösterebilir."
+     "duzey": "Orta",
+     "not": "Kredi limitlerinin kullanımı ve kredi kartı/tüketici kredisi taleplerindeki değişimler EAD'yi etkileyebilir."
     },
     "ECL": {
      "duzey": "Yüksek",
-     "not": "Makroekonomik değişkenlerdeki bozulma, ECL karşılıklarının artmasına neden olabilir."
+     "not": "Makroekonomik değişkenlerdeki bozulma, TFRS 9 karşılıklarını doğrudan artırıcı yönde etki edecektir."
     }
    },
    "tarihler": [
@@ -2218,12 +2203,16 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Kredi Portföyü Stres Testi",
-     "aciklama": "Enerji yoğun sektörlere ve jeopolitik risklere maruz kalan kredilerin gözden geçirilmesi."
+     "baslik": "Enerji Yoğun Sektör Kredi Riski",
+     "aciklama": "Enerji fiyat şoklarına karşı hassas olan kurumsal kredi portföyünün stres testine tabi tutulması."
     },
     {
-     "baslik": "Siber Güvenlik Stratejisi",
-     "aciklama": "Yapay zeka destekli siber tehditlere karşı savunma mekanizmalarının güncellenmesi."
+     "baslik": "Siber Güvenlik ve Üçüncü Taraf Riski",
+     "aciklama": "ICT sağlayıcılarına olan bağımlılığın ve siber güvenlik altyapısının güncel tehditlere karşı denetlenmesi."
+    },
+    {
+     "baslik": "Sovereign Borç Portföyü",
+     "aciklama": "Devlet tahvili portföyünün faiz oranı ve kredi riski açısından yeniden değerlendirilmesi."
     }
    ],
    "referanslar": [
@@ -2236,7 +2225,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:44:24+03:00",
+   "olusturma_zamani": "2026-11-26T16:16:58+03:00",
    "gonderilen_karakter": 150000,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
@@ -2392,9 +2381,9 @@
   "belge_turu": "Rapor",
   "statu": "Nihai",
   "onem": "Orta",
-  "onem_gerekcesi": "Rapor, AB bankacılık sektöründeki üçüncü ülke iştiraklerinin artan pazar payını ve faaliyet modellerini analiz etmektedir. Kamu sermayeli bankamızın doğrudan bir düzenleyici yükümlülüğü olmamakla birlikte, piyasa rekabeti ve risk yönetimi açısından stratejik izleme gerektirir.",
+  "onem_gerekcesi": "Rapor, AB bankacılık sektöründeki üçüncü ülke iştiraklerinin artan pazar payını ve risk yoğunlaşmalarını analiz etmektedir. Kamu sermayeli bankalar için doğrudan bir uyum değişikliği içermemekle birlikte, piyasa dinamikleri ve rekabet analizi açısından stratejik önem taşımaktadır.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "EBA, AB bankacılık sektöründe üçüncü ülke menşeli banka iştiraklerinin pazar payının arttığını ve AB bankalarının döviz cinsi fonlama pozisyonlarının güçlenerek kur uyumsuzluklarının azaldığını ortaya koyan iki rapor yayınladı.",
+  "ozet_tek_satir": "EBA, AB bankacılık sektöründe üçüncü ülke iştiraklerinin pazar payındaki artışı ve AB bankalarının döviz cinsi fonlama yapısındaki iyileşmeleri analiz eden iki ayrı rapor yayınlamıştır.",
   "yayin_tarihi": "2026-11-18",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -2404,7 +2393,7 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "1596808e75c28b5f"
+    "icerik_hash": "a8011bb132a8c30b"
    }
   ],
   "alt_konular": [
@@ -2414,20 +2403,20 @@
   ],
   "etkilenen_alanlar": [
    "Stratejik planlama",
-   "Piyasa rekabet analizi",
+   "Piyasa riski",
    "Kredi riski"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA raporu, AB bankacılık sektöründe üçüncü ülke iştiraklerinin pazar payının Aralık 2025 itibarıyla %10,22'ye yükseldiğini ortaya koymaktadır. Bu iştirakler, özellikle türev ürünler, kurumsal finansman ve saklama hizmetlerinde yoğunlaşan, sınır ötesi faaliyetlere odaklı iş modelleri sergilemektedir. Rapor, bu kurumların AB bankalarına kıyasla finansal karşı taraflarla daha fazla etkileşimde olduğunu ve risklerin sınır ötesi doğası gereği dikkatle izlenmesi gerektiğini vurgulamaktadır.",
+   "yonetici_ozeti": "EBA'nın 2026 tarihli raporu, AB bankacılık sektöründe üçüncü ülke iştiraklerinin pazar payının %10,22'ye yükseldiğini ortaya koymaktadır. Bu iştirakler, özellikle türev ürünler ve finansal karşı taraflarla yapılan işlemlerde yoğunlaşmaktadır. Rapor, AB bankalarının sınır ötesi faaliyetlerinde üçüncü ülke iştiraklerinin artan rekabetçi rolüne ve risk yönetimi açısından izlenmesi gereken yoğunlaşma alanlarına dikkat çekmektedir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Üçüncü ülke iştiraklerinin artan pazar payı, özellikle türev piyasalarda ve kurumsal finansman alanında rekabet baskısını artırabilir.",
-     "Sınır ötesi faaliyetlerin yoğunluğu, bankamızın benzer segmentlerdeki risk iştahını ve fiyatlama stratejilerini gözden geçirmesini gerektirebilir.",
-     "Üçüncü ülke bankacılık gruplarının AB pazarındaki pazar payının ve faaliyetlerinin analizi. (belgeden birebir doğrulanamadı)"
+     "Kamu bankalarının, özellikle türev ürünler ve kurumsal finansman alanlarında üçüncü ülke iştiraklerinden gelen rekabet baskısını stratejik planlamalarında dikkate almaları gerekebilir.",
+     "Sınır ötesi faaliyetlerde yoğunlaşan risklerin, bankanın karşı taraf risk yönetimi süreçlerinde daha detaylı analiz edilmesi gerekebilir.",
+     "Üçüncü ülke bankacılık gruplarının AB'deki pazar payının ve iş modellerinin incelenmesi. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
@@ -2438,19 +2427,19 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Piyasa verilerinin ve rekabetçi göstergelerin izlenmesi için raporlama sistemlerinde güncellemeler yapılabilir."
+     "Piyasa verilerinin ve karşı taraf risk analizlerinin, üçüncü ülke iştiraklerinin artan pazar payı dikkate alınarak güncellenmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Üçüncü ülke iştiraklerinin yoğunlaştığı alanlarda (türev ürünler, saklama hizmetleri) operasyonel süreçlerin verimliliği yeniden değerlendirilebilir."
+     "İş modellerindeki farklılıklar nedeniyle, özellikle finansal karşı taraflarla yapılan işlemlerde operasyonel süreçlerin gözden geçirilmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Piyasa payı değişimleri, bankanın stratejik sermaye tahsis kararlarını dolaylı olarak etkileyebilir."
+     "Piyasa payı artışının, bankanın rekabet stratejisi üzerinde dolaylı bir etkisi olabilir."
     ]
    },
    "iklim": {
@@ -2460,7 +2449,7 @@
    },
    "degisiklikler": [
     {
-     "konu": "Pazar payı artışı",
+     "konu": "Pazar Payı",
      "onceki": "Aralık 2024 itibarıyla %9,8",
      "yeni": "Aralık 2025 itibarıyla %10,22",
      "referans": "Sayfa 7"
@@ -2494,11 +2483,7 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "Rekabet Analizi",
-     "aciklama": "Üçüncü ülke iştiraklerinin pazar payı kazandığı türev ve kurumsal finansman alanlarında bankanın rekabetçi konumu."
-    },
-    {
-     "baslik": "Sınır Ötesi Riskler",
-     "aciklama": "Sınır ötesi faaliyetlerin yoğunluğu nedeniyle karşı taraf risklerinin izlenmesi."
+     "aciklama": "Üçüncü ülke iştiraklerinin türev ürünler ve kurumsal finansman alanındaki pazar payı artışının bankanın pazar payı üzerindeki etkisinin değerlendirilmesi."
     }
    ],
    "referanslar": [
@@ -2511,8 +2496,8 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:47:03+03:00",
-   "gonderilen_karakter": 89487,
+   "olusturma_zamani": "2026-11-26T16:17:16+03:00",
+   "gonderilen_karakter": 89484,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
@@ -2668,9 +2653,9 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Bilgi amaçlı",
   "onem": "Düşük",
-  "onem_gerekcesi": "FSB tarafından yayımlanan bu metin, 2027 yılı çalışma önceliklerini belirleyen bir bilgilendirme notu niteliğindedir ve banka için doğrudan bağlayıcı bir düzenleme içermemektedir.",
+  "onem_gerekcesi": "FSB tarafından yayımlanan bu metin, 2027 yılı çalışma önceliklerini belirleyen bir bilgilendirme notu niteliğindedir ve doğrudan bağlayıcı bir düzenleme içermemektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "Finansal İstikrar Kurulu (FSB), 2027 yılı için yapay zeka, kriz yönetimi, stablecoinler ve banka dışı finansal aracılık (NBFI) alanlarındaki riskleri ve çalışma programını duyurmuştur.",
+  "ozet_tek_satir": "Finansal İstikrar Kurulu (FSB), 2027 yılı çalışma programı kapsamında yapay zeka, banka dışı finansal aracılık, kriz yönetimi ve kripto varlıklar gibi alanlarda finansal istikrarı güçlendirmeye yönelik önceliklerini açıklamıştır.",
   "yayin_tarihi": "2026-11-17",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -2696,7 +2681,7 @@
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "Finansal İstikrar Kurulu (FSB), 2027 yılı için temel çalışma önceliklerini yapay zeka, stablecoinler ve banka dışı finansal aracılık (NBFI) alanlarında yoğunlaştırmıştır. Metin, küresel finansal sistemdeki kırılganlıkları ve kriz hazırlığına yönelik stratejik gözden geçirme çalışmalarını özetlemektedir. Bankamızın bu alanlardaki gelişmeleri izlemesi ve olası düzenleyici yansımalara hazırlıklı olması önerilmektedir.",
+   "yonetici_ozeti": "Finansal İstikrar Kurulu (FSB), 2027 yılı için temel çalışma önceliklerini yapay zeka, stablecoinler ve banka dışı finansal aracılık (NBFI) alanlarında yoğunlaştırmıştır. Metin, küresel finansal sistemdeki kırılganlıkları, özellikle borçlanma maliyetleri ve yapay zeka yatırımlarının yarattığı riskler üzerinden değerlendirmektedir. Bankamızın bu gelişmeleri izlemesi ve özellikle kriz hazırlığı ile operasyonel dayanıklılık konularındaki stratejik güncellemeleri takip etmesi önerilmektedir.",
    "amac": {
     "teyitli": [
      {
@@ -2708,8 +2693,8 @@
      }
     ],
     "olasi_etki": [
-     "FSB'nin 2027 öncelikleri doğrultusunda, ilerleyen dönemlerde yapay zeka kullanımı ve banka dışı finansal aracılık faaliyetlerine ilişkin yeni küresel standartlar veya rehberler yayımlanabilir.",
-     "Bankanın kriz yönetimi ve operasyonel dayanıklılık süreçleri, FSB'nin kriz hazırlığına yönelik stratejik gözden geçirme sonuçlarına göre güncellenmesi gerekebilir."
+     "FSB'nin 2027 öncelikleri doğrultusunda, ilerleyen dönemlerde bankacılık sektörünü etkileyebilecek yeni standartlar ve rehberler yayımlanabilir.",
+     "Yapay zeka kullanımı ve kriz yönetimi süreçlerinde uluslararası standartlara uyum beklentisi artabilir."
     ]
    },
    "onceki_cerceve": {
@@ -2720,27 +2705,26 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Yapay zeka modellerinin finansal sistemdeki riskleri üzerine yapılacak çalışmalar, bankanın model risk yönetimi politikalarını etkileyebilir.",
-     "NBFI kaldıraç oranlarına ilişkin izleme metrikleri, bankanın piyasa riski raporlamasında dolaylı bir referans noktası oluşturabilir."
+     "Yapay zeka modellerinin finansal sistemdeki riskleri üzerine yapılacak çalışmalar, bankanın teknoloji risk yönetimi politikalarını etkileyebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Kriz hazırlığı ve çözüm planları (resolution regimes) konusunda FSB'nin güncelleyeceği rehberler, bankanın iç kriz yönetimi prosedürlerinin gözden geçirilmesini gerektirebilir."
+     "Kriz hazırlığı ve operasyonel dayanıklılık süreçlerinin, FSB'nin güncellenen kriz yönetimi çerçevesi ile uyumlu hale getirilmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Banka dışı finansal aracılık (NBFI) faaliyetlerine yönelik olası yeni sermaye gereksinimleri, uzun vadede bankanın sermaye yeterlilik rasyolarını dolaylı olarak etkileyebilir."
+     "Banka dışı finansal aracılık (NBFI) alanındaki düzenlemelerin sıkılaşması, bu sektördeki karşı taraf risklerinin sermaye yeterliliği hesaplamalarına yansımasını etkileyebilir."
     ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "İklim değişikliğine bağlı aşırı hava olaylarının finansal istikrar üzerindeki etkilerine dair artan vurgu, bankanın iklim riski stres testlerine dahil edilebilir.",
-     "FSB, aşırı hava olaylarının finansal etkilerini bir risk faktörü olarak tartışmıştır. (belgeden birebir doğrulanamadı)"
+     "İklim değişikliğinin finansal istikrar üzerindeki etkilerine dair artan farkındalık, bankanın iklim risk yönetimi çerçevesini güçlendirmesini gerektirebilir.",
+     "FSB, aşırı hava olaylarının finansal etkilerini bir risk faktörü olarak değerlendirmektedir. (belgeden birebir doğrulanamadı)"
     ],
     "ilgili_degil": false
    },
@@ -2748,19 +2732,19 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge doğrudan kredi riski parametrelerini değiştiren bir düzenleme içermemektedir."
+     "not": "Doğrudan bir düzenleme değişikliği bulunmamaktadır."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge doğrudan kredi riski parametrelerini değiştiren bir düzenleme içermemektedir."
+     "not": "Doğrudan bir düzenleme değişikliği bulunmamaktadır."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge doğrudan kredi riski parametrelerini değiştiren bir düzenleme içermemektedir."
+     "not": "Doğrudan bir düzenleme değişikliği bulunmamaktadır."
     },
     "ECL": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge TFRS 9 kapsamında beklenen kredi zararı hesaplamalarına yönelik bir değişiklik içermemektedir."
+     "not": "Doğrudan bir düzenleme değişikliği bulunmamaktadır."
     }
    },
    "tarihler": [
@@ -2773,29 +2757,29 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "Yapay Zeka Risk Yönetimi",
-     "aciklama": "Yapay zeka teknolojilerinin banka operasyonlarında kullanımına ilişkin risklerin ve operasyonel dayanıklılığın gözden geçirilmesi."
+     "aciklama": "FSB'nin yapay zeka ile ilgili geliştireceği operasyonel dayanıklılık ve dolandırıcılık nexus'u konusundaki çalışmaların takip edilmesi."
     },
     {
      "baslik": "Kriz Hazırlığı",
-     "aciklama": "FSB'nin kriz hazırlığına yönelik stratejik gözden geçirme çalışmaları ile bankanın mevcut kriz yönetimi planlarının uyumunun değerlendirilmesi."
+     "aciklama": "Bankanın mevcut kriz yönetimi planlarının, FSB'nin kriz sürekliliği ve çözüm rejimleri konusundaki güncel yaklaşımlarıyla uyumunun gözden geçirilmesi."
     }
    ],
    "referanslar": [
     {
      "metin": "Financial system vulnerabilities",
      "sayfa": 1,
-     "paragraf": null
+     "paragraf": 8
     },
     {
      "metin": "Artificial Intelligence (AI)",
      "sayfa": 1,
-     "paragraf": null
+     "paragraf": 11
     }
    ]
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:47:38+03:00",
+   "olusturma_zamani": "2026-11-26T16:17:36+03:00",
    "gonderilen_karakter": 6793,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 2,
@@ -2811,111 +2795,21 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Söz konusu karar münferit bir bankaya yönelik idari bir tasarruf olup, kamu sermayeli bankalar için doğrudan bir düzenleyici değişiklik veya operasyonel yükümlülük içermemektedir.",
+  "onem_gerekcesi": "Belge, belirli bir bankanın yönetim ve denetiminin TMSF'ye devrine ilişkin münferit bir idari işlem olup, genel bir düzenleme veya bankacılık mevzuatında değişiklik içermemektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "BDDK tarafından alınan karar ile Adil Katılım Bankası A.Ş.'nin temettü hariç ortaklık hakları ile yönetim ve denetimi 5411 sayılı Bankacılık Kanunu kapsamında TMSF'ye devredilmiştir.",
+  "ozet_tek_satir": "Adil Katılım Bankası A.Ş.'nin yönetim ve denetiminin 5411 sayılı Kanun kapsamında TMSF'ye devredilmesine karar verilmiştir.",
   "yayin_tarihi": "2026-11-17",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "baslangic_arsivi": true,
-  "ilgili_mi": true,
+  "ilgili_mi": false,
   "surumler": [
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "9cce46393a459d1a"
+    "icerik_hash": "5d2dd26bc1ab9d4a"
    }
-  ],
-  "alt_konular": [
-   "Bankacılık Kanunu 71. madde",
-   "TMSF devri"
-  ],
-  "etkilenen_alanlar": [
-   "Piyasa izleme"
-  ],
-  "gorus_son_tarihi": null,
-  "yururluk_tarihi": "2026-11-17",
-  "uyum_son_tarihi": null,
-  "analiz": {
-   "yonetici_ozeti": "BDDK, Adil Katılım Bankası A.Ş.'nin yönetim ve denetimini 5411 sayılı Kanun'un 71. maddesi kapsamında TMSF'ye devretmiştir. Karar, bankacılık sektöründeki bir kurumun özel durumuna ilişkin olup genel bir düzenleme değişikliği teşkil etmemektedir. Kamu bankaları açısından doğrudan bir uyum süreci gerektirmemektedir.",
-   "amac": {
-    "teyitli": [],
-    "olasi_etki": [
-     "Sektörel güven ve piyasa algısı üzerinde dolaylı etkiler gözlemlenebilir.",
-     "Bankalararası para piyasası işlemlerinde karşı taraf riski değerlendirmeleri güncellenebilir.",
-     "Adil Katılım Bankası A.Ş.'nin yönetim ve denetiminin TMSF'ye devredilmesi. (belgeden birebir doğrulanamadı)"
-    ]
-   },
-   "onceki_cerceve": {
-    "teyitli": [],
-    "olasi_etki": [],
-    "karsilastirma_kaynagi": "genel_bilgi"
-   },
-   "teknik_etkiler": {
-    "teyitli": [],
-    "olasi_etki": []
-   },
-   "operasyonel_etki": {
-    "teyitli": [],
-    "olasi_etki": []
-   },
-   "sermaye_rwa": {
-    "teyitli": [],
-    "olasi_etki": []
-   },
-   "iklim": {
-    "teyitli": [],
-    "olasi_etki": [],
-    "ilgili_degil": true
-   },
-   "degisiklikler": [],
-   "parametre_etkisi": {
-    "PD": {
-     "duzey": "Dolaylı",
-     "not": "Sektörel risk algısındaki değişimler dolaylı olarak etkileyebilir."
-    },
-    "LGD": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
-    },
-    "EAD": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
-    },
-    "ECL": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
-    }
-   },
-   "tarihler": [
-    {
-     "tur": "Yürürlük",
-     "tarih": "2026-11-17",
-     "referans": "Sayfa 1"
-    }
-   ],
-   "gozden_gecirilecekler": [
-    {
-     "baslik": "Karşı Taraf Limitleri",
-     "aciklama": "İlgili banka ile olan mevcut kredi veya mevduat ilişkileri varsa, TMSF devri sonrası risk yönetimi politikaları çerçevesinde gözden geçirilmelidir."
-    }
-   ],
-   "referanslar": [
-    {
-     "metin": "BANKACILIK DÜZENLEME VE DENETLEME KURULU KARARI",
-     "sayfa": 1,
-     "paragraf": null
-    }
-   ]
-  },
-  "analiz_bilgisi": {
-   "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:48:19+03:00",
-   "gonderilen_karakter": 633,
-   "alinti_dogrulanan": 0,
-   "alinti_toplam": 1,
-   "guven": "Düşük"
-  }
+  ]
  },
  {
   "id": "fsb-2026-11-16-023669",
@@ -3059,9 +2953,9 @@
   "belge_turu": "Rapor",
   "statu": "Bilgi amaçlı",
   "onem": "Yüksek",
-  "onem_gerekcesi": "Kamu bankası olarak siber güvenlik, operasyonel dayanıklılık ve üçüncü taraf bağımlılıkları kritik öneme sahiptir. Belge, yapay zeka destekli siber saldırıların sistemik risk oluşturabileceğini ve bankaların savunma mekanizmalarını acilen gözden geçirmesi gerektiğini vurgulamaktadır.",
+  "onem_gerekcesi": "Kamu bankası olarak siber riskler operasyonel dayanıklılık ve sistemik istikrar açısından kritik öneme sahiptir. Yapay zeka destekli siber saldırıların artan karmaşıklığı ve hızı, bankanın mevcut savunma mekanizmalarını zorlayabilir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "Rapor, yapay zekanın siber tehdit ortamını nasıl değiştirdiğini, bankaların karşılaştığı operasyonel riskleri ve bu risklerin finansal istikrar üzerindeki potansiyel sistemik etkilerini incelemektedir.",
+  "ozet_tek_satir": "Rapor, yapay zekanın siber tehdit ortamını nasıl değiştirdiğini, bankaların karşılaştığı operasyonel riskleri ve bu risklerin finansal istikrar üzerindeki sistemik etkilerini incelemektedir.",
   "yayin_tarihi": "2026-11-16",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -3071,58 +2965,62 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "623e6ffb33e21d6e"
+    "icerik_hash": "9171934f5cade5a3"
    }
   ],
   "alt_konular": [
    "Siber Güvenlik",
    "Yapay Zeka Riskleri",
-   "Operasyonel Dayanıklılık",
-   "Üçüncü Taraf Riski"
+   "Operasyonel Dayanıklılık"
   ],
   "etkilenen_alanlar": [
    "Bilgi Teknolojileri",
-   "Risk Yönetimi",
-   "Operasyonel Risk",
-   "Stratejik Planlama"
+   "Operasyonel Risk Yönetimi",
+   "Üçüncü Taraf Risk Yönetimi"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "Yapay zeka (YZ) teknolojilerindeki hızlı ilerleme, siber tehdit ortamını kökten değiştirerek saldırganların hızını ve karmaşıklığını artırmaktadır. Bankalar, YZ destekli saldırılara karşı savunma kapasitelerini artırmalı, üçüncü taraf sağlayıcı bağımlılıklarını yönetmeli ve operasyonel dayanıklılıklarını güçlendirmelidir. Belge, siber olayların sistemik bir krize dönüşme potansiyeline dikkat çekerek, kurum içi yönetişim ve koordinasyonun önemini vurgulamaktadır.",
+   "yonetici_ozeti": "Yapay zeka (YZ) teknolojilerindeki hızlı ilerleme, siber tehdit ortamını kökten değiştirerek saldırganların yeteneklerini artırmaktadır. Bankalar, YZ destekli saldırıların hızı ve sofistike yapısı karşısında yapısal bir dezavantajla karşı karşıyadır. Kamu bankası olarak, üçüncü taraf bağımlılıkları ve YZ modellerine erişimdeki asimetriler, sistemik riskleri artırmaktadır. Bankanın siber savunma stratejilerini, 'varsayılan ihlal' (assumed compromise) prensibiyle yeniden gözden geçirmesi ve operasyonel dayanıklılığı artırması gerekmektedir.",
    "amac": {
-    "teyitli": [],
+    "teyitli": [
+     {
+      "hukum": "Yapay zeka modellerinin siber yeteneklerinin hızla gelişmesi, siber risklerin artmasına katkıda bulunmaktadır.",
+      "alinti": "Rapid advances in the cyber capabilities of AI models are contributing to heightened cyber risks.",
+      "sayfa": null,
+      "paragraf": 100,
+      "alinti_dogrulandi": true
+     }
+    ],
     "olasi_etki": [
-     "Bankanın siber güvenlik bütçesinin artırılması gerekebilir.",
-     "YZ tabanlı savunma araçlarına yatırım yapılması zorunlu hale gelebilir.",
-     "Üçüncü taraf risk yönetimi süreçlerinin YZ risklerini kapsayacak şekilde güncellenmesi gerekebilir.",
-     "Yapay zeka destekli siber saldırıların finansal istikrar üzerindeki etkilerinin incelenmesi. (belgeden birebir doğrulanamadı)"
+     "YZ destekli saldırıların artması, bankanın mevcut siber güvenlik bütçesinin ve personel kapasitesinin yetersiz kalmasına yol açabilir.",
+     "Üçüncü taraf hizmet sağlayıcılarına olan yoğun bağımlılık, tek bir noktadan kaynaklanan sistemik bir kesintiye neden olabilir."
     ]
    },
    "onceki_cerceve": {
     "teyitli": [],
     "olasi_etki": [],
-    "karsilastirma_kaynagi": "arsiv"
+    "karsilastirma_kaynagi": "genel_bilgi"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Siber güvenlik operasyon merkezlerinde (SOC) YZ destekli otomasyonun artırılması gerekebilir.",
-     "Yazılım geliştirme süreçlerinde YZ destekli güvenlik testlerinin (formal verification) entegrasyonu gerekebilir."
+     "Bankanın kullandığı YZ modellerinin 'prompt injection' gibi yeni saldırı türlerine karşı savunmasız kalması muhtemeldir.",
+     "Yama yönetimi (patch management) süreçlerinin, YZ destekli hızlı saldırılar karşısında daha sıkı ve otomatikleştirilmiş hale getirilmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Siber olay müdahale planlarının YZ kaynaklı senaryoları içerecek şekilde revize edilmesi gerekebilir.",
-     "Personelin YZ destekli sosyal mühendislik saldırılarına karşı eğitilmesi gerekebilir."
+     "Bankanın iç süreçlerinde kullanılan YZ ajanlarının, insan denetimi dışında beklenmedik eylemler gerçekleştirmesi operasyonel riskleri artırabilir.",
+     "Siber savunma süreçlerinin, YZ'nin hızıyla uyumlu hale getirilmesi için karar alma mekanizmalarının hızlandırılması gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Operasyonel risk sermaye gereksinimlerinde siber risklerin ağırlığı artabilir."
+     "Operasyonel risk sermaye gereksinimlerinin, siber risklerin artmasıyla birlikte yükselmesi beklenebilir."
     ]
    },
    "iklim": {
@@ -3130,23 +3028,30 @@
     "olasi_etki": [],
     "ilgili_degil": true
    },
-   "degisiklikler": [],
+   "degisiklikler": [
+    {
+     "konu": "Siber Tehdit Ortamı",
+     "onceki": "Otomatik saldırılar (self-propagating malware) sınırlıydı.",
+     "yeni": "Agentic AI (ajan tabanlı YZ) ile saldırıların ölçeği, hızı ve sofistike yapısı artmıştır.",
+     "referans": "Sayfa 1"
+    }
+   ],
    "parametre_etkisi": {
     "PD": {
-     "duzey": "Dolaylı",
-     "not": "Siber saldırıların operasyonel kesintiye yol açması durumunda kredi geri ödeme kapasitesi etkilenebilir."
+     "duzey": "Yüksek",
+     "not": "Siber saldırıların başarılı olma olasılığı, YZ araçlarının düşük maliyetle erişilebilir olması nedeniyle artmaktadır."
     },
     "LGD": {
-     "duzey": "Etki beklenmiyor",
-     "not": ""
+     "duzey": "Yüksek",
+     "not": "Sistemik bir siber olay durumunda, operasyonel kesintilerin finansal kayıpları ve itibar maliyeti ciddi düzeyde olabilir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": ""
+     "not": "Bu düzenleme doğrudan kredi riski maruziyetini etkilememektedir."
     },
     "ECL": {
-     "duzey": "Dolaylı",
-     "not": "Siber olayların finansal kayıplara yol açması durumunda operasyonel risk karşılıkları etkilenebilir."
+     "duzey": "Orta",
+     "not": "Operasyonel risk kaynaklı kayıpların TFRS 9 kapsamında karşılık hesaplamalarına dolaylı etkisi olabilir."
     }
    },
    "tarihler": [
@@ -3158,29 +3063,29 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Üçüncü Taraf Risk Yönetimi",
-     "aciklama": "Dış kaynaklı ICT sağlayıcılarının YZ kullanımına bağlı risklerin banka üzerindeki etkilerinin değerlendirilmesi."
+     "baslik": "Siber Savunma Stratejisi",
+     "aciklama": "Savunma derinliği (defence-in-depth) ve varsayılan ihlal (assumed compromise) prensiplerinin uygulanması."
     },
     {
-     "baslik": "Siber Savunma Stratejisi",
-     "aciklama": "YZ destekli saldırılara karşı 'defence-in-depth' ve 'assumed compromise' prensiplerinin uygulanması."
+     "baslik": "Üçüncü Taraf Risk Yönetimi",
+     "aciklama": "Kritik ICT sağlayıcılarının siber güvenlik kapasitelerinin ve yoğunlaşma risklerinin yeniden değerlendirilmesi."
     }
    ],
    "referanslar": [
     {
-     "metin": "The cyber-AI nexus",
-     "sayfa": 2,
+     "metin": "Decoding the cyber-AI nexus",
+     "sayfa": 1,
      "paragraf": null
     }
    ]
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:50:48+03:00",
-   "gonderilen_karakter": 86293,
-   "alinti_dogrulanan": 0,
+   "olusturma_zamani": "2026-11-26T16:18:04+03:00",
+   "gonderilen_karakter": 85942,
+   "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
-   "guven": "Düşük"
+   "guven": "Yüksek"
   }
  },
  {
@@ -3212,19 +3117,19 @@
    "Mevduat Sigortası"
   ],
   "etkilenen_alanlar": [
-   "Stratejik planlama",
-   "Regülasyon takibi"
+   "Stratejik Planlama",
+   "Yasal Uyum"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA, Avrupa Bankacılık Birliği'nin tamamlanması ve ortak bir mevduat garanti sistemi oluşturulması yönündeki çalışmaları desteklediğini açıklamıştır. 2027 yılının ilk çeyreğinde Avrupa Komisyonu tarafından sunulması beklenen yeni mevduat sigortası çerçevesine ilişkin teknik destek sağlanacağı belirtilmiştir. Bu duyuru, banka için doğrudan bir operasyonel değişiklik getirmemekle birlikte, Avrupa'daki mevduat sigorta sistemlerinin gelecekteki olası entegrasyonu açısından takip edilmelidir.",
+   "yonetici_ozeti": "EBA, Avrupa Bankacılık Birliği'nin tamamlanması ve ortak bir mevduat garanti sistemi oluşturulması yönündeki çalışmaları desteklediğini açıklamıştır. Avrupa Komisyonu'nun 2027'nin ilk çeyreğinde yeni mevduat sigortası çerçevesi sunması beklenmektedir. EBA, bu süreçte teknik girdi ve kanıt sağlama rolünü sürdürecektir.",
    "amac": {
     "teyitli": [],
     "olasi_etki": [
-     "Avrupa genelinde mevduat sigorta sistemlerinin entegrasyonu, uzun vadede bankanın mevduat maliyetlerini ve fonlama stratejilerini dolaylı olarak etkileyebilir.",
-     "2027'de beklenen düzenleme paketi, Avrupa'da faaliyet gösteren bankalar için mevduat sigortası primlerinde veya raporlama standartlarında değişikliklere yol açabilir.",
+     "Avrupa Birliği genelinde mevduat sigortası sisteminin entegrasyonu, uzun vadede Avrupa'da faaliyet gösteren bankaların fonlama maliyetlerini ve mevduat yapısını etkileyebilir.",
+     "2027'de beklenen düzenleme paketleri, sınır ötesi bankacılık faaliyetleri için yeni standartlar getirebilir.",
      "EBA, Avrupa Bankacılık Birliği'nin ilerlemesini ve mevduat sigortası çalışmalarını desteklemektedir. (belgeden birebir doğrulanamadı)"
     ]
    },
@@ -3239,9 +3144,7 @@
    },
    "operasyonel_etki": {
     "teyitli": [],
-    "olasi_etki": [
-     "Banka, Avrupa Komisyonu'nun 2027'de sunacağı mevduat sigortası tekliflerini izleyerek uyum süreçlerini planlamalıdır."
-    ]
+    "olasi_etki": []
    },
    "sermaye_rwa": {
     "teyitli": [],
@@ -3256,19 +3159,19 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Doğrudan bir kredi riski parametre değişikliği içermemektedir."
+     "not": "Düzenleme henüz taslak aşamasında olup doğrudan bir parametre değişikliği içermemektedir."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Doğrudan bir kredi riski parametre değişikliği içermemektedir."
+     "not": "Düzenleme henüz taslak aşamasında olup doğrudan bir parametre değişikliği içermemektedir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Doğrudan bir kredi riski parametre değişikliği içermemektedir."
+     "not": "Düzenleme henüz taslak aşamasında olup doğrudan bir parametre değişikliği içermemektedir."
     },
     "ECL": {
      "duzey": "Etki beklenmiyor",
-     "not": "Doğrudan bir TFRS 9 karşılık hesaplama değişikliği içermemektedir."
+     "not": "Düzenleme henüz taslak aşamasında olup doğrudan bir parametre değişikliği içermemektedir."
     }
    },
    "tarihler": [
@@ -3280,8 +3183,8 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Mevduat Sigortası Gelişmeleri",
-     "aciklama": "Avrupa Komisyonu'nun 2027'nin ilk çeyreğinde açıklaması beklenen mevduat sigortası çerçevesine ilişkin teklifler takip edilmelidir."
+     "baslik": "Avrupa Bankacılık Birliği Gelişmeleri",
+     "aciklama": "2027'nin ilk çeyreğinde açıklanması beklenen mevduat sigortası çerçevesi ve bankacılık paketi yakından takip edilmelidir."
     }
    ],
    "referanslar": [
@@ -3294,7 +3197,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:51:03+03:00",
+   "olusturma_zamani": "2026-11-26T16:18:17+03:00",
    "gonderilen_karakter": 1603,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
@@ -3622,9 +3525,9 @@
   "belge_turu": "Tebliğ",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "İlgili karar üçüncü taraf bir elektronik para kuruluşunun faaliyet izninin iptaline ilişkindir; bankanın doğrudan operasyonel veya yasal bir yükümlülüğünü içermemektedir.",
+  "onem_gerekcesi": "İlgili karar üçüncü taraf bir elektronik para kuruluşunun faaliyet izninin iptaline ilişkindir; bankanın doğrudan operasyonel veya yasal bir yükümlülüğü bulunmamaktadır.",
   "konu": "Diğer",
-  "ozet_tek_satir": "Türkiye Cumhuriyet Merkez Bankası tarafından, 6493 sayılı Kanun uyarınca Ozan Elektronik Para A.Ş.'nin elektronik para kuruluşu olarak faaliyette bulunma izninin iptal edilmesine karar verilmiştir.",
+  "ozet_tek_satir": "Ozan Elektronik Para A.Ş.'nin 6493 sayılı Kanun kapsamında sahip olduğu elektronik para kuruluşu faaliyet izninin iptal edilmesine karar verilmiştir.",
   "yayin_tarihi": "2026-11-11",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -3638,17 +3541,18 @@
    }
   ],
   "alt_konular": [
+   "Ödeme sistemleri",
    "Faaliyet izni iptali"
   ],
   "etkilenen_alanlar": [
-   "İş ortaklıkları",
-   "Ödeme sistemleri"
+   "Hazine ve operasyonel işlemler",
+   "İş ortaklıkları"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2026-11-11",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "Türkiye Cumhuriyet Merkez Bankası tarafından Ozan Elektronik Para A.Ş.'nin faaliyet izninin iptal edildiği duyurulmuştur. Bu karar, ilgili kuruluşun ödeme hizmetleri ve elektronik para faaliyetlerini sonlandırmasını gerektirmektedir. Bankamızın bu kuruluşla mevcut bir iş ortaklığı veya entegrasyonu bulunması durumunda, risk yönetimi süreçlerinin işletilmesi gerekmektedir.",
+   "yonetici_ozeti": "Türkiye Cumhuriyet Merkez Bankası, Ozan Elektronik Para A.Ş.'nin elektronik para kuruluşu olarak faaliyet gösterme iznini iptal etmiştir. Bu karar, ilgili kuruluşun ödeme hizmetleri sunma yetkisinin sona erdiğini ifade eder. Bankamızın bu kuruluşla herhangi bir iş ortaklığı veya entegrasyonu bulunması durumunda, operasyonel risklerin yönetilmesi adına gerekli aksiyonların alınması önerilir.",
    "amac": {
     "teyitli": [
      {
@@ -3660,8 +3564,8 @@
      }
     ],
     "olasi_etki": [
-     "Kuruluş ile çalışan banka müşterilerinin ödeme işlemlerinde aksaklıklar yaşanabilir.",
-     "Kuruluş ile entegrasyonu olan banka birimlerinin teknik bağlantıları gözden geçirilmelidir."
+     "Kuruluş ile entegre çalışan ödeme sistemleri veya tahsilat kanalları varsa, bu kanalların durdurulması gerekebilir.",
+     "Kuruluş nezdinde tutulan fonlar veya bekleyen mutabakat işlemleri için hukuki süreçlerin takibi gerekebilir."
     ]
    },
    "onceki_cerceve": {
@@ -3672,13 +3576,13 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Kuruluş ile API veya sistem entegrasyonu varsa bu bağlantıların kapatılması gerekebilir."
+     "Kuruluş ile API bağlantısı olan bankacılık sistemlerinde bağlantıların kesilmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Kuruluş üzerinden yapılan ödeme işlemlerinin durdurulması ve alternatif kanallara yönlendirilmesi gerekebilir."
+     "Kuruluş üzerinden gerçekleştirilen ödeme işlemlerinin reddedilmesi veya alternatif kanallara yönlendirilmesi gerekebilir."
     ]
    },
    "sermaye_rwa": {
@@ -3690,7 +3594,14 @@
     "olasi_etki": [],
     "ilgili_degil": true
    },
-   "degisiklikler": [],
+   "degisiklikler": [
+    {
+     "konu": "Faaliyet izni",
+     "onceki": "Kuruluşun elektronik para kuruluşu olarak faaliyet izni mevcuttu.",
+     "yeni": "Kuruluşun faaliyet izni iptal edilmiştir.",
+     "referans": "Sayfa 1"
+    }
+   ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
@@ -3719,7 +3630,7 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "İş Ortaklıkları Envanteri",
-     "aciklama": "Ozan Elektronik Para A.Ş. ile herhangi bir ticari veya teknik iş birliği olup olmadığı kontrol edilmelidir."
+     "aciklama": "Ozan Elektronik Para A.Ş. ile mevcut bir iş ortaklığı veya entegrasyon olup olmadığının kontrol edilmesi."
     }
    ],
    "referanslar": [
@@ -3732,7 +3643,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:52:10+03:00",
+   "olusturma_zamani": "2026-11-26T16:18:31+03:00",
    "gonderilen_karakter": 741,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -3746,12 +3657,12 @@
   "baslik_orijinal": "A Ödeme ve Elektronik Para Hizmetleri A.Ş.’nin Faaliyet İzninin İptal Edilmesine İlişkin Karar",
   "baslik_tr": "A Ödeme ve Elektronik Para Hizmetleri A.Ş.’nin Faaliyet İzninin İptal Edilmesine İlişkin Karar",
   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261111-4.pdf",
-  "belge_turu": "Basın duyurusu",
+  "belge_turu": "Tebliğ",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Söz konusu karar, üçüncü taraf bir ödeme kuruluşunun faaliyet izninin iptaline ilişkindir ve bankanın doğrudan operasyonel süreçlerini veya sermaye yeterliliğini etkilememektedir.",
+  "onem_gerekcesi": "Söz konusu karar, üçüncü taraf bir ödeme kuruluşunun faaliyet izninin iptaline ilişkindir ve bankanın doğrudan operasyonel veya finansal yapısını etkilememektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "Türkiye Cumhuriyet Merkez Bankası, 6493 sayılı Kanun kapsamında A Ödeme ve Elektronik Para Hizmetleri A.Ş.'nin elektronik para kuruluşu olarak faaliyet iznini iptal etmiştir.",
+  "ozet_tek_satir": "Türkiye Cumhuriyet Merkez Bankası, 6493 sayılı Kanun kapsamında A Ödeme ve Elektronik Para Hizmetleri A.Ş.'nin elektronik para kuruluşu olarak faaliyet gösterme iznini iptal etmiştir.",
   "yayin_tarihi": "2026-11-11",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -3769,14 +3680,14 @@
    "Faaliyet İzni"
   ],
   "etkilenen_alanlar": [
-   "İş ortaklıkları",
-   "Ödeme sistemleri"
+   "Ödeme Sistemleri",
+   "İş Ortaklıkları"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2026-11-11",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "Türkiye Cumhuriyet Merkez Bankası, A Ödeme ve Elektronik Para Hizmetleri A.Ş.'nin faaliyet iznini 6493 sayılı Kanun kapsamında iptal etmiştir. Bu karar, ilgili kuruluşun ödeme ve elektronik para hizmetleri sunma yetkisinin sona erdiğini ifade etmektedir. Bankamızın bu kuruluşla herhangi bir entegrasyonu veya iş ortaklığı bulunması durumunda, hizmet sürekliliği açısından risk değerlendirmesi yapılması önerilir.",
+   "yonetici_ozeti": "Türkiye Cumhuriyet Merkez Bankası, A Ödeme ve Elektronik Para Hizmetleri A.Ş.'nin faaliyet iznini 6493 sayılı Kanun kapsamında iptal etmiştir. Bu karar, ilgili kuruluşun ödeme ve elektronik para hizmetleri sunma yetkisinin sona erdiğini ifade eder. Bankamızın bu kuruluşla herhangi bir entegrasyonu veya iş ortaklığı bulunması durumunda, hizmet sürekliliğinin sağlanması adına gerekli kontrollerin yapılması önerilir.",
    "amac": {
     "teyitli": [
      {
@@ -3789,7 +3700,7 @@
     ],
     "olasi_etki": [
      "Bankanın bu kuruluşla devam eden bir iş ortaklığı veya entegrasyonu varsa, ödeme akışlarında kesinti yaşanabilir.",
-     "Kuruluşun müşterisi olan banka müşterileri için alternatif ödeme kanallarına yönlendirme gerekebilir."
+     "Kuruluşun müşterisi olan banka müşterilerinin mağduriyet yaşamaması adına alternatif kanallara yönlendirilmesi gerekebilir."
     ]
    },
    "onceki_cerceve": {
@@ -3800,7 +3711,7 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Kuruluş ile API veya sistem entegrasyonu varsa, teknik bağlantıların kapatılması gerekebilir."
+     "Kuruluş ile API veya sistem entegrasyonu varsa, bağlantıların kapatılması gerekebilir."
     ]
    },
    "operasyonel_etki": {
@@ -3822,7 +3733,7 @@
     {
      "konu": "Faaliyet İzni",
      "onceki": "Kuruluşun 27/10/2022 tarihli karar ile elektronik para kuruluşu olarak faaliyette bulunma izni mevcuttu.",
-     "yeni": "Faaliyet izni iptal edilmiştir.",
+     "yeni": "Kuruluşun faaliyet izni iptal edilmiştir.",
      "referans": "Sayfa 1"
     }
    ],
@@ -3854,12 +3765,12 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "İş Ortaklığı Kontrolü",
-     "aciklama": "Bankanın A Ödeme ve Elektronik Para Hizmetleri A.Ş. ile herhangi bir ticari sözleşmesi veya teknik entegrasyonu olup olmadığı kontrol edilmelidir."
+     "aciklama": "Bankanın A Ödeme ve Elektronik Para Hizmetleri A.Ş. ile herhangi bir ticari veya teknik iş birliği olup olmadığı kontrol edilmelidir."
     }
    ],
    "referanslar": [
     {
-     "metin": "A Ödeme ve Elektronik Para Hizmetleri A.Ş.'nin Faaliyet izninin İptal Edilmesine İlişkin Karar",
+     "metin": "A Ödeme ve Elektronik Para Hizmetleri A.Ş.’nin Faaliyet İzninin İptal Edilmesine İlişkin Karar",
      "sayfa": 1,
      "paragraf": null
     }
@@ -3867,7 +3778,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:53:30+03:00",
+   "olusturma_zamani": "2026-11-26T16:23:11+03:00",
    "gonderilen_karakter": 707,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -4449,14 +4360,14 @@
   "id": "bcbs-2026-11-09-cac0f8",
   "kurum": "bcbs",
   "baslik_orijinal": "Interest rate risk in the banking book – additional Pillar 2 guidance",
-  "baslik_tr": "Bankacılık hesabındaki faiz oranı riski – ek 2. Sütun rehberliği",
+  "baslik_tr": "Bankacılık kitabındaki faiz oranı riski – ek 2. Sütun rehberliği",
   "url": "https://www.bis.org/publications/interest-rate-risk-banking-book---additional-pillar-2-guidance",
   "belge_turu": "İstişare dokümanı",
   "statu": "İstişare",
   "onem": "Yüksek",
-  "onem_gerekcesi": "Düzenleme, bankanın kredi riski yönetimi ve sermaye yeterliliği hesaplamalarında kullandığı IRRBB (Bankacılık Kitabındaki Faiz Oranı Riski) çerçevesini doğrudan etkileyen, model yönetimi, stres testi ve raporlama standartlarını sıkılaştıran bir Pillar 2 rehberidir.",
+  "onem_gerekcesi": "Düzenleme, bankanın IRRBB (Bankacılık Kitabındaki Faiz Oranı Riski) yönetimi, model risk yönetimi, stres testleri ve sermaye yeterliliği süreçlerini doğrudan etkileyen yeni Pillar 2 rehberliği getirmektedir.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "Basel Bankacılık Denetim Komitesi, bankaların IRRBB yönetimi ve denetim gözetimini güçlendirmek amacıyla 2. Sütun kapsamında yeni rehberlik ve denetimsel bilgi raporlama standartları önermektedir.",
+  "ozet_tek_satir": "Basel Komitesi, bankaların faiz oranı riski yönetimi uygulamalarını güçlendirmek ve denetim gözetimini artırmak amacıyla 2. Sütun kapsamında yeni rehberlik taslağı sunmuştur.",
   "yayin_tarihi": "2026-11-09",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -4466,15 +4377,14 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "f87a91f99f3bcc0b"
+    "icerik_hash": "5e6e1aa6f350a4e7"
    }
   ],
   "alt_konular": [
    "IRRBB",
    "Pillar 2",
-   "Stres Testi",
-   "Model Riski",
-   "Sermaye Yeterliliği"
+   "Model Risk Yönetimi",
+   "Stres Testi"
   ],
   "etkilenen_alanlar": [
    "Risk Yönetimi",
@@ -4486,11 +4396,11 @@
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "BCBS, bankaların IRRBB yönetimi, model risk yönetimi ve denetim gözetimini güçlendirmek amacıyla yeni bir Pillar 2 rehberi yayımlamıştır. Düzenleme, özellikle yüksek enflasyon ve faiz oynaklığı dönemlerinde ortaya çıkan eksiklikleri gidermeyi hedeflemektedir. Bankaların stres testi yaklaşımlarını, gömülü kayıp/kazanç izleme süreçlerini ve 'Denetim Bilgisi' (Supervisory Information) raporlamalarını geliştirmeleri beklenmektedir. Bu değişiklikler, bankanın mevcut IRRBB çerçevesini (SRP31 ve SRP98) güncelleyerek daha sıkı bir denetim ve raporlama disiplini getirmektedir.",
+   "yonetici_ozeti": "BCBS, bankaların IRRBB yönetimi, model risk yönetimi ve denetim gözetimini güçlendirmek amacıyla yeni bir Pillar 2 rehberliği yayımlamıştır. Bu düzenleme, özellikle yüksek enflasyon ve volatilite dönemlerinde ortaya çıkan eksiklikleri gidermeyi hedeflemektedir. Bankaların model doğrulama, stres testi ve 'Denetim Bilgisi' (Supervisory Information) raporlama süreçlerini güncellemeleri gerekecektir. Kamu sermayeli bankalar için bu, risk iştahı çerçevesinin ve sermaye yeterlilik değerlendirmelerinin (ICAAP) yeniden gözden geçirilmesi anlamına gelmektedir.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "IRRBB çerçevesinin işlevselliğini artırmak için bankalar ve denetçiler için ek Pillar 2 rehberliği sağlamak.",
+      "hukum": "IRRBB çerçevesinin işlevselliğini artırmak için bankalara ve denetçilere ek Pillar 2 rehberliği sağlamak.",
       "alinti": "The Committee is proposing additional practical Pillar 2 guidance for banks and supervisors to improve the functionality of the IRRBB framework",
       "sayfa": 4,
       "paragraf": null,
@@ -4498,42 +4408,35 @@
      }
     ],
     "olasi_etki": [
-     "Bankanın mevcut IRRBB modelleme ve stres testi süreçlerinin, yeni rehberdeki 'model yönetimi' ve 'gömülü kayıp' beklentileriyle uyumlu hale getirilmesi için revize edilmesi gerekebilir.",
-     "Denetim otoritelerine sunulacak 'Denetim Bilgisi' raporlama setinin genişletilmesi ve daha sıkı bir veri kalitesi standardına tabi tutulması olasıdır."
+     "Bankanın IRRBB yönetimi üzerindeki denetim baskısının artması olasıdır.",
+     "Model risk yönetimi ve doğrulama süreçlerinin daha sıkı hale gelmesi gerekebilir."
     ]
    },
    "onceki_cerceve": {
-    "teyitli": [
-     {
-      "hukum": "Mevcut IRRBB standardı 2016 yılında yayımlanmış ve SRP31 ile SRP98 bölümlerine dahil edilmiştir.",
-      "alinti": "In April 2016, the Basel Committee published its standard on interest rate risk in the banking book (IRRBB).",
-      "sayfa": 4,
-      "paragraf": null,
-      "alinti_dogrulandi": true
-     }
+    "teyitli": [],
+    "olasi_etki": [
+     "Mevcut SRP98 uygulama rehberliğinin yerini yeni rehberliğin alması beklenmektedir."
     ],
-    "olasi_etki": [],
     "karsilastirma_kaynagi": "arsiv"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Model risk yönetimi ve doğrulama süreçlerinde, özellikle NMD (vadesiz mevduat) ve erken ödeme (prepayment) modelleri için daha sıkı backtesting ve bağımsız doğrulama gereklilikleri uygulanabilir.",
-     "Gömülü kazanç/kayıp hesaplamalarının sermaye yeterliliği (ICAAP) üzerindeki etkisinin daha detaylı izlenmesi gerekebilir."
+     "Model doğrulama ve backtesting süreçlerinde daha sıkı kontroller gerekebilir.",
+     "Yeni 'Denetim Bilgisi' raporlama gereksinimleri için veri altyapısı güncellenebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Bankanın üst yönetimi ve ALCO (Varlık-Yükümlülük Komitesi) için hazırlanan raporların kapsamı, yeni earnings (kazanç) göstergeleri ve stres testi sonuçlarını içerecek şekilde genişletilebilir.",
-     "Denetim otoriteleri ile iletişimde 'Denetim Bilgisi' başlığı altında daha düzenli ve standart veri paylaşımı operasyonel bir yük getirebilir."
+     "Yönetim kurulu ve üst yönetimin IRRBB raporlamalarına katılımının artırılması gerekebilir.",
+     "Stres testi senaryolarının kapsamının genişletilmesi ve daha sık raporlanması gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Outlier (aykırı) banka olarak tanımlanan kurumlar için ek sermaye gereklilikleri getirilmesi muhtemeldir.",
-     "Gömülü kayıpların sermaye tamponları üzerindeki etkisinin daha yakından izlenmesi, sermaye planlamasında daha muhafazakar yaklaşımları zorunlu kılabilir."
+     "Outlier (aykırı) banka olarak tanımlanan kurumlar için ek sermaye gereksinimi doğabilir."
     ]
    },
    "iklim": {
@@ -4543,28 +4446,28 @@
    },
    "degisiklikler": [
     {
-     "konu": "IRRBB Rehberliği",
-     "onceki": "SRP31 ve SRP98 kapsamında tanımlanan mevcut çerçeve.",
-     "yeni": "SRP31 ve SRP98'e eklenen yeni rehberlik ve 'Denetim Bilgisi' raporlama gereklilikleri.",
+     "konu": "IRRBB Yönetimi",
+     "onceki": "Mevcut SRP98 rehberliği",
+     "yeni": "Yeni Pillar 2 rehberliği ve SRP98'in MIR20'ye entegrasyonu",
      "referans": "Sayfa 4"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme doğrudan kredi riski PD parametrelerini değil, faiz oranı riskini hedeflemektedir."
+     "not": "Doğrudan kredi riski parametrelerini etkilememektedir."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme doğrudan kredi riski LGD parametrelerini değil, faiz oranı riskini hedeflemektedir."
+     "not": "Doğrudan kredi riski parametrelerini etkilememektedir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme doğrudan kredi riski EAD parametrelerini değil, faiz oranı riskini hedeflemektedir."
+     "not": "Doğrudan kredi riski parametrelerini etkilememektedir."
     },
     "ECL": {
      "duzey": "Dolaylı",
-     "not": "Faiz oranı riskinin yönetimi, bankanın genel risk profilini etkileyerek dolaylı olarak sermaye yeterliliği ve risk iştahı üzerinden TFRS 9 süreçlerini etkileyebilir."
+     "not": "Faiz oranı riskinin yönetimi, bankanın genel finansal sağlığını ve dolayısıyla TFRS 9 beklentilerini etkileyebilir."
     }
    },
    "tarihler": [
@@ -4576,28 +4479,28 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Model Risk Yönetimi ve Doğrulama",
-     "aciklama": "IRRBB modellerinin (NMD, prepayment vb.) bağımsız doğrulama süreçleri ve backtesting prosedürleri gözden geçirilmelidir."
+     "baslik": "Model Risk Yönetimi",
+     "aciklama": "IRRBB modellerinin doğrulama ve backtesting süreçlerinin yeni rehberliğe uygunluğu."
     },
     {
-     "baslik": "Gömülü Kayıp/Kazanç İzleme",
-     "aciklama": "Amortize maliyetle izlenen menkul kıymet portföyündeki gömülü kayıpların sermaye yeterliliği üzerindeki etkisi için stres testi senaryoları güncellenmelidir."
+     "baslik": "Stres Testi Çerçevesi",
+     "aciklama": "Yeni senaryoların ve hassasiyet analizlerinin ICAAP süreçlerine entegrasyonu."
     }
    ],
    "referanslar": [
     {
-     "metin": "Interest rate risk in the banking book",
-     "sayfa": 4,
+     "metin": "Interest rate risk in the banking book – additional Pillar 2 guidance",
+     "sayfa": 1,
      "paragraf": null
     }
    ]
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:56:10+03:00",
+   "olusturma_zamani": "2026-11-26T16:28:05+03:00",
    "gonderilen_karakter": 150000,
-   "alinti_dogrulanan": 2,
-   "alinti_toplam": 2,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
    "guven": "Orta",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
   }
@@ -4611,9 +4514,9 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Düzenleme, münferit bir bankanın faaliyet izninin kaldırılmasına ilişkin olup, bankamızın operasyonel veya finansal yapısını doğrudan etkilememektedir.",
+  "onem_gerekcesi": "Düzenleme, münferit bir bankanın faaliyet izninin kaldırılmasına ilişkin olup bankamızın operasyonel süreçlerini veya genel düzenleyici çerçeveyi doğrudan etkilememektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "Golden Global Yatırım Bankası A.Ş.'nin faaliyet izninin 5411 sayılı Bankacılık Kanunu'nun 71. maddesi uyarınca kaldırılmasına karar verilmiştir.",
+  "ozet_tek_satir": "BDDK tarafından alınan karar ile Golden Global Yatırım Bankası A.Ş.'nin faaliyet izninin 5411 sayılı Bankacılık Kanunu'nun 71. maddesi uyarınca kaldırılmasına karar verilmiştir.",
   "yayin_tarihi": "2026-11-06",
   "tarih_kaynagi": "gazete_gunu",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -4627,7 +4530,7 @@
    }
   ],
   "alt_konular": [
-   "Faaliyet izni iptali"
+   "Faaliyet izni"
   ],
   "etkilenen_alanlar": [
    "Diğer"
@@ -4636,7 +4539,7 @@
   "yururluk_tarihi": "2026-11-04",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "BDDK, Golden Global Yatırım Bankası A.Ş.'nin faaliyet izninin 5411 sayılı Bankacılık Kanunu'nun 71. maddesi uyarınca kaldırılmasına karar vermiştir. Söz konusu karar, ilgili bankanın piyasa faaliyetlerinin sonlandırılmasını ifade etmektedir. Bankamız açısından doğrudan bir risk veya uyum yükümlülüğü bulunmamaktadır.",
+   "yonetici_ozeti": "BDDK, 04.11.2026 tarihli kararı ile Golden Global Yatırım Bankası A.Ş.'nin faaliyet izninin kaldırılmasına karar vermiştir. Söz konusu karar, 5411 sayılı Bankacılık Kanunu'nun 71. maddesi uyarınca alınmıştır. Bankamız için doğrudan bir uyum yükümlülüğü veya operasyonel değişiklik içermemektedir.",
    "amac": {
     "teyitli": [
      {
@@ -4648,8 +4551,8 @@
      }
     ],
     "olasi_etki": [
-     "Sektörel bazda piyasa güveni ve likidite yönetimi üzerinde dolaylı etkiler gözlemlenebilir.",
-     "İlgili banka ile mevcut ticari ilişkiler varsa, bu ilişkilerin tasfiyesi gerekebilir."
+     "Sektörel rekabet ortamında sınırlı bir değişiklik olabilir.",
+     "İlgili banka ile ilişkisi bulunan karşı taraflar için tasfiye süreciyle ilgili riskler oluşabilir."
     ]
    },
    "onceki_cerceve": {
@@ -4700,12 +4603,7 @@
      "referans": "Sayfa 1"
     }
    ],
-   "gozden_gecirilecekler": [
-    {
-     "baslik": "Karşı taraf riski",
-     "aciklama": "İlgili banka ile herhangi bir kredi, mevduat veya türev işlem ilişkisi bulunup bulunmadığı kontrol edilmelidir."
-    }
-   ],
+   "gozden_gecirilecekler": [],
    "referanslar": [
     {
      "metin": "BANKACILIK DÜZENLEME VE DENETLEME KURULU KARARI",
@@ -4716,7 +4614,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:58:08+03:00",
+   "olusturma_zamani": "2026-11-26T16:29:19+03:00",
    "gonderilen_karakter": 534,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -4885,9 +4783,9 @@
   "onem": "Orta",
   "onem_gerekcesi": "Kamu sermayeli bankaların sürdürülebilirlik raporlaması ve denetimi süreçlerinde uyum yükümlülüklerini ve denetim ekibi yetkinlik şartlarını doğrudan etkileyen bir düzenlemedir.",
   "konu": "Sürdürülebilirlik",
-  "ozet_tek_satir": "Sürdürülebilirlik Denetimi Yönetmeliği kapsamındaki muafiyet süreleri uzatılmış ve 2028 öncesi dönemler için denetim ekiplerinin yetkilendirme şartlarında esneklik sağlanmıştır.",
+  "ozet_tek_satir": "Sürdürülebilirlik Denetimi Yönetmeliği kapsamındaki muafiyet süreleri uzatılmış ve sürdürülebilirlik denetim ekiplerinin oluşturulmasına ilişkin geçici düzenlemeler yapılmıştır.",
   "yayin_tarihi": "2026-11-05",
-  "tarih_kaynagi": "gazete_gunu",
+  "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "baslangic_arsivi": true,
   "ilgili_mi": true,
@@ -4922,8 +4820,8 @@
      }
     ],
     "olasi_etki": [
-     "Bankanın sürdürülebilirlik raporu denetimlerinde, denetim ekibi oluşturma maliyetlerinin geçici olarak düşmesi beklenebilir.",
-     "Denetim ekibi yetkinlik şartlarının esnetilmesi, denetim sürecinin daha kolay yönetilmesini sağlayabilir."
+     "Bankanın sürdürülebilirlik raporu denetimlerinde denetim ekibi oluşturma maliyetlerinin geçici olarak düşmesi beklenebilir.",
+     "Denetim süreçlerinde yetkin personel bulma zorluğunun bir yıl daha hafifletilmesi sağlanabilir."
     ]
    },
    "onceki_cerceve": {
@@ -4934,13 +4832,13 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Sürdürülebilirlik denetim raporlarının hazırlanmasında teknik personel ihtiyacı geçici olarak azalabilir."
+     "Denetim sözleşmelerinde revizyon gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Denetim firmaları ile yapılacak sözleşmelerde bu esnekliklerin dikkate alınması gerekebilir."
+     "Denetim firmaları ile yapılacak görüşmelerde bu esnekliklerin dikkate alınması operasyonel kolaylık sağlayabilir."
     ]
    },
    "sermaye_rwa": {
@@ -4949,32 +4847,34 @@
    },
    "iklim": {
     "teyitli": [],
-    "olasi_etki": [],
+    "olasi_etki": [
+     "İklim riskleri ile ilgili sürdürülebilirlik raporlamasının denetiminde esneklik sağlanması, raporlama kalitesinin geçiş döneminde korunması için denetim firması ile yakın çalışılmasını gerektirebilir."
+    ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
      "konu": "Denetim ekibi yetkinlik şartı",
-     "onceki": "Sürdürülebilirlik alanında yetkili denetçi zorunluluğu",
-     "yeni": "01.01.2028 öncesi dönemler için asıl denetim ekibinde sorumlu denetçi ve en az iki yetkili denetçi ile sınırlı esneklik",
+     "onceki": "Sürdürülebilirlik alanında yetkili denetçi zorunluluğu daha katıydı.",
+     "yeni": "01.01.2028 öncesi dönemler için asıl denetim ekibinde sorumlu denetçi ve en az iki yetkili denetçi bulunması yeterli kılınmıştır.",
      "referans": "Sayfa 1"
     }
    ],
    "parametre_etkisi": {
     "PD": {
-     "duzey": "İlgili değil",
+     "duzey": "Etki beklenmiyor",
      "not": ""
     },
     "LGD": {
-     "duzey": "İlgili değil",
+     "duzey": "Etki beklenmiyor",
      "not": ""
     },
     "EAD": {
-     "duzey": "İlgili değil",
+     "duzey": "Etki beklenmiyor",
      "not": ""
     },
     "ECL": {
-     "duzey": "İlgili değil",
+     "duzey": "Etki beklenmiyor",
      "not": ""
     }
    },
@@ -4988,7 +4888,7 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "Denetim Sözleşmeleri",
-     "aciklama": "Sürdürülebilirlik denetimi için anlaşılan bağımsız denetim firmalarının ekiplerinin yeni düzenlemeye uygunluğu kontrol edilmelidir."
+     "aciklama": "Mevcut sürdürülebilirlik denetim sözleşmelerinin yeni esneklikler çerçevesinde gözden geçirilmesi."
     }
    ],
    "referanslar": [
@@ -5001,7 +4901,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:58:40+03:00",
+   "olusturma_zamani": "2026-11-26T16:31:44+03:00",
    "gonderilen_karakter": 1223,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -5018,9 +4918,9 @@
   "belge_turu": "Rehber",
   "statu": "Nihai",
   "onem": "Yüksek",
-  "onem_gerekcesi": "Düzenleme, bankanın iç yönetişim, risk yönetimi ve kontrol çerçevesini doğrudan etkileyen CRD VI uyumunu zorunlu kılmaktadır. Kamu sermayeli bir banka olarak, yönetim organı sorumlulukları ve üçüncü ülke şubeleri ile ilgili yeni gereklilikler operasyonel süreçlerin güncellenmesini gerektirir.",
+  "onem_gerekcesi": "Düzenleme, bankanın iç yönetişim, risk yönetimi ve kontrol çerçevesini doğrudan etkileyen CRD VI uyumunu içermektedir. Kamu sermayeli bir banka olarak, özellikle üçüncü ülke şubeleri, ESG riskleri ve iç kontrol fonksiyonlarının bağımsızlığına ilişkin yeni gereklilikler kritik uyum süreçleri doğurmaktadır.",
   "konu": "Risk Yönetimi",
-  "ozet_tek_satir": "EBA, CRD VI direktifi ile uyumlu hale getirilen ve bankaların iç yönetişim, risk kültürü, çıkar çatışması yönetimi ve iç kontrol mekanizmalarını düzenleyen revize edilmiş rehberini yayınlamıştır.",
+  "ozet_tek_satir": "EBA, CRD VI direktifi ile uyumlu olarak bankaların iç yönetişim düzenlemelerini, risk yönetimi çerçevelerini ve kontrol mekanizmalarını basitleştiren ve orantılılık ilkesini güçlendiren revize edilmiş rehberini yayınlamıştır.",
   "yayin_tarihi": "2026-11-05",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -5030,32 +4930,32 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "66d9f55af6c3974a"
+    "icerik_hash": "0d45551d060ecb4f"
    }
   ],
   "alt_konular": [
    "İç Yönetişim",
-   "CRD VI Uyum",
-   "Üçüncü Ülke Şubeleri",
    "Risk Kültürü",
+   "Üçüncü Ülke Şubeleri",
+   "ESG Riskleri",
    "İç Kontrol Çerçevesi"
   ],
   "etkilenen_alanlar": [
-   "Kurumsal Yönetişim",
+   "Kurumsal Yönetim",
    "Risk Yönetimi",
    "İç Denetim",
-   "Uyum",
+   "Uyum (Compliance)",
    "İnsan Kaynakları"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2027-01-05",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA, CRD VI ile uyumlu hale getirilmiş revize edilmiş İç Yönetişim Kılavuzlarını yayımlamıştır. Bu düzenleme, yönetim organlarının sorumluluklarını netleştirmekte, üçüncü ülke şubeleri için özel yönetişim çerçeveleri getirmekte ve risk yönetimi ile iç kontrol fonksiyonlarının bağımsızlığını güçlendirmektedir. Bankamızın mevcut iç yönetişim politikalarını, görev tanımlarını ve risk yönetimi süreçlerini bu yeni gerekliliklere göre gözden geçirmesi gerekmektedir.",
+   "yonetici_ozeti": "EBA, CRD VI ile uyumlu hale getirilmiş revize edilmiş İç Yönetişim Kılavuzunu yayımlamıştır. Bu düzenleme, yönetim organlarının sorumluluklarını netleştirmekte, ESG risklerinin entegrasyonunu zorunlu kılmakta ve üçüncü ülke şubeleri için özel yönetişim çerçeveleri getirmektedir. Bankamızın mevcut iç yönetişim politikalarını, özellikle görev tanımları, çıkar çatışması yönetimi ve iç kontrol fonksiyonlarının bağımsızlığı açısından gözden geçirmesi gerekmektedir.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "İç yönetişim düzenlemelerinin, süreçlerinin ve mekanizmalarının AB genelinde uyumlaştırılması.",
+      "hukum": "Kurumların iç yönetişim düzenlemelerini, süreçlerini ve mekanizmalarını AB genelinde daha fazla uyumlu hale getirmek.",
       "alinti": "To further harmonise institutions’ internal governance arrangements, processes and mechanisms within the Union, the European Banking Authority (EBA) is mandated",
       "sayfa": 4,
       "paragraf": null,
@@ -5063,62 +4963,62 @@
      }
     ],
     "olasi_etki": [
-     "Bankanın yönetim kurulu ve üst düzey yöneticilerinin görev tanımlarının yeniden yapılandırılması gerekebilir.",
-     "Üçüncü ülke şubeleri bulunan birimler için daha sıkı raporlama ve yönetişim standartları uygulanabilir."
+     "Bankanın mevcut iç yönetişim politikalarının CRD VI gerekliliklerine göre güncellenmesi gerekecektir.",
+     "Yönetim kurulu üyeleri ve kilit fonksiyon sahipleri için görev tanımlarının (mapping of duties) yeniden yapılandırılması gerekebilir."
     ]
    },
    "onceki_cerceve": {
     "teyitli": [],
     "olasi_etki": [
-     "2021 tarihli önceki kılavuzun (EBA/GL/2021/05) yerini alarak, ESG ve dijitalleşme risklerinin yönetişim çerçevesine daha entegre bir şekilde dahil edilmesi beklenmektedir."
+     "2021 tarihli önceki kılavuz (EBA/GL/2021/05) yürürlükten kalkacağı için tüm iç prosedürlerin yeni kılavuza göre revize edilmesi gerekecektir."
     ],
     "karsilastirma_kaynagi": "arsiv"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "İç kontrol fonksiyonlarının (risk, uyum, denetim) bağımsızlık kriterlerinin teknik olarak güncellenmesi gerekebilir.",
-     "ESG risklerinin 10 yıllık bir ufukta yönetişim çerçevesine dahil edilmesi için veri altyapısı ihtiyacı doğabilir."
+     "Risk yönetimi ve uyum fonksiyonlarının bağımsızlığına ilişkin teknik altyapı ve raporlama hatlarının güçlendirilmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Yönetim kurulu komitelerinin (Risk, Denetim, Aday Gösterme) çalışma usullerinin ve raporlama hatlarının revize edilmesi gerekebilir.",
-     "Çıkar çatışması politikalarının, özellikle kredi işlemleri ve yönetim kurulu üyeleriyle ilgili olarak güncellenmesi gerekecektir."
+     "İç kontrol fonksiyonlarının (Risk, Uyum, İç Denetim) kaynaklarının ve yetkilerinin yeniden değerlendirilmesi gerekebilir.",
+     "Çıkar çatışması politikalarının, özellikle yönetim kurulu üyelerinin kredi işlemleri özelinde güncellenmesi gerekecektir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Yönetişim zafiyetlerinin giderilmesi, SREP süreci üzerinden sermaye yeterliliği üzerinde olumlu etki yaratabilir."
+     "Yönetişim zafiyetleri nedeniyle oluşabilecek operasyonel risk sermaye gereksinimlerinde artış yaşanabilir."
     ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "ESG risklerinin yönetim kurulu düzeyinde izlenmesi ve stratejiye dahil edilmesi zorunlu hale gelmektedir."
+     "Bankanın ESG risk stratejisinin 10 yıllık bir perspektifle güncellenmesi gerekecektir.",
+     "ESG risklerinin kısa, orta ve uzun vadede risk yönetimi çerçevesine dahil edilmesi. (belgeden birebir doğrulanamadı)"
     ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
-     "konu": "Yönetim organı görev haritalaması",
-     "onceki": "Daha genel sorumluluk tanımları.",
-     "yeni": "Yönetim organı üyeleri ve kilit fonksiyon sahipleri için detaylı görev ve sorumluluk haritalaması zorunluluğu.",
-     "referans": "Sayfa 4"
+     "konu": "Üçüncü Ülke Şubeleri",
+     "onceki": "Genel yönetişim ilkelerine tabiydi.",
+     "yeni": "Üçüncü ülke şubeleri için özel ve daha detaylı bir yönetişim çerçevesi getirilmiştir.",
+     "referans": "Sayfa 8"
     },
     {
-     "konu": "Üçüncü ülke şubeleri",
-     "onceki": "Daha az spesifik yönetişim gereklilikleri.",
-     "yeni": "Üçüncü ülke şubeleri için özel ve daha sıkı bir yönetişim çerçevesi.",
-     "referans": "Sayfa 4"
+     "konu": "ESG Riskleri",
+     "onceki": "Daha sınırlı bir kapsamdaydı.",
+     "yeni": "ESG risklerinin kısa, orta ve uzun vadede (en az 10 yıl) risk yönetimi çerçevesine entegrasyonu zorunlu kılınmıştır.",
+     "referans": "Sayfa 6"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Dolaylı",
-     "not": "İyi yönetişim, uzun vadeli kredi riskini azaltıcı etki yapabilir."
+     "not": "İyileştirilmiş yönetişim ve risk kültürü, uzun vadede kredi risk parametrelerini olumlu etkileyebilir."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
@@ -5130,15 +5030,10 @@
     },
     "ECL": {
      "duzey": "Dolaylı",
-     "not": "Risk yönetimi çerçevesinin güçlenmesi, karşılık hesaplamalarında daha kaliteli veri kullanımını destekleyebilir."
+     "not": "ESG risklerinin modele dahil edilmesi, karşılık hesaplamalarında dolaylı bir etki yaratabilir."
     }
    },
    "tarihler": [
-    {
-     "tur": "Yayın",
-     "tarih": "2026-11-05",
-     "referans": "Sayfa 1"
-    },
     {
      "tur": "Yürürlük",
      "tarih": "2027-01-05",
@@ -5147,12 +5042,12 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Görev Haritalaması",
-     "aciklama": "Yönetim organı üyeleri ve kilit fonksiyon sahipleri için görev tanımlarının güncellenmesi."
+     "baslik": "Görev Tanımları (Mapping of Duties)",
+     "aciklama": "Yönetim kurulu, üst yönetim ve kilit fonksiyon sahiplerinin görev tanımlarının güncellenmesi."
     },
     {
      "baslik": "Çıkar Çatışması Politikası",
-     "aciklama": "Yönetim kurulu üyelerine verilen krediler ve diğer işlemler için yeni kısıtlamaların ve raporlama süreçlerinin gözden geçirilmesi."
+     "aciklama": "Yönetim kurulu üyelerinin kredi işlemleri ve diğer işlemlerine ilişkin politikanın revize edilmesi."
     }
    ],
    "referanslar": [
@@ -5170,11 +5065,11 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:58:59+03:00",
+   "olusturma_zamani": "2026-11-26T16:34:40+03:00",
    "gonderilen_karakter": 150000,
    "alinti_dogrulanan": 1,
-   "alinti_toplam": 1,
-   "guven": "Orta",
+   "alinti_toplam": 2,
+   "guven": "Düşük",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
   }
  },
@@ -5320,12 +5215,12 @@
   "baslik_orijinal": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47201] Sayılı Kararı",
   "baslik_tr": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47201] Sayılı Kararı",
   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261104-2.pdf",
-  "belge_turu": "Basın duyurusu",
+  "belge_turu": "Tebliğ",
   "statu": "Yürürlükte",
   "onem": "Düşük",
-  "onem_gerekcesi": "Paylaşılan metin içeriği boş olup, herhangi bir düzenleyici hüküm, kural veya bankacılık faaliyetini etkileyen bir içerik barındırmamaktadır.",
+  "onem_gerekcesi": "Paylaşılan metin içeriğinde herhangi bir düzenleyici hüküm, kural veya açıklama bulunmamaktadır; sadece sayfa numaraları ve başlık yer tutucuları mevcuttur.",
   "konu": "Diğer",
-  "ozet_tek_satir": "KGK tarafından alınan bu karar, muhasebe ve denetim standartlarına ilişkin düzenlemeleri içermektedir.",
+  "ozet_tek_satir": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurumu tarafından alınan ve finansal raporlama standartlarına ilişkin düzenlemeleri içeren kurul kararıdır.",
   "yayin_tarihi": "2026-11-04",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -5335,7 +5230,7 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "51f184b5a504d8b1"
+    "icerik_hash": "0fba5171284ae7c6"
    }
   ],
   "alt_konular": [],
@@ -5344,7 +5239,7 @@
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "İlgili Resmî Gazete metni, Kamu Gözetimi Kurumu'nun bir kararını duyurmakla birlikte, metin içeriğinde herhangi bir düzenleme, kural değişikliği veya teknik detay bulunmamaktadır. Belge sadece başlık ve sayfa numaralarından ibaret olup banka operasyonları üzerinde bir etkisi tespit edilememiştir. Bu nedenle herhangi bir aksiyon veya gözden geçirme gerekliliği bulunmamaktadır.",
+   "yonetici_ozeti": "İlgili belge metni, düzenleyici bir içerik barındırmamaktadır. Belge sadece boş sayfa yapılarından ve 'Yönetmelik Adı' ibarelerinden oluşmaktadır. Bu nedenle banka operasyonları üzerinde herhangi bir etkisi bulunmamaktadır.",
    "amac": {
     "teyitli": [],
     "olasi_etki": []
@@ -5375,40 +5270,28 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge içeriği boş olduğundan parametre etkisi bulunmamaktadır."
+     "not": "Belge içeriği boş olduğu için etki beklenmemektedir."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge içeriği boş olduğundan parametre etkisi bulunmamaktadır."
+     "not": "Belge içeriği boş olduğu için etki beklenmemektedir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge içeriği boş olduğundan parametre etkisi bulunmamaktadır."
+     "not": "Belge içeriği boş olduğu için etki beklenmemektedir."
     },
     "ECL": {
      "duzey": "Etki beklenmiyor",
-     "not": "Belge içeriği boş olduğundan parametre etkisi bulunmamaktadır."
+     "not": "Belge içeriği boş olduğu için etki beklenmemektedir."
     }
    },
-   "tarihler": [
-    {
-     "tur": "Yayın",
-     "tarih": "2026-11-04",
-     "referans": "Sayfa 1"
-    }
-   ],
+   "tarihler": [],
    "gozden_gecirilecekler": [],
-   "referanslar": [
-    {
-     "metin": "KURUL KARARI",
-     "sayfa": 1,
-     "paragraf": null
-    }
-   ]
+   "referanslar": []
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T15:59:30+03:00",
+   "olusturma_zamani": "2026-11-26T16:35:22+03:00",
    "gonderilen_karakter": 3228,
    "alinti_dogrulanan": 0,
    "alinti_toplam": 0,
