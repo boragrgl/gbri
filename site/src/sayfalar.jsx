@@ -31,7 +31,7 @@ export function Genel({ konu, liste, veri, izleme }) {
       <section>
         <h1 className="buyuk" style={{ fontSize: 38, lineHeight: 1.15 }}>{baslik}</h1>
         <p className="mut" style={{ margin: '12px 0 0', fontSize: 16, maxWidth: 760 }}>
-          Son bir aylık deneme verisi. Değişiklikler, bankacılık faaliyetlerine olası etkiyi gösteren bir puana (0–100) göre sıralanır.
+          Son 3 ayın yayınları. Değişiklikler, bankacılık faaliyetlerine olası etkiyi gösteren bir puana (0–100) göre sıralanır.
         </p>
       </section>
       {konu && altListe.length > 0 && (
@@ -40,7 +40,7 @@ export function Genel({ konu, liste, veri, izleme }) {
           {altListe.map(([a, n]) => <button key={a} className={alt === a ? 'on' : ''} onClick={() => setAlt(alt === a ? '' : a)}>{a} ({n})</button>)}
         </div>)}
       <section className="kpi" aria-label="Özet göstergeler">
-        {[['Kritik', k, '#B42318', 'son 1 ay'], ['Yüksek', y, '#B54708', 'son 1 ay'], ['Analiz edilen yayın', l.length, '#15191F', 'toplam'], ['Yaklaşan tarih', tar.length, '#15191F', 'görüş / yürürlük / uyum']]
+        {[['Kritik', k, '#B42318', 'son 3 ay'], ['Yüksek', y, '#B54708', 'son 3 ay'], ['Analiz edilen yayın', l.length, '#15191F', 'toplam'], ['Yaklaşan tarih', tar.length, '#15191F', 'görüş / yürürlük / uyum']]
           .map(([a, n, c, s]) => <div key={a}><div className="mut" style={{ fontSize: 13 }}>{a}</div>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, marginTop: 4 }}><span className="n" style={{ color: c }}>{n}</span><span className="mut" style={{ fontSize: 13 }}>{s}</span></div></div>)}
       </section>
@@ -68,7 +68,7 @@ export function Genel({ konu, liste, veri, izleme }) {
               {veri.kaynaklar.map((s) => (
                 <a key={s.id} className="kaynak" href={'#kurum-' + s.id} title={'Bu kaynaktan toplanan tüm haberler'}>
                   <i style={{ background: !s.aktif ? '#9AA0A8' : s.ardisik_hata ? '#B42318' : '#1F7A4D' }} />{s.ad}</a>))}</div>
-            <div className="mut" style={{ fontSize: 12, marginTop: 10 }}>Bir kaynağa tıklayarak ondan toplanan tüm haberleri görebilirsin. Gri: ilk sürümde kapsam dışı.</div></section>
+            <div className="mut" style={{ fontSize: 12, marginTop: 10 }}>Bir kaynağa tıklayarak ondan toplanan tüm haberleri görebilirsin. Gri: kapsam dışı.</div></section>
         </aside>
       </div>
       <section style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
@@ -76,7 +76,7 @@ export function Genel({ konu, liste, veri, izleme }) {
         <Tablo liste={[...l].sort((a, b) => b.yayin_tarihi.localeCompare(a.yayin_tarihi))} />
       </section>
       <div className="alt"><span>Yapay zekâ analizleri yorum niteliğindedir; resmî düzenleyici beyanı yerine geçmez. Bağlayıcı metin için orijinal belgeye başvurun.</span>
-        <span>{veri.adaylar.filter((a) => a.durum === 'ilgisiz').length} ilgisiz bulunan belge listelerde gösterilmez.</span></div>
+        <span>Veri kapsamı: son 3 ay (26 Ağustos – 26 Kasım 2026). Resmî Gazete taraması şimdilik son 1 ayı kapsar. {veri.adaylar.filter((a) => a.durum === 'ilgisiz').length} ilgisiz bulunan belge listelerde gösterilmez.</span></div>
     </main>
   )
 }
@@ -129,10 +129,11 @@ export function Arsiv({ liste, veri, q }) {
   const S = ({ ad, e, ks }) => (<label>{e}<select value={f[ad]} onChange={(ev) => setF({ ...f, [ad]: ev.target.value })}>
     <option value="">Tümü</option>{sec(ad).map((v) => <option key={v} value={v}>{ad === 'kurum' ? kn(v) : v}</option>)}</select></label>)
   return (<main className="w sayfa"><section><h1 className="buyuk" style={{ fontSize: 34 }}>Arşiv</h1>
-    <p className="mut" style={{ margin: '8px 0 0' }}>Şimdilik yalnızca son bir ay. Veri 3, 6 ve 12 aya genişledikçe arşiv de büyüyecek.</p></section>
+    <p className="mut" style={{ margin: '8px 0 0' }}>Son 3 ayın analiz edilmiş yayınları.</p></section>
     <div className="filtre"><S ad="kurum" e="Kurum" /><S ad="onem" e="Önem" /><S ad="statu" e="Statü" /><S ad="konu" e="Konu" />
       <span className="mut" style={{ fontSize: 13 }}>{l.length} yayın{q ? ` · “${q}”` : ''}</span></div>
-    <Tablo liste={l} puanlar={(x) => puanla(x)} /></main>)
+    <Tablo liste={l} puanlar={(x) => puanla(x)} />
+    <div className="alt"><span>Veri kapsamı: son 3 ay (26 Ağustos – 26 Kasım 2026). Resmî Gazete taraması şimdilik son 1 ayı kapsar.</span></div></main>)
 }
 
 export function Kurumlar({ veri, izleme }) {
@@ -145,7 +146,7 @@ export function Kurumlar({ veri, izleme }) {
           return (<a key={s.id} href={'#kurum-' + s.id} className="card" style={{ color: 'inherit' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}><b>{s.ad}</b>{izleme.kurum.includes(s.id) && <span>★</span>}</div>
             <div className="mut" style={{ fontSize: 13, marginTop: 4 }}>{ad.length} haber · {an} analiz</div>
-            <div className="mut" style={{ fontSize: 12 }}>{s.aktif ? (s.ardisik_hata ? 'Son taramada hata' : 'Erişilebilir') : 'İlk sürümde kapsam dışı'}</div></a>)
+            <div className="mut" style={{ fontSize: 12 }}>{s.aktif ? (s.ardisik_hata ? 'Son taramada hata' : 'Erişilebilir') : 'Kapsam dışı'}</div></a>)
         })}</div></section>))}</main>)
 }
 

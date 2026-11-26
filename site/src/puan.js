@@ -7,7 +7,7 @@ export function puanla(x, t = bugun()) {
   const onem = ONEM[x.onem] ?? 8
   const ileri = [x.gorus_son_tarihi, x.yururluk_tarihi, x.uyum_son_tarihi].filter((d) => d && d >= t).map((d) => gun(d, t))
   const tarih = ileri.length ? Math.round(20 * Math.max(0, 1 - Math.min(...ileri) / 60)) : 0
-  const yenilik = Math.round(15 * Math.max(0, 1 - Math.max(0, gun(t, x.yayin_tarihi)) / 30))
+  const yenilik = Math.round(15 * Math.max(0, 1 - Math.max(0, gun(t, x.yayin_tarihi)) / 90))
   const guven = GUVEN[x.analiz_bilgisi?.guven] ?? 0
   return { toplam: onem + tarih + yenilik + guven, onem, tarih, yenilik, guven }
 }

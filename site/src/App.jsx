@@ -53,7 +53,7 @@ export function Uygulama({ veri, rota, izleme, q = '', setQ = () => {} }) {
           <input id="ara" className="ara" type="search" placeholder="Yayın, kurum veya konu ara" value={q} onChange={(e) => setQ(e.target.value)} />
         </div></div>
       </header>
-      <div className="tarihsatir"><div className="w"><span>Önizleme sürümü · son 1 aylık deneme verisi</span><span>{trUzun(bugun())}</span></div></div>
+      <div className="tarihsatir"><div className="w" style={{ justifyContent: 'flex-end' }}><span>{trUzun(bugun())}</span></div></div>
       {sayfa}
     </>
   )
