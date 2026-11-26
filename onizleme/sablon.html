@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GBRI · Önizleme (gerçek veri)</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F3EE;color:#15191F;font-family:'IBM Plex Sans',system-ui,sans-serif;font-size:14px;line-height:1.55}
+a{color:#0B5D52;text-decoration:none}a:hover{text-decoration:underline}
+.w{max-width:1360px;margin:0 auto;padding:0 32px}
+.serif{font-family:'Source Serif 4',serif}
+.card{background:#fff;border:1px solid #E3DFD6;border-radius:12px;padding:20px 24px}
+.chip{font-size:12px;background:#EEF4F2;color:#0B5D52;border-radius:4px;padding:2px 8px;font-weight:500}
+.tag{font-size:10px;font-weight:600;letter-spacing:.03em;border-radius:3px;padding:1px 6px;flex:none;margin-top:2px}
+.tey{background:#15191F;color:#F5F3EE}.olasi{background:#FFF4DC;color:#7A4E00;border:1px dashed #C9962E}
+.nav a{color:#C9CDD3;padding:10px 12px}.nav a.on{color:#F5F3EE;border-bottom:2px solid #E9C46A}
+.pill{color:#F5F3EE;padding:6px 14px;border:1px solid #3A414B;border-radius:999px;font-size:13px;cursor:pointer;background:none;font:inherit;font-size:13px}
+.pill.on{background:#F5F3EE;color:#15191F}
+table{border-collapse:collapse;width:100%}
+.sev{display:inline-flex;align-items:center;gap:6px;font-weight:600}.sev i{width:9px;height:9px;border-radius:2px;display:inline-block}
+.row{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+</style></head><body>
+<header style="background:#15191F;color:#F5F3EE"><div class="w" style="display:flex;flex-wrap:wrap;align-items:center;gap:24px;min-height:64px">
+<a href="#ana" style="color:#F5F3EE;display:flex;align-items:baseline;gap:10px;text-decoration:none"><span class="serif" style="font-size:24px;font-weight:600">GBRI</span><span style="font-size:12px;color:#B9BDC4">Bankacılık Düzenleme İstihbaratı</span></a>
+<nav class="nav" style="display:flex;flex-wrap:wrap;gap:2px"><a class="on" href="#ana">Genel Bakış</a></nav></div>
+<div style="border-top:1px solid #2A3039"><div class="w" style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-height:48px">
+<span style="font-size:12px;color:#9AA0A8;margin-right:8px">KONULAR</span><span id="pills" style="display:contents"></span>
+<div style="flex:1"></div><input id="ara" type="search" placeholder="Yayın, kurum veya konu ara" style="background:#20262E;border:1px solid #3A414B;color:#F5F3EE;border-radius:8px;padding:9px 12px;width:260px;font:inherit;font-size:13px"></div></div></header>
+<div style="background:#FBF3DC;border-bottom:1px solid #EADDB5;font-size:12px;color:#5C4A12"><div class="w" style="padding-top:6px;padding-bottom:6px">Önizleme · Gerçek veri (26 Ekim – 26 Kasım 2026, deneme toplaması). Analizler yapay zekâ ürünüdür; orijinal belgeyle doğrulayın.</div></div>
+<div id="app"></div>
+<script>
+const D=__VERI__;
+const S={'Kritik':'#B42318','Yüksek':'#B54708','Orta':'#8A6A00','Düşük':'#4A5767'};
+const KN={bddk:'BDDK',tcmb:'TCMB',kgk:'KGK',spk:'SPK',resmigazete:'Resmî Gazete',eba:'EBA',ecb:'ECB',bis:'BIS',bcbs:'BCBS',ifrs:'IFRS',issb:'ISSB',fsb:'FSB',worldbank:'Dünya Bankası'};
+const AY=['Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'];
+const OR={'Kritik':0,'Yüksek':1,'Orta':2,'Düşük':3};
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const kn=k=>KN[k]||String(k).toUpperCase();
+const tr=d=>{if(!d)return'—';const[y,m,g]=d.split('-');return +g+' '+AY[+m-1]+' '+y};
+const tk=d=>{const[y,m,g]=d.split('-');return +g+' '+AY[+m-1]};
+const sev=o=>`<span class="sev" style="color:${S[o]}"><i style="background:${S[o]}"></i>${esc(o)}</span>`;
+let konu='',q='';
+const KONULAR=['TFRS 9','Basel','Sürdürülebilirlik','Risk Yönetimi'];
+function liste(){let L=D.yayinlar.filter(x=>(!konu||x.konu===konu)&&(!q||(x.baslik_tr+' '+x.kurum+' '+x.konu+' '+(x.alt_konular||[]).join(' ')).toLowerCase().includes(q)));
+ return L.sort((a,b)=>OR[a.onem]-OR[b.onem]||b.yayin_tarihi.localeCompare(a.yayin_tarihi))}
+function ana(){
+ const L=liste(),k=L.filter(x=>x.onem==='Kritik').length,y=L.filter(x=>x.onem==='Yüksek').length;
+ const onem=L.filter(x=>x.onem==='Kritik'||x.onem==='Yüksek');
+ const son=D.yayinlar.map(x=>x.yayin_tarihi).sort().pop();
+ const tar=[];D.yayinlar.forEach(x=>{[['gorus_son_tarihi','Görüş son tarihi'],['yururluk_tarihi','Yürürlük'],['uyum_son_tarihi','Uyum']].forEach(([f,n])=>{if(x[f]&&x[f]>=D.bugun)tar.push({d:x[f],n,x})})});tar.sort((a,b)=>a.d.localeCompare(b.d));
+ const kon={};L.forEach(x=>kon[x.konu]=(kon[x.konu]||0)+1);const mx=Math.max(1,...Object.values(kon));
+ return `<main class="w" style="padding-top:36px;padding-bottom:48px;display:flex;flex-direction:column;gap:28px">
+ <section><div style="font-size:13px;color:#5A6170;letter-spacing:.04em;text-transform:uppercase">${esc(tr(D.bugun))}</div>
+ <h1 class="serif" style="font-weight:600;font-size:38px;line-height:1.15;margin:8px 0 0">Özet: ${k} kritik, ${y} yüksek öncelikli gelişme</h1>
+ <p style="margin:12px 0 0;color:#5A6170;font-size:16px;max-width:720px">Son bir aylık deneme verisi${konu?' · '+esc(konu):''}${q?' · “'+esc(q)+'”':''}. Sıralama, bankacılık faaliyetlerine olası etkiye göre yapılmıştır.</p></section>
+ <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:#E3DFD6;border:1px solid #E3DFD6;border-radius:12px;overflow:hidden">
+ ${[['Kritik',k,S.Kritik,'son 1 ay'],['Yüksek',y,S.Yüksek,'son 1 ay'],['Analiz edilen yayın',L.length,'#15191F','toplam'],['Yaklaşan tarih',tar.length,'#15191F','görüş / yürürlük / uyum']].map(a=>`<div style="background:#fff;padding:20px 24px"><div style="font-size:13px;color:#5A6170">${a[0]}</div><div style="display:flex;align-items:baseline;gap:8px;margin-top:6px"><span class="serif" style="font-size:40px;font-weight:600;color:${a[2]}">${a[1]}</span><span style="font-size:13px;color:#5A6170">${a[3]}</span></div></div>`).join('')}</section>
+ <div class="row"><section style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:16px">
+ <h2 class="serif" style="font-size:24px;font-weight:600;margin:0">Önemli değişiklikler</h2>
+ ${onem.map(x=>`<a href="#y-${esc(x.id)}" style="display:block;background:#fff;border:1px solid #E3DFD6;border-radius:12px;padding:20px 24px;color:#15191F;text-decoration:none">
+ <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:12px">${sev(x.onem)}<span style="color:#C9C4B8">|</span><b>${esc(kn(x.kurum))}</b><span style="border:1px solid #CFC9BC;border-radius:4px;padding:1px 8px;color:#3D434D">${esc(x.statu)}</span><span style="color:#5A6170;margin-left:auto">${esc(tr(x.yayin_tarihi))}</span></div>
+ <div class="serif" style="font-size:19px;font-weight:600;line-height:1.35;margin-top:10px">${esc(x.baslik_tr)}</div>
+ <p style="margin:8px 0 0;color:#3D434D">${esc(x.ozet_tek_satir)}</p>
+ <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;align-items:center"><span style="font-size:12px;color:#5A6170">Etkilenen:</span>${(x.etkilenen_alanlar||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</div></a>`).join('')||'<div class="card">Bu süzgeçte kritik veya yüksek öncelikli yayın yok.</div>'}
+ </section><aside style="flex:1 1 340px;min-width:0;display:flex;flex-direction:column;gap:16px">
+ <section class="card"><h2 class="serif" style="font-size:20px;font-weight:600;margin:0 0 4px">Yaklaşan tarihler</h2><div style="font-size:12px;color:#5A6170;margin-bottom:12px">Yürürlük, uyum ve görüş bildirme</div>
+ ${tar.slice(0,6).map(t=>`<a href="#y-${esc(t.x.id)}" style="display:flex;gap:16px;padding:12px 0;border-top:1px solid #EEEAE2;color:#15191F;text-decoration:none"><div style="width:52px;flex:none;text-align:center"><div class="serif" style="font-size:24px;font-weight:600;line-height:1">${+t.d.slice(8)}</div><div style="font-size:11px;color:#5A6170;text-transform:uppercase">${AY[+t.d.slice(5,7)-1]} ${t.d.slice(0,4)}</div></div><div style="min-width:0"><div style="font-size:12px;color:#5A6170">${esc(t.n)} · ${esc(kn(t.x.kurum))}</div><div style="font-weight:500;line-height:1.4">${esc(t.x.baslik_tr)}</div></div></a>`).join('')||'<div style="color:#5A6170">Yaklaşan tarih yok.</div>'}</section>
+ <section class="card"><h2 class="serif" style="font-size:20px;font-weight:600;margin:0 0 12px">Konulara göre dağılım</h2>
+ ${Object.entries(kon).sort((a,b)=>b[1]-a[1]).map(([n,c])=>`<div style="padding:8px 0"><div style="display:flex;justify-content:space-between;font-size:13px"><span>${esc(n)}</span><b>${c}</b></div><div style="height:6px;background:#EEEAE2;border-radius:3px;margin-top:6px"><div style="height:6px;border-radius:3px;background:#0B5D52;width:${c/mx*100}%"></div></div></div>`).join('')}</section>
+ <section class="card"><h2 class="serif" style="font-size:20px;font-weight:600;margin:0 0 12px">Kaynak durumu</h2><div style="display:flex;flex-wrap:wrap;gap:6px">
+ ${D.kaynaklar.map(s=>`<span style="font-size:12px;border:1px solid #E3DFD6;border-radius:4px;padding:3px 8px;display:inline-flex;align-items:center;gap:6px"><span style="width:6px;height:6px;border-radius:50%;background:${!s.aktif?'#9AA0A8':s.ardisik_hata?'#B42318':'#1F7A4D'}"></span>${esc(s.ad)}</span>`).join('')}</div>
+ <div style="font-size:12px;color:#5A6170;margin-top:12px">Gri: ilk sürümde kapsam dışı (OECD)</div></section></aside></div>
+ <section style="display:flex;flex-direction:column;gap:16px"><h2 class="serif" style="font-size:24px;font-weight:600;margin:0">Tüm yayınlar</h2>
+ <div style="overflow-x:auto" class="card" ><table style="min-width:820px;font-size:13px"><thead><tr style="text-align:left;color:#5A6170;font-size:12px"><th style="padding:8px">Önem</th><th>Kurum</th><th>Başlık</th><th>Tür</th><th>Statü</th><th>Yayın</th></tr></thead><tbody>
+ ${[...L].sort((a,b)=>b.yayin_tarihi.localeCompare(a.yayin_tarihi)).map(x=>`<tr style="border-top:1px solid #EEEAE2"><td style="padding:10px 8px">${sev(x.onem)}</td><td style="font-weight:600">${esc(kn(x.kurum))}</td><td><a href="#y-${esc(x.id)}">${esc(x.baslik_tr)}</a></td><td style="color:#5A6170">${esc(x.belge_turu)}</td><td>${esc(x.statu)}</td><td style="color:#5A6170;white-space:nowrap">${esc(tk(x.yayin_tarihi))}</td></tr>`).join('')}</tbody></table></div></section>
+ <footer style="border-top:1px solid #E3DFD6;padding-top:16px;font-size:12px;color:#5A6170">Yapay zekâ analizleri yorum niteliğindedir; resmî düzenleyici beyanı yerine geçmez. ${D.ilgisiz} ilgisiz bulunan belge listelerde gösterilmez.</footer></main>`}
+const lst=a=>(a&&a.length)?`<ul style="margin:6px 0 0;padding-left:20px">${a.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`:'';
+function blok(b){ if(!b)return'<div style="color:#5A6170">Bilgi yok.</div>';
+ if(b.ilgili_degil&&!(b.teyitli||[]).length&&!(b.olasi_etki||[]).length)return'<div style="color:#5A6170">Bu belge için ilgili değil.</div>';
+ let h='';
+ if((b.teyitli||[]).length)h+=b.teyitli.map(t=>`<div style="display:flex;gap:8px;align-items:flex-start;margin:8px 0"><span class="tag tey">TEYİTLİ</span><div>${esc(t.hukum)}${t.alinti?`<div style="margin-top:4px;padding-left:10px;border-left:3px solid #E3DFD6;color:#3D434D;font-size:13px">“${esc(t.alinti)}”</div>`:''}<div style="font-size:12px;color:#5A6170;margin-top:2px">${t.sayfa?'s. '+esc(t.sayfa):''}${t.paragraf?', par. '+esc(t.paragraf):''}${t.alinti_dogrulandi===false?' · <span style="color:#B42318">alıntı metinde doğrulanamadı</span>':''}</div></div></div>`).join('');
+ if((b.olasi_etki||[]).length)h+=`<div style="display:flex;gap:8px;align-items:flex-start;margin:8px 0"><span class="tag olasi">OLASI ETKİ</span><div>${(b.olasi_etki).map(t=>`<div style="margin-bottom:4px">${esc(t)}</div>`).join('')}</div></div>`;
+ if(b.karsilastirma_kaynagi==='genel_bilgi')h+='<div style="font-size:12px;color:#7A4E00">Önceki çerçeve belgeden değil, genel bilgiden gelir; teyitli sayılmaz.</div>';
+ return h||'<div style="color:#5A6170">Bilgi yok.</div>'}
+function detay(id){const x=D.yayinlar.find(v=>v.id===id);if(!x)return'<main class="w" style="padding:40px 32px">Kayıt bulunamadı. <a href="#ana">Geri dön</a></main>';
+ const a=x.analiz||{};const ab=x.analiz_bilgisi||{};const ST=['Taslak','İstişare','Nihai','Yürürlükte'];
+ const sec=(n,t,h)=>`<section id="s${n}" class="card" style="padding:24px 28px"><h2 class="serif" style="font-size:22px;font-weight:600;margin:0 0 12px">${n}. ${t}</h2>${h}</section>`;
+ const P=a.parametre_etkisi||{};const pc={'Yüksek':'#B42318','Orta':'#8A6A00','Düşük':'#4A5767'};
+ const secs=[
+ sec(1,'Yönetici özeti',`<p style="margin:0;font-size:16px;line-height:1.65">${esc(a.yonetici_ozeti)}</p>`),
+ sec(2,'Yayının amacı',blok(a.amac)),sec(3,'Önceki çerçeve',blok(a.onceki_cerceve)),
+ sec(4,'Yeni hükümler ve değişiklikler',(a.degisiklikler||[]).length?`<div style="overflow-x:auto"><table style="min-width:560px;font-size:13px"><thead><tr style="text-align:left;color:#5A6170;font-size:12px"><th style="padding:8px 12px 8px 0">Konu</th><th>Önceki</th><th>Yeni</th><th>Kaynak</th></tr></thead><tbody>${a.degisiklikler.map(d=>`<tr style="border-top:1px solid #EEEAE2;vertical-align:top"><td style="padding:10px 12px 10px 0;font-weight:600">${esc(d.konu)}</td><td style="padding:10px;color:#5A6170">${esc(d.onceki)}</td><td style="padding:10px;background:#F2F7F5">${esc(d.yeni)}</td><td style="padding:10px">${esc(d.referans)}</td></tr>`).join('')}</tbody></table></div>`:'<div style="color:#5A6170">Belirgin bir değişiklik tespit edilmedi.</div>'),
+ sec(5,'Teknik etkiler',blok(a.teknik_etkiler)),sec(6,'Operasyonel etki',blok(a.operasyonel_etki)),
+ sec(7,'PD, LGD, EAD ve ECL etkileri',`<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px">${['PD','LGD','EAD','ECL'].map(k=>{const m=P[k]||{};return `<div style="border:1px solid #E3DFD6;border-radius:10px;padding:14px 16px"><div style="display:flex;justify-content:space-between;align-items:baseline"><span class="serif" style="font-size:22px;font-weight:600">${k}</span><span style="font-size:12px;font-weight:600;color:${pc[m.duzey]||'#4A5767'}">${esc(m.duzey||'—')}</span></div><div style="font-size:13px;color:#3D434D;margin-top:6px">${esc(m.not)}</div></div>`}).join('')}</div><div style="display:flex;gap:8px;margin-top:12px;font-size:13px"><span class="tag olasi">OLASI ETKİ</span><span>Yapay zekâ yorumudur.</span></div>`),
+ sec(8,'Sermaye ve RWA',blok(a.sermaye_rwa)),sec(9,'İklim ve sürdürülebilirlik',blok(a.iklim)),
+ sec(10,'Tarihler',(a.tarihler||[]).length?(a.tarihler).map(t=>`<div style="display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid #EEEAE2"><span>${esc(t.tur)}</span><span><b>${esc(tr(t.tarih))}</b> <span style="color:#5A6170;font-size:12px">${esc(t.referans||'')}</span></span></div>`).join(''):'<div style="color:#5A6170">Belgede tarih belirtilmemiş.</div>'),
+ sec(11,'Gözden geçirilmesi önerilen alanlar',(a.gozden_gecirilecekler||[]).map((r,i)=>`<div style="display:flex;gap:14px;padding:12px 0;border-top:1px solid #EEEAE2"><span class="serif" style="font-weight:600;color:#0B5D52;width:20px">${i+1}</span><div><div style="font-weight:600">${esc(r.baslik)}</div><div style="color:#5A6170;font-size:13px">${esc(r.aciklama)}</div></div></div>`).join('')||'<div style="color:#5A6170">Öneri yok.</div>'),
+ sec(12,'Kaynak ve referanslar',(a.referanslar||[]).map(r=>`<div style="padding:6px 0">${esc(r.metin)} <span style="color:#5A6170;font-size:12px">${r.sayfa?'s. '+esc(r.sayfa):''}</span></div>`).join('')+`<div style="margin-top:8px"><a href="${esc(x.url)}" target="_blank" rel="noopener">Orijinal belge ↗</a></div>`)];
+ const TOC=['Yönetici özeti','Yayının amacı','Önceki çerçeve','Yeni hükümler','Teknik etkiler','Operasyonel etki','PD · LGD · EAD · ECL','Sermaye ve RWA','İklim ve sürdürülebilirlik','Tarihler','Gözden geçirilecek alanlar','Kaynak ve referanslar'];
+ return `<div style="background:#fff;border-bottom:1px solid #E3DFD6"><div class="w" style="padding-top:24px;padding-bottom:28px;display:flex;flex-direction:column;gap:14px">
+ <div style="font-size:13px;color:#5A6170"><a href="#ana">Genel Bakış</a> / ${esc(x.konu)}</div>
+ <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:13px">${sev(x.onem)}<span style="color:#C9C4B8">|</span><b>${esc(kn(x.kurum))}</b><span style="border:1px solid #CFC9BC;border-radius:4px;padding:1px 8px">${esc(x.belge_turu)}</span></div>
+ <h1 class="serif" style="font-weight:600;font-size:32px;line-height:1.25;margin:0;max-width:980px">${esc(x.baslik_tr)}</h1>
+ <div style="font-size:13px;color:#5A6170">Orijinal başlık: ${esc(x.baslik_orijinal)}</div>
+ <div style="display:flex;flex-wrap:wrap;gap:12px 40px;font-size:13px"><div><div style="color:#5A6170">Yayın tarihi</div><b>${esc(tr(x.yayin_tarihi))}</b></div><div><div style="color:#5A6170">Görüş son tarihi</div><b>${esc(tr(x.gorus_son_tarihi))}</b></div><div><div style="color:#5A6170">Yürürlük</div><b>${x.yururluk_tarihi?esc(tr(x.yururluk_tarihi)):'Belirtilmemiş'}</b></div><div style="flex:1"></div><a href="${esc(x.url)}" target="_blank" rel="noopener" style="background:#15191F;color:#F5F3EE;border-radius:8px;padding:11px 16px;font-weight:500">Orijinal belge ↗</a></div>
+ <div style="font-size:13px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><span style="color:#5A6170">Statü:</span>${ST.map(s=>`<span style="padding:4px 12px;border-radius:999px;${s===x.statu?'background:#15191F;color:#F5F3EE;font-weight:600':'background:#EEEAE2;color:#5A6170'}">${s}</span>`).join('')}${ST.includes(x.statu)?'':`<span style="padding:4px 12px;border-radius:999px;background:#15191F;color:#F5F3EE;font-weight:600">${esc(x.statu)}</span>`}</div>
+ <div style="font-size:13px;color:#3D434D"><b>Önem gerekçesi:</b> ${esc(x.onem_gerekcesi)}</div></div></div>
+ <main class="w row" style="padding-top:24px;padding-bottom:48px"><article style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:20px">${secs.join('')}
+ <section class="card"><h2 class="serif" style="font-size:18px;font-weight:600;margin:0 0 12px">Analiz bilgisi</h2><div style="font-size:13px;display:flex;flex-direction:column;gap:8px">
+ <div style="display:flex;justify-content:space-between"><span style="color:#5A6170">Model</span><span>${esc(ab.model)}</span></div><div style="display:flex;justify-content:space-between"><span style="color:#5A6170">Doğrulanan alıntı</span><span>${esc(ab.alinti_dogrulanan)} / ${esc(ab.alinti_toplam)}</span></div><div style="display:flex;justify-content:space-between"><span style="color:#5A6170">Güven düzeyi</span><b>${esc(ab.guven)}</b></div></div></section>
+ <div style="font-size:12px;color:#5A6170;display:flex;gap:8px;flex-wrap:wrap"><span class="tag tey">TEYİTLİ</span>Belgede yer alan, sayfa referansı verilen hüküm <span class="tag olasi">OLASI ETKİ</span>Yapay zekâ yorumu; resmî beyan değildir</div></article>
+ <nav style="flex:1 1 240px;max-width:280px;position:sticky;top:12px" class="card"><div style="font-size:12px;color:#5A6170;letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px">Analiz</div>${TOC.map((t,i)=>`<a href="#y-${esc(id)}" onclick="document.getElementById('s${i+1}').scrollIntoView({behavior:'smooth'});return false" style="color:#3D434D;padding:6px 10px;display:flex;gap:10px;font-size:13px"><span style="color:#8B919B;width:18px">${i+1}</span>${t}</a>`).join('')}</nav></main>`}
+function yaz(){const h=location.hash;document.getElementById('app').innerHTML=h.startsWith('#y-')?detay(decodeURIComponent(h.slice(3))):ana();if(!h.startsWith('#y-'))window.scrollTo(0,0)}
+function pills(){document.getElementById('pills').innerHTML=KONULAR.map(k=>`<button class="pill ${konu===k?'on':''}" data-k="${k}">${k}</button>`).join('')}
+document.getElementById('pills').addEventListener('click',e=>{const k=e.target.dataset.k;if(!k)return;konu=konu===k?'':k;pills();location.hash='#ana';yaz()});
+document.getElementById('ara').addEventListener('input',e=>{q=e.target.value.trim().toLowerCase();if(location.hash.startsWith('#y-'))location.hash='#ana';yaz()});
+window.addEventListener('hashchange',yaz);pills();yaz();
+</script></body></html>
