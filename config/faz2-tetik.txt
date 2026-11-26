@@ -1,2 +1,2 @@
 # analiz.py argumanlari (ilk satir kullanilir)
---geri-gun 31
+--kurum resmigazete --yeniden --geri-gun 31

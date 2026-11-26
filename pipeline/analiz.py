@@ -203,7 +203,7 @@ def main():
     veri = {f: oku(f, []) for f in dosyalar}
     bekleyen = [(f, a) for f, l in veri.items() for a in l
                 if a.get("filtre", {}).get("sonuc") == "gecti"
-                and (args.yeniden or a.get("analiz_durumu") in (None, "bekliyor", "hata"))
+                and (args.yeniden or a.get("analiz_durumu") in (None, "bekliyor", "hata", "metin_yok"))
                 and (not kurumlar or a["kurum"] in kurumlar) and (not idler or a["aday_id"] in idler)]
     bekleyen.sort(key=lambda x: x[1].get("yayin_tarihi") or "9999", reverse=True)
     if args.sinir and args.cesitli:

@@ -42,6 +42,18 @@ def _pdf_sayfalari(ham):
 
 def metin_al(url):
     """{'tur','sayfalar'(liste[str]),'paragraflar'(liste[str]) ,'tam'} doner."""
+    b = _metin_al(url)
+    if len(b["tam"]) < 400 and "resmigazete.gov.tr" in url and url.lower().endswith(".pdf"):
+        try:  # taranmis PDF: ayni maddenin HTML surumu
+            b2 = _metin_al(url[:-4] + ".htm")
+            if len(b2["tam"]) > len(b["tam"]):
+                return b2
+        except Exception:
+            pass
+    return b
+
+
+def _metin_al(url):
     r = getir(url)
     ham = r["ham"]
     if ham[:4] == b"%PDF" or "pdf" in r["tur"].lower() or url.lower().endswith(".pdf"):
