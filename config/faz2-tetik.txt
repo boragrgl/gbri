@@ -1,0 +1,2 @@
+# analiz.py argumanlari (ilk satir kullanilir)
+--sinir 5 --cesitli

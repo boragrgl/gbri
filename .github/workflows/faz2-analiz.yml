@@ -1,0 +1,54 @@
+name: Faz 2 - Analiz
+
+on:
+  push:
+    branches: [faz1-toplama]
+    paths: ["config/faz2-tetik.txt"]
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "analiz.py argumanlari (ornek: --sinir 5 --cesitli)"
+        default: "--sinir 5 --cesitli"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gbri-veri
+  cancel-in-progress: false
+
+jobs:
+  analiz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bagimliliklar
+        run: |
+          pip install pypdf jsonschema
+          which pdftotext || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
+      - name: Analiz
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ARGS_INPUT: ${{ github.event.inputs.args }}
+        run: |
+          if [ -n "$ARGS_INPUT" ]; then A="$ARGS_INPUT"; else A="$(grep -v '^#' config/faz2-tetik.txt | head -1)"; fi
+          echo "argumanlar: $A"
+          python pipeline/analiz.py $A 2>&1 | tee analiz.log
+      - name: Ozet
+        if: always()
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -E "^\[|->|OZET|HATA|KOTA" analiz.log >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Veriyi kaydet
+        if: always()
+        run: |
+          git config user.name "gbri-bot"
+          git config user.email "gbri-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Analiz: $(date -u +%F) yayinlar" || echo "Degisiklik yok"
+          git pull --rebase && git push

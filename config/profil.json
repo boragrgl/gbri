@@ -1,0 +1,10 @@
+{
+  "banka_profili": "Kamu sermayeli (devlet) banka; kredi riski sermaye hesabında standart yaklaşım kullanır (İRD kullanmaz); TFRS 9 uygular.",
+  "onem_kurallari": [
+    "Bankayı doğrudan bağlayan Türk düzenlemeleri (BDDK, TCMB, KGK, Resmî Gazete) en az Orta başlar.",
+    "Yalnızca İRD (içsel derecelendirme) bankalarını ilgilendiren hükümler en fazla Düşük olur.",
+    "Yürürlük tarihi 90 günden yakın olan ve Yüksek ya da Kritik düzeydeki kayıt öne çıkar.",
+    "Basın duyurusu, faaliyet izni iptali, atama gibi bilgi amaçlı ya da bankayı etkilemeyen belgeler Düşük olur."
+  ],
+  "alinti_en_fazla_kelime": 25
+}
