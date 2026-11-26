@@ -12,7 +12,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Kurum adları"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-df6296",
@@ -27,7 +35,16 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: sınav",
+   "konular": [
+    "Kurum adları",
+    "Risk Yönetimi",
+    "Sürdürülebilirlik / ESG"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-cb4153",
@@ -42,7 +59,14 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: sınav",
+   "konular": [
+    "Kurum adları"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-b457a9",
@@ -57,7 +81,17 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Kurum adları",
+    "Sürdürülebilirlik / ESG",
+    "TFRS 9 / IFRS 9"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-a2fbfd",
@@ -72,7 +106,16 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları",
+    "Risk Yönetimi",
+    "Sürdürülebilirlik / ESG"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-87c5f8",
@@ -87,7 +130,14 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: faaliyet raporu",
+   "konular": [
+    "Kurum adları"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-60c276",
@@ -102,7 +152,14 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: sınav",
+   "konular": [
+    "Kurum adları"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-4e65e8",
@@ -117,7 +174,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Kurum adları"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-3cad75",
@@ -132,7 +197,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: sınav",
+   "konular": [
+    "Kurum adları",
+    "Sürdürülebilirlik / ESG"
+   ]
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-191fd6",
@@ -147,6 +220,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T01:06:36+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor"
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: stratejik plan",
+   "konular": [
+    "Kurum adları"
+   ]
+  }
  }
 ]

@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from kaynak_tanimlari import KAYNAKLAR  # noqa: E402
 from okuyucular import OKUYUCULAR  # noqa: E402
 from ortak import kisa_hash, normal_url, simdi  # noqa: E402
+from filtre import Suzgec  # noqa: E402
 
 KOK = os.path.join(os.path.dirname(__file__), "..", "data")
 
@@ -97,6 +98,7 @@ def main():
     eski = mevcut_adaylar()
     durumlar = {d["id"]: d for d in oku_json(os.path.join(KOK, "kaynaklar.json"), [])}
     yeni_sayisi, ozet = 0, []
+    suzgec = Suzgec()
 
     for kaynak in KAYNAKLAR:
         if a.kaynak and kaynak["id"] != a.kaynak:
@@ -136,6 +138,7 @@ def main():
                 "tespit_zamani": zaman.isoformat(), "son_gorulme": zaman.isoformat(),
                 "baslangic_arsivi": bool(a.baslangic_arsivi), "analiz_durumu": "bekliyor",
             }
+            eski[un]["filtre"] = suzgec.degerlendir(eski[un])
             eklenen += 1
         yeni_sayisi += eklenen
         d["son_taramada_bulunan"] = bulunan
