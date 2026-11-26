@@ -1,0 +1,665 @@
+[
+ {
+  "id": "eba-2026-11-26-0f22c5",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA follow-up review confirms high level of supervisory convergence in applying default rules across the EU/EEA",
+  "baslik_tr": "EBA takip incelemesi, AB/AEA genelinde temerrüt kurallarının uygulanmasında yüksek düzeyde denetimsel yakınsama olduğunu teyit ediyor",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-follow-review-confirms-high-level-supervisory-convergence-applying-default-rules-across-eueea",
+  "belge_turu": "Rapor",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Belge, AB denetim makamlarının temerrüt tanımı uygulamalarını inceleyen bir takip raporudur; Türk kamu bankası için doğrudan bir yasal yükümlülük doğurmaz ancak uluslararası iyi uygulama takibi açısından bilgi niteliğindedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "EBA'nın temerrüt tanımı rehberinin uygulanmasına ilişkin takip raporu, AB genelinde kuralların tutarlı şekilde uygulandığını ve denetim otoriteleri arasındaki uyumun arttığını göstermektedir.",
+  "yayin_tarihi": "2026-11-26",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T13:46:13+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T13:46:13+03:00",
+    "icerik_hash": "cb0b86339a7a6710"
+   }
+  ],
+  "alt_konular": [
+   "Temerrüt Tanımı",
+   "Denetimsel Yakınsama",
+   "EBA/GL/2016/07"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi Riski",
+   "Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "EBA, Temerrüt Tanımı (DoD) Rehberi'nin AB genelinde uygulanmasına ilişkin takip raporunu yayınlamıştır. Raporda, denetim makamlarının yüksek düzeyde uyum sağladığı ve temerrüt takibi için granüler kredi kayıtları gibi gelişmiş veri araçları kullandığı teyit edilmiştir. Banka için doğrudan bir kural değişikliği getirmemekle birlikte, temerrüt tespit süreçlerinde kullanılan veri setlerinin kalitesi ve denetim beklentileri açısından bir gösterge niteliği taşımaktadır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Temerrüt tanımı rehberinin uygulanmasına ilişkin denetimsel yakınsamanın ve uygulama düzeyinin değerlendirilmesi.",
+      "alinti": "confirming strong implementation across all reviewed EU/EEA jurisdictions and a high degree of supervisory convergence in the application of the framework.",
+      "sayfa": null,
+      "paragraf": 4,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "BDDK'nın gelecekteki denetim süreçlerinde veya temerrüt tanımı güncellemelerinde EBA'nın bu raporundaki en iyi uygulamaları referans alması olasıdır."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Rapor, EBA'nın 2024 yılında gerçekleştirdiği temerrüt tanımı rehberine ilişkin akran denetimini (peer review) takip etmektedir.",
+      "alinti": "The report follows the EBA’s 2024 peer review of the Guidelines on DoD and assesses the actions taken by six competent authorities",
+      "sayfa": null,
+      "paragraf": 5,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "Temerrütlerin ve yeniden sınıflandırmaların zamanında tespiti için gelişmiş denetim araçları ve granüler veri setleri kullanılmaktadır.",
+      "alinti": "advanced supervisory tools, including granular credit registers, detailed reporting frameworks and analytical datasets, which support the timely identification of past-due exposures",
+      "sayfa": null,
+      "paragraf": 8,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın temerrüt tespit sistemlerinin, raporda belirtilen 'granüler veri' ve 'analitik veri setleri' ile uyumlu şekilde daha detaylı raporlama üretebilir hale getirilmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi risk izleme birimlerinin, temerrüt ve yeniden sınıflandırma süreçlerini daha sıkı takip eden analitik araçlara yatırım yapması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Temerrüt tanımının daha sıkı uygulanması, RWA hesaplamasında kullanılan temerrüt verilerinin kalitesini artırabilir ancak standart yaklaşım kullanan banka için doğrudan bir sermaye etkisi beklenmez."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Denetim Metodolojisi",
+     "onceki": "Daha az resmileşmiş iç dokümantasyon ve veri paylaşımı.",
+     "yeni": "Denetim metodolojilerinin daha resmileşmiş iç dokümantasyonu ve yargı alanları arasında granüler veri paylaşımının artırılması tavsiye edilmektedir.",
+     "referans": "Sayfa 1, Paragraf 9"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Temerrüt tanımı uygulamalarındaki yakınsama, PD kalibrasyonunda kullanılan temerrüt verilerinin tutarlılığını etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor doğrudan LGD hesaplama metodolojisine odaklanmamaktadır."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Maruz kalınan tutar hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "TFRS 9 kapsamında Stage 3 (temerrüt) belirleme kriterlerinin EBA standartlarıyla uyumu, karşılık tutarlarını dolaylı etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-26",
+     "referans": "Sayfa 1, Paragraf 3"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Temerrüt Tanımı Uyumu",
+     "aciklama": "Bankanın mevcut temerrüt tanımı (DoD) politikalarının EBA/GL/2016/07 rehberi ile ne ölçüde uyumlu olduğunun benchmark analizi yapılması."
+    },
+    {
+     "baslik": "Veri Altyapısı ve Raporlama",
+     "aciklama": "Temerrütlerin zamanında tespiti için kullanılan veri setlerinin granülerliğinin ve analitik kapasitesinin gözden geçirilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Follow-up report on the EBA Peer Review on Guidelines on definition of default",
+     "sayfa": 1,
+     "paragraf": 13
+    },
+    {
+     "metin": "EBA Guidelines on the definition of default (EBA/GL/2016/07)",
+     "sayfa": 1,
+     "paragraf": 11
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T14:03:53+03:00",
+   "gonderilen_karakter": 3200,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 3,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "fsb-2026-11-25-ea89d3",
+  "kurum": "fsb",
+  "baslik_orijinal": "FSB publishes 2026 G-SIB list",
+  "baslik_tr": "FSB 2026 Yılı Küresel Sistemik Öneme Sahip Bankalar (G-SIB) Listesini Yayınladı",
+  "url": "https://www.fsb.org/2026/11/fsb-publishes-2026-g-sib-list/",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Banka bir küresel sistemik öneme sahip banka (G-SIB) değildir; bu düzenleme doğrudan küresel ölçekteki 29 büyük bankayı hedeflemektedir.",
+  "konu": "Basel",
+  "ozet_tek_satir": "FSB, 2026 yılı için 29 bankadan oluşan G-SIB listesini ve bu bankalara uygulanacak ek sermaye yükümlülükleri ile denetim beklentilerini duyurmuştur.",
+  "yayin_tarihi": "2026-11-25",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T00:57:45+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T00:57:45+03:00",
+    "icerik_hash": "fce46967a9e3ed9c"
+   }
+  ],
+  "alt_konular": [
+   "G-SIB",
+   "Sermaye Tamponları",
+   "TLAC"
+  ],
+  "etkilenen_alanlar": [
+   "Sermaye Yönetimi",
+   "Risk Yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2028-01-01",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "FSB, 2026 yılı için küresel sistemik öneme sahip bankalar (G-SIB) listesini yayımlamıştır. Listede yer alan 29 banka değişmemiş, ancak BNP Paribas bir üst dilime, MUFG ise bir alt dilime geçmiştir. Bu bankalar için getirilen ek sermaye yükümlülükleri 1 Ocak 2028 itibarıyla yürürlüğe girecektir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "FSB, 2026 yılı küresel sistemik öneme sahip bankalar listesini yayımlamıştır",
+      "alinti": "The Financial Stability Board (FSB) today published the 2026 list of global systemically important banks (G-SIBs) .",
+      "sayfa": null,
+      "paragraf": 9,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Küresel finansal sistemdeki riskli bankaların daha yakından izlenmesi ve sermaye yeterliliklerinin artırılması amaçlanmaktadır."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "2026 listesindeki 29 banka 2025 listesi ile aynı kalmıştır",
+      "alinti": "The 29 banks included in the FSB’s annual list of global systemically important banks (G-SIBs) for 2026 remain the same as in 2025.",
+      "sayfa": null,
+      "paragraf": 6,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "G-SIB'ler uluslararası standartlara uygun olarak ulusal otoritelerce belirlenen ek sermaye tamponları tutmak zorundadır",
+      "alinti": "The G-SIBs are allocated to buckets corresponding to higher capital buffers that they are required to hold by national authorities in accordance with international standards.",
+      "sayfa": null,
+      "paragraf": 12,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "G-SIB'lerin Toplam Zarar Karşılama Kapasitesi (TLAC) standardına uyması gerekmektedir",
+      "alinti": "G-SIBs are required to meet the TLAC standard, alongside the regulatory capital requirements set out in the Basel III framework.",
+      "sayfa": null,
+      "paragraf": 13,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Dilim değişikliği yaşayan bankaların sermaye yeterlilik rasyoları üzerinde doğrudan baskı oluşabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "G-SIB'ler için grup düzeyinde çözümlenme planlaması ve düzenli değerlendirmeler gereklidir",
+      "alinti": "These requirements include group-wide resolution planning and regular resolvability assessments.",
+      "sayfa": null,
+      "paragraf": 14,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Listede yer alan bankalarla muhabir bankacılık ilişkisi olan kurumlar, bu bankaların risk profillerindeki değişimleri izlemek durumunda kalabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [
+     {
+      "hukum": "Daha yüksek dilim daha yüksek ek sermaye gereksinimi anlamına gelir",
+      "alinti": "The higher the bucket, the greater the additional capital requirement.",
+      "sayfa": null,
+      "paragraf": 19,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Kamu bankası için doğrudan bir RWA veya sermaye etkisi bulunmamaktadır."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Banka Dilim Değişiklikleri",
+     "onceki": "BNP Paribas Dilim 2, MUFG Dilim 2",
+     "yeni": "BNP Paribas Dilim 3, MUFG Dilim 1",
+     "referans": "Sayfa 1, Paragraf 10"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Banka G-SIB listesinde olmadığı için kendi PD hesaplamalarını doğrudan etkilemez."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Düzenleme küresel sistemik bankaların sermaye yapısına ilişkindir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Maruz kalınan tutar hesaplamalarında bir değişiklik öngörülmemektedir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Beklenen kredi zararı hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-25",
+     "referans": "Sayfa 1, Paragraf 23"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2028-01-01",
+     "referans": "Sayfa 1, Paragraf 12"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Muhabir Banka Risk Analizi",
+     "aciklama": "Listede dilimi yükselen BNP Paribas gibi bankalarla olan limitlerin ve risklerin gözden geçirilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "2026 List of Global Systemically Important Banks (G-SIBs)",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T14:04:18+03:00",
+   "gonderilen_karakter": 4645,
+   "alinti_dogrulanan": 6,
+   "alinti_toplam": 6,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "bis-2026-11-25-d0dbf6",
+  "kurum": "bis",
+  "baslik_orijinal": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+  "baslik_tr": "Basel Komitesi, 2026 yılı küresel sistemik öneme sahip bankaların değerlendirmesine ilişkin daha fazla ayrıntı yayınladı",
+  "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Banka kamu sermayeli olup standart yaklaşım kullanmaktadır; G-SIB (Küresel Sistemik Önemli Banka) statüsünde olmadığı sürece bu metodolojik detaylar doğrudan bir yükümlülük doğurmaz, ancak küresel standartların takibi açısından bilgi amaçlıdır.",
+  "konu": "Basel",
+  "ozet_tek_satir": "Basel Komitesi, 2026 yılı G-SIB değerlendirmesinde kullanılan hesaplama paydalarını, banka bazlı göstergeleri ve ek sermaye yükümlülüğü için kullanılan eşik değerlerini açıklamıştır.",
+  "yayin_tarihi": "2026-11-25",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T00:57:45+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T00:57:45+03:00",
+    "icerik_hash": "df8417e7644b2d2d"
+   }
+  ],
+  "alt_konular": [
+   "G-SIB",
+   "Sistemik Önem",
+   "Sermaye Tamponları"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Sermaye Planlaması"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "Basel Komitesi, 2026 yılı küresel sistemik öneme sahip bankalar (G-SIB) değerlendirmesine ilişkin metodolojik detayları ve gösterge değerlerini yayımlamıştır. Bu yayın, 2025 yıl sonu verilerine dayanan puanlama sistemini, payda değerlerini ve ek sermaye yükümlülüğü dilimlerini (buckets) içermektedir. Bankamız doğrudan bir G-SIB olmasa da, küresel sistemik risk ölçüm standartlarını ve büyük bankalara yönelik sermaye gereksinimlerini izlemek açısından önemlidir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "G-SIB puanlama metodolojisinin anlaşılmasını geliştirmek için ek ayrıntılar sağlamak.",
+      "alinti": "additional details to improve understanding of the scoring methodology.",
+      "sayfa": null,
+      "paragraf": 11,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Küresel sistemik risk göstergelerinin hesaplanmasında kullanılan payda değerlerinin şeffaflığını artırabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Önceki yıllarda uygulanan G-SIB değerlendirme metodolojisinin 2025 verileriyle güncellenmiş halidir."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "Puanlar, her bir G-SIB için daha yüksek zarar karşılama kapasitesi gereksinimini belirleyen ilgili dilimlerle eşleştirilir.",
+      "alinti": "The final scores are mapped to corresponding buckets that determine the higher loss-absorbency requirement for each G-SIB.",
+      "sayfa": null,
+      "paragraf": 16,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Sistemik önem puanı artan bankalar için ek sermaye tamponu gereksinimleri değişebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "G-SIB listesindeki bankalarla muhabir bankacılık ilişkisi olan birimler, bu bankaların sermaye rasyolarındaki olası değişimleri izleyebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "G-SIB olarak tanımlanan bankalar için ek sermaye tamponu (Higher Loss Absorbency) zorunluluğu getirilmektedir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "G-SIB Değerlendirme Verileri",
+     "onceki": "Önceki mali yıl verileri",
+     "yeni": "2025 mali yıl sonu verileri",
+     "referans": "Sayfa 1, P16"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "İlgili değil",
+     "not": "G-SIB metodolojisi doğrudan PD parametrelerini etkilemez."
+    },
+    "LGD": {
+     "duzey": "İlgili değil",
+     "not": "G-SIB metodolojisi doğrudan LGD parametrelerini etkilemez."
+    },
+    "EAD": {
+     "duzey": "İlgili değil",
+     "not": "G-SIB metodolojisi doğrudan EAD parametrelerini etkilemez."
+    },
+    "ECL": {
+     "duzey": "İlgili değil",
+     "not": "TFRS 9 karşılıkları üzerinde doğrudan bir etkisi bulunmamaktadır."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-25",
+     "referans": "Sayfa 1, P5"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Küresel Sistemik Önem Göstergeleri",
+     "aciklama": "Basel Komitesi'nin yayımladığı payda değerleri ve göstergeler, bankanın kendi sistemik önemini (D-SIBN kapsamında) değerlendirirken kıyaslama amacıyla incelenebilir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Basel Committee publishes more details on the 2026 assessment of global systemically important banks",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T14:04:40+03:00",
+   "gonderilen_karakter": 2495,
+   "alinti_dogrulanan": 2,
+   "alinti_toplam": 2,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "ecb-2026-11-23-b1d15e",
+  "kurum": "ecb",
+  "baslik_orijinal": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+  "baslik_tr": "ECB, DLT tabanlı varlıkların Eurosystem teminatı olarak kabulünü genişletiyor",
+  "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Orta",
+  "onem_gerekcesi": "ECB düzenlemesi olması nedeniyle doğrudan Türk bankacılık mevzuatını değiştirmese de, bankanın Avrupa piyasalarındaki likidite operasyonlarını ve dijital varlık stratejilerini etkileyebilir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "ECB, AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen ve belirli kriterleri karşılayan dijital varlıkların Eurosystem kredi operasyonlarında teminat olarak kullanılmasına onay vermiştir.",
+  "yayin_tarihi": "2026-11-23",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T00:57:45+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T00:57:45+03:00",
+    "icerik_hash": "4606e454d293dbd2"
+   }
+  ],
+  "alt_konular": [
+   "DLT",
+   "Tokenizasyon",
+   "Teminat Yönetimi"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine İşlemleri",
+   "Likidite Yönetimi",
+   "Operasyonel Risk"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2027-06-01",
+  "uyum_son_tarihi": "2027-06-01",
+  "analiz": {
+   "yonetici_ozeti": "ECB, AB DLT Pilot Rejimi kapsamında lisanslı platformlarda ihraç edilen varlıkların Eurosystem kredi operasyonlarında teminat olarak kabul edilmesine karar vermiştir. Bu adım, finansal piyasaların tokenizasyonuna uyum sağlama stratejisinin bir parçasıdır. Uygulama Haziran 2027'de başlayacak olup, varlıkların standart teminat kriterlerini ve belirli teknik şartları karşılaması gerekecektir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "DLT platformlarında ihraç edilen pazarlanabilir varlıkların Eurosystem kredi operasyonları için uygun teminat olarak kabul edilmesi onaylanmıştır.",
+      "alinti": "The Governing Council of the European Central Bank (ECB) has approved the acceptance of marketable assets issued on DLT platforms",
+      "sayfa": null,
+      "paragraf": 7,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Avrupa piyasalarında işlem yapan bankalar için teminat havuzunun çeşitlenmesi sağlanabilir.",
+     "Tokenize varlıkların finansal sistemdeki likiditesi artabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Daha önce yalnızca DLT tabanlı hizmetler kullanan Merkezi Kayıt Kuruluşlarında (CSD) ihraç edilen varlıklar teminat olarak kabul ediliyordu.",
+      "alinti": "Today’s decision follows the announcement on 27 January 2026 to accept as collateral assets issued in CSDs using DLT-based services.",
+      "sayfa": null,
+      "paragraf": 12,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "Varlıkların TARGET2-Securities (T2S) platformunda takas edilebilir olması ve uygun bir CSD bağlantısı üzerinden sunulması gerekmektedir.",
+      "alinti": "This includes making the assets available to the Eurosystem via an eligible link to a central securities depository (CSD) operating an eligible securities settlement system.",
+      "sayfa": null,
+      "paragraf": 10,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın saklama ve takas sistemlerinin T2S ve DLT platformları ile entegrasyonu gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "DLT platformlarının operasyonel güvenlik ve dış kaynak kullanımı gibi konularda özel Eurosystem gerekliliklerini karşılaması gerekecektir.",
+      "alinti": "DLT platforms will need to meet dedicated Eurosystem requirements to ensure legal certainty and operational safety",
+      "sayfa": null,
+      "paragraf": 10,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Yeni nesil varlıkların operasyonel risk değerlendirme süreçleri güncellenebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Standart yaklaşım kullanan banka için bu varlıkların risk ağırlığı, ihraççı türüne ve kredi kalitesine göre belirlenmeye devam edecektir; ancak teminat olarak kabul edilmeleri likidite rasyolarını olumlu etkileyebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Teminat Uygunluğu",
+     "onceki": "Sadece geleneksel veya DLT hizmeti kullanan CSD varlıkları.",
+     "yeni": "DLT Pilot Rejimi lisanslı platformlarda ihraç edilen tokenize varlıklar.",
+     "referans": "Sayfa 1, P7"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri üzerinde doğrudan bir etkisi yoktur."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "Teminatın tokenize formda olması, teminatın nakde çevrilme hızı ve değerlemesi üzerinden LGD'yi dolaylı etkileyebilir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Maruz kalınan tutar üzerinde doğrudan etkisi yoktur."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "TFRS 9 karşılıkları üzerinde doğrudan bir etkisi bulunmamaktadır."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-23",
+     "referans": "Sayfa 1, P3"
+    },
+    {
+     "tur": "Detayların Açıklanması",
+     "tarih": "2027-03-01",
+     "referans": "Sayfa 1, P10"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2027-06-01",
+     "referans": "Sayfa 1, P10"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Hazine ve Likidite Politikaları",
+     "aciklama": "Euro cinsinden teminat havuzuna tokenize varlıkların dahil edilip edilmeyeceği değerlendirilmelidir."
+    },
+    {
+     "baslik": "Teknoloji Altyapısı",
+     "aciklama": "DLT tabanlı varlıkların saklanması ve T2S üzerinden mobilizasyonu için teknik hazırlıklar gözden geçirilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T14:05:10+03:00",
+   "gonderilen_karakter": 4214,
+   "alinti_dogrulanan": 4,
+   "alinti_toplam": 4,
+   "guven": "Yüksek"
+  }
+ }
+]

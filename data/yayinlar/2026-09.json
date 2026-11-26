@@ -1,0 +1,159 @@
+[
+ {
+  "id": "kgk-2026-09-18-e0ed7a",
+  "kurum": "kgk",
+  "baslik_orijinal": "Türk Devletleri Muhasebe ve Denetim Meslek Kuruluşları ve Düzenleyici Kurumlar Birliği Resmen Kuruldu",
+  "baslik_tr": "Türk Devletleri Muhasebe ve Denetim Meslek Kuruluşları ve Düzenleyici Kurumlar Birliği Resmen Kuruldu",
+  "url": "https://www.kgk.gov.tr/Portalv2Uploads/files/Duyurular/v2/Diger/Bas%C4%B1n%20Duyurusu-37.pdf",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "KGK'nın taraf olduğu uluslararası bir iş birliği duyurusu olup, bankanın mevcut finansal raporlama veya sermaye yeterliliği hesaplamalarını doğrudan değiştiren bir yükümlülük getirmemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Türkiye, Azerbaycan, Kazakistan ve Özbekistan arasında finansal raporlama ve denetim standartlarında uyum ve iş birliğini sağlamak amacıyla yeni bir bölgesel birlik kurulmuştur.",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T00:57:45+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T00:57:45+03:00",
+    "icerik_hash": "3346eb7a429f1a83"
+   }
+  ],
+  "alt_konular": [
+   "Uluslararası İş Birliği",
+   "Bağımsız Denetim",
+   "Finansal Raporlama"
+  ],
+  "etkilenen_alanlar": [
+   "Raporlama",
+   "Dış Denetim"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-09-16",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "KGK, Türk devletleri arasında finansal raporlama ve bağımsız denetim standartlarını harmonize etmek amacıyla Azerbaycan, Kazakistan ve Özbekistan ile kalıcı bir birlik kurmuştur. Bu birlik, bölge ülkeleri arasında denetçi yetkilendirmesinde karşılıklı tanıma ve ortak teknoloji kullanımı gibi stratejik hedefler taşımaktadır. Banka için kısa vadede operasyonel bir değişiklik yaratmasa da orta vadede bölgesel raporlama standartlarında uyumlaşma beklenebilir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Türk dünyasında finansal raporlama, bağımsız denetim ve kamu gözetimi alanlarında iş birliğinin güçlendirilmesi hedeflenmektedir.",
+      "alinti": "Türk dünyasında finansal raporlama, bağımsız denetim ve kamu gözetimi alanlarında iş birliğinin güçlendirilmesine yönelik yürüttüğü çalışmalar kapsamında önemli bir uluslararası adım daha atmıştır.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Türk devletlerinde faaliyet gösteren iştiraklerin raporlama süreçlerinde standartlaşma sağlanabilir.",
+     "Bölgesel ticari faaliyetlerin finansmanında denetim raporlarına duyulan güven artabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Daha önce dağınık olan ikili anlaşmaların yerini merkezi ve çok taraflı bir yapı alacaktır.",
+     "İş birliği daha önce ikili mutabakat zaptları ve sempozyumlar düzeyinde yürütülmekteydi. (belgeden birebir doğrulanamadı)"
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "Blok zinciri ve veri analitiği gibi teknolojilerin denetim süreçlerine entegrasyonu planlanmaktadır.",
+      "alinti": "blok zinciri ve veri analitiği gibi yeni teknolojilerin denetim süreçlerine entegre edilmesi ve meslek mensuplarının küresel rekabet gücünü artıracak mesleki eğitimlerin düzenlenmesi öngörülmektedir.",
+      "sayfa": 2,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın dış denetim süreçlerinde kullanılan teknolojik altyapı gereksinimleri gelecekte güncellenebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bölge ülkelerindeki şube veya iştiraklerin denetim raporlarının Türkiye'deki ana banka raporlamasıyla uyumu kolaylaşabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Kurumsal Yapı",
+     "onceki": "İkili mutabakat zaptları ve teknik ziyaretler.",
+     "yeni": "Kalıcı ve çok taraflı bir Birlik yapısı.",
+     "referans": "Sayfa 1"
+    },
+    {
+     "konu": "Denetçi Yetkilendirme",
+     "onceki": "Ülke bazlı yerel yetkilendirme süreçleri.",
+     "yeni": "Karşılıklı tanıma mekanizmalarının oluşturulması öngörüsü.",
+     "referans": "Sayfa 2"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "İlgili değil",
+     "not": "Düzenleme kurumsal iş birliği ile ilgilidir, risk parametrelerini etkilemez."
+    },
+    "LGD": {
+     "duzey": "İlgili değil",
+     "not": "Düzenleme kurumsal iş birliği ile ilgilidir, risk parametrelerini etkilemez."
+    },
+    "EAD": {
+     "duzey": "İlgili değil",
+     "not": "Düzenleme kurumsal iş birliği ile ilgilidir, risk parametrelerini etkilemez."
+    },
+    "ECL": {
+     "duzey": "İlgili değil",
+     "not": "Düzenleme kurumsal iş birliği ile ilgilidir, risk parametrelerini etkilemez."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-18",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-09-16",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "İştirak Raporlamaları",
+     "aciklama": "Birlik üyesi ülkelerde (Azerbaycan, Kazakistan, Özbekistan) bankanın iştiraki bulunması durumunda, bu ülkelerdeki denetim standartlarının Türkiye ile uyumlaşma süreci takip edilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Türk Devletleri Muhasebe ve Denetim Meslek Kuruluşları ve Düzenleyici Kurumlar Birliği Resmen Kuruldu",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T14:03:25+03:00",
+   "gonderilen_karakter": 4052,
+   "alinti_dogrulanan": 2,
+   "alinti_toplam": 3,
+   "guven": "Orta"
+  }
+ }
+]

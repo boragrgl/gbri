@@ -12,7 +12,7 @@
   "tespit_zamani": "2026-11-26T13:46:13+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -20,7 +20,8 @@
     "Genel düzenleme",
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "eba-2026-11-26-0f22c5"
  },
  {
   "aday_id": "worldbank-2026-11-25-85f3e2",
@@ -75,14 +76,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: G-SIB, systemically important",
    "konular": [
     "Basel / sermaye"
    ]
-  }
+  },
+  "kayit_id": "fsb-2026-11-25-ea89d3"
  },
  {
   "aday_id": "fsb-2026-11-25-d8a72b",
@@ -199,7 +201,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Basel, Basel Committee, G-SIB, financial stability",
@@ -208,7 +210,8 @@
     "Kurum adları",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "bis-2026-11-25-d0dbf6"
  },
  {
   "aday_id": "fsb-2026-11-24-bebc6b",
@@ -283,14 +286,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: collateral",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-23-b1d15e"
  },
  {
   "aday_id": "kgk-2026-11-22-bbee1d",
