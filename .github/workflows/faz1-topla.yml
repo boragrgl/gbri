@@ -3,7 +3,7 @@ name: Faz 1 - Toplama
 on:
   push:
     branches: [faz1-toplama]
-    paths: ["pipeline/**", ".github/workflows/faz1-topla.yml"]
+    paths: [".github/workflows/faz1-topla.yml"]
   workflow_dispatch:
 
 permissions:
