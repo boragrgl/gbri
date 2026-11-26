@@ -4,6 +4,7 @@ import re
 import subprocess
 import tempfile
 import os
+import urllib.parse
 
 from ortak import getir
 
@@ -34,10 +35,43 @@ def _pdf_sayfalari(ham):
             try:
                 from pypdf import PdfReader
                 r = PdfReader(yol)
-                return [(p.extract_text() or "") for p in r.pages]
+                t = [(p.extract_text() or "") for p in r.pages]
+                if sum(len(x) for x in t) >= 50:
+                    return t
             except Exception:
-                return []
+                pass
+            return _ocr(yol, d)
     return metin.split("\f")
+
+
+def _ocr(yol, d, maks_sayfa=40):
+    """Taranmis PDF: pdftoppm + tesseract (Turkce). Kurulu degilse bos doner."""
+    try:
+        subprocess.run(["pdftoppm", "-r", "200", "-l", str(maks_sayfa), "-png", yol, os.path.join(d, "s")],
+                       capture_output=True, timeout=300, check=True)
+        sayfalar = []
+        for g in sorted(x for x in os.listdir(d) if x.startswith("s") and x.endswith(".png")):
+            r = subprocess.run(["tesseract", os.path.join(d, g), "-", "-l", "tur+eng", "--psm", "4"],
+                               capture_output=True, timeout=180)
+            sayfalar.append(r.stdout.decode("utf-8", "replace"))
+        global SON_OCR
+        SON_OCR = True
+        return sayfalar
+    except Exception:
+        return []
+
+
+SON_OCR = False
+
+
+def _ana_pdf(ham_html, taban):
+    """Sayfadaki ilk anlamli PDF baglantisi (yayinin asil metni sik sik burada)."""
+    for m in re.finditer(r'(?i)href=["\']([^"\']+\.pdf[^"\']*)["\']', ham_html):
+        u = urllib.parse.urljoin(taban, html.unescape(m.group(1)))
+        if re.search(r"(?i)privacy|cookie|terms|accessib|factsheet-template", u):
+            continue
+        return u
+    return None
 
 
 def metin_al(url):
@@ -45,7 +79,7 @@ def metin_al(url):
     b = _metin_al(url)
     if len(b["tam"]) < 400 and "resmigazete.gov.tr" in url and url.lower().endswith(".pdf"):
         try:  # taranmis PDF: ayni maddenin HTML surumu
-            b2 = _metin_al(url[:-4] + ".htm")
+            b2 = _metin_al(url[:-4] + ".htm", ek_pdf=False)
             if len(b2["tam"]) > len(b["tam"]):
                 return b2
         except Exception:
@@ -53,17 +87,36 @@ def metin_al(url):
     return b
 
 
-def _metin_al(url):
+def _metin_al(url, ek_pdf=True):
     r = getir(url)
     ham = r["ham"]
     if ham[:4] == b"%PDF" or "pdf" in r["tur"].lower() or url.lower().endswith(".pdf"):
+        global SON_OCR
+        SON_OCR = False
         sayfalar = [re.sub(r"[ \t]+", " ", p).strip() for p in _pdf_sayfalari(ham)]
+        ocr = SON_OCR
         sayfalar = [p for p in sayfalar if p] or []
         tam = "\n".join(f"[Sayfa {i}]\n{p}" for i, p in enumerate(sayfalar, 1))
-        return {"tur": "pdf", "sayfalar": sayfalar, "paragraflar": [], "tam": tam, "ham_uzunluk": len(ham)}
+        return {"tur": "pdf", "sayfalar": sayfalar, "paragraflar": [], "tam": tam, "ham_uzunluk": len(ham), "ocr": ocr}
     paragraflar = _html_metin(r["metin"])
     tam = "\n".join(f"[P{i}] {p}" for i, p in enumerate(paragraflar, 1))
-    return {"tur": "html", "sayfalar": [], "paragraflar": paragraflar, "tam": tam, "ham_uzunluk": len(ham)}
+    out = {"tur": "html", "sayfalar": [], "paragraflar": paragraflar, "tam": tam, "ham_uzunluk": len(ham)}
+    if ek_pdf:
+        pdf_url = _ana_pdf(r["metin"], r["url"])
+        if pdf_url:
+            try:
+                rp = getir(pdf_url)
+                sayfalar = [re.sub(r"[ \t]+", " ", p).strip() for p in _pdf_sayfalari(rp["ham"])]
+                sayfalar = [p for p in sayfalar if p]
+                if sayfalar:
+                    out["sayfalar"] = sayfalar
+                    out["ek_pdf"] = pdf_url
+                    out["tur"] = "karma"
+                    out["tam"] = (tam + "\n\n[EK BELGE: sayfadaki PDF bağlantısı]\n"
+                                  + "\n".join(f"[Sayfa {i}]\n{p}" for i, p in enumerate(sayfalar, 1)))
+            except Exception:
+                pass
+    return out
 
 
 def _anahtar(s):
@@ -78,17 +131,12 @@ def alinti_bul(alinti, belge):
     a = _anahtar(alinti)
     if len(alinti.split()) < 3 or len(a) < 12:
         return False, None, None
-    if belge["tur"] == "pdf":
-        for i, p in enumerate(belge["sayfalar"], 1):
-            if a in _anahtar(p):
-                return True, i, None
-        # sayfa sinirini asan alinti
-        if a in _anahtar(" ".join(belge["sayfalar"])):
-            return True, None, None
-        return False, None, None
+    for i, p in enumerate(belge["sayfalar"], 1):
+        if a in _anahtar(p):
+            return True, i, None
     for i, p in enumerate(belge["paragraflar"], 1):
         if a in _anahtar(p):
             return True, None, i
-    if a in _anahtar(" ".join(belge["paragraflar"])):
+    if a in _anahtar(" ".join(belge["sayfalar"])) or a in _anahtar(" ".join(belge["paragraflar"])):
         return True, None, None
     return False, None, None

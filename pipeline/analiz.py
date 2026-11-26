@@ -114,6 +114,8 @@ def analizi_temizle(a, belge):
 
 def guven(sayac, kisaltildi, belge):
     dog, top = sayac
+    if belge.get("ocr"):
+        return "Orta" if (top and dog / top >= 0.6) else "Düşük"
     if len(belge["tam"]) < 400:
         return "Düşük"
     oran = dog / top if top else 0
@@ -181,6 +183,8 @@ def isle(aday, yz, bugun, geri_gun=31):
                            "gonderilen_karakter": len(govde), "alinti_dogrulanan": sayac[0],
                            "alinti_toplam": sayac[1], "guven": guven(sayac, kisaltildi, belge)},
     })
+    if belge.get("ocr"):
+        kayit["analiz_bilgisi"]["not"] = "Taranmış PDF; metin OCR ile okundu, yazım hataları olabilir."
     if kisaltildi:
         kayit["analiz_bilgisi"]["not"] = f"Belge uzun olduğu için ilk {MAKS_KARAKTER} karakter analiz edildi."
     return {"durum": "tamam", "kayit": kayit, "belge": belge, "hash": hash_}
