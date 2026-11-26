@@ -31,7 +31,7 @@ def _pdf_sayfalari(ham):
         yol = os.path.join(d, "x.pdf")
         open(yol, "wb").write(ham)
         try:
-            out = subprocess.run(["pdftotext", "-layout", yol, "-"], capture_output=True, timeout=120).stdout
+            out = subprocess.run(["pdftotext", yol, "-"], capture_output=True, timeout=120).stdout
             sayfalar = out.decode("utf-8", "replace").split("\f")
         except Exception:
             sayfalar = []

@@ -133,6 +133,8 @@ def isle(aday, yz, bugun, geri_gun=31):
     belge = metin_al(aday["url"])
     govde, kisaltildi = kisalt(belge["tam"])
     hash_ = kisa_hash(belge["tam"], 16)
+    if sum(1 for p in belge["paragraflar"] if p.strip() in ("Basın Duyurusu", "Duyuru")) >= 4:
+        return {"durum": "liste_sayfasi", "hash": hash_}  # adres tekil belge degil, liste sayfasina cikiyor
     if len(belge["tam"]) < 200:
         return {"durum": "metin_yok", "hash": hash_, "karakter": len(belge["tam"])}
     ust = (f"Kurum: {aday['kurum'].upper()}\nListedeki başlık: {aday['baslik_orijinal']}\n"
@@ -226,7 +228,7 @@ def main():
         bekleyen = bekleyen[:args.sinir]
     print(f"Islenecek belge: {len(bekleyen)}", flush=True)
     yz = YZ()
-    ozet = {"kapsam_disi": 0, "tamam": 0, "ilgisiz": 0, "metin_yok": 0, "hata": 0, "kota": 0}
+    ozet = {"kapsam_disi": 0, "tamam": 0, "ilgisiz": 0, "metin_yok": 0, "liste_sayfasi": 0, "hata": 0, "kota": 0}
     for n, (f, a) in enumerate(bekleyen, 1):
         print(f"[{n}/{len(bekleyen)}] {a['kurum']} {a.get('yayin_tarihi')} {a['baslik_orijinal'][:70]}", flush=True)
         try:
