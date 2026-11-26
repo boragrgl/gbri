@@ -126,7 +126,7 @@ def yeni_id(aday, tarih):
     return f"{aday['kurum']}-{tarih}-{aday['aday_id'].rsplit('-', 1)[-1]}"
 
 
-def isle(aday, yz, bugun):
+def isle(aday, yz, bugun, geri_gun=31):
     """Tek adayi isler. {'kayit':..., 'durum': ...} doner."""
     belge = metin_al(aday["url"])
     govde, kisaltildi = kisalt(belge["tam"])
@@ -147,6 +147,8 @@ def isle(aday, yz, bugun):
         tarih_kaynak = "tespit"
     else:
         tarih_kaynak = "belge" if (t_model and tarih == t_model.isoformat()) else aday.get("tarih_kaynagi", "liste")
+    if tarih_kaynak == "belge" and (bugun - dt.date.fromisoformat(tarih)).days > geri_gun + 3:
+        return {"durum": "kapsam_disi", "hash": hash_, "tarih": tarih}
     kayit = {
         "id": yeni_id(aday, tarih), "kurum": aday["kurum"],
         "baslik_orijinal": (k.get("baslik_orijinal") or aday["baslik_orijinal"]).strip(),
@@ -189,6 +191,7 @@ def main():
     ap.add_argument("--sinir", type=int, default=0, help="en fazla N belge")
     ap.add_argument("--kurum", default="", help="virgulle ayrilmis kurumlar")
     ap.add_argument("--ids", default="", help="virgulle ayrilmis aday_id'ler")
+    ap.add_argument("--geri-gun", type=int, default=31, help="belgeden okunan tarih bundan eskiyse kapsam disi")
     ap.add_argument("--yeniden", action="store_true", help="tamamlananlari da yeniden isle")
     ap.add_argument("--cesitli", action="store_true", help="--sinir ile kurumlara yayarak sec")
     args = ap.parse_args()
@@ -219,11 +222,11 @@ def main():
         bekleyen = bekleyen[:args.sinir]
     print(f"Islenecek belge: {len(bekleyen)}", flush=True)
     yz = YZ()
-    ozet = {"tamam": 0, "ilgisiz": 0, "metin_yok": 0, "hata": 0, "kota": 0}
+    ozet = {"kapsam_disi": 0, "tamam": 0, "ilgisiz": 0, "metin_yok": 0, "hata": 0, "kota": 0}
     for n, (f, a) in enumerate(bekleyen, 1):
         print(f"[{n}/{len(bekleyen)}] {a['kurum']} {a.get('yayin_tarihi')} {a['baslik_orijinal'][:70]}", flush=True)
         try:
-            s = isle(a, yz, bugun)
+            s = isle(a, yz, bugun, args.geri_gun)
         except Kota as e:
             print("  KOTA/MODEL SORUNU, duruyorum:", str(e)[:200], flush=True)
             ozet["kota"] += 1

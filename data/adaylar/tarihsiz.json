@@ -12,7 +12,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "tamam",
+  "analiz_durumu": "kapsam_disi",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -20,8 +20,7 @@
     "Genel düzenleme",
     "Kurum adları"
    ]
-  },
-  "kayit_id": "kgk-2026-09-18-e0ed7a"
+  }
  },
  {
   "aday_id": "kgk-tarihsiz-df6296",
