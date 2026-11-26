@@ -22,26 +22,34 @@ def _html_metin(s):
     return [x for x in satirlar if len(x) > 2]
 
 
+def _harf(sayfalar):
+    return sum(sum(c.isalpha() for c in p) for p in sayfalar)
+
+
 def _pdf_sayfalari(ham):
     with tempfile.TemporaryDirectory() as d:
         yol = os.path.join(d, "x.pdf")
         open(yol, "wb").write(ham)
         try:
             out = subprocess.run(["pdftotext", "-layout", yol, "-"], capture_output=True, timeout=120).stdout
-            metin = out.decode("utf-8", "replace")
+            sayfalar = out.decode("utf-8", "replace").split("\f")
         except Exception:
-            metin = ""
-        if len(metin.strip()) < 50:
+            sayfalar = []
+        if _harf(sayfalar) < 300:
             try:
                 from pypdf import PdfReader
-                r = PdfReader(yol)
-                t = [(p.extract_text() or "") for p in r.pages]
-                if sum(len(x) for x in t) >= 50:
-                    return t
+                t = [(p.extract_text() or "") for p in PdfReader(yol).pages]
+                if _harf(t) > _harf(sayfalar):
+                    sayfalar = t
             except Exception:
                 pass
-            return _ocr(yol, d)
-    return metin.split("\f")
+        if _harf(sayfalar) < 300:  # tarama ya da bozuk yazi tipi: OCR dene
+            o = _ocr(yol, d)
+            if _harf(o) > _harf(sayfalar):
+                global SON_OCR
+                SON_OCR = True
+                return o
+        return sayfalar
 
 
 def _ocr(yol, d, maks_sayfa=40):
@@ -54,8 +62,6 @@ def _ocr(yol, d, maks_sayfa=40):
             r = subprocess.run(["tesseract", os.path.join(d, g), "-", "-l", "tur+eng", "--psm", "4"],
                                capture_output=True, timeout=180)
             sayfalar.append(r.stdout.decode("utf-8", "replace"))
-        global SON_OCR
-        SON_OCR = True
         return sayfalar
     except Exception:
         return []
