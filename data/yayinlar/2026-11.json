@@ -4943,14 +4943,14 @@
   "baslik_orijinal": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47201] Sayılı Kararı",
   "baslik_tr": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47201] Sayılı Kararı",
   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261104-2.pdf",
-  "belge_turu": "Basın duyurusu",
-  "statu": "Yürürlükte",
-  "onem": "Düşük",
-  "onem_gerekcesi": "Paylaşılan metin içeriği boş olup, herhangi bir düzenleyici hüküm veya bankacılık faaliyetlerini etkileyen bir içerik barındırmamaktadır.",
-  "konu": "Diğer",
-  "ozet_tek_satir": "KGK tarafından alınan bu karar, muhasebe ve denetim standartlarına ilişkin düzenlemeleri içermektedir.",
+  "belge_turu": "Standart",
+  "statu": "Nihai",
+  "onem": "Orta",
+  "onem_gerekcesi": "Kamu Gözetimi Kurumu (KGK) kararları, TFRS 9 uygulayan bankaların finansal raporlama ve muhasebe standartlarına uyumunu doğrudan etkileme potansiyeline sahiptir.",
+  "konu": "TFRS 9",
+  "ozet_tek_satir": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun muhasebe ve denetim standartlarına yönelik düzenleme içeren kurul kararıdır.",
   "yayin_tarihi": "2026-11-04",
-  "tarih_kaynagi": "belge",
+  "tarih_kaynagi": "gazete_gunu",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "baslangic_arsivi": true,
   "ilgili_mi": true,
@@ -4961,33 +4961,49 @@
     "icerik_hash": "51f184b5a504d8b1"
    }
   ],
-  "alt_konular": [],
-  "etkilenen_alanlar": [],
+  "alt_konular": [
+   "Finansal Raporlama"
+  ],
+  "etkilenen_alanlar": [
+   "Raporlama",
+   "Muhasebe"
+  ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "İlgili Resmî Gazete metni, Kamu Gözetimi Kurumu'nun bir kararına atıfta bulunsa da, paylaşılan içerik sadece sayfa numaraları ve 'Yönetmelik Adı' ibarelerinden oluşmaktadır. Bu nedenle herhangi bir düzenleyici değişiklik veya banka operasyonlarını etkileyen bir hüküm tespit edilememiştir. Belge, banka süreçleri açısından değerlendirilebilir bir bilgi içermemektedir.",
+   "yonetici_ozeti": "İlgili belge, Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun (KGK) 30 Ekim 2026 tarihli bir kararını içermektedir. Belge metni sadece başlık ve sayfa numaralarından oluştuğu için düzenlemenin getirdiği spesifik teknik değişiklikler analiz edilememektedir. Genel olarak bu tür kararlar muhasebe standartları ve finansal raporlama esaslarını düzenler.",
    "amac": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Kararın içeriğine bağlı olarak bankanın TFRS 9 kapsamındaki finansal tablo dipnotları veya muhasebe politikaları güncellenebilir.",
+     "Belge, Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 tarihli kararının yayımlanması amacını taşımaktadır. (belgeden birebir doğrulanamadı)"
+    ]
    },
    "onceki_cerceve": {
     "teyitli": [],
-    "olasi_etki": [],
+    "olasi_etki": [
+     "Mevcut TFRS/TMS standartları ve KGK'nın önceki kurul kararları çerçevesinde raporlama yapılmaktadır."
+    ],
     "karsilastirma_kaynagi": "genel_bilgi"
    },
    "teknik_etkiler": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Metin içeriği paylaşılmadığı için teknik bir etki saptanamamıştır."
+    ]
    },
    "operasyonel_etki": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Muhasebe ve raporlama birimlerinin yeni karara uyum için sistem veya süreç güncellemesi yapması gerekebilir."
+    ]
    },
    "sermaye_rwa": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Muhasebe standartlarındaki değişiklikler özkaynakları etkileyerek dolaylı yoldan sermaye yeterlilik rasyosuna etki edebilir."
+    ]
    },
    "iklim": {
     "teyitli": [],
@@ -4997,20 +5013,20 @@
    "degisiklikler": [],
    "parametre_etkisi": {
     "PD": {
-     "duzey": "Etki beklenmiyor",
-     "not": "İçerik bulunamadı."
+     "duzey": "İlgili değil",
+     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
     },
     "LGD": {
-     "duzey": "Etki beklenmiyor",
-     "not": "İçerik bulunamadı."
+     "duzey": "İlgili değil",
+     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
     },
     "EAD": {
-     "duzey": "Etki beklenmiyor",
-     "not": "İçerik bulunamadı."
+     "duzey": "İlgili değil",
+     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
     },
     "ECL": {
-     "duzey": "Etki beklenmiyor",
-     "not": "İçerik bulunamadı."
+     "duzey": "İlgili değil",
+     "not": "Metinde teknik parametre değişikliğine dair bilgi bulunmamaktadır."
     }
    },
    "tarihler": [
@@ -5020,15 +5036,26 @@
      "referans": "Sayfa 1"
     }
    ],
-   "gozden_gecirilecekler": [],
-   "referanslar": []
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Karar İçeriğinin Tam Metni",
+     "aciklama": "Resmi Gazete'de yayımlanan kararın tam metni ve varsa ekleri, bankanın muhasebe politikaları üzerindeki etkisi açısından incelenmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "KURUL KARARI",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
   },
   "analiz_bilgisi": {
-   "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T14:52:00+03:00",
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-26T15:01:36+03:00",
    "gonderilen_karakter": 3228,
    "alinti_dogrulanan": 0,
-   "alinti_toplam": 0,
+   "alinti_toplam": 1,
    "guven": "Düşük"
   }
  },
