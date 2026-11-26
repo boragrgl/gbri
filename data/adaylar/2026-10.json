@@ -34,14 +34,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": [
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "bddk-2026-10-30-b2136b"
  },
  {
   "aday_id": "fsb-2026-10-29-a37dcc",
@@ -76,7 +77,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -84,7 +85,8 @@
     "Basel / sermaye",
     "Sürdürülebilirlik / ESG"
    ]
-  }
+  },
+  "kayit_id": "eba-2026-10-29-d06975"
  },
  {
   "aday_id": "worldbank-2026-10-28-f6e726",
@@ -119,14 +121,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": [
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "tcmb-2026-10-26-84ad40"
  },
  {
   "aday_id": "spk-2026-10-26-b293b9",
@@ -141,14 +144,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: rehber",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "spk-2026-10-26-b293b9"
  },
  {
   "aday_id": "issb-2026-10-26-d8fb4f",
@@ -163,7 +167,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS, ISSB, disclosure, nature-related",
@@ -172,7 +176,8 @@
     "Sürdürülebilirlik / ESG",
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "issb-2026-10-26-d8fb4f"
  },
  {
   "aday_id": "issb-2026-10-26-327569",
@@ -187,7 +192,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS, ISSB",
@@ -195,7 +200,8 @@
     "Sürdürülebilirlik / ESG",
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "issb-2026-10-26-327569"
  },
  {
   "aday_id": "issb-2026-10-26-222e18",
@@ -210,7 +216,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS, ISSB, consultation, disclosure",
@@ -220,7 +226,8 @@
     "Sürdürülebilirlik / ESG",
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "issb-2026-10-26-222e18"
  },
  {
   "aday_id": "ifrs-2026-10-26-f3dfdf",
@@ -257,14 +264,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IASB, IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-10-26-dfa4b4"
  },
  {
   "aday_id": "ifrs-2026-10-26-b5aef8",
@@ -323,14 +331,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-10-26-5b761d"
  },
  {
   "aday_id": "ifrs-2026-10-26-0a0da9",

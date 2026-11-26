@@ -81,7 +81,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "kapsam_disi",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -106,7 +106,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -115,7 +115,8 @@
     "Risk Yönetimi",
     "Sürdürülebilirlik / ESG"
    ]
-  }
+  },
+  "kayit_id": "kgk-2026-10-27-a2fbfd"
  },
  {
   "aday_id": "kgk-tarihsiz-87c5f8",
@@ -174,7 +175,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "kapsam_disi",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",

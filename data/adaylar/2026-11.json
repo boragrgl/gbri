@@ -99,14 +99,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: G-SIB, systemically important",
    "konular": [
     "Basel / sermaye"
    ]
-  }
+  },
+  "kayit_id": "fsb-2026-11-25-d8a72b"
  },
  {
   "aday_id": "ecb-2026-11-25-f13562",
@@ -161,12 +162,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-25-bd2fc0"
  },
  {
   "aday_id": "eba-2026-11-25-3a0cc2",
@@ -181,12 +183,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-25-3a0cc2"
  },
  {
   "aday_id": "bis-2026-11-25-d0dbf6",
@@ -353,12 +356,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-20-3906f9"
  },
  {
   "aday_id": "ecb-2026-11-19-f93c44",
@@ -373,14 +377,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: securitisation",
    "konular": [
     "Basel / sermaye"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-19-f93c44"
  },
  {
   "aday_id": "ecb-2026-11-19-7359ff",
@@ -395,14 +400,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: capital requirement",
    "konular": [
     "Basel / sermaye"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-19-7359ff"
  },
  {
   "aday_id": "eba-2026-11-19-590ee2",
@@ -417,12 +423,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-19-590ee2"
  },
  {
   "aday_id": "bddk-2026-11-19-f6d9f9",
@@ -437,7 +444,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -446,7 +453,8 @@
     "Kurum adları",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "bddk-2026-11-19-f6d9f9"
  },
  {
   "aday_id": "bddk-2026-11-19-9d2374",
@@ -461,7 +469,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -470,7 +478,8 @@
     "Kurum adları",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "bddk-2026-11-19-9d2374"
  },
  {
   "aday_id": "bddk-2026-11-19-5e7607",
@@ -485,7 +494,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -494,7 +503,8 @@
     "Kurum adları",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "bddk-2026-11-12-5e7607"
  },
  {
   "aday_id": "resmigazete-2026-11-18-5bad37",
@@ -509,7 +519,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "metin_yok",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Bankacılık Düzenleme ve Denetleme",
@@ -531,14 +541,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: financial stability",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-18-c5ac15"
  },
  {
   "aday_id": "ecb-2026-11-18-b62887",
@@ -553,14 +564,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: financial stability",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-18-b62887"
  },
  {
   "aday_id": "ecb-2026-11-18-a9309c",
@@ -575,14 +587,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: financial stability",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-18-a9309c"
  },
  {
   "aday_id": "ecb-2026-11-18-5ab2ba",
@@ -597,14 +610,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: financial stability",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-18-5ab2ba"
  },
  {
   "aday_id": "eba-2026-11-18-88065c",
@@ -619,12 +633,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-18-88065c"
  },
  {
   "aday_id": "bis-2026-11-18-088aad",
@@ -639,7 +654,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Basel, Basel Committee, supervision, supervisory",
@@ -648,7 +663,8 @@
     "Genel düzenleme",
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "bis-2026-11-18-088aad"
  },
  {
   "aday_id": "fsb-2026-11-17-054b46",
@@ -663,14 +679,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Basel",
    "konular": [
     "Basel / sermaye"
    ]
-  }
+  },
+  "kayit_id": "fsb-2026-11-17-054b46"
  },
  {
   "aday_id": "bddk-2026-11-17-9fbdb9",
@@ -685,7 +702,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -693,7 +710,8 @@
     "Genel düzenleme",
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "bddk-2026-11-17-9fbdb9"
  },
  {
   "aday_id": "tcmb-2026-11-16-bfe4c9",
@@ -771,14 +789,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: supervisory",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "fsb-2026-11-16-023669"
  },
  {
   "aday_id": "ecb-2026-11-16-5d8968",
@@ -813,14 +832,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: financial stability",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "ecb-2026-11-16-4125ee"
  },
  {
   "aday_id": "eba-2026-11-16-c9ee06",
@@ -835,12 +855,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-16-c9ee06"
  },
  {
   "aday_id": "worldbank-2026-11-13-38afb7",
@@ -897,12 +918,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-13-39a6dc"
  },
  {
   "aday_id": "tcmb-2026-11-11-c9cad8",
@@ -917,7 +939,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -925,7 +947,8 @@
     "Kurum adları",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "tcmb-2026-11-11-c9cad8"
  },
  {
   "aday_id": "resmigazete-2026-11-11-b22ad1",
@@ -940,7 +963,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "metin_yok",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: elektronik para, faaliyet izni",
@@ -962,7 +985,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "metin_yok",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: elektronik para, faaliyet izni",
@@ -984,14 +1007,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: regulation, supervision",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "fsb-2026-11-11-c55932"
  },
  {
   "aday_id": "fsb-2026-11-11-37ca45",
@@ -1006,7 +1030,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: financial stability, supervision",
@@ -1014,7 +1038,8 @@
     "Genel düzenleme",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "fsb-2026-11-11-37ca45"
  },
  {
   "aday_id": "resmigazete-2026-11-10-4a9aef",
@@ -1111,12 +1136,13 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-11-09-c19ecb"
  },
  {
   "aday_id": "eba-2026-11-09-61a683",
@@ -1131,14 +1157,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": [
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "eba-2026-11-09-61a683"
  },
  {
   "aday_id": "bcbs-2026-11-09-cac0f8",
@@ -1153,7 +1180,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -1161,7 +1188,8 @@
     "Basel / sermaye",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "bcbs-2026-11-09-cac0f8"
  },
  {
   "aday_id": "tcmb-2026-11-06-4542bf",
@@ -1218,7 +1246,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "metin_yok",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Bankacılık Düzenleme ve Denetleme",
@@ -1240,7 +1268,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -1248,7 +1276,8 @@
     "Genel düzenleme",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "eba-2026-11-06-e815e0"
  },
  {
   "aday_id": "resmigazete-2026-11-05-54f6e7",
@@ -1263,7 +1292,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "metin_yok",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Kamu Gözetimi, denetim, gözetim",
@@ -1286,14 +1315,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "eba-2026-11-05-c3f28b"
  },
  {
   "aday_id": "bcbs-2026-11-05-ececd1",
@@ -1308,14 +1338,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "bcbs-2026-11-05-ececd1"
  },
  {
   "aday_id": "spk-2026-11-04-64f055",
@@ -1350,7 +1381,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Kamu Gözetimi, denetim, gözetim",
@@ -1358,7 +1389,8 @@
     "Genel düzenleme",
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "resmigazete-2026-11-04-3a73a4"
  },
  {
   "aday_id": "bddk-2026-11-04-437520",
@@ -1373,7 +1405,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -1381,7 +1413,8 @@
     "Genel düzenleme",
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "bddk-2026-11-04-437520"
  },
  {
   "aday_id": "fsb-2026-11-03-29fd29",
@@ -1482,14 +1515,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-11-01-bf116f"
  },
  {
   "aday_id": "ifrs-2026-11-01-ba2a76",
@@ -1504,14 +1538,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IASB, IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-11-01-ba2a76"
  },
  {
   "aday_id": "ifrs-2026-11-01-b14863",
@@ -1570,14 +1605,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IASB, IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-11-01-2c5d46"
  },
  {
   "aday_id": "ifrs-2026-11-01-1b5fc1",
