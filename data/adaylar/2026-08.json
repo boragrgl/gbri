@@ -72,14 +72,15 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": [
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "tcmb-2026-08-28-f93b21"
  },
  {
   "aday_id": "eba-2026-08-27-fac030",
@@ -94,12 +95,13 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
    "konular": []
-  }
+  },
+  "kayit_id": "eba-2026-08-27-fac030"
  },
  {
   "aday_id": "ifrs-2026-08-26-8e794e",
@@ -114,14 +116,15 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-08-26-8e794e"
  },
  {
   "aday_id": "ifrs-2026-08-26-7d539f",
@@ -136,14 +139,15 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IASB, IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-08-26-7d539f"
  },
  {
   "aday_id": "ifrs-2026-08-26-6534b3",
@@ -158,14 +162,15 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: IFRS",
    "konular": [
     "TFRS 9 / IFRS 9"
    ]
-  }
+  },
+  "kayit_id": "ifrs-2026-08-26-6534b3"
  },
  {
   "aday_id": "eba-2026-08-26-6dc17e",
@@ -180,7 +185,7 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "çekirdek kaynak",
@@ -188,6 +193,7 @@
     "Genel düzenleme",
     "Risk Yönetimi"
    ]
-  }
+  },
+  "kayit_id": "eba-2026-08-26-6dc17e"
  }
 ]
