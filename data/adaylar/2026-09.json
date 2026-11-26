@@ -1,0 +1,909 @@
+[
+ {
+  "aday_id": "worldbank-2026-09-30-bd0f35",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099102826074522442",
+  "url_normal": "http://documents.worldbank.org/curated/en/099102826074522442",
+  "baslik_orijinal": "Using Disaggregated Regulatory Data to Support Financial Policy and Supervision",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "api",
+  "kategori": "banking supervision",
+  "ozet_kaynak": "Report",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "hata",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "dahil: supervision",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  },
+  "analiz_hatasi": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "aday_id": "worldbank-2026-09-30-9dff88",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099608310152634981",
+  "url_normal": "http://documents.worldbank.org/curated/en/099608310152634981",
+  "baslik_orijinal": "Summaries of ATI Requests Received by the World Bank : September 2026",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "api",
+  "kategori": "banking supervision",
+  "ozet_kaynak": "Access to Information Summary of Request",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "worldbank-2026-09-30-45b548",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099110226042024814",
+  "url_normal": "http://documents.worldbank.org/curated/en/099110226042024814",
+  "baslik_orijinal": "Iceland - Towards an Integrated Wildfire Risk Management : Component 1- Country-Specific Technical Assistance",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "api",
+  "kategori": "climate risk financial sector",
+  "ozet_kaynak": "Brief",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "hata",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "dahil: risk management",
+   "konular": [
+    "Risk Yönetimi"
+   ]
+  },
+  "analiz_hatasi": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "aday_id": "worldbank-2026-09-30-37322f",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099092126154525383",
+  "url_normal": "http://documents.worldbank.org/curated/en/099092126154525383",
+  "baslik_orijinal": "Competition as a Catalyst for Digital Financial Services Usage : Chapeau Paper",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "api",
+  "kategori": "banking regulation",
+  "ozet_kaynak": "Report",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "fsb-2026-09-30-9e9c09",
+  "kurum": "fsb",
+  "url": "https://www.fsb.org/2026/09/fsb-regional-consultative-group-for-the-americas-meets-in-mexico-city/",
+  "url_normal": "https://www.fsb.org/2026/09/fsb-regional-consultative-group-for-the-americas-meets-in-mexico-city/",
+  "baslik_orijinal": "FSB Regional Consultative Group for the Americas meets in Mexico City",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "rss",
+  "kategori": "",
+  "ozet_kaynak": "BIS Americas Office hosts the FSB Americas group in Mexico City.",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: meets in, regional consultative group",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "eba-2026-09-30-f207bb",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-2027-work-programme",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-2027-work-programme",
+  "baslik_orijinal": "​The EBA publishes its 2027 Work Programme",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": []
+  },
+  "kayit_id": "eba-2026-09-30-f207bb"
+ },
+ {
+  "aday_id": "bddk-2026-09-30-27647e",
+  "kurum": "bddk",
+  "url": "https://www.bddk.org.tr/Duyuru/Detay/4306",
+  "url_normal": "https://www.bddk.org.tr/Duyuru/Detay/4306",
+  "baslik_orijinal": "Destek Yatırım Bankası A.Ş., Hedef Yatırım Bankası A.Ş., Tera Yatırım Bankası A.Ş. ile Destek Finans Faktoring A.Ş. ve Tera Finans Faktoring A.Ş. Hakkında Basın Duyurusu",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "bddk-2026-09-30-27647e"
+ },
+ {
+  "aday_id": "spk-2026-09-28-7668dc",
+  "kurum": "spk",
+  "url": "https://spk.gov.tr/duyurular/basin-duyurulari/2026/tasfiye-suresine-iliskin-basin-duyurusu",
+  "url_normal": "https://spk.gov.tr/duyurular/basin-duyurulari/2026/tasfiye-suresine-iliskin-basin-duyurusu",
+  "baslik_orijinal": "Tasfiye Süresine İlişkin Basın Duyurusu",
+  "yayin_tarihi": "2026-09-28",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "eba-2026-09-25-4fb9a6",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eueea-banks-display-strength-amid-challenging-risk-environment",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eueea-banks-display-strength-amid-challenging-risk-environment",
+  "baslik_orijinal": "EU/EEA banks display strength amid a challenging risk environment",
+  "yayin_tarihi": "2026-09-25",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": []
+  },
+  "kayit_id": "eba-2026-09-25-4fb9a6"
+ },
+ {
+  "aday_id": "eba-2026-09-25-377506",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-consults-revised-technical-standards-joint-decisions-institution-specific-capital-and-liquidity",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-consults-revised-technical-standards-joint-decisions-institution-specific-capital-and-liquidity",
+  "baslik_orijinal": "The EBA consults on revised technical standards for joint decisions on institution-specific capital and liquidity requirements",
+  "yayin_tarihi": "2026-09-25",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "eba-2026-09-25-377506"
+ },
+ {
+  "aday_id": "worldbank-2026-09-24-68014d",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099092426124042623",
+  "url_normal": "http://documents.worldbank.org/curated/en/099092426124042623",
+  "baslik_orijinal": "Comoros - KM Financial Inclusion IPF",
+  "yayin_tarihi": "2026-09-24",
+  "tarih_kaynagi": "api",
+  "kategori": "banking regulation",
+  "ozet_kaynak": "Implementation Completion Report Review",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "eba-2026-09-24-07ccfd",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-identifies-priorities-review-mica",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-identifies-priorities-review-mica",
+  "baslik_orijinal": "The EBA identifies priorities for the review of MiCA",
+  "yayin_tarihi": "2026-09-24",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": []
+  },
+  "kayit_id": "eba-2026-09-24-07ccfd"
+ },
+ {
+  "aday_id": "spk-2026-09-23-274b27",
+  "kurum": "spk",
+  "url": "https://spk.gov.tr/duyurular/basin-duyurulari/2026/tasfiye-konusu-fonlardaki-yatirimci-sayisina-iliskin-aciklama",
+  "url_normal": "https://spk.gov.tr/duyurular/basin-duyurulari/2026/tasfiye-konusu-fonlardaki-yatirimci-sayisina-iliskin-aciklama",
+  "baslik_orijinal": "Tasfiye Konusu Fonlardaki Yatırımcı Sayısına İlişkin Açıklama",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "eba-2026-09-23-30c6d7",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private-credit-risks",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private-credit-risks",
+  "baslik_orijinal": "ESAs call for vigilance over external dependencies, cyber threats and private credit risks",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "eba-2026-09-23-30c6d7"
+ },
+ {
+  "aday_id": "bcbs-2026-09-23-a89cce",
+  "kurum": "bcbs",
+  "url": "https://www.bis.org/media-releases/20260923-basel-iii-risk-based-capital-and-leverage-ratios-are-stable-while-liquidity-indicators-show",
+  "url_normal": "https://www.bis.org/media-releases/20260923-basel-iii-risk-based-capital-and-leverage-ratios-are-stable-while-liquidity-indicators-show",
+  "baslik_orijinal": "Basel III risk-based capital and leverage ratios are stable while liquidity indicators show limited movements for large internationally active banks, latest Basel III monitoring exercise shows",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Basel / sermaye",
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "bcbs-2026-09-23-a89cce"
+ },
+ {
+  "aday_id": "bcbs-2026-09-23-9e9e8c",
+  "kurum": "bcbs",
+  "url": "https://www.bis.org/publications/202609-qis-basel-iii-monitoring-report",
+  "url_normal": "https://www.bis.org/publications/202609-qis-basel-iii-monitoring-report",
+  "baslik_orijinal": "Basel III monitoring report",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "liste",
+  "kategori": "Yayın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Basel / sermaye"
+   ]
+  },
+  "kayit_id": "bcbs-2026-09-23-9e9e8c"
+ },
+ {
+  "aday_id": "worldbank-2026-09-21-32904b",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099348209212613828",
+  "url_normal": "http://documents.worldbank.org/curated/en/099348209212613828",
+  "baslik_orijinal": "What Drives Child Penalties ? Evidence from a Global Organization",
+  "yayin_tarihi": "2026-09-21",
+  "tarih_kaynagi": "api",
+  "kategori": "banking supervision",
+  "ozet_kaynak": "Policy Research Working Paper",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "spk-2026-09-21-d174fa",
+  "kurum": "spk",
+  "url": "https://spk.gov.tr/duyurular/basin-duyurulari/2026/tasfiye-konusu-fonlara-iliskin-sure-duzenlemesi",
+  "url_normal": "https://spk.gov.tr/duyurular/basin-duyurulari/2026/tasfiye-konusu-fonlara-iliskin-sure-duzenlemesi",
+  "baslik_orijinal": "Tasfiye Konusu Fonlara İlişkin Süre Düzenlemesi Fon tasfiye usul ve esaslarından, sadece (A/8) numaralı maddesinde yer alan 3 aylık süre, 6 ay olarak değiştirilmiştir.",
+  "yayin_tarihi": "2026-09-21",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "eba-2026-09-18-9f1d80",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-guidelines-management-third-party-risk-delivering-more-proportionate-and",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-guidelines-management-third-party-risk-delivering-more-proportionate-and",
+  "baslik_orijinal": "The EBA publishes its final Guidelines on the management of third-party risk, delivering a more proportionate and consistent framework aligned with DORA",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  },
+  "kayit_id": "eba-2026-09-18-9f1d80"
+ },
+ {
+  "aday_id": "bddk-2026-09-18-e6c8fb",
+  "kurum": "bddk",
+  "url": "https://www.bddk.org.tr/Duyuru/Detay/3303",
+  "url_normal": "https://www.bddk.org.tr/Duyuru/Detay/3303",
+  "baslik_orijinal": "Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin Faaliyet İzninin Kaldırılmasına İlişkin Basın Duyurusu",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "bddk-2026-09-18-e6c8fb"
+ },
+ {
+  "aday_id": "bddk-2026-09-18-748956",
+  "kurum": "bddk",
+  "url": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1347",
+  "url_normal": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1347",
+  "baslik_orijinal": "(18.09.2026 - 11572) Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin faaliyet izninin kaldırılmasına ilişkin Kurul Kararı",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "baslik",
+  "kategori": "mevzuat-55",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "bddk-2026-09-18-748956"
+ },
+ {
+  "aday_id": "worldbank-2026-09-17-1095ba",
+  "kurum": "worldbank",
+  "url": "http://documents.worldbank.org/curated/en/099911409172631456",
+  "url_normal": "http://documents.worldbank.org/curated/en/099911409172631456",
+  "baslik_orijinal": "Liquidity at Light Speed : Digital Banking and Financial Stability in East Asia and Pacific",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "api",
+  "kategori": "banking regulation",
+  "ozet_kaynak": "Report",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "dahil: financial stability, liquidity",
+   "konular": [
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "worldbank-2026-09-17-1095ba"
+ },
+ {
+  "aday_id": "tcmb-2026-09-17-9f6596",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-41",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-41",
+  "baslik_orijinal": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-41)",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları",
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "tcmb-2026-09-17-9f6596"
+ },
+ {
+  "aday_id": "tcmb-2026-09-17-9e4859",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-42",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-42",
+  "baslik_orijinal": "Para Politikası Kurulu Toplantı Özeti (2026-42)",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: Para Politikası Kurulu",
+   "konular": [
+    "Kurum adları"
+   ]
+  }
+ },
+ {
+  "aday_id": "bddk-2026-09-17-b8166e",
+  "kurum": "bddk",
+  "url": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1346",
+  "url_normal": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1346",
+  "baslik_orijinal": "(17.09.2026-11571) Bankaların Hisse Geri Alımları Hk. Kurul Kararı",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "baslik",
+  "kategori": "mevzuat-56",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme",
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "bddk-2026-09-17-b8166e"
+ },
+ {
+  "aday_id": "eba-2026-09-16-5b7f58",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/european-parliament-confirms-thomas-gstadtner-executive-director-eba",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/european-parliament-confirms-thomas-gstadtner-executive-director-eba",
+  "baslik_orijinal": "​European Parliament confirms Thomas Gstädtner as Executive Director of the EBA",
+  "yayin_tarihi": "2026-09-16",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": []
+  },
+  "kayit_id": "eba-2026-09-16-5b7f58"
+ },
+ {
+  "aday_id": "bddk-2026-09-16-61df0b",
+  "kurum": "bddk",
+  "url": "https://www.bddk.org.tr/Duyuru/Detay/3301",
+  "url_normal": "https://www.bddk.org.tr/Duyuru/Detay/3301",
+  "baslik_orijinal": "Golden Global Yatırım Bankası A.Ş. Hakkında Basın Duyurusu",
+  "yayin_tarihi": "2026-09-16",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "bddk-2026-09-16-61df0b"
+ },
+ {
+  "aday_id": "tcmb-2026-09-14-5bf5d6",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-40",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-40",
+  "baslik_orijinal": "İİT-İSEDAK Merkez Bankaları Forumu Toplantısına İlişkin Basın Duyurusu (2026-40)",
+  "yayin_tarihi": "2026-09-14",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "tcmb-2026-09-14-5bf5d6"
+ },
+ {
+  "aday_id": "eba-2026-09-14-5b841f",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-updated-list-validation-rules-part-its-regular-quarterly-reporting-frameworks-update",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-updated-list-validation-rules-part-its-regular-quarterly-reporting-frameworks-update",
+  "baslik_orijinal": "The EBA publishes updated list of validation rules as part of its regular quarterly reporting frameworks update",
+  "yayin_tarihi": "2026-09-14",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "eba-2026-09-14-5b841f"
+ },
+ {
+  "aday_id": "tcmb-2026-09-11-40b31e",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-39",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-39",
+  "baslik_orijinal": "E9 Emisyon Grubu IX. Tertip 50 Türk Lirası ve VIII. Tertip 5 Türk Lirası Banknotların Tedavüle Çıkarılmasına İlişkin Basın Duyurusu (2026-39)",
+  "yayin_tarihi": "2026-09-11",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "tcmb-2026-09-11-40b31e"
+ },
+ {
+  "aday_id": "fsb-2026-09-11-bc6a94",
+  "kurum": "fsb",
+  "url": "https://www.fsb.org/2026/09/fsb-hosts-roundtable-on-public-private-sector-collaboration-to-strengthen-operational-resilience/",
+  "url_normal": "https://www.fsb.org/2026/09/fsb-hosts-roundtable-on-public-private-sector-collaboration-to-strengthen-operational-resilience/",
+  "baslik_orijinal": "FSB hosts roundtable on public-private sector collaboration to strengthen operational resilience",
+  "yayin_tarihi": "2026-09-11",
+  "tarih_kaynagi": "rss",
+  "kategori": "",
+  "ozet_kaynak": "Roundtable to explore how collaboration efforts between the public and private sectors can be structured and applied to prepare for and manage significant operational disruptions.",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "tcmb-2026-09-10-834710",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-38",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-38",
+  "baslik_orijinal": "Faiz Oranlarına İlişkin Basın Duyurusu (2026-38)",
+  "yayin_tarihi": "2026-09-10",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "ilgisiz",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları"
+   ]
+  },
+  "kayit_id": "tcmb-2026-09-10-834710"
+ },
+ {
+  "aday_id": "eba-2026-09-09-bfda69",
+  "kurum": "eba",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-responds-european-commissions-non-adoption-draft-amending-technical-standards-prior-permission",
+  "url_normal": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-responds-european-commissions-non-adoption-draft-amending-technical-standards-prior-permission",
+  "baslik_orijinal": "The EBA responds to the European Commission’s non-adoption of draft amending technical standards on prior permission",
+  "yayin_tarihi": "2026-09-09",
+  "tarih_kaynagi": "liste",
+  "kategori": "Basın",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  },
+  "kayit_id": "eba-2026-09-09-bfda69"
+ },
+ {
+  "aday_id": "fsb-2026-09-04-48af84",
+  "kurum": "fsb",
+  "url": "https://www.fsb.org/2026/09/fsb-annual-financial-report-2025-26/",
+  "url_normal": "https://www.fsb.org/2026/09/fsb-annual-financial-report-2025-26/",
+  "baslik_orijinal": "FSB Annual Financial Report: 2025-26",
+  "yayin_tarihi": "2026-09-04",
+  "tarih_kaynagi": "rss",
+  "kategori": "",
+  "ozet_kaynak": "FSB annual financial report for the 12-month period ending 31 March 2026.",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "fsb-2026-09-04-2c7a20",
+  "kurum": "fsb",
+  "url": "https://www.fsb.org/uploads/P040926-2.pdf",
+  "url_normal": "https://www.fsb.org/uploads/P040926-2.pdf",
+  "baslik_orijinal": "Report of the auditor to FSB Plenary on the financial statements 2025-2026",
+  "yayin_tarihi": "2026-09-04",
+  "tarih_kaynagi": "rss",
+  "kategori": "",
+  "ozet_kaynak": "Report on the audit of the financial statements of the FSB Annual Financial Report 2025/2026.",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "issb-2026-09-01-f4b80c",
+  "kurum": "issb",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/ep-14-perspectives-sustainability-disclosure-webinar/",
+  "url_normal": "https://www.ifrs.org/news-and-events/news/2026/09/ep-14-perspectives-sustainability-disclosure-webinar/",
+  "baslik_orijinal": "Ep 14 perspectives sustainability disclosure webinar",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "url_ay",
+  "kategori": "Haber",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: webinar",
+   "konular": [
+    "Basel / sermaye",
+    "Sürdürülebilirlik / ESG",
+    "TFRS 9 / IFRS 9"
+   ]
+  }
+ },
+ {
+  "aday_id": "issb-2026-09-01-f181a2",
+  "kurum": "issb",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/september-2026-issb-update-and-podcast-now-available/",
+  "url_normal": "https://www.ifrs.org/news-and-events/news/2026/09/september-2026-issb-update-and-podcast-now-available/",
+  "baslik_orijinal": "September 2026 issb update and podcast now available",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "url_ay",
+  "kategori": "Haber",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: podcast",
+   "konular": [
+    "Sürdürülebilirlik / ESG",
+    "TFRS 9 / IFRS 9"
+   ]
+  }
+ },
+ {
+  "aday_id": "ifrs-2026-09-01-c75ca7",
+  "kurum": "ifrs",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-seeks-investor-views-cash-flows/",
+  "url_normal": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-seeks-investor-views-cash-flows/",
+  "baslik_orijinal": "Iasb seeks investor views cash flows",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "url_ay",
+  "kategori": "Haber",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "dahil: IASB, IFRS",
+   "konular": [
+    "TFRS 9 / IFRS 9"
+   ]
+  },
+  "kayit_id": "ifrs-2026-09-01-c75ca7"
+ },
+ {
+  "aday_id": "ifrs-2026-09-01-b08fcc",
+  "kurum": "ifrs",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-stakeholder-feedback-hedge-accounting-ifrs9-ifrs7/",
+  "url_normal": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-stakeholder-feedback-hedge-accounting-ifrs9-ifrs7/",
+  "baslik_orijinal": "Iasb stakeholder feedback hedge accounting ifrs9 ifrs7",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "url_ay",
+  "kategori": "Haber",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "dahil: IASB, IFRS",
+   "konular": [
+    "TFRS 9 / IFRS 9"
+   ]
+  },
+  "kayit_id": "ifrs-2026-09-01-b08fcc"
+ },
+ {
+  "aday_id": "ifrs-2026-09-01-a083d4",
+  "kurum": "ifrs",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/september-2026-iasb-update-and-podcast-now-available/",
+  "url_normal": "https://www.ifrs.org/news-and-events/news/2026/09/september-2026-iasb-update-and-podcast-now-available/",
+  "baslik_orijinal": "September 2026 iasb update and podcast now available",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "url_ay",
+  "kategori": "Haber",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dışlama: podcast",
+   "konular": [
+    "TFRS 9 / IFRS 9"
+   ]
+  }
+ },
+ {
+  "aday_id": "ifrs-2026-09-01-98c42a",
+  "kurum": "ifrs",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-decision-september-2026-meeting/",
+  "url_normal": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-decision-september-2026-meeting/",
+  "baslik_orijinal": "Iasb decision september 2026 meeting",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "url_ay",
+  "kategori": "Haber",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "dahil: IASB, IFRS",
+   "konular": [
+    "TFRS 9 / IFRS 9"
+   ]
+  },
+  "kayit_id": "ifrs-2026-09-01-98c42a"
+ }
+]

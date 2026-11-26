@@ -90,6 +90,7 @@ def main():
     ap.add_argument("--baslangic-arsivi", action="store_true",
                     help="Bu calistirmada bulunanlar 'yeni' sayilmaz (gecmis veri yuklemesi)")
     ap.add_argument("--kaynak", help="Yalnizca bu kaynak (deneme icin)")
+    ap.add_argument("--atla", default="", help="Virgulle ayrilmis kaynaklar bu calistirmada taranmaz (mevcut verileri korunur)")
     a = ap.parse_args()
 
     zaman = simdi()
@@ -100,8 +101,12 @@ def main():
     yeni_sayisi, ozet = 0, []
     suzgec = Suzgec()
 
+    atla = {v.strip() for v in a.atla.split(",") if v.strip()}
     for kaynak in KAYNAKLAR:
         if a.kaynak and kaynak["id"] != a.kaynak:
+            continue
+        if kaynak["id"] in atla:
+            print(f"atlandi: {kaynak['id']}")
             continue
         d = durumlar.get(kaynak["id"], {"id": kaynak["id"], "ardisik_hata": 0})
         d.update(ad=kaynak["ad"], bolge=kaynak["bolge"], aktif=kaynak.get("aktif", True),

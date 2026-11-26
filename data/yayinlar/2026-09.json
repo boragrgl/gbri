@@ -1,0 +1,2486 @@
+[
+ {
+  "id": "eba-2026-09-30-f207bb",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA publishes its 2027 Work Programme",
+  "baslik_tr": "EBA 2027 Çalışma Programını Yayınladı",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-2027-work-programme",
+  "belge_turu": "Rapor",
+  "statu": "Nihai",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "EBA'nın 2027 çalışma programı, bankacılık paketinin tamamlanması, DORA, MiCA ve EMIR gibi kritik düzenlemelerin uygulanması ve denetim süreçlerinin dijitalleşmesi gibi bankayı doğrudan etkileyen stratejik öncelikleri içermektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Avrupa Bankacılık Otoritesi (EBA), 2027 yılı için verimlilik, dayanıklılık ve dönüşüm odaklı stratejik çalışma programını yayınlamıştır. Program; Basel düzenlemeleri, kriz yönetimi, stres testleri ve dijital operasyonel dayanıklılık gibi bankacılık sektörünü yakından ilgilendiren temel alanları kapsamaktadır.",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "bd53188dce0b9dcd"
+   }
+  ],
+  "alt_konular": [
+   "2027 Çalışma Programı",
+   "Denetim ve Uyum",
+   "Dijitalleşme",
+   "Kriz Yönetimi"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Operasyonel risk",
+   "Raporlama",
+   "Sermaye yeterliliği",
+   "BT ve Siber Güvenlik"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "EBA, 2027 yılı için 'dayanıklılığı artırma, verimliliği iyileştirme ve dönüşümü destekleme' odaklı bir çalışma programı yayımlamıştır. Program, 2024 bankacılık paketinin tamamlanması, DORA ve MiCA gibi yeni düzenlemelerin operasyonel hale getirilmesi ve denetim süreçlerinde dijitalleşmeye geçişi hedeflemektedir. Bankamızın bu süreçte raporlama yükümlülüklerini sadeleştirme ve dijital denetim kapasitesini artırma konularına odaklanması beklenmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "EBA, 2027 yılı için odak alanlarını ve çıktılarını belirleyen çalışma programını yayımlamıştır.",
+      "alinti": "The European Banking Authority (EBA) published today its Work Programme outlining the key areas of focus and deliverables for 2027.",
+      "sayfa": null,
+      "paragraf": 4,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın 2027 yılı stratejik planlaması, EBA'nın belirlediği bu yeni önceliklerle uyumlu hale getirilmek zorunda kalabilir.",
+     "Raporlama süreçlerinde entegrasyon ve sadeleştirme çalışmaları nedeniyle bankanın veri yönetimi altyapısında değişiklikler gerekebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "DORA kapsamında kritik üçüncü taraf sağlayıcıların denetimi nedeniyle bankanın dış hizmet alım süreçlerinde yeni uyum gereklilikleri oluşabilir.",
+     "MiCA düzenlemeleri uyarınca kripto varlıklarla ilgili faaliyetlerin denetiminde yeni metodolojiler uygulanabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın kriz yönetimi ve mevduat sigortası reformlarına uyum sağlamak için iç süreçlerini güncellemesi gerekebilir.",
+     "Siber güvenlik ve BT dayanıklılığına yönelik artan denetimler, bankanın BT operasyonel bütçesini etkileyebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "2024 bankacılık paketinin tamamlanmasıyla birlikte RWA hesaplamalarında standart yaklaşım uygulamalarında değişiklikler olabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Stres testlerine iklim riski modüllerinin eklenmesi, bankanın sermaye planlamasında iklim risklerini daha etkin yönetmesini gerektirebilir."
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "Denetim ve Raporlama",
+     "onceki": "Geleneksel denetim ve raporlama yaklaşımları.",
+     "yeni": "Daha entegre, veri odaklı ve dijitalleşmiş denetim ve raporlama çerçevesi.",
+     "referans": "Sayfa 4"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Orta",
+     "not": "Kredi riski çerçevesindeki sadeleştirme ve IRB metodolojisi güncellemeleri PD tahminlerini etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Orta",
+     "not": "Kredi riski modellemelerindeki güncellemeler LGD parametrelerini etkileyebilir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Doğrudan bir değişiklik öngörülmemektedir."
+    },
+    "ECL": {
+     "duzey": "Yüksek",
+     "not": "TFRS 9 kapsamında ECL hesaplamalarına yönelik rehberlik güncellemeleri doğrudan etki yaratacaktır."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-30",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Raporlama ve Veri Yönetimi",
+     "aciklama": "Entegre raporlama çerçevesine geçiş için mevcut veri sözlüğü ve raporlama altyapısının gözden geçirilmesi."
+    },
+    {
+     "baslik": "Kriz Yönetimi ve Çözümleme",
+     "aciklama": "CMDI reformları doğrultusunda kriz simülasyonu ve çözümleme planlarının güncellenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "EBA WORK PROGRAMME 2027",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T21:59:49+03:00",
+   "gonderilen_karakter": 123134,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "bddk-2026-09-30-27647e",
+  "kurum": "bddk",
+  "baslik_orijinal": "Destek Yatırım Bankası A.Ş., Hedef Yatırım Bankası A.Ş., Tera Yatırım Bankası A.Ş. ile Destek Finans Faktoring A.Ş. ve Tera Finans Faktoring A.Ş. Hakkında Basın Duyurusu",
+  "baslik_tr": "Destek Yatırım Bankası A.Ş., Hedef Yatırım Bankası A.Ş., Tera Yatırım Bankası A.Ş. ile Destek Finans Faktoring A.Ş. ve Tera Finans Faktoring A.Ş. Hakkında Basın Duyurusu",
+  "url": "https://www.bddk.org.tr/Duyuru/Detay/4306",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "İlgili metin, BDDK'nın KVKK aydınlatma metni olup bankacılık düzenlemeleri veya risk yönetimi ile ilgili bir içerik barındırmamaktadır.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "BDDK tarafından yayınlanan bu metin, kurumun kişisel verileri işleme süreçlerine dair KVKK kapsamında bilgilendirme yapan bir aydınlatma metnidir.",
+  "yayin_tarihi": "2026-09-30",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "935d30b1462cdc4c"
+   }
+  ]
+ },
+ {
+  "id": "eba-2026-09-25-4fb9a6",
+  "kurum": "eba",
+  "baslik_orijinal": "EU/EEA banks display strength amid a challenging risk environment",
+  "baslik_tr": "AB/AEA bankaları zorlu risk ortamında güç sergiliyor",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eueea-banks-display-strength-amid-challenging-risk-environment",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "Düzenleyici bir değişiklik değil, EBA'nın 2026 2. çeyrek risk görünüm raporudur. Bankanın varlık kalitesi ve sermaye yeterliliği izleme süreçleri için önemli veriler içermektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "EBA'nın 2026 ikinci çeyrek verilerini içeren Risk Gösterge Paneli, AB/AEA bankalarının sermaye, likidite ve aktif kalitesi açısından güçlü konumlarını koruduğunu, ancak makroekonomik belirsizlikler nedeniyle risklerin yakından izlenmesi gerektiğini belirtmektedir.",
+  "yayin_tarihi": "2026-09-25",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "47bec6f630cd873a"
+   }
+  ],
+  "alt_konular": [
+   "Varlık Kalitesi",
+   "Sermaye Yeterliliği",
+   "Likidite"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Raporlama",
+   "Sermaye yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "EBA'nın 2026 2. çeyrek Risk Paneli, AB/AEA bankacılık sektörünün belirsiz bir ortamda güçlü sermaye ve likidite pozisyonlarını koruduğunu göstermektedir. Kredi büyümesi devam ederken varlık kalitesi güçlü kalmaya devam etmiştir. Ancak jeopolitik gerilimler ve makroekonomik zorluklar nedeniyle risklerin yakından izlenmesi gerektiği vurgulanmıştır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "EBA, 2026 2. çeyrek için Risk Paneli'ni yayımlamıştır.",
+      "alinti": "The European Banking Authority (EBA) today published its Risk Dashboard for the second quarter of 2026.",
+      "sayfa": null,
+      "paragraf": 8,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın kendi risk göstergelerini EBA'nın yayımladığı sektör ortalamaları ile kıyaslaması gerekebilir.",
+     "Artan risk ağırlıklı varlıklar nedeniyle sermaye yeterlilik rasyolarında yaşanabilecek dalgalanmaların izlenmesi gerekebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi riski parametrelerinin (PD, LGD) güncel makroekonomik koşullara göre kalibrasyonu gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Risk izleme raporlarının sıklığının artırılması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Risk ağırlıklı varlıklardaki artış, CET1 rasyosu üzerinde baskı oluşturabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Makroekonomik belirsizlikler nedeniyle kredi risk maliyetlerinde artış beklentisi bulunmaktadır."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belgede LGD ile ilgili doğrudan bir değişiklik öngörülmemektedir."
+    },
+    "EAD": {
+     "duzey": "Dolaylı",
+     "not": "Kredi büyümesinin devam etmesi EAD üzerinde artış yönlü etki yapabilir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "TFRS 9 kapsamında beklenen kredi zararlarının, artan riskler nedeniyle güncellenmesi gerekebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-25",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Varlık Kalitesi İzleme",
+     "aciklama": "Stage 2 kredi oranları ve NPL rasyolarının sektör ortalamaları ile karşılaştırılması."
+    },
+    {
+     "baslik": "Likidite Tamponları",
+     "aciklama": "LCR ve NSFR rasyolarının minimum gereksinimlerin üzerindeki seyrinin korunması."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Risk Dashboard Q2 2026",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:00:16+03:00",
+   "gonderilen_karakter": 150000,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Orta",
+   "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
+  }
+ },
+ {
+  "id": "eba-2026-09-25-377506",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA consults on revised technical standards for joint decisions on institution-specific capital and liquidity requirements",
+  "baslik_tr": "EBA, kuruma özel sermaye ve likidite gereksinimlerine ilişkin ortak kararlara yönelik revize edilmiş teknik standartlar hakkında istişarede bulunuyor",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-consults-revised-technical-standards-joint-decisions-institution-specific-capital-and-liquidity",
+  "belge_turu": "İstişare dokümanı",
+  "statu": "İstişare",
+  "onem": "Orta",
+  "onem_gerekcesi": "Düzenleme, denetim süreçlerini ve ortak karar alma mekanizmalarını standartlaştırarak bankanın raporlama ve uyum yükümlülüklerini doğrudan etkilemektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "EBA, sınır ötesi bankacılık grupları için kuruma özel ihtiyati gereksinimlerin belirlenmesindeki ortak karar sürecini sadeleştirmek ve güncel denetim uygulamalarıyla uyumlu hale getirmek amacıyla teknik standartlarda değişiklik önermektedir.",
+  "yayin_tarihi": "2026-09-25",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "72ddc4c74f09d08e"
+   }
+  ],
+  "alt_konular": [
+   "SREP",
+   "Ortak Karar Alma Süreci",
+   "Pillar 2"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Raporlama",
+   "Uyum"
+  ],
+  "gorus_son_tarihi": "2027-01-04",
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "EBA, kurum bazlı ihtiyati gerekliliklere ilişkin ortak karar alma sürecini düzenleyen Teknik Standartları (ITS) revize etmektedir. Bu değişiklikler, SREP çerçevesi ile uyumu artırmayı, raporlama şablonlarını sadeleştirmeyi ve Pillar 2 rehberliğini sürece dahil etmeyi amaçlamaktadır. Bankamızın denetim süreçlerinde daha koordineli bir değerlendirme yapılması hedeflenmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Ortak karar alma sürecinin verimliliğini artırmak ve denetim uygulamalarıyla uyumlu hale getirmek.",
+      "alinti": "The EBA is proposing targeted amendments to streamline the joint decision process and align it with current supervisory practices.",
+      "sayfa": null,
+      "paragraf": 5,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Denetim süreçlerinde daha entegre bir risk değerlendirme raporu kullanılacağı için operasyonel iş yükünde azalma olabilir.",
+     "Pillar 2 rehberliğinin sürece dahil edilmesi, sermaye planlaması süreçlerinde daha fazla şeffaflık sağlayabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Mevcut ITS, 2014 yılında kabul edilen 710/2014 sayılı Komisyon Uygulama Tüzüğü ile belirlenmiştir.",
+      "alinti": "The existing ITS were adopted by the Commission under Commission Implementing Regulation (EU) No 710/2014",
+      "sayfa": null,
+      "paragraf": 21,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Entegre risk değerlendirme raporuna geçiş, bankanın veri hazırlama altyapısında güncelleme gerektirebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Denetim otoriteleri ile yürütülen ortak karar alma süreçlerinde daha standart bir iletişim dili kullanılacağı için operasyonel verimlilik artabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Pillar 2 gerekliliklerinin ortak karar alma sürecine dahil edilmesi, bankanın sermaye yeterlilik rasyoları üzerinde dolaylı bir etki yaratabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Raporlama Şablonları",
+     "onceki": "Çoklu ve karmaşık raporlama şablonları.",
+     "yeni": "Tek, azaltılmış ve entegre bir risk değerlendirme raporu.",
+     "referans": "Sayfa 1"
+    },
+    {
+     "konu": "Kapsam",
+     "onceki": "Pillar 2 rehberliği ortak karar alma kapsamı dışındaydı.",
+     "yeni": "Pillar 2 Rehberliği ve kaldıraç oranı ile ilgili Pillar 2 gereklilikleri kapsama dahil edildi.",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Düzenleme doğrudan kredi riski parametrelerini değil, denetim sürecini etkilemektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Düzenleme doğrudan kredi riski parametrelerini değil, denetim sürecini etkilemektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Düzenleme doğrudan kredi riski parametrelerini değil, denetim sürecini etkilemektedir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Düzenleme doğrudan kredi riski parametrelerini değil, denetim sürecini etkilemektedir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Görüş son tarihi",
+     "tarih": "2027-01-04",
+     "referans": "Sayfa 2"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Pillar 2 Süreçleri",
+     "aciklama": "Pillar 2 Rehberliği'nin ortak karar alma sürecine dahil edilmesi nedeniyle bankanın sermaye planlama ve denetim uyum süreçleri güncellenmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Consultation Paper on revised ITS on conditions of application of the joint decision process",
+     "sayfa": 2,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:00:34+03:00",
+   "gonderilen_karakter": 27237,
+   "alinti_dogrulanan": 2,
+   "alinti_toplam": 2,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "eba-2026-09-24-07ccfd",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA identifies priorities for the review of MiCA",
+  "baslik_tr": "EBA, MiCA'nın gözden geçirilmesi için öncelikleri belirliyor",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-identifies-priorities-review-mica",
+  "belge_turu": "Basın duyurusu",
+  "statu": "İstişare",
+  "onem": "Orta",
+  "onem_gerekcesi": "Düzenleme, kripto varlık piyasaları için MiCA çerçevesinin gözden geçirilmesine yönelik EBA tavsiyelerini içermektedir. Banka doğrudan kripto varlık ihraççısı olmasa da, bu düzenlemeler bankacılık sektörü ile kripto varlıklar arasındaki etkileşimi ve gelecekteki uyum gerekliliklerini şekillendirecektir.",
+  "konu": "TFRS 9",
+  "ozet_tek_satir": "EBA, Avrupa Komisyonu'nun MiCA düzenlemesine ilişkin istişaresine verdiği yanıtta; kripto varlık ihraççıları, stabil coinler ve kripto varlık kredilendirme faaliyetlerine yönelik düzenleyici çerçevenin güçlendirilmesini önermektedir.",
+  "yayin_tarihi": "2026-09-24",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "6c1c2cb4fd2e9fd7"
+   }
+  ],
+  "alt_konular": [
+   "Kripto varlıklar",
+   "Stablecoin",
+   "Tokenize mevduat",
+   "DeFi"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Raporlama",
+   "Sermaye yeterliliği"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "EBA, MiCA düzenlemesinin gözden geçirilmesi kapsamında Avrupa Komisyonu'na sunduğu yanıtta, özellikle çoklu ihraççı stablecoin modelleri, DeFi ve tokenize mevduat alanlarında düzenleyici netlik çağrısında bulunmaktadır. Bankalar için tokenize mevduatların sınıflandırılması ve bankacılık sektörü ile kripto varlıklar arasındaki risk etkileşimleri kritik öneme sahiptir. EBA, tokenize finansal araçların MiCA kapsamı dışında tutulmasını ve mevcut sektörel mevzuata tabi olmasını önermektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "MiCA düzenlemesinin gözden geçirilmesi için önceliklerin belirlenmesi.",
+      "alinti": "The EBA recommends the European Commission prioritise specific issues in its review of MiCA.",
+      "sayfa": null,
+      "paragraf": 7,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankaların tokenize mevduat ürünleri geliştirmesi durumunda, düzenleyici belirsizliklerin giderilmesiyle operasyonel süreçler kolaylaşabilir.",
+     "Stablecoin ihraççıları ile bankalar arasındaki likidite ve rezerv ilişkileri, gelecekte daha sıkı denetimlere tabi olabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Tokenize mevduatların tanımlanması için CRD/CRR kapsamında uyum çalışmaları gerekebilir.",
+     "Kripto varlık borç verme faaliyetlerinin düzenlenmesi, bankaların bu alandaki risk yönetimi politikalarını güncellemelerini gerektirebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Raporlama çerçevesinin genişletilmesi, bankaların kripto varlık hizmet sağlayıcıları ile olan veri akışlarını yeniden yapılandırmasını gerektirebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Risk bazlı sermaye hesaplamalarında kripto varlık maruziyetleri için yeni ağırlıklandırmalar gündeme gelebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Tokenize finansal araçlar",
+     "onceki": "MiCA kapsamı belirsizliği",
+     "yeni": "MiFID/MiFIR kapsamında kalması önerisi",
+     "referans": "Sayfa 5"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Kripto varlık borç verme faaliyetlerinin düzenlenmesi, kredi riski modellerinde yeni parametrelerin tanımlanmasını gerektirebilir."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "Tokenize varlıkların teminat olarak kabul edilebilirliği netleştiğinde LGD hesaplamaları etkilenebilir."
+    },
+    "EAD": {
+     "duzey": "Dolaylı",
+     "not": "Tokenize mevduatların bilanço içi/dışı sınıflandırması EAD hesaplamalarını etkileyebilir."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "TFRS 9 kapsamında tokenize varlıkların değerlemesi ve kredi riski karşılıkları, düzenleyici sınıflandırmaya göre değişebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-24",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Tokenize Mevduat Sınıflandırması",
+     "aciklama": "Banka, tokenize mevduat ürünlerinin CRD/CRR ve MiCA sınırındaki yerini takip etmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "EBA RESPONSE TO THE EC TARGETED CONSULTATION ON THE REVIEW OF MICA",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:00:51+03:00",
+   "gonderilen_karakter": 122241,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "eba-2026-09-23-30c6d7",
+  "kurum": "eba",
+  "baslik_orijinal": "ESAs call for vigilance over external dependencies, cyber threats and private credit risks",
+  "baslik_tr": "Avrupa Denetim Otoriteleri dış bağımlılıklar, siber tehditler ve özel kredi risklerine karşı dikkatli olunması çağrısında bulundu",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private-credit-risks",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "Kamu bankası olarak doğrudan İRD kullanmasa da, operasyonel risk yönetimi, siber güvenlik ve üçüncü taraf bağımlılıkları (ICT) bankanın risk profili için kritik öneme sahiptir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "Avrupa Denetim Otoriteleri, 2026 sonbahar risk güncellemesinde AB finansal sistemi için dış bağımlılıklar, siber tehditler ve özel kredi piyasalarındaki hızlı büyümenin yarattığı risklere karşı uyarıda bulunmuştur.",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "6c58503c3b63d36c"
+   }
+  ],
+  "alt_konular": [
+   "Siber riskler",
+   "Üçüncü taraf bağımlılıkları",
+   "Özel kredi (Private credit)",
+   "Yapay zeka"
+  ],
+  "etkilenen_alanlar": [
+   "Operasyonel risk",
+   "Kredi riski",
+   "Bilgi teknolojileri",
+   "Risk yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "Avrupa Denetim Otoriteleri (ESAs), 2026 sonbahar risk güncellemesinde AB finansal sistemi için dış bağımlılıklar, siber tehditler ve özel kredi piyasalarındaki büyümenin temel kırılganlıklar olduğunu belirtmiştir. Bankaların, özellikle AB dışı ICT hizmet sağlayıcılarına olan bağımlılıklarını ve yapay zeka destekli siber saldırı risklerini yönetmeleri beklenmektedir. Ayrıca, özel kredi piyasalarındaki şeffaflık eksikliği ve bankalarla olan bağlantılar, kredi riski yönetimi açısından yakından izlenmelidir.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın ICT hizmet sağlayıcılarına yönelik denetim ve risk yönetimi süreçlerinin sıkılaştırılması gerekebilir.",
+     "Özel kredi piyasalarına olan dolaylı maruziyetlerin (ortak borçlular vb.) daha detaylı raporlanması gerekebilir.",
+     "Yapay zeka ve kuantum bilişim risklerine karşı siber güvenlik stratejilerinin güncellenmesi gerekebilir.",
+     "ESAs, denetçileri ve piyasa katılımcılarını hazırlıklarını güçlendirmeye ve dış bağımlılıklar, özel kredi ve gelişmekte olan teknolojilerden kaynaklanan riskleri yakından izlemeye çağırmaktadır. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "DORA uyum süreçlerinde AB dışı ICT sağlayıcılarına yönelik risk değerlendirmelerinin derinleştirilmesi gerekebilir.",
+     "Kuantum bilişim tehditlerine karşı kriptografik sistemlerin gözden geçirilmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Operasyonel risk yönetimi çerçevesinde, yapay zeka destekli siber saldırılara karşı senaryo analizlerinin (stress testing) güncellenmesi gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Operasyonel risk sermaye gereksinimlerinde, siber risklerin artması nedeniyle modelleme varsayımlarının güncellenmesi gerekebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Özel kredi piyasalarındaki stresin, ortak borçlular üzerinden banka portföyüne yansıması durumunda PD üzerinde baskı oluşabilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "Varlık kalitesindeki olası bozulmalar, TFRS 9 kapsamında beklenen kredi zararı karşılıklarını etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-23",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Üçüncü Taraf Bağımlılıkları",
+     "aciklama": "AB dışı ICT ve ödeme sistemi sağlayıcılarına olan bağımlılığın operasyonel risk üzerindeki etkisinin değerlendirilmesi."
+    },
+    {
+     "baslik": "Özel Kredi Maruziyetleri",
+     "aciklama": "Özel kredi araçlarına veya bu araçları kullanan borçlulara olan doğrudan/dolaylı maruziyetlerin izlenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Risks from external dependencies in the financial sector",
+     "sayfa": 4,
+     "paragraf": null
+    },
+    {
+     "metin": "Risks from private credit",
+     "sayfa": 6,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:01:09+03:00",
+   "gonderilen_karakter": 37202,
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 1,
+   "guven": "Düşük"
+  }
+ },
+ {
+  "id": "bcbs-2026-09-23-a89cce",
+  "kurum": "bcbs",
+  "baslik_orijinal": "Basel III risk-based capital and leverage ratios are stable while liquidity indicators show limited movements for large internationally active banks, latest Basel III monitoring exercise shows",
+  "baslik_tr": "Basel III risk bazlı sermaye ve kaldıraç oranları istikrarlı seyrederken, likidite göstergeleri büyük uluslararası aktif bankalar için sınırlı hareketler gösteriyor, en son Basel III izleme çalışması bunu ortaya koyuyor",
+  "url": "https://www.bis.org/media-releases/20260923-basel-iii-risk-based-capital-and-leverage-ratios-are-stable-while-liquidity-indicators-show",
+  "belge_turu": "Rapor",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Bu rapor, büyük ve uluslararası faaliyet gösteren bankalar için Basel III izleme sonuçlarını içeren bilgilendirici bir yayındır. Kamu sermayeli ve standart yaklaşım uygulayan bankamız için doğrudan bir düzenleyici değişiklik veya uyum zorunluluğu içermemektedir.",
+  "konu": "Basel",
+  "ozet_tek_satir": "BCBS tarafından yayınlanan bu rapor, 2025 sonu itibarıyla büyük uluslararası bankaların Basel III sermaye ve likidite rasyolarındaki değişimleri ve Basel III çerçevesinin asgari sermaye gereksinimleri üzerindeki etkilerini analiz etmektedir.",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "089f409dab1abe01"
+   }
+  ],
+  "alt_konular": [
+   "Basel III İzleme",
+   "Likidite Rasyoları",
+   "Sermaye Yeterliliği"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "BCBS tarafından yayımlanan Basel III izleme raporu, 2025 sonu itibarıyla büyük uluslararası bankaların sermaye ve likidite rasyolarının genel olarak istikrarlı seyrettiğini göstermektedir. LCR rasyolarında hafif bir artış, NSFR rasyolarında ise sınırlı bir düşüş gözlemlenmiştir. Rapor, Basel III standartlarının tam uygulanması durumunda Tier 1 sermaye gereksinimleri üzerindeki etkinin %2,2 seviyesinde olduğunu ortaya koymaktadır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Basel III standartlarının bankalar üzerindeki etkilerinin düzenli olarak gözden geçirilmesi.",
+      "alinti": "Through a rigorous reporting process, the Basel Committee regularly reviews the implications of the Basel III standards for banks",
+      "sayfa": null,
+      "paragraf": 19,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Küresel bankacılık sektöründeki sermaye ve likidite eğilimlerinin izlenmesi yoluyla bankamızın risk iştahı ve stratejik planlaması için kıyaslama verisi sağlayabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Uluslararası piyasalardaki likidite standartlarının gelişimi, bankamızın likidite yönetimi politikaları için dolaylı bir referans noktası oluşturabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Basel III izleme metodolojisinin incelenmesi, bankamızın içsel raporlama süreçlerinin uluslararası standartlarla uyumunun değerlendirilmesine katkı sağlayabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Basel III tam geçiş etkisinin %2,2 olarak raporlanması, küresel sermaye yeterliliği standartlarının sıkılaşma eğilimini göstermektedir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, banka özelinde bir parametre değişikliği içermemektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, banka özelinde bir parametre değişikliği içermemektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, banka özelinde bir parametre değişikliği içermemektedir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, banka özelinde bir parametre değişikliği içermemektedir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-23",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Basel III İzleme Metodolojisi",
+     "aciklama": "Uluslararası bankaların raporlama standartlarını anlamak adına Basel III izleme metodolojisi notu incelenebilir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Basel III monitoring exercise",
+     "sayfa": 1,
+     "paragraf": 11
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:01:27+03:00",
+   "gonderilen_karakter": 4477,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "bcbs-2026-09-23-9e9e8c",
+  "kurum": "bcbs",
+  "baslik_orijinal": "Basel III monitoring report",
+  "baslik_tr": "Basel III İzleme Raporu",
+  "url": "https://www.bis.org/publications/202609-qis-basel-iii-monitoring-report",
+  "belge_turu": "Rapor",
+  "statu": "Yürürlükte",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Bu belge, Basel Komitesi tarafından yayımlanan bir izleme raporu olup, banka için doğrudan bir yasal yükümlülük getirmemekte, küresel bankacılık sektörüne ilişkin istatistiksel veriler ve Basel III standartlarının genel etkilerini sunmaktadır.",
+  "konu": "Basel",
+  "ozet_tek_satir": "Basel Komitesi tarafından hazırlanan bu rapor, Basel III reformlarının bankaların sermaye yeterlilik oranları, kaldıraç oranları ve likidite metrikleri üzerindeki etkilerini 2025 yılı sonu verileriyle analiz etmektedir.",
+  "yayin_tarihi": "2026-09-23",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "d26b8d18a7e695b0"
+   }
+  ],
+  "alt_konular": [
+   "Basel III",
+   "Sermaye Yeterliliği",
+   "Likidite Riski",
+   "Kaldıraç Oranı"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Sermaye Planlaması",
+   "Likidite Yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "Basel Komitesi'nin 31 Aralık 2025 verilerine dayanan bu raporu, Basel III standartlarının küresel bankalar üzerindeki etkilerini özetlemektedir. Rapor, risk bazlı sermaye ve kaldıraç oranlarının istikrarlı seyrettiğini, likidite göstergelerinin ise sınırlı hareketlilik sergilediğini ortaya koymaktadır. Banka yönetimi, küresel ölçekteki bu eğilimleri kendi sermaye ve likidite yeterlilik oranlarını kıyaslamak için bir referans noktası olarak kullanabilir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Basel III çerçevesinin bankalar üzerindeki etkisini değerlendirmek amacıyla Basel Bankacılık Denetim Komitesi reformların etkilerini ve dinamiklerini izlemektedir.",
+      "alinti": "To assess the impact of the Basel III framework on banks, the Basel Committee on Banking Supervision monitors the effects and dynamics of the reforms.",
+      "sayfa": 8,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Rapor, bankanın kendi içsel sermaye yeterlilik ve likidite metriklerini küresel emsalleriyle kıyaslamasına olanak sağlayabilir.",
+     "Basel III standartlarının tam uygulanması durumunda ortaya çıkabilecek sermaye gereksinimi artışları, bankanın uzun vadeli sermaye planlaması için bir projeksiyon aracı olabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Output floor (çıktı tabanı) uygulamalarının sermaye yeterlilik rasyoları üzerindeki baskısı, standart yaklaşım kullanan bankalar için sermaye maliyetini artırabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın Basel III uyum süreçlerinde, özellikle piyasa riski ve çıktı tabanı hesaplamalarında veri kalitesi ve raporlama altyapısının güçlendirilmesi gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Output floor uygulaması nedeniyle risk ağırlıklı varlıkların (RWA) hesaplanmasında artış yaşanabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Basel III Standartları Etki Analizi",
+     "onceki": "Haziran 2025 dönemi verileri",
+     "yeni": "Aralık 2025 dönemi verileri",
+     "referans": "Sayfa 8"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, PD parametresine ilişkin doğrudan bir değişiklik içermemektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, LGD parametresine ilişkin doğrudan bir değişiklik içermemektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Rapor, EAD parametresine ilişkin doğrudan bir değişiklik içermemektedir."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "Basel III standartlarının tam uygulanması, TFRS 9 kapsamında beklenen kredi zararı karşılıkları üzerinde dolaylı bir etki yaratabilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-23",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Sermaye Yeterlilik Oranları",
+     "aciklama": "Bankanın mevcut CET1 ve Tier 1 oranlarının, raporda belirtilen küresel ortalamalarla (Group 1 bankalar için %13.9) kıyaslanması."
+    },
+    {
+     "baslik": "Likidite Metrikleri",
+     "aciklama": "LCR ve NSFR oranlarının, Basel III standartları ile uyumunun ve küresel benchmark değerlerinin gözden geçirilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Highlights of the Basel III monitoring exercise as of 31 December 2025",
+     "sayfa": 8,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:01:46+03:00",
+   "gonderilen_karakter": 58969,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "eba-2026-09-18-9f1d80",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA publishes its final Guidelines on the management of third-party risk, delivering a more proportionate and consistent framework aligned with DORA",
+  "baslik_tr": "EBA, DORA ile uyumlu, daha orantılı ve tutarlı bir çerçeve sunan üçüncü taraf risk yönetimine ilişkin nihai Rehberini yayımladı",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-guidelines-management-third-party-risk-delivering-more-proportionate-and",
+  "belge_turu": "Rehber",
+  "statu": "Nihai",
+  "onem": "Orta",
+  "onem_gerekcesi": "EBA kılavuzları doğrudan Türk bankacılık mevzuatını bağlamasa da, kamu bankasının operasyonel risk yönetimi ve dış kaynak kullanımı standartları için uluslararası iyi uygulama referansı teşkil eder.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "EBA, finansal kuruluşların kritik işlevlerini destekleyen üçüncü taraf düzenlemelerine yönelik risk yönetimi süreçlerini standartlaştıran ve DORA ile uyumlu hale getiren nihai rehberini yayımlamıştır.",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "3b535802de4935a8"
+   }
+  ],
+  "alt_konular": [
+   "Üçüncü taraf riski",
+   "Operasyonel risk",
+   "DORA uyumu"
+  ],
+  "etkilenen_alanlar": [
+   "Operasyonel risk yönetimi",
+   "Dış kaynak kullanımı",
+   "Bilgi sistemleri"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": "2028-09-18",
+  "analiz": {
+   "yonetici_ozeti": "EBA, üçüncü taraf risk yönetimine ilişkin nihai kılavuzlarını yayımlayarak DORA ile uyumlu, orantılı bir çerçeve oluşturmuştur. Kılavuzlar, kritik veya önemli fonksiyonları (CIF) destekleyen dış kaynak düzenlemelerine odaklanarak risk yönetimini bütüncül bir yaklaşımla ele almaktadır. İki yıllık bir geçiş süreci öngörülmüştür.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Kılavuzlar, kritik veya önemli fonksiyonları destekleyen üçüncü taraf düzenlemelerine odaklanmaktadır.",
+      "alinti": "the Guidelines focus on third-party arrangements supporting critical or important functions (CIFs)",
+      "sayfa": null,
+      "paragraf": 4,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Banka, kritik dış kaynak süreçlerini yeniden tanımlamak ve risk değerlendirme metodolojisini bu kılavuzla uyumlu hale getirmek zorunda kalabilir.",
+     "Üçüncü taraf sözleşmelerinde çıkış stratejileri ve alt yüklenici yönetimi konularında daha sıkı denetim mekanizmaları kurulması gerekebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Önceki çerçeve, daha genel dış kaynak kullanımı ilkelerine dayanırken, yeni düzenleme DORA ile uyumlu daha spesifik ve bütüncül bir risk yönetimi yaklaşımı getirmektedir."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "ICT ve ICT dışı hizmetlerin tek bir çatı altında yönetilmesi için BT altyapısında ve envanter yönetiminde değişiklikler gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Üçüncü taraf yaşam döngüsü yönetimi (due diligence, izleme, çıkış stratejileri) süreçlerinin güncellenmesi operasyonel iş yükünü artırabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Operasyonel risk sermaye yükümlülüğü hesaplamalarında, dış kaynak risklerinin daha iyi yönetilmesi uzun vadede risk profilini iyileştirebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Kapsam ve Odak",
+     "onceki": "Genel dış kaynak kullanımı yönetimi",
+     "yeni": "Kritik veya önemli fonksiyonlara (CIF) odaklanan bütüncül üçüncü taraf risk yönetimi",
+     "referans": "Sayfa 1, P4-P5"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri üzerinde doğrudan bir etkisi bulunmamaktadır."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri üzerinde doğrudan bir etkisi bulunmamaktadır."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri üzerinde doğrudan bir etkisi bulunmamaktadır."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "TFRS 9 karşılık hesaplamaları üzerinde doğrudan bir etkisi bulunmamaktadır."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-18",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Uyum",
+     "tarih": "2028-09-18",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Kritik Fonksiyon Envanteri",
+     "aciklama": "Banka bünyesindeki kritik veya önemli fonksiyonların (CIF) güncel listesi ve bu fonksiyonlara hizmet veren üçüncü tarafların risk analizi."
+    },
+    {
+     "baslik": "Sözleşme Standartları",
+     "aciklama": "Üçüncü taraf sözleşmelerinin izleme, alt yüklenici ve çıkış stratejisi maddelerinin yeni kılavuzla uyumu."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "The EBA publishes its final Guidelines on the management of third-party risk",
+     "sayfa": 1,
+     "paragraf": 1
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:02:01+03:00",
+   "gonderilen_karakter": 1985,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "bddk-2026-09-18-e6c8fb",
+  "kurum": "bddk",
+  "baslik_orijinal": "Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin Faaliyet İzninin Kaldırılmasına İlişkin Basın Duyurusu",
+  "baslik_tr": "Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin Faaliyet İzninin Kaldırılmasına İlişkin Basın Duyurusu",
+  "url": "https://www.bddk.org.tr/Duyuru/Detay/3303",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Metin, bir bankanın faaliyet izninin kaldırılmasına dair bir duyuru başlığı taşısa da, ekli belge içeriği yalnızca BDDK'nın KVKK aydınlatma metninden ibarettir ve bankacılık düzenlemesi veya risk yönetimi ile ilgili bir hüküm içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "BDDK tarafından yayınlanan bu metin, kurumun KVKK kapsamındaki aydınlatma yükümlülüklerini içeren genel bir bilgilendirme dokümanıdır.",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "8b9ec2f389a99347"
+   }
+  ]
+ },
+ {
+  "id": "bddk-2026-09-18-748956",
+  "kurum": "bddk",
+  "baslik_orijinal": "Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin faaliyet izninin kaldırılmasına ilişkin Kurul Kararı",
+  "baslik_tr": "Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin faaliyet izninin kaldırılmasına ilişkin Kurul Kararı",
+  "url": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1347",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Söz konusu karar, yabancı bir banka şubesinin faaliyet izninin kaldırılmasına ilişkindir ve kamu sermayeli bankanın operasyonel veya finansal yapısını doğrudan etkilememektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "BDDK tarafından 5411 sayılı Bankacılık Kanunu'nun 71. maddesi uyarınca Bank Mellat'ın Türkiye'deki faaliyet izninin kaldırılmasına karar verilmiştir.",
+  "yayin_tarihi": "2026-09-18",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "6188f1bcb5c5a045"
+   }
+  ],
+  "alt_konular": [
+   "Faaliyet İzni"
+  ],
+  "etkilenen_alanlar": [
+   "Piyasa Gözetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-09-18",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "BDDK, Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesi'nin faaliyet izninin kaldırılmasına karar vermiştir. Karar, 5411 sayılı Bankacılık Kanunu'nun 71. maddesi uyarınca alınmıştır. Kamu sermayeli bankamız için doğrudan bir operasyonel veya finansal risk teşkil etmemektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Bank Mellat şubesinin faaliyet izninin kaldırılması.",
+      "alinti": "Bank Mellat Merkezi Tahran İstanbul Türkiye Merkez Şubesinin faaliyet izninin 5411 sayılı Bankacılık Kanununun 71 inci maddesinin birinci fıkrasının (b) bendi çerçevesinde kaldırılmasına",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Sektörel rekabet ortamında sınırlı bir değişiklik olabilir.",
+     "İlgili banka ile ilişkisi olan karşı taraf riskleri gözden geçirilebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın ilgili şube ile devam eden operasyonel süreçleri veya mutabakatları varsa bunların sonlandırılması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-09-18",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Karşı Taraf Riskleri",
+     "aciklama": "Bank Mellat ile mevcut bir ticari ilişki veya açık pozisyon bulunup bulunmadığı kontrol edilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "BANKACILIK DÜZENLEME VE DENETLEME KURULU KARARI",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:02:28+03:00",
+   "gonderilen_karakter": 567,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "worldbank-2026-09-17-1095ba",
+  "kurum": "worldbank",
+  "baslik_orijinal": "Liquidity at Light Speed : Digital Banking and Financial Stability in East Asia and Pacific",
+  "baslik_tr": "Işık Hızında Likidite: Doğu Asya ve Pasifik'te Dijital Bankacılık ve Finansal İstikrar",
+  "url": "http://documents.worldbank.org/curated/en/099911409172631456",
+  "belge_turu": "Rapor",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Belge içeriği teknik bir düzenleme veya bankacılık mevzuatı içermeyip, yalnızca bir web sayfası yükleme arayüzü ve dil seçeneklerinden ibarettir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Dijital bankacılığın finansal sistem üzerindeki etkilerini ve bu süreçte finansal istikrarın korunmasına yönelik risk yönetimi yaklaşımlarını inceleyen bir rapordur.",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "c41d32a6607f7bb6"
+   }
+  ],
+  "alt_konular": [],
+  "etkilenen_alanlar": [],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "İncelenen doküman, Dünya Bankası'nın dijital bankacılık ve finansal istikrar üzerine yayınladığı raporun web sayfasıdır. Belge metni içerisinde herhangi bir düzenleyici hüküm, politika değişikliği veya bankacılık faaliyetlerini etkileyecek teknik içerik bulunmamaktadır. Bu nedenle banka operasyonları üzerinde bir etkisi yoktur.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Belge içeriği teknik bir düzenleme içermediğinden banka üzerinde herhangi bir etkisi olması beklenmemektedir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belge teknik bir düzenleme içermemektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belge teknik bir düzenleme içermemektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belge teknik bir düzenleme içermemektedir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belge teknik bir düzenleme içermemektedir."
+    }
+   },
+   "tarihler": [],
+   "gozden_gecirilecekler": [],
+   "referanslar": []
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:02:42+03:00",
+   "gonderilen_karakter": 221,
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 0,
+   "guven": "Düşük"
+  }
+ },
+ {
+  "id": "tcmb-2026-09-17-9f6596",
+  "kurum": "tcmb",
+  "baslik_orijinal": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-41)",
+  "baslik_tr": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-41)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-41",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "TCMB'nin likidite yönetimi politikalarındaki değişiklikler, kamu bankasının fonlama maliyetlerini, teminat yönetimini ve piyasa operasyonlarını doğrudan etkilemektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "TCMB, piyasa koşulları doğrultusunda haftalık repo fonlama miktarını artırma, borç alabilme limitlerini güncelleme ve teminat iskonto oranlarını düşürme kararı almıştır.",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "112f30554252ea4d"
+   }
+  ],
+  "alt_konular": [
+   "Likidite yönetimi",
+   "Teminat yönetimi",
+   "Para piyasaları"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine yönetimi",
+   "Likidite riski",
+   "Teminat yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-09-17",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB, finansal piyasalardaki gelişmeler doğrultusunda TL likidite imkânlarını genişletme kararı almıştır. Bu kapsamda haftalık repo fonlaması artırılacak, bankaların borç alabilme limitleri güncellenecek ve teminat iskonto oranları düşürülecektir. Bankamızın likidite pozisyonu ve teminat portföyü bu değişikliklere göre yeniden optimize edilmelidir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Haftalık repo ihaleleriyle sağlanacak fonlama miktarı artırılacaktır.",
+      "alinti": "Haftalık repo ihaleleriyle sağlanacak fonlama miktarı likidite koşulları göz önünde bulundurularak artırılacaktır.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "Bankaların borç alabilme limitleri güncellenecektir.",
+      "alinti": "TCMB bünyesinde faaliyette bulunan Bankalararası Para Piyasasında bankaların borç alabilme limitleri, bankacılık sisteminin mevcut bilanço büyüklükleri dikkate alınarak güncellenecektir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "Teminat iskonto oranları azaltılacaktır.",
+      "alinti": "TCMB bünyesinde yer alan piyasalarda geçerli olan teminat iskonto oranları gözden geçirilerek azaltılacaktır.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın TCMB nezdindeki teminat havuzunun verimliliği artabilir.",
+     "Likiditeye erişim maliyetlerinde iyileşme görülebilir.",
+     "Bankalararası piyasadaki borçlanma kapasitesi genişleyebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Daha önce uygulanan daha yüksek teminat iskonto oranları ve daha kısıtlı borçlanma limitleri, bankanın likidite tamponlarını daha yüksek tutmasını gerektiriyordu."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Teminat iskonto oranlarının düşmesi, aynı miktardaki menkul kıymet ile daha fazla TL likidite sağlanmasına olanak tanıyabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hazine biriminin TCMB limitlerini ve teminat yönetim stratejisini güncel piyasa koşullarına göre revize etmesi gerekecektir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Likidite imkânlarının artması, bankanın piyasa riskine karşı daha esnek bir bilanço yönetimi yapmasını sağlayarak dolaylı olarak sermaye yeterliliğini destekleyebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Teminat İskonto Oranları",
+     "onceki": "Daha yüksek iskonto oranları",
+     "yeni": "Azaltılmış iskonto oranları",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Likidite yönetimi kararları kredi risk parametrelerini doğrudan etkilemez."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Teminat iskonto oranları TCMB nezdindeki operasyonel süreçlerle ilgilidir, kredi riski LGD hesaplamalarını değiştirmez."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski maruziyetini etkilemez."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "TFRS 9 beklenen kredi zararı hesaplamaları üzerinde doğrudan bir etkisi yoktur."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-17",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Teminat Portföyü",
+     "aciklama": "Azaltılan iskonto oranları sonrası teminat havuzunun yeniden değerlendirilmesi."
+    },
+    {
+     "baslik": "Likidite Stratejisi",
+     "aciklama": "Artırılan repo fonlama imkânlarının banka likidite projeksiyonlarına entegrasyonu."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:02:58+03:00",
+   "gonderilen_karakter": 2073,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 3,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "bddk-2026-09-17-b8166e",
+  "kurum": "bddk",
+  "baslik_orijinal": "Bankaların Hisse Geri Alımları Hk. Kurul Kararı",
+  "baslik_tr": "Bankaların Hisse Geri Alımları Hakkında Kurul Kararı",
+  "url": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1346",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "Kamu sermayeli bankaların özkaynak ve sermaye yeterliliği hesaplamalarını doğrudan etkileyen, sermaye rasyoları üzerinde geçici iyileştirme sağlayan bir düzenlemedir.",
+  "konu": "Basel",
+  "ozet_tek_satir": "Halka açık bankaların geri aldıkları kendi hisselerinin, 31.12.2026 tarihine kadar çekirdek sermayeden indirim kalemi olarak dikkate alınmaması ve sermaye yeterliliği hesaplamalarına dahil edilmemesi kararlaştırılmıştır.",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "aad2e291aa3ebde2"
+   }
+  ],
+  "alt_konular": [
+   "Özkaynak",
+   "Sermaye Yeterliliği"
+  ],
+  "etkilenen_alanlar": [
+   "Sermaye yeterliliği rasyosu",
+   "Özkaynak hesaplamaları",
+   "Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-09-16",
+  "uyum_son_tarihi": "2026-12-31",
+  "analiz": {
+   "yonetici_ozeti": "BDDK, halka açık bankaların 16.09.2026 sonrası gerçekleştirdiği hisse geri alımlarının 31.12.2026 tarihine kadar sermaye yeterliliği hesaplamalarında indirim kalemi veya risk ağırlıklı tutar olarak dikkate alınmamasını kararlaştırmıştır. Bu düzenleme, bankaların sermaye rasyolarını geçici olarak korumayı veya artırmayı hedeflemektedir. İlgili dönemde geri alınan hisseler, çekirdek sermayeden düşülmeyecek ve risk hesaplamalarına dahil edilmeyecektir.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın sermaye yeterliliği rasyolarında (SYR) geçici bir artış gözlemlenebilir.",
+     "Özkaynak hesaplamasında indirim kalemlerinin azalması nedeniyle çekirdek sermaye tutarı daha yüksek görünebilir.",
+     "Hisse geri alımlarının çekirdek sermayeden indirim kalemi olarak dikkate alınmaması ve risk hesaplamalarına dahil edilmemesi. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Normal şartlarda geri alınan hisseler çekirdek sermayeden indirilmekte ve sermaye yeterliliğini olumsuz etkilemekteydi."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Sermaye yeterliliği raporlama sistemlerinde 31.12.2026 tarihine kadar geçici bir istisna tanımlanması gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hisse geri alım işlemlerinin tarih bazlı takibi ve raporlama süreçlerinde ayrıştırılması gerekecektir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi riskine esas tutar ve piyasa riskine esas tutar hesaplamalarında geri alınan hisseler nedeniyle bir azalma olabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Hisse geri alımlarının sermaye hesaplamasındaki yeri",
+     "onceki": "Çekirdek sermayeden indirim kalemi ve risk hesaplamasına dahil",
+     "yeni": "İndirim kalemi değil ve risk hesaplamasına dahil değil",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-09-16",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Uyum",
+     "tarih": "2026-12-31",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Sermaye Yeterliliği Raporlaması",
+     "aciklama": "Geri alınan hisselerin sermaye yeterliliği hesaplamalarından muaf tutulması için sistem parametrelerinin güncellenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Bankacılık Düzenleme ve Denetleme Kurulu Kararı",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:03:13+03:00",
+   "gonderilen_karakter": 959,
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 1,
+   "guven": "Düşük"
+  }
+ },
+ {
+  "id": "eba-2026-09-16-5b7f58",
+  "kurum": "eba",
+  "baslik_orijinal": "European Parliament confirms Thomas Gstädtner as Executive Director of the EBA",
+  "baslik_tr": "Avrupa Parlamentosu, Thomas Gstädtner'in EBA İcra Direktörü olarak atanmasını onayladı",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/european-parliament-confirms-thomas-gstadtner-executive-director-eba",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Metin, Avrupa Bankacılık Otoritesi'ne (EBA) yapılan bir yönetici atamasına ilişkin personel duyurusu niteliğindedir ve bankalar için bağlayıcı bir düzenleme veya teknik standart içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Avrupa Bankacılık Otoritesi'nin (EBA) yeni İcra Direktörü olarak Thomas Gstädtner'in atandığı duyurulmuştur.",
+  "yayin_tarihi": "2026-09-16",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "2ba1a0b318f84d83"
+   }
+  ]
+ },
+ {
+  "id": "bddk-2026-09-16-61df0b",
+  "kurum": "bddk",
+  "baslik_orijinal": "Golden Global Yatırım Bankası A.Ş. Hakkında Basın Duyurusu",
+  "baslik_tr": "Golden Global Yatırım Bankası A.Ş. Hakkında Basın Duyurusu",
+  "url": "https://www.bddk.org.tr/Duyuru/Detay/3301",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Metin, BDDK'nın genel KVKK aydınlatma metninden ibaret olup bankacılık düzenlemeleri, risk yönetimi veya banka operasyonlarını ilgilendiren spesifik bir mevzuat değişikliği içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "BDDK tarafından yayınlanan bu belge, kurumun kişisel verilerin işlenmesine ilişkin KVKK kapsamındaki genel aydınlatma yükümlülüğünü içermektedir.",
+  "yayin_tarihi": "2026-09-16",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "4c7dac65bd91b51b"
+   }
+  ]
+ },
+ {
+  "id": "tcmb-2026-09-14-5bf5d6",
+  "kurum": "tcmb",
+  "baslik_orijinal": "İİT-İSEDAK Merkez Bankaları Forumu Toplantısına İlişkin Basın Duyurusu (2026-40)",
+  "baslik_tr": "İİT-İSEDAK Merkez Bankaları Forumu Toplantısına İlişkin Basın Duyurusu",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-40",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Metin, merkez bankaları arasında gerçekleştirilen bir forum toplantısına dair genel bilgilendirme niteliğinde olup bankacılık düzenlemeleri, risk yönetimi veya raporlama standartları açısından bağlayıcı bir hüküm içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Türkiye Cumhuriyet Merkez Bankası ev sahipliğinde düzenlenen İİT-İSEDAK Merkez Bankaları Forumu toplantısında makroekonomik dayanıklılık, rezerv yönetimi ve finansal teknolojiler gibi konuların ele alındığı bildirilmiştir.",
+  "yayin_tarihi": "2026-09-14",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "f0e05b81a5b801bf"
+   }
+  ]
+ },
+ {
+  "id": "eba-2026-09-14-5b841f",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA publishes updated list of validation rules as part of its regular quarterly reporting frameworks update",
+  "baslik_tr": "EBA, düzenli üç aylık raporlama çerçevesi güncellemesinin bir parçası olarak güncellenmiş doğrulama kuralları listesini yayınladı",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-updated-list-validation-rules-part-its-regular-quarterly-reporting-frameworks-update",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Yürürlükte",
+  "onem": "Orta",
+  "onem_gerekcesi": "Bankanın düzenli raporlama süreçlerini ve veri doğrulama altyapısını doğrudan etkileyen teknik bir güncellemedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "EBA, denetleyici raporlama çerçevelerindeki doğrulama kurallarını güncelleyerek, veri gönderimlerinde tutarlılığı ve teknik uyumu artırmayı hedefleyen yeni bir paket yayınlamıştır.",
+  "yayin_tarihi": "2026-09-14",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "f241f0dd8142c132"
+   }
+  ],
+  "alt_konular": [
+   "Raporlama",
+   "Veri Doğrulama"
+  ],
+  "etkilenen_alanlar": [
+   "Raporlama",
+   "Bilgi Teknolojileri"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "EBA, raporlama çerçeveleri kapsamındaki doğrulama kurallarını güncelledi. Bu güncelleme, hatalı veya teknik sorunlu kuralların devre dışı bırakılmasını veya yeniden etkinleştirilmesini içermektedir. Bankanın raporlama sistemlerinin bu yeni doğrulama kuralları ile uyumlu hale getirilmesi gerekmektedir.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın raporlama yazılımında kullanılan doğrulama kurallarının güncellenmemesi durumunda, denetleyici otoriteye gönderilen verilerde hata mesajları oluşabilir.",
+     "Devre dışı bırakılan kuralların sistemden temizlenmesi, raporlama süreçlerinde performans artışı sağlayabilir.",
+     "EBA, raporlama çerçevelerinde tanımlanan doğrulama kurallarının güncellenmiş bir listesini yayınlamıştır. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "DPM 2.0 ile doğrulama kuralları doğrudan taksonomi ve DPM içine entegre edilmiştir.",
+      "alinti": "With the introduction of DPM 2.0 from release 4.0 onwards, validation rules are now embedded directly in both the taxonomy and DPM.",
+      "sayfa": null,
+      "paragraf": 10,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın kullandığı raporlama yazılımının DPM 2.0 standartlarına tam uyumlu olması gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Raporlama birimlerinin, devre dışı bırakılan kuralları sistemlerinden kaldırması operasyonel hata riskini azaltabilir.",
+     "Yetkili otoriteler, ITS ve Kılavuzlar uyarınca sunulan verilerin devre dışı bırakılan kurallara göre doğrulanmaması gerektiğini hatırlatır. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Doğrulama kuralları",
+     "onceki": "Önceki doğrulama kuralları seti",
+     "yeni": "Güncellenmiş, devre dışı bırakılan veya yeniden etkinleştirilen kurallar listesi",
+     "referans": "Sayfa 1, P4"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu güncelleme teknik raporlama kuralları ile ilgilidir, kredi riski parametrelerini doğrudan değiştirmez."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu güncelleme teknik raporlama kuralları ile ilgilidir, kredi riski parametrelerini doğrudan değiştirmez."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu güncelleme teknik raporlama kuralları ile ilgilidir, kredi riski parametrelerini doğrudan değiştirmez."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu güncelleme teknik raporlama kuralları ile ilgilidir, kredi riski parametrelerini doğrudan değiştirmez."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-14",
+     "referans": "Sayfa 1, P3"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Raporlama Yazılımı Güncellemesi",
+     "aciklama": "EBA tarafından yayınlanan yeni doğrulama kuralları paketinin bankanın raporlama sistemine entegrasyonu sağlanmalıdır."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "The EBA publishes updated list of validation rules",
+     "sayfa": 1,
+     "paragraf": 1
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:04:44+03:00",
+   "gonderilen_karakter": 1508,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 3,
+   "guven": "Düşük"
+  }
+ },
+ {
+  "id": "tcmb-2026-09-11-40b31e",
+  "kurum": "tcmb",
+  "baslik_orijinal": "E9 Emisyon Grubu IX. Tertip 50 Türk Lirası ve VIII. Tertip 5 Türk Lirası Banknotların Tedavüle Çıkarılmasına İlişkin Basın Duyurusu (2026-39)",
+  "baslik_tr": "E9 Emisyon Grubu IX. Tertip 50 Türk Lirası ve VIII. Tertip 5 Türk Lirası Banknotların Tedavüle Çıkarılmasına İlişkin Basın Duyurusu (2026-39)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-39",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Metin, sadece yeni tertip banknotların tedavüle çıkarılmasına ilişkin teknik bir duyuru olup bankacılık düzenlemeleri, risk yönetimi veya sermaye yeterliliği açısından bir değişiklik içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Türkiye Cumhuriyet Merkez Bankası tarafından, yeni imza düzenlemesine sahip 50 TL ve 5 TL banknotların 11 Eylül 2026 itibarıyla tedavüle çıkarılacağı duyurulmuştur.",
+  "yayin_tarihi": "2026-09-11",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "cf15eb724386710d"
+   }
+  ]
+ },
+ {
+  "id": "tcmb-2026-09-10-834710",
+  "kurum": "tcmb",
+  "baslik_orijinal": "Faiz Oranlarına İlişkin Basın Duyurusu (2026-38)",
+  "baslik_tr": "Faiz Oranlarına İlişkin Basın Duyurusu (2026-38)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-38",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Metin, genel para politikası kararlarını ve faiz oranlarını içeren bir basın duyurusu olup, bankanın doğrudan operasyonel süreçlerini, sermaye yeterliliğini veya raporlama yükümlülüklerini değiştiren spesifik bir düzenleme içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "TCMB Para Politikası Kurulu, politika faizini yüzde 37 seviyesinde sabit tutma kararı almıştır.",
+  "yayin_tarihi": "2026-09-10",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "da0e9809ddad18e4"
+   }
+  ]
+ },
+ {
+  "id": "eba-2026-09-09-bfda69",
+  "kurum": "eba",
+  "baslik_orijinal": "The EBA responds to the European Commission’s non-adoption of draft amending technical standards on prior permission",
+  "baslik_tr": "EBA, Avrupa Komisyonu'nun ön izne ilişkin teknik standart değişikliği taslağını kabul etmemesine yanıt veriyor",
+  "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-responds-european-commissions-non-adoption-draft-amending-technical-standards-prior-permission",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Banka standart yaklaşım kullandığı ve İRD süreçlerine tabi olmadığı için, özkaynak azaltımı ön izni ile ilgili bu teknik standart değişikliğinin reddi bankanın sermaye hesaplama yöntemlerini doğrudan etkilememektedir.",
+  "konu": "Basel",
+  "ozet_tek_satir": "Avrupa Komisyonu, EBA tarafından sunulan ve özkaynak azaltımı için ön izin başvuru süresini kısaltmayı hedefleyen teknik standart değişikliği taslağını, daha kapsamlı bir reform ihtiyacı gerekçesiyle reddetmiştir.",
+  "yayin_tarihi": "2026-09-09",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "17f00995ae1417c7"
+   }
+  ],
+  "alt_konular": [
+   "Özkaynak azaltımı",
+   "Ön izin süreçleri"
+  ],
+  "etkilenen_alanlar": [
+   "Sermaye yönetimi",
+   "Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "Avrupa Komisyonu, EBA tarafından sunulan ve özkaynak azaltımı ön izin başvuru süresini dört aydan üç aya indirmeyi hedefleyen teknik standart değişikliğini reddetmiştir. Komisyon, bu değişikliğin kapsamının çok dar olduğunu ve daha geniş kapsamlı bir reformun parçası olması gerektiğini belirtmiştir. EBA, ön izin rejimine ilişkin daha kapsamlı bir gözden geçirme sürecine devam edeceğini açıklamıştır. Bankamızın mevcut operasyonel süreçlerinde acil bir değişiklik gerektiren bir durum bulunmamaktadır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "EBA, özkaynak azaltımı ön izin başvuru süresini kısaltmayı amaçlayan teknik standart değişikliği teklifinin Komisyon tarafından reddedildiğini duyurmuştur.",
+      "alinti": "The EBA acknowledges the European Commission’s non-adoption of the targeted amendments of the Commission Delegated Regulation (EU) No 241/2014",
+      "sayfa": null,
+      "paragraf": 4,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Özkaynak azaltımı veya borçlanma araçlarının geri alımı gibi işlemlerde mevcut dört aylık başvuru süresi uygulaması devam edecektir.",
+     "İleride yapılacak kapsamlı reform ile başvuru süreçlerinde daha radikal sadeleşmeler olabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Mevcut düzenleyici teknik standartlar (RTS) uyarınca 4 aylık başvuru süresi korunmaktadır."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Özkaynak azaltımı planlayan birimlerin, başvuru takvimlerini mevcut 4 aylık süreye göre planlamaya devam etmeleri gerekecektir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Sermaye hesaplamaları üzerinde doğrudan bir etkisi bulunmamaktadır."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Özkaynak azaltımı ön izin başvuru süresi",
+     "onceki": "4 ay",
+     "yeni": "Değişiklik reddedildi (4 ay devam ediyor)",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Düzenleme sermaye yeterliliği hesaplama parametrelerini değil, idari izin süreçlerini ilgilendirmektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "İlgili değildir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "İlgili değildir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "İlgili değildir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-09",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Özkaynak azaltımı başvuru takvimi",
+     "aciklama": "Ön izin gerektiren sermaye azaltımı işlemlerinde 4 aylık yasal sürenin operasyonel planlamalarda dikkate alınmaya devam edilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Commission Delegated Regulation (EU) No 241/2014",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:05:14+03:00",
+   "gonderilen_karakter": 5914,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "ifrs-2026-09-01-c75ca7",
+  "kurum": "ifrs",
+  "baslik_orijinal": "IASB seeks investor views on cash flow information reported by financial institutions",
+  "baslik_tr": "IASB, finansal kuruluşlar tarafından raporlanan nakit akış bilgileri hakkında yatırımcı görüşleri arıyor",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-seeks-investor-views-cash-flows/",
+  "belge_turu": "İstişare dokümanı",
+  "statu": "İstişare",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Bu bir anket duyurusudur; banka için doğrudan bir düzenleyici yükümlülük veya kural değişikliği içermemektedir.",
+  "konu": "TFRS 9",
+  "ozet_tek_satir": "Uluslararası Muhasebe Standartları Kurulu (IASB), finansal kuruluşların nakit akış tablolarına ilişkin raporlama gerekliliklerini gözden geçirmek amacıyla yatırımcıların görüşlerini alan bir anket başlatmıştır.",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "e5cd41ffe31703b6"
+   }
+  ],
+  "alt_konular": [
+   "Nakit Akış Tablosu",
+   "Finansal Raporlama"
+  ],
+  "etkilenen_alanlar": [
+   "Finansal Raporlama",
+   "Yatırımcı İlişkileri"
+  ],
+  "gorus_son_tarihi": "2026-09-25",
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IASB, finansal kuruluşların nakit akış bilgilerini sunma yükümlülüklerine ilişkin olası muafiyetleri değerlendirmek amacıyla yatırımcıların görüşlerini alan bir anket başlatmıştır. Bu çalışma, IAS 7 kapsamında finansal kuruluşlar için nakit akış tablosu sunumunda değişiklik yapılıp yapılmayacağını belirlemeyi hedeflemektedir. Bankamız için doğrudan bir zorunluluk doğurmamakla birlikte, gelecekteki raporlama standartlarını etkileyebilecek bir araştırma sürecidir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Anket, finansal kuruluşların nakit akış tablosu sunumundan muaf tutulması olasılığını araştırmaktadır.",
+      "alinti": "It will also inform the IASB’s research on possible exemptions for financial institutions from presenting cash flow information in their financial statements.",
+      "sayfa": null,
+      "paragraf": 17,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Gelecekte finansal kuruluşlar için nakit akış tablosu sunumunda muafiyetler veya farklı raporlama gereksinimleri getirilebilir.",
+     "IASB, finansal kuruluşların nakit akış bilgilerini nasıl kullandıklarını anlamak için bir anket başlatmıştır. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "IAS 7 standardında yapılacak olası değişiklikler, bankanın finansal raporlama süreçlerini ve nakit akış tablosu hazırlama yöntemlerini etkileyebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Yatırımcı ilişkileri biriminin, IASB'nin bu projesini takip etmesi ve olası standart değişikliklerine hazırlık yapması önerilebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": []
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Görüş son tarihi",
+     "tarih": "2026-09-25",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "IAS 7 Projesi",
+     "aciklama": "IASB'nin nakit akış tablosu ile ilgili yürüttüğü projenin finansal raporlama üzerindeki olası etkileri izlenmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "IAS 7 Statement of Cash Flows",
+     "sayfa": 1,
+     "paragraf": 26
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:05:30+03:00",
+   "gonderilen_karakter": 4606,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 2,
+   "guven": "Düşük"
+  }
+ },
+ {
+  "id": "ifrs-2026-09-01-b08fcc",
+  "kurum": "ifrs",
+  "baslik_orijinal": "IASB seeks stakeholder feedback on hedge accounting requirements in IFRS 9 and IFRS 7",
+  "baslik_tr": "IASB, IFRS 9 ve IFRS 7 kapsamındaki riskten korunma muhasebesi gereklilikleri için paydaş görüşü alıyor",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-stakeholder-feedback-hedge-accounting-ifrs9-ifrs7/",
+  "belge_turu": "İstişare dokümanı",
+  "statu": "İstişare",
+  "onem": "Düşük",
+  "onem_gerekcesi": "IASB tarafından başlatılan bir bilgi talebi (RFI) sürecidir; henüz bir düzenleme değişikliği içermemekte, sadece mevcut uygulamanın gözden geçirilmesini hedeflemektedir.",
+  "konu": "TFRS 9",
+  "ozet_tek_satir": "IASB, IFRS 9 ve IFRS 7 standartlarında yer alan riskten korunma muhasebesi gerekliliklerinin etkinliğini değerlendirmek amacıyla bir bilgi talebi (Request for Information) yayınlamıştır.",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "ee70506866bde1b3"
+   }
+  ],
+  "alt_konular": [
+   "Hedge Muhasebesi",
+   "TFRS 7"
+  ],
+  "etkilenen_alanlar": [
+   "Finansal Raporlama",
+   "Risk Yönetimi"
+  ],
+  "gorus_son_tarihi": "2027-01-26",
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IASB, TFRS 9 ve TFRS 7 kapsamındaki hedge muhasebesi gerekliliklerinin etkinliğini değerlendirmek amacıyla bir 'Bilgi Talebi' (Request for Information) süreci başlatmıştır. Bu süreç, mevcut standartların yatırımcılar için beklenen faydayı sağlayıp sağlamadığını ve uygulama maliyetlerini analiz etmeyi amaçlamaktadır. Bankamızın hedge muhasebesi uygulamaları açısından süreç yakından takip edilmelidir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "IASB, hedge muhasebesi gerekliliklerinin etkinliğini ve maliyetlerini değerlendirmek için bir bilgi talebi yayınlamıştır.",
+      "alinti": "The International Accounting Standards Board (IASB) has today published a Request for Information to review its hedge accounting requirements.",
+      "sayfa": null,
+      "paragraf": 13,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Gelecekte hedge muhasebesi standartlarında değişiklikler yapılması gündeme gelebilir.",
+     "Bankanın risk yönetimi faaliyetlerinin finansal tablolara yansıtılma biçiminde revizyonlar gerekebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hedge muhasebesi süreçlerinde kullanılan modelleme ve raporlama yöntemleri, IASB'nin geri bildirim değerlendirmeleri sonucunda değişebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın muhasebe ve risk yönetimi birimleri, IASB'nin bu gözden geçirme sürecine ilişkin teknik analizler yapabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hedge muhasebesi uygulamalarındaki olası değişiklikler, özkaynak kalemlerinde volatiliteye neden olabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Hedge muhasebesi gereklilikleri kredi riski parametrelerini doğrudan etkilememektedir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Hedge muhasebesi gereklilikleri kredi riski parametrelerini doğrudan etkilememektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Hedge muhasebesi gereklilikleri kredi riski parametrelerini doğrudan etkilememektedir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Hedge muhasebesi gereklilikleri TFRS 9 değer düşüklüğü (ECL) hesaplamalarını doğrudan etkilememektedir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Görüş son tarihi",
+     "tarih": "2027-01-26",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Hedge Muhasebesi Uygulamaları",
+     "aciklama": "Bankanın mevcut hedge muhasebesi süreçlerinin, IASB'nin belirttiği 'risk yönetimi faaliyetlerini yansıtma' amacı ile uyumu gözden geçirilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Request for Information Post-implementation Review of IFRS 9 and IFRS 7—Hedge Accounting Requirements",
+     "sayfa": 1,
+     "paragraf": 24
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:06:40+03:00",
+   "gonderilen_karakter": 5605,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "ifrs-2026-09-01-98c42a",
+  "kurum": "ifrs",
+  "baslik_orijinal": "IASB decision: September 2026 meeting",
+  "baslik_tr": "IASB kararı: Eylül 2026 toplantısı",
+  "url": "https://www.ifrs.org/news-and-events/news/2026/09/iasb-decision-september-2026-meeting/",
+  "belge_turu": "Bülten",
+  "statu": "Nihai",
+  "onem": "Orta",
+  "onem_gerekcesi": "IAS 28 standardındaki revizyon, iştirak ve iş ortaklıklarının muhasebeleştirilmesinde uygulama farklılıklarını azaltacak olup, bankanın finansal raporlama süreçlerini doğrudan etkileyecektir.",
+  "konu": "TFRS 9",
+  "ozet_tek_satir": "IASB, Özkaynak Yöntemi projesini tamamlayarak IAS 28 standardında revizyona gitme kararı almıştır; yeni standart 1 Ocak 2029 itibarıyla yürürlüğe girecektir.",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "0a41dd6d279af1c7"
+   }
+  ],
+  "alt_konular": [
+   "IAS 28",
+   "Özkaynak Yöntemi"
+  ],
+  "etkilenen_alanlar": [
+   "Finansal Raporlama",
+   "Muhasebe Politikaları"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2029-01-01",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IASB, özkaynak yöntemi projesini tamamlayarak IAS 28 standardını revize etme kararı almıştır. Yeni düzenleme, uygulama çeşitliliğini azaltmayı ve standardın anlaşılabilirliğini artırmayı hedeflemektedir. Revize edilmiş IAS 28, 1 Ocak 2029 tarihinde veya sonrasında başlayan raporlama dönemleri için geçerli olacaktır.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın iştirak ve iş ortaklıklarına ilişkin finansal tablo sunumunda değişiklikler olabilir.",
+     "Muhasebe politikalarında uyum çalışmaları nedeniyle operasyonel bir yük oluşabilir.",
+     "IAS 28 standardının revize edilerek özkaynak yönteminin uygulanmasına ilişkin soruların ele alınması ve uygulamadaki çeşitliliğin azaltılması hedeflenmektedir. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Mevcut IAS 28 uygulamaları, yeni standardın getirdiği netleştirilmiş kurallar ile güncellenecektir."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Finansal raporlama sistemlerinde özkaynak yöntemi hesaplamalarına ilişkin güncellemeler gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Muhasebe birimlerinin yeni standarda uyum sağlamak için eğitim ve süreç güncellemesi yapması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "İştiraklerin değerlemesindeki değişiklikler, özkaynak kalemleri üzerinden dolaylı olarak sermaye yeterliliğini etkileyebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "IAS 28 Revizyonu",
+     "onceki": "Mevcut IAS 28 uygulamaları",
+     "yeni": "Revize edilmiş IAS 28 (Özkaynak yöntemi uygulaması netleştirildi)",
+     "referans": "Sayfa 1, P14"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri ile doğrudan ilişkili değildir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri ile doğrudan ilişkili değildir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Kredi riski parametreleri ile doğrudan ilişkili değildir."
+    },
+    "ECL": {
+     "duzey": "Etki beklenmiyor",
+     "not": "TFRS 9 beklenen kredi zararı hesaplamalarını doğrudan değiştiren bir düzenleme değildir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yürürlük",
+     "tarih": "2029-01-01",
+     "referans": "Sayfa 1, P15"
+    },
+    {
+     "tur": "Yayın",
+     "tarih": "2027-06-30",
+     "referans": "Sayfa 1, P17"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "İştirak ve İş Ortaklıkları Portföyü",
+     "aciklama": "Revize IAS 28'in mevcut iştiraklerin muhasebeleştirilmesi üzerindeki etkilerinin analizi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "IASB decision: September 2026 meeting",
+     "sayfa": 1,
+     "paragraf": 13
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T22:06:55+03:00",
+   "gonderilen_karakter": 4295,
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 1,
+   "guven": "Düşük"
+  }
+ }
+]

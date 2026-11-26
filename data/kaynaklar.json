@@ -14,8 +14,8 @@
    "https://www.ecb.europa.eu/rss/pub.html",
    "https://www.bankingsupervision.europa.eu/rss/press.html"
   ],
-  "son_taramada_bulunan": 12,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 14,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -31,8 +31,8 @@
   "adresler": [
    "https://www.fsb.org/feed/"
   ],
-  "son_taramada_bulunan": 13,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 32,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -49,7 +49,7 @@
    "https://www.bis.org/doclist/all_pressrels.rss"
   ],
   "son_taramada_bulunan": 3,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -66,8 +66,8 @@
    "https://www.bis.org/committees/bcbs/publications",
    "https://www.bis.org/committees/bcbs/news"
   ],
-  "son_taramada_bulunan": 3,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 19,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -83,8 +83,8 @@
   "adresler": [
    "https://www.eba.europa.eu/publications-and-media/press-releases"
   ],
-  "son_taramada_bulunan": 13,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 31,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -100,8 +100,8 @@
   "adresler": [
    "https://www.ifrs.org/sitemap.xml"
   ],
-  "son_taramada_bulunan": 17,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 26,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -125,8 +125,8 @@
   ],
   "not_": null,
   "adresler": [],
-  "son_taramada_bulunan": 5,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 12,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -145,8 +145,8 @@
    "https://www.bddk.org.tr/Duyuru/Liste/39",
    "https://www.bddk.org.tr/Duyuru/Liste/197"
   ],
-  "son_taramada_bulunan": 6,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 14,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -162,8 +162,8 @@
   "adresler": [
    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Bottom+Menu/Diger/RSS/Basin+Duyurulari"
   ],
-  "son_taramada_bulunan": 5,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 14,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -180,7 +180,7 @@
    "https://www.kgk.gov.tr/"
   ],
   "son_taramada_bulunan": 11,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {
@@ -196,8 +196,8 @@
   "adresler": [
    "https://spk.gov.tr/duyurular/basin-duyurulari/2026"
   ],
-  "son_taramada_bulunan": 7,
-  "son_basarili_tarama": "2026-11-26T13:46:13+03:00",
+  "son_taramada_bulunan": 15,
+  "son_basarili_tarama": "2026-11-26T21:43:03+03:00",
   "son_hata": null
  },
  {

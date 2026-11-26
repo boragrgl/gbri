@@ -16,14 +16,14 @@ concurrency:
 jobs:
   topla:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Kaynaklari tara (son 31 gun, baslangic arsivi)
-        run: python pipeline/topla.py --geri-gun 31 --baslangic-arsivi 2>&1 | tee topla.log
+      - name: Kaynaklari tara (son 92 gun, Resmi Gazete haric)
+        run: python pipeline/topla.py --geri-gun 92 --baslangic-arsivi --atla resmigazete 2>&1 | tee topla.log
       - name: Ozet
         run: |
           echo '```' >> "$GITHUB_STEP_SUMMARY"
