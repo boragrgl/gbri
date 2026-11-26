@@ -8,9 +8,9 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Bilgi amaçlı",
   "onem": "Düşük",
-  "onem_gerekcesi": "Metin, kurum ve başkan hakkında yapılan paylaşımlara yönelik bir tekzip/açıklama niteliğinde olup bankacılık düzenlemeleri veya risk yönetimi ile ilgili bir hüküm içermemektedir.",
+  "onem_gerekcesi": "İlgili metin, kurumun basın açıklaması ve KVKK aydınlatma metni olup bankacılık düzenlemeleri, risk yönetimi veya sermaye yeterliliği ile ilgili bir hüküm içermemektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "BDDK tarafından kurum ve başkan hakkında yapılan yanıltıcı paylaşımlara karşı yayınlanan bilgilendirme açıklamasıdır.",
+  "ozet_tek_satir": "BDDK tarafından yayımlanan bu duyuru, kurum ve başkan hakkında yapılan yanıltıcı paylaşımlara yönelik bir bilgilendirme ve KVKK aydınlatma metnini içermektedir.",
   "yayin_tarihi": "2026-10-30",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -20,7 +20,7 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "636dc698af657503"
+    "icerik_hash": "57a2294e28e75482"
    }
   ]
  },
@@ -28,14 +28,14 @@
   "id": "eba-2026-10-29-d06975",
   "kurum": "eba",
   "baslik_orijinal": "The EBA advises on targeted simplifications to Taxonomy disclosures",
-  "baslik_tr": "EBA, Taksonomi açıklamalarında hedeflenen sadeleştirmeler konusunda tavsiyelerde bulunuyor",
+  "baslik_tr": "EBA, Taksonomi açıklamalarında hedeflenen basitleştirmeler konusunda tavsiyelerde bulunuyor",
   "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-advises-targeted-simplifications-taxonomy-disclosures",
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
-  "onem": "Düşük",
-  "onem_gerekcesi": "EBA'nın Avrupa Komisyonu'na sunduğu teknik tavsiye niteliğinde olup, doğrudan bağlayıcı bir düzenleme değişikliği içermemektedir. Kamu bankası için raporlama süreçlerinde sadeleşme potansiyeli taşımaktadır.",
+  "onem": "Orta",
+  "onem_gerekcesi": "Düzenleme, bankaların TFRS 9 ve sürdürülebilirlik raporlaması kapsamındaki KPI hesaplamalarını basitleştirmeyi hedefleyen teknik bir tavsiye sürecidir. Kamu bankası için raporlama yükünü azaltma potansiyeli taşımaktadır.",
   "konu": "Sürdürülebilirlik",
-  "ozet_tek_satir": "EBA, kredi kuruluşlarının Taksonomi kapsamındaki açıklama yükümlülüklerini sadeleştirmek, karmaşıklığı azaltmak ve raporlama verimliliğini artırmak amacıyla Avrupa Komisyonu'na teknik tavsiyeler sunmuştur.",
+  "ozet_tek_satir": "EBA, kredi kuruluşlarının Taksonomi raporlama yükümlülüklerini azaltmak, karmaşıklığı gidermek ve veri kullanılabilirliğini artırmak amacıyla Avrupa Komisyonu'na teknik tavsiyelerini sunmuştur.",
   "yayin_tarihi": "2026-10-29",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -45,26 +45,26 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "b2ee5aacdf18d934"
+    "icerik_hash": "ca0814f9008a7254"
    }
   ],
   "alt_konular": [
-   "Taksonomi açıklamaları",
-   "KPI sadeleştirmesi"
+   "Taksonomi Raporlaması",
+   "KPI Basitleştirme"
   ],
   "etkilenen_alanlar": [
    "Raporlama",
    "Sürdürülebilirlik"
   ],
-  "gorus_son_tarihi": null,
+  "gorus_son_tarihi": "2026-10-29",
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "EBA, Taksonomi Tüzüğü kapsamındaki açıklama yükümlülüklerini sadeleştirmek amacıyla Avrupa Komisyonu'na teknik tavsiyeler sunmuştur. Öneriler, özellikle bazı KPI'ların kaldırılmasını ve grup düzeyindeki raporlama süreçlerinin basitleştirilmesini içermektedir. Bu tavsiyeler, bankaların sürdürülebilirlik raporlama yükünü azaltmayı ve verilerin kullanılabilirliğini artırmayı hedeflemektedir.",
+   "yonetici_ozeti": "EBA, Avrupa Komisyonu'nun talebi üzerine Taksonomi Tüzüğü kapsamındaki KPI raporlama gerekliliklerini basitleştirmeye yönelik teknik tavsiyelerini yayımlamıştır. Bankalar için 'Komisyon ve Ücretler' ile 'Alım-Satım Defteri' KPI'larının kapsamının daraltılması ve raporlama şablonlarının sadeleştirilmesi önerilmektedir. Bu süreç, raporlama yükünü azaltmayı ve verilerin kullanılabilirliğini artırmayı amaçlamaktadır.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "EBA, Taksonomi Tüzüğü kapsamındaki açıklama gerekliliklerini sadeleştirmek ve karmaşıklığı azaltmak için değişiklikler önermektedir.",
+      "hukum": "EBA, Taksonomi Tüzüğü kapsamındaki raporlama gerekliliklerini sadeleştirmek ve karmaşıklığı azaltmak için teknik tavsiyeler sunmaktadır.",
       "alinti": "The EBA advises on targeted changes to streamline disclosure requirements, reduce complexity and enhance the usability of information disclosed by credit institutions and investment firms.",
       "sayfa": null,
       "paragraf": 4,
@@ -72,79 +72,92 @@
      }
     ],
     "olasi_etki": [
-     "Avrupa Komisyonu'nun bu tavsiyeleri kabul etmesi durumunda, bankanın sürdürülebilirlik raporlama süreçlerinde operasyonel yükün azalması beklenebilir.",
-     "Yeşil Varlık Oranı (GAR) şablonlarındaki olası sadeleştirmeler, raporlama hazırlık sürecini hızlandırabilir."
+     "Bankanın sürdürülebilirlik raporlama süreçlerinde operasyonel yükün azalması beklenebilir.",
+     "KPI hesaplamalarında daha odaklı ve finansal piyasalarla uyumlu verilerin kullanılması sağlanabilir."
     ]
    },
    "onceki_cerceve": {
     "teyitli": [],
-    "olasi_etki": [],
-    "karsilastirma_kaynagi": "genel_bilgi"
+    "olasi_etki": [
+     "Omnibus Delegated Act ile getirilen mevcut raporlama şablonları ve KPI hesaplama yöntemleri, EBA'nın yeni tavsiyeleri doğrultusunda revize edilebilir."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Raporlama sistemlerinde kullanılan veri setlerinin güncellenmesi gerekebilir.",
-     "Grup düzeyindeki konsolide raporlama mantığında değişiklikler yapılabilir."
+     "Bankanın raporlama sistemlerinde şablon güncellemeleri gerekebilir.",
+     "Veri toplama süreçlerinde sermaye piyasası odaklı yeni bir sınıflandırma yapılması gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Raporlama şablonlarının basitleştirilmesi, veri toplama ve doğrulama süreçlerinde zaman tasarrufu sağlayabilir."
+     "Raporlama birimlerinin iş yükünde azalma olabilir.",
+     "Sürdürülebilirlik raporlarının hazırlanmasında kullanılan veri setlerinin kapsamı daralabilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Raporlama gerekliliklerindeki değişikliklerin sermaye yeterliliği rasyoları üzerinde doğrudan bir etkisi beklenmemektedir."
+    ]
    },
    "iklim": {
     "teyitli": [],
-    "olasi_etki": [],
+    "olasi_etki": [
+     "Yeşil varlıkların raporlanmasında daha net ve basitleştirilmiş bir metodolojiye geçilmesi, iklim riskine duyarlı varlıkların takibini kolaylaştırabilir."
+    ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
-     "konu": "Taksonomi KPI'ları",
-     "onceki": "Ücret ve Komisyon KPI'ları ile Alım-Satım Defteri KPI'larının raporlanması zorunluydu.",
-     "yeni": "Bu KPI'ların raporlama gerekliliklerinden kaldırılması önerilmektedir.",
-     "referans": "Sayfa 1"
+     "konu": "Komisyon ve Ücretler KPI",
+     "onceki": "Daha geniş kapsamlı hizmetleri içermekteydi.",
+     "yeni": "Sermaye piyasaları ile ilgili faaliyetlerle sınırlandırılması önerilmektedir.",
+     "referans": "Sayfa 5"
+    },
+    {
+     "konu": "Alım-Satım Defteri KPI",
+     "onceki": "Daha geniş kapsamlı piyasa faaliyetlerini içermekteydi.",
+     "yeni": "Piyasa yapıcı faaliyetler ve yeşil menkul kıymetler ile sınırlandırılması önerilmektedir.",
+     "referans": "Sayfa 5"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme raporlama ile ilgilidir, kredi riski parametrelerini doğrudan etkilemez."
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
     },
     "LGD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme raporlama ile ilgilidir, kredi riski parametrelerini doğrudan etkilemez."
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme raporlama ile ilgilidir, kredi riski parametrelerini doğrudan etkilemez."
+     "not": "Bu düzenleme kredi riski parametrelerini doğrudan etkilememektedir."
     },
     "ECL": {
      "duzey": "Etki beklenmiyor",
-     "not": "Düzenleme raporlama ile ilgilidir, TFRS 9 karşılık hesaplamalarını etkilemez."
+     "not": "TFRS 9 ECL hesaplamaları üzerinde doğrudan bir etkisi bulunmamaktadır."
     }
    },
    "tarihler": [
     {
-     "tur": "Yayın",
+     "tur": "Görüş son tarihi",
      "tarih": "2026-10-29",
      "referans": "Sayfa 1"
     }
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Sürdürülebilirlik Raporlama Süreçleri",
-     "aciklama": "Avrupa Komisyonu'nun nihai kararı doğrultusunda, Taksonomi raporlama şablonlarının ve KPI hesaplama yöntemlerinin güncellenmesi için hazırlık yapılmalıdır."
+     "baslik": "KPI Kapsam Analizi",
+     "aciklama": "Bankanın mevcut Komisyon ve Ücretler ile Alım-Satım Defteri KPI hesaplamalarının, önerilen daraltılmış kapsamla uyumu değerlendirilmelidir."
     }
    ],
    "referanslar": [
     {
-     "metin": "Legal basis and background",
+     "metin": "The EBA advises on targeted simplifications to Taxonomy disclosures",
      "sayfa": 1,
      "paragraf": null
     }
@@ -152,8 +165,8 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T14:53:26+03:00",
-   "gonderilen_karakter": 3342,
+   "olusturma_zamani": "2026-11-26T16:01:09+03:00",
+   "gonderilen_karakter": 25205,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
@@ -166,11 +179,11 @@
   "baslik_tr": "2026 Yılı Sürdürülebilirlik Raporlaması Muafiyetlerine İlişkin Kurul Kararları Hakkında Duyuru",
   "url": "https://www.kgk.gov.tr/Portalv2Uploads/files/Duyurular/v2/Surdurulebilirlik/Duyuru/Duyuru%20-%2041.pdf",
   "belge_turu": "Basın duyurusu",
-  "statu": "Nihai",
+  "statu": "Yürürlükte",
   "onem": "Yüksek",
-  "onem_gerekcesi": "Banka profili itibarıyla 2026 yılından itibaren herhangi bir eşik değere bakılmaksızın sürdürülebilirlik raporlaması zorunlu hale getirilmiştir.",
+  "onem_gerekcesi": "Kamu bankası olarak 2026 yılı itibarıyla sürdürülebilirlik raporlaması zorunluluğu kapsamına girilmesi ve Kapsam 3 emisyon muafiyetlerinin sona ermesi operasyonel süreçleri doğrudan etkilemektedir.",
   "konu": "Sürdürülebilirlik",
-  "ozet_tek_satir": "2026 yılı sürdürülebilirlik raporlaması için raporlama zamanı ve kapsam muafiyetleri ile bankaların eşik değerlere bakılmaksızın zorunlu raporlama kapsamına alınması açıklanmıştır.",
+  "ozet_tek_satir": "KGK, 2026 yılı sürdürülebilirlik raporlaması dönemine ilişkin muafiyetleri ve bankalar için ihtiyari raporlama imkanının kaldırılmasını düzenleyen kurul kararlarını duyurmuştur.",
   "yayin_tarihi": "2026-10-27",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -184,123 +197,93 @@
    }
   ],
   "alt_konular": [
-   "TSRS 1",
-   "TSRS 2",
-   "Kapsam 3 Emisyonları",
-   "Raporlama Muafiyetleri"
+   "TSRS",
+   "Sürdürülebilirlik Raporlaması",
+   "Kapsam 3 Emisyonları"
   ],
   "etkilenen_alanlar": [
-   "Sürdürülebilirlik Raporlaması",
-   "Kurumsal Yönetim",
-   "Yatırımcı İlişkileri"
+   "Sürdürülebilirlik Raporlama",
+   "Risk Yönetimi",
+   "Operasyonel Süreçler"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2026-01-01",
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "KGK tarafından yayımlanan duyuru ile 2026 yılı sürdürülebilirlik raporlaması çerçevesi netleşmiştir. Bankalar için daha önce uygulanan çalışan ve şube sayısına dayalı ihtiyari raporlama imkanı kaldırılmış, TMSF bünyesindekiler hariç tüm bankalar zorunlu kapsama alınmıştır. Bununla birlikte, raporlama zamanlaması ve iklim odaklı raporlama gibi kolaylaştırıcı muafiyetlerin 2026 yılında da devam edeceği teyit edilmiştir.",
+   "yonetici_ozeti": "KGK, 2026 yılı sürdürülebilirlik raporlaması için muafiyetleri güncellemiştir. Kamu bankaları için şube veya çalışan sayısına bağlı ihtiyari raporlama muafiyeti kaldırılmış olup, 2026 yılı itibarıyla zorunlu raporlama kapsamına girilmiştir. İlk iki yıl için Kapsam 3 emisyon raporlama muafiyeti devam etmektedir.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "Sürdürülebilirlik raporlaması yapacak işletmelerin hazırlık süreçlerini desteklemek için muafiyetler sağlanmaktadır.",
-      "alinti": "sürdürülebilirlik raporlaması yapacak işletmelerin ilk uygulama süreçlerindeki hazırlıklarını desteklemek amacıyla 2024 yılından bu yana çeşitli muafiyetler yürürlüğe konulmuştur.",
-      "sayfa": 1,
-      "paragraf": null,
-      "alinti_dogrulandi": true
-     }
-    ],
-    "olasi_etki": [
-     "Bankanın sürdürülebilirlik verilerini toplama ve raporlama kapasitesini 2026 yılına kadar tam uyumlu hale getirmesi amaçlanmaktadır."
-    ]
-   },
-   "onceki_cerceve": {
-    "teyitli": [],
-    "olasi_etki": [
-     "Önceki dönemde şube veya çalışan sayısı sınırının altında kalan bankalar raporlama yapmama hakkına sahipti.",
-     "Küçük ölçekli bankalar için raporlama yapmak belirli şartlar altında ihtiyari bırakılmıştı. (belgeden birebir doğrulanamadı)"
-    ],
-    "karsilastirma_kaynagi": "arsiv"
-   },
-   "teknik_etkiler": {
-    "teyitli": [
-     {
-      "hukum": "İşletmeler ilk iki yıllık raporlama döneminde Kapsam 3 emisyonlarını açıklama zorunluluğundan muaftır.",
-      "alinti": "işletmeler TSRS’leri uyguladıkları ilk iki yıllık raporlama döneminde Kapsam 3 sera gazı emisyonlarını açıklama zorunluluğundan muaf tutulmuştur.",
+      "hukum": "Banka ve banka dışı mali kuruluşlar için çalışan veya şube sayısına bağlı olan ihtiyari raporlama muafiyeti 2026 yılı raporlama dönemi itibarıyla sona ermiştir.",
+      "alinti": "Dolayısıyla, banka ve banka dışı mali kuruluşlar için çalışan veya şube sayısına bağlı olan ihtiyari raporlama muafiyeti 2026 yılı raporlama dönemi itibarıyla sona ermiş bulunmaktadır.",
       "sayfa": 2,
       "paragraf": null,
       "alinti_dogrulandi": true
      }
     ],
     "olasi_etki": [
-     "Bankanın 2026 ve 2027 raporlarında Kapsam 3 verilerini açıklama zorunluluğu olmayabilir ancak veri toplama altyapısı kurulmalıdır."
+     "Bankanın sürdürülebilirlik verisi toplama altyapısının 2026 yılı raporlama dönemi için hızla devreye alınması gerekebilir.",
+     "Kapsam 3 emisyonları için veri toplama süreçlerinin ilk iki yıllık muafiyet süresi içerisinde kurulması beklenmektedir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Daha önce belirli eşiklerin altındaki bankalar için raporlama ihtiyari bırakılmıştı. (belgeden birebir doğrulanamadı)"
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TSRS 1 ve TSRS 2 standartlarına uyum için veri yönetişim sistemlerinin güncellenmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
-    "teyitli": [
-     {
-      "hukum": "Sürdürülebilirlik raporlarının finansal tablolarla eş zamanlı yayımlanma zorunluluğu 2026'da aranmayacaktır.",
-      "alinti": "İşletmelerin sürdürülebilirlik açıklamalarını finansal tablolarıyla eş zamanlı yayımlama zorunluluğu tüm işletmeler için 2026 yılı raporlama döneminde de aranmayacaktır.",
-      "sayfa": 1,
-      "paragraf": null,
-      "alinti_dogrulandi": true
-     }
-    ],
+    "teyitli": [],
     "olasi_etki": [
-     "Raporlama biriminin finansal tablo yayımından sonraki 9 aylık süreci planlaması gerekecektir."
+     "Sürdürülebilirlik raporunun finansal tablolarla eş zamanlı yayımlanması zorunlu değildir, ancak dokuz aylık süre içerisinde tamamlanması gerekmektedir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
-    "olasi_etki": [
-     "Sürdürülebilirlik raporlaması zorunluluğunun sermaye yeterlilik rasyosu üzerinde doğrudan bir etkisi olması beklenmemektedir."
-    ]
+    "olasi_etki": []
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "Banka, 2026 raporunda TSRS 1'in tamamı yerine sadece TSRS 2 odaklı raporlama yapmayı tercih edebilir.",
-     "2026 yılında sadece iklimle ilgili risk ve fırsatların raporlanması mümkündür. (belgeden birebir doğrulanamadı)"
+     "İklim dışı sürdürülebilirlik konularında 2027 yılı için karşılaştırmalı bilgi sunma yükümlülüğü muafiyeti, bankanın raporlama stratejisini etkileyebilir.",
+     "İşletmeler, TSRS 2 kapsamında iklimle ilgili risk ve fırsatları raporlayabilir. (belgeden birebir doğrulanamadı)"
     ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
-     "konu": "Bankalar İçin Zorunlu Raporlama Kapsamı",
-     "onceki": "Şube sayısı 1 veya çalışan sayısı 250'yi aşmayan bankalar için raporlama ihtiyaridir.",
-     "yeni": "TMSF bünyesindekiler hariç tüm bankalar eşik değere bakılmaksızın zorunlu raporlama kapsamındadır.",
-     "referans": "Sayfa 3"
-    },
-    {
-     "konu": "İhtiyari Raporlama Muafiyetinin Kaldırılması",
-     "onceki": "Kapsam 3 muafiyet döneminde raporlama ihtiyariydi.",
-     "yeni": "İhtiyari raporlama hükmü 1/1/2026 tarihinden itibaren yürürlükten kaldırılmıştır.",
-     "referans": "Sayfa 2"
+     "konu": "İhtiyari raporlama muafiyeti",
+     "onceki": "Şube/çalışan sayısı eşiğinin altındaki bankalar için raporlama ihtiyariydi.",
+     "yeni": "Tasarruf Mevduatı Sigorta Fonu bünyesinde yer alanlar dışındaki bankalar için eşik olmaksızın zorunlu raporlama getirildi.",
+     "referans": "Sayfa 2-3"
     }
    ],
    "parametre_etkisi": {
     "PD": {
-     "duzey": "İlgili değil",
-     "not": "Düzenleme raporlama muafiyetlerine ilişkindir, risk parametrelerini doğrudan etkilemez."
+     "duzey": "Etki beklenmiyor",
+     "not": ""
     },
     "LGD": {
-     "duzey": "İlgili değil",
-     "not": "Düzenleme raporlama muafiyetlerine ilişkindir."
+     "duzey": "Etki beklenmiyor",
+     "not": ""
     },
     "EAD": {
-     "duzey": "İlgili değil",
-     "not": "Düzenleme raporlama muafiyetlerine ilişkindir."
+     "duzey": "Etki beklenmiyor",
+     "not": ""
     },
     "ECL": {
-     "duzey": "İlgili değil",
-     "not": "TFRS 9 karşılık hesaplamalarını doğrudan etkileyen bir hüküm bulunmamaktadır."
+     "duzey": "Etki beklenmiyor",
+     "not": ""
     }
    },
    "tarihler": [
-    {
-     "tur": "Yayın",
-     "tarih": "2026-10-27",
-     "referans": "Sayfa 1"
-    },
     {
      "tur": "Yürürlük",
      "tarih": "2026-01-01",
@@ -309,16 +292,12 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Raporlama Kapsamı Kontrolü",
-     "aciklama": "Bankanın TMSF bünyesinde olup olmadığı ve 2026 zorunlu raporlama takvimine uyumu teyit edilmelidir."
+     "baslik": "Sürdürülebilirlik Raporlama Altyapısı",
+     "aciklama": "2026 yılı raporlama dönemi için zorunlu raporlama hazırlıklarının tamamlanması."
     },
     {
-     "baslik": "Veri Toplama Süreçleri",
-     "aciklama": "Kapsam 3 emisyonları için tanınan 2 yıllık muafiyet süresi sonunda gerekecek veri altyapısı gözden geçirilmelidir."
-    },
-    {
-     "baslik": "Raporlama Takvimi",
-     "aciklama": "Finansal tablolarla eş zamanlılık muafiyeti kullanılarak 9 aylık nihai raporlama süresi planlanmalıdır."
+     "baslik": "Kapsam 3 Emisyon Veri Seti",
+     "aciklama": "İlk iki yıllık muafiyet süresince Kapsam 3 verilerinin toplanması için gerekli sistemlerin kurulması."
     }
    ],
    "referanslar": [
@@ -335,12 +314,12 @@
    ]
   },
   "analiz_bilgisi": {
-   "model": "gemini-3-flash-preview",
-   "olusturma_zamani": "2026-11-26T14:07:30+03:00",
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-26T15:35:41+03:00",
    "gonderilen_karakter": 7008,
-   "alinti_dogrulanan": 3,
-   "alinti_toplam": 5,
-   "guven": "Orta"
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 3,
+   "guven": "Düşük"
   }
  },
  {
@@ -350,9 +329,9 @@
   "baslik_tr": "EVDS-MCP'nin Devreye Alınmasına İlişkin Basın Duyurusu (2026-46)",
   "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-46",
   "belge_turu": "Basın duyurusu",
-  "statu": "Nihai",
+  "statu": "Bilgi amaçlı",
   "onem": "Düşük",
-  "onem_gerekcesi": "Metin, bankaların operasyonel süreçlerini veya yasal uyum yükümlülüklerini doğrudan etkilemeyen, veri erişim platformuna ilişkin teknik bir duyurudur.",
+  "onem_gerekcesi": "Metin, TCMB'nin veri dağıtım sistemine eklenen yeni bir teknik erişim kanalının duyurusundan ibaret olup bankacılık düzenlemeleri veya risk yönetimi süreçleri üzerinde doğrudan bir yükümlülük veya değişiklik içermemektedir.",
   "konu": "Diğer",
   "ozet_tek_satir": "TCMB, Elektronik Veri Dağıtım Sistemi (EVDS) verilerine yapay zekâ araçları üzerinden erişim sağlayan EVDS-MCP platformunun devreye alındığını duyurmuştur.",
   "yayin_tarihi": "2026-10-26",
@@ -364,7 +343,7 @@
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T00:57:45+03:00",
-    "icerik_hash": "2719e4aa1a9d96c4"
+    "icerik_hash": "772c6500c1a6137d"
    }
   ]
  },
@@ -377,7 +356,7 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Yürürlükte",
   "onem": "Orta",
-  "onem_gerekcesi": "Kamu bankası olarak portföy yönetimi ve yatırım fonu faaliyetleri ile bu fonlara ilişkin uyum süreçlerini doğrudan etkileyen bir düzenlemedir.",
+  "onem_gerekcesi": "Kamu bankası olarak yatırım fonu portföy yönetimi ve saklama faaliyetleri ile fon yatırımları üzerindeki uyum yükümlülüklerini doğrudan etkilemektedir.",
   "konu": "Diğer",
   "ozet_tek_satir": "SPK, Yatırım Fonlarına İlişkin Rehber'in 4.3 maddesinde değişiklik yaparak kamu kurumlarına ilişkin istisnaları kaldırmış ve portföy sınırlamalarına uyum için nihai tarihi 31.01.2027 olarak güncellemiştir.",
   "yayin_tarihi": "2026-10-26",
@@ -399,56 +378,44 @@
   "etkilenen_alanlar": [
    "Hazine ve Portföy Yönetimi",
    "Uyum",
-   "Operasyonel Süreçler"
+   "Operasyonel Risk"
   ],
   "gorus_son_tarihi": null,
   "yururluk_tarihi": "2026-10-26",
   "uyum_son_tarihi": "2027-01-31",
   "analiz": {
-   "yonetici_ozeti": "SPK, Yatırım Fonlarına İlişkin Rehber'in 4.3. maddesinde değişikliğe gitmiştir. Kamu kurum ve iştiraklerine yönelik bazı istisnalar kaldırılmış, portföy ve yatırım sınırlamalarına uyum için daha önce belirlenen kademeli takvim iptal edilerek tek bir nihai uyum tarihi getirilmiştir. Bankamızın yönettiği veya dağıtımını yaptığı fonların portföy sınırlamalarına uyumu için 31 Ocak 2027 tarihine kadar gerekli güncellemeleri yapması gerekmektedir.",
+   "yonetici_ozeti": "SPK, Yatırım Fonlarına İlişkin Rehber'in 4.3 maddesinde değişikliğe giderek kamu kurum ve iştiraklerine yönelik bazı istisnaları kaldırmıştır. Ayrıca, portföy ve yatırım sınırlamalarına uyum için daha önce belirlenen kademeli takvim iptal edilerek tek bir nihai uyum tarihi belirlenmiştir. Bankamızın fon portföylerindeki varlık dağılımının yeni sınırlamalara göre 31 Ocak 2027 tarihine kadar revize edilmesi gerekmektedir.",
    "amac": {
-    "teyitli": [
-     {
-      "hukum": "Yatırım Fonlarına İlişkin Rehber'in 4.3. maddesinde değişiklik yapılmıştır.",
-      "alinti": "Kurulumuzun i-SPK.52.4 (20.06.2014 tarih ve 19/614 s.k.) sayılı İlke Kararı olarak kabul edilen Yatırım Fonlarına İlişkin Rehber’in (Rehber) (4.3.) maddesinde değişiklik yapılmıştır.",
-      "sayfa": null,
-      "paragraf": 27,
-      "alinti_dogrulandi": true
-     }
-    ],
+    "teyitli": [],
     "olasi_etki": [
-     "Kamu bankası statüsündeki iştiraklerin fon portföylerindeki yatırım kısıtlamalarında esnekliklerin azalması nedeniyle portföy kompozisyonunda zorunlu değişiklikler gerekebilir."
+     "Kamu bankası iştiraki olan fonların portföy kompozisyonlarında zorunlu değişiklikler yapılması gerekebilir.",
+     "İstisnaların kaldırılması nedeniyle fonların likidite ve risk yönetimi süreçlerinde operasyonel yük artabilir.",
+     "Rehberin 4.3 maddesinin ikinci fıkrasındaki kamu kurum ve iştiraklerinin para ve sermaye piyasası araçlarına ilişkin istisnaları tanımlayan (a) bendi kaldırılmıştır. (belgeden birebir doğrulanamadı)"
     ]
    },
    "onceki_cerceve": {
-    "teyitli": [
-     {
-      "hukum": "Daha önce 31.10.2026 ve 30.11.2026 tarihlerinde kademeli uyum süreci öngörülmüştü.",
-      "alinti": "31.10.2026, 30.11.2026 tarihlerinde kademeli uyum ile 31.12.2026 tarihinde ise tam ve nihai uyum süresi veren, Rehber’in 4.3. maddesinin sekizinci fıkrasındaki uyum takvimi güncellenmiştir.",
-      "sayfa": null,
-      "paragraf": 29,
-      "alinti_dogrulandi": true
-     }
+    "teyitli": [],
+    "olasi_etki": [
+     "Daha önce 31.10.2026 ve 30.11.2026 tarihlerinde kademeli uyum süreçleri öngörülmekteydi, bu takvim tamamen kaldırılmıştır."
     ],
-    "olasi_etki": [],
     "karsilastirma_kaynagi": "arsiv"
    },
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Fon yönetim sistemlerinde yer alan portföy sınırlama kontrollerinin yeni mevzuata göre güncellenmesi gerekebilir."
+     "Fon yönetim sistemlerinde tanımlı olan yatırım sınırlaması parametrelerinin güncellenmesi gerekecektir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Portföy sınırlamalarına uyum sağlamak amacıyla fon içerisindeki varlıkların yeniden dengelenmesi (rebalancing) operasyonel bir yük oluşturabilir."
+     "Portföy sınırlamalarına uyum sağlamak amacıyla fon içerisindeki varlıkların yeniden dengelenmesi (rebalancing) işlemleri hızlandırılmalıdır."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Fon portföylerindeki varlık dağılımının değişmesi, bankanın konsolide risk ağırlıklı varlıklarını dolaylı olarak etkileyebilir."
+     "Fon portföyündeki varlıkların değişimi, bankanın konsolide risk ağırlıklı varlıklar (RWA) hesaplamasını dolaylı olarak etkileyebilir."
     ]
    },
    "iklim": {
@@ -458,16 +425,10 @@
    },
    "degisiklikler": [
     {
-     "konu": "Kamu kurum ve iştirakleri istisnası",
-     "onceki": "III-52.1 sayılı Tebliğ hükümleri saklı kalmak kaydıyla istisnalar mevcuttu.",
-     "yeni": "İlgili (a) bendi kaldırılmıştır.",
-     "referans": "Sayfa 1, P28"
-    },
-    {
      "konu": "Uyum Takvimi",
-     "onceki": "Kademeli uyum (Ekim, Kasım, Aralık 2026)",
-     "yeni": "Tek tarihli nihai uyum (31.01.2027)",
-     "referans": "Sayfa 1, P29"
+     "onceki": "31.10.2026 ve 30.11.2026 kademeli uyum, 31.12.2026 tam uyum",
+     "yeni": "31.01.2027 nihai ve tam uyum",
+     "referans": "Sayfa 1"
     }
    ],
    "parametre_etkisi": {
@@ -490,7 +451,7 @@
    },
    "tarihler": [
     {
-     "tur": "Yayın",
+     "tur": "Yürürlük",
      "tarih": "2026-10-26",
      "referans": "Sayfa 1"
     },
@@ -503,11 +464,7 @@
    "gozden_gecirilecekler": [
     {
      "baslik": "Fon Portföy Sınırlamaları",
-     "aciklama": "Bankanın yönettiği fonların 4.3. madde kapsamındaki portföy sınırlamalarına uyumu 31.01.2027 tarihine kadar gözden geçirilmelidir."
-    },
-    {
-     "baslik": "İstisna Kontrolü",
-     "aciklama": "Kaldırılan (a) bendi kapsamında daha önce yararlanılan istisnaların yeni durumda geçerliliğini yitirip yitirmediği kontrol edilmelidir."
+     "aciklama": "Bankanın yönettiği yatırım fonlarının portföy sınırlamaları, kaldırılan istisnalar ve yeni uyum takvimi ışığında gözden geçirilmelidir."
     }
    ],
    "referanslar": [
@@ -520,25 +477,25 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T14:54:34+03:00",
+   "olusturma_zamani": "2026-11-26T16:03:12+03:00",
    "gonderilen_karakter": 2761,
-   "alinti_dogrulanan": 2,
-   "alinti_toplam": 2,
-   "guven": "Yüksek"
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 1,
+   "guven": "Düşük"
   }
  },
  {
   "id": "issb-2026-10-26-d8fb4f",
   "kurum": "issb",
   "baslik_orijinal": "ISSB consults on proposals nature related disclosures",
-  "baslik_tr": "ISSB, doğa ile ilgili açıklamalar konusundaki önerileri için istişare başlattı",
+  "baslik_tr": "ISSB, doğa ile ilgili açıklamalar konusundaki taslak önerileri için görüş alıyor",
   "url": "https://www.ifrs.org/news-and-events/news/2026/10/issb-consults-on-proposals-nature-related-disclosures/",
   "belge_turu": "İstişare dokümanı",
   "statu": "İstişare",
   "onem": "Orta",
   "onem_gerekcesi": "ISSB'nin doğa ile ilgili açıklamalar taslağı, sürdürülebilirlik raporlaması standartlarının kapsamını genişletmektedir. Kamu bankası olarak, gelecekteki zorunlu raporlama gerekliliklerine uyum sağlamak adına bu gelişmeleri takip etmek stratejik önem taşır.",
   "konu": "Sürdürülebilirlik",
-  "ozet_tek_satir": "ISSB, şirketlerin doğa ile ilgili risk ve fırsatlarını raporlamalarına yönelik hazırladığı yeni uygulama esasları taslağı için görüş toplamaktadır.",
+  "ozet_tek_satir": "ISSB, şirketlerin doğa ile ilgili risk ve fırsatlarını raporlamalarına yönelik yeni bir uygulama beyanı taslağı hazırlayarak kamuoyunun görüşüne sunmuştur.",
   "yayin_tarihi": "2026-10-26",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -567,7 +524,7 @@
    "amac": {
     "teyitli": [
      {
-      "hukum": "ISSB, doğa ile ilgili açıklamalar için hazırladığı taslaklar hakkında geri bildirim talep etmektedir.",
+      "hukum": "ISSB, doğa ile ilgili açıklamalar için hazırladığı taslaklar hakkında görüş toplamaktadır.",
       "alinti": "The International Sustainability Standards Board (ISSB) is asking for feedback on its proposals for nature-related disclosures until 19 February 2027.",
       "sayfa": null,
       "paragraf": 13,
@@ -575,8 +532,8 @@
      }
     ],
     "olasi_etki": [
-     "Bankanın kredi portföyündeki müşterilerin doğa ile ilgili risklerinin finansal tablolar üzerindeki etkisinin daha şeffaf raporlanması gerekebilir.",
-     "Bankanın kendi operasyonel süreçlerinde doğa ile ilgili bağımlılıklarını analiz etmesi beklenebilir."
+     "Bankanın kredi portföyündeki doğa ile ilgili risklerin (su erişimi, biyoçeşitlilik kaybı vb.) daha detaylı raporlanması gerekebilir.",
+     "Yatırımcıların doğa ile ilgili finansal verileri talep etme eğilimi artabilir."
     ]
    },
    "onceki_cerceve": {
@@ -587,44 +544,44 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Veri toplama süreçlerinde doğa ile ilgili metriklerin (su kullanımı, biyoçeşitlilik vb.) entegrasyonu gerekebilir."
+     "Veri toplama süreçlerinde doğa ile ilgili metriklerin (su kullanımı, arazi kullanımı vb.) sisteme entegre edilmesi gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Sürdürülebilirlik raporlama ekiplerinin doğa ile ilgili risk değerlendirme kapasitelerinin artırılması gerekebilir."
+     "Sürdürülebilirlik raporlama ekiplerinin TNFD çerçevesi ile uyumlu yeni veri setleri oluşturması gerekebilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
     "olasi_etki": [
-     "Doğa ile ilgili risklerin sermaye yeterlilik hesaplamalarına entegrasyonu gelecekte düzenleyici bir zorunluluk haline gelebilir."
+     "Doğa ile ilgili risklerin sermaye yeterlilik hesaplamalarına dahil edilmesi gelecekteki düzenlemelerle gündeme gelebilir."
     ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "Doğa ile ilgili açıklamaların, mevcut iklim raporlaması (IFRS S2) ile entegre bir şekilde yönetilmesi gerekecektir."
+     "Doğa ile ilgili açıklamaların, iklim değişikliği ile bağlantılı risklerle entegre bir şekilde raporlanması beklenmektedir."
     ],
     "ilgili_degil": false
    },
    "degisiklikler": [
     {
      "konu": "Doğa ile ilgili açıklamalar",
-     "onceki": "Doğa ile ilgili konular IFRS S1 kapsamında genel çerçevede ele alınıyordu.",
-     "yeni": "Doğa ile ilgili konular için özel bir Uygulama Rehberi taslağı sunulmuştur.",
+     "onceki": "Doğa ile ilgili konular IFRS S1 kapsamında genel olarak ele alınıyordu.",
+     "yeni": "Doğa ile ilgili konular için özel bir Uygulama Rehberi taslağı sunuldu.",
      "referans": "Sayfa 1"
     }
    ],
    "parametre_etkisi": {
     "PD": {
      "duzey": "Dolaylı",
-     "not": "Doğa ile ilgili risklerin gerçekleşmesi, müşterilerin kredi değerliliğini dolaylı olarak etkileyebilir."
+     "not": "Doğa ile ilgili risklerin gerçekleşmesi, kredi müşterilerinin temerrüt olasılığını uzun vadede etkileyebilir."
     },
     "LGD": {
      "duzey": "Dolaylı",
-     "not": "Doğa kaynaklı risklerin teminat değerleri üzerindeki etkisi uzun vadede LGD parametresini etkileyebilir."
+     "not": "Doğa kaynaklı risklerin teminat değerleri üzerindeki etkisi LGD hesaplamalarını dolaylı olarak etkileyebilir."
     },
     "EAD": {
      "duzey": "Etki beklenmiyor",
@@ -632,7 +589,7 @@
     },
     "ECL": {
      "duzey": "Dolaylı",
-     "not": "Risk profillerindeki değişimler, TFRS 9 kapsamında beklenen kredi zararı hesaplamalarını dolaylı olarak etkileyebilir."
+     "not": "Doğa risklerinin finansal tablolara yansıması, TFRS 9 kapsamında beklenen kredi zararı karşılıklarını dolaylı olarak etkileyebilir."
     }
    },
    "tarihler": [
@@ -644,8 +601,8 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Doğa ile ilgili risk analizi",
-     "aciklama": "Bankanın kredi portföyünün doğa ile ilgili risklere olan maruziyeti değerlendirilmelidir."
+     "baslik": "TNFD Çerçevesi",
+     "aciklama": "ISSB'nin taslağı TNFD'den esinlendiği için, bankanın mevcut doğa risk yönetimi süreçlerinin TNFD ile uyumu incelenmelidir."
     }
    ],
    "referanslar": [
@@ -658,7 +615,7 @@
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T14:54:53+03:00",
+   "olusturma_zamani": "2026-11-26T16:06:43+03:00",
    "gonderilen_karakter": 8508,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
@@ -699,9 +656,9 @@
   "belge_turu": "İstişare dokümanı",
   "statu": "İstişare",
   "onem": "Düşük",
-  "onem_gerekcesi": "Belge, doğa ile ilgili açıklamalar için hazırlanan bir taslak uygulama beyanına ilişkin istişare sürecini duyuran bilgilendirici bir metindir; banka için doğrudan bir yasal yükümlülük içermemektedir.",
+  "onem_gerekcesi": "Belge, doğa ile ilgili açıklamalar konusunda bir taslak uygulama rehberinin istişare sürecini duyuran bilgilendirici bir metindir; banka için doğrudan bir yasal yükümlülük içermemektedir.",
   "konu": "Sürdürülebilirlik",
-  "ozet_tek_satir": "ISSB, doğa ile ilişkili risk ve fırsatların IFRS S1 kapsamında raporlanmasına yönelik yeni bir uygulama rehberi taslağını istişareye açmıştır.",
+  "ozet_tek_satir": "ISSB, doğa ile ilişkili finansal risk ve fırsatların raporlanmasına yönelik yeni bir uygulama rehberi taslağını istişareye açmıştır.",
   "yayin_tarihi": "2026-10-26",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
@@ -726,19 +683,20 @@
   "yururluk_tarihi": null,
   "uyum_son_tarihi": null,
   "analiz": {
-   "yonetici_ozeti": "ISSB, doğa ile ilgili risk ve fırsatların finansal raporlamaya dahil edilmesine yönelik yeni bir uygulama beyanı taslağı yayımlamıştır. Bu taslak, mevcut IFRS S1 standardının doğa ile ilgili konulara nasıl uygulanacağını netleştirmeyi amaçlamaktadır. Süreç, 19 Şubat 2027 tarihine kadar kamuoyu görüşüne açık olacaktır.",
+   "yonetici_ozeti": "ISSB, doğa ile ilgili risk ve fırsatların finansal raporlamaya dahil edilmesine yönelik yeni bir uygulama rehberi taslağı yayımlamıştır. Bu taslak, mevcut IFRS S1 standardının doğa ile ilgili konulara nasıl uygulanacağını netleştirmeyi amaçlamaktadır. Süreç, 19 Şubat 2027 tarihine kadar görüşe açılmıştır.",
    "amac": {
     "teyitli": [
      {
-      "hukum": "Doğa ile ilgili açıklamalar için bir uygulama beyanı taslağı yayımlanmıştır.",
-      "alinti": "launch of the Exposure Draft proposing a Practice Statement on nature-related disclosures",
+      "hukum": "Doğa ile ilgili risk ve fırsatların raporlanmasına yönelik uygulama rehberi taslağı görüşe açılmıştır.",
+      "alinti": "to mark the launch of the Exposure Draft proposing a Practice Statement on nature-related disclosures",
       "sayfa": null,
       "paragraf": 14,
       "alinti_dogrulandi": true
      }
     ],
     "olasi_etki": [
-     "Gelecekte doğa ile ilgili risklerin finansal tablolara yansıtılması konusunda raporlama standartlarının kapsamı genişleyebilir."
+     "Gelecekte doğa ile ilgili risklerin finansal tablolara yansıtılması konusunda standartlaşma beklenebilir.",
+     "Bankanın sürdürülebilirlik raporlama süreçlerinde TNFD çerçevesi ile uyumlu yeni veri toplama ihtiyaçları doğabilir."
     ]
    },
    "onceki_cerceve": {
@@ -757,23 +715,25 @@
    "teknik_etkiler": {
     "teyitli": [],
     "olasi_etki": [
-     "Doğa ile ilgili risklerin tanımlanması ve ölçülmesi için TNFD çerçevesi ile uyumlu yeni metodolojilerin benimsenmesi gerekebilir."
+     "Doğa ile ilgili risklerin (biyoçeşitlilik kaybı vb.) kredi riski modellerine entegrasyonu için metodolojik çalışmalar gerekebilir."
     ]
    },
    "operasyonel_etki": {
     "teyitli": [],
     "olasi_etki": [
-     "Banka, doğa ile ilgili risklerin kredi portföyü üzerindeki etkilerini izlemek için veri toplama süreçlerini güncelleyebilir."
+     "Doğa ile ilgili verilerin izlenmesi ve raporlanması için yeni veri setlerine ihtiyaç duyulabilir."
     ]
    },
    "sermaye_rwa": {
     "teyitli": [],
-    "olasi_etki": []
+    "olasi_etki": [
+     "Doğa ile ilgili risklerin sermaye yeterliliği hesaplamalarında (Pillar 2 kapsamında) dikkate alınması gündeme gelebilir."
+    ]
    },
    "iklim": {
     "teyitli": [],
     "olasi_etki": [
-     "Doğa ile ilgili açıklamalar, iklim değişikliği ile bağlantılı risklerin yönetimiyle entegre bir şekilde ele alınabilir."
+     "Doğa ile ilgili açıklamalar, iklim değişikliği ile bağlantılı olduğu için dolaylı olarak iklim risk yönetimi süreçlerini güçlendirebilir."
     ],
     "ilgili_degil": false
    },
@@ -781,7 +741,7 @@
    "parametre_etkisi": {
     "PD": {
      "duzey": "Dolaylı",
-     "not": "Doğa ile ilgili risklerin uzun vadede kredi değerliliğini etkileme potansiyeli bulunmaktadır."
+     "not": "Doğa ile ilgili risklerin uzun vadede kredi değerliliğini etkilemesi beklenebilir."
     },
     "LGD": {
      "duzey": "Dolaylı",
@@ -793,7 +753,7 @@
     },
     "ECL": {
      "duzey": "Dolaylı",
-     "not": "Gelecekteki raporlama standartları, karşılık hesaplamalarında doğa risklerinin dikkate alınmasını gerektirebilir."
+     "not": "Gelecekteki raporlama standartları, karşılık hesaplamalarında çevresel risklerin daha fazla dikkate alınmasını gerektirebilir."
     }
    },
    "tarihler": [
@@ -805,21 +765,21 @@
    ],
    "gozden_gecirilecekler": [
     {
-     "baslik": "Uygulama Beyanı Taslağı",
-     "aciklama": "ISSB tarafından yayımlanan doğa ile ilgili uygulama beyanı taslağının bankanın mevcut sürdürülebilirlik raporlama süreçlerine olası etkileri incelenmelidir."
+     "baslik": "Doğa ile ilgili uygulama rehberi taslağı",
+     "aciklama": "ISSB tarafından yayımlanan taslağın bankanın mevcut sürdürülebilirlik raporlama altyapısına etkileri incelenmelidir."
     }
    ],
    "referanslar": [
     {
-     "metin": "ISSB nature-related disclosures consultation",
+     "metin": "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information",
      "sayfa": 1,
-     "paragraf": 14
+     "paragraf": 26
     }
    ]
   },
   "analiz_bilgisi": {
    "model": "gemini-3.1-flash-lite",
-   "olusturma_zamani": "2026-11-26T14:55:12+03:00",
+   "olusturma_zamani": "2026-11-26T16:09:13+03:00",
    "gonderilen_karakter": 4999,
    "alinti_dogrulanan": 2,
    "alinti_toplam": 2,
@@ -835,9 +795,9 @@
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
   "onem": "Düşük",
-  "onem_gerekcesi": "Metin, KOBİ'lere yönelik IFRS muhasebe standartlarında yapılan değişikliklerle ilgilidir ve tam IFRS uygulayan büyük ölçekli bankalar için doğrudan bir düzenleme değişikliği içermemektedir.",
+  "onem_gerekcesi": "Metin, KOBİ'lere yönelik IFRS muhasebe standartlarında yapılan değişikliklerle ilgilidir ve tam IFRS uygulayan büyük ölçekli bir banka için doğrudan bir düzenleme değişikliği içermemektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "IASB, KOBİ'lere yönelik IFRS muhasebe standardında, yatırım kuruluşu ana ortaklığı olan KOBİ'ler için konsolidasyon istisnası getiren değişiklikler yapılmasına karar vermiştir.",
+  "ozet_tek_satir": "IASB, KOBİ'ler için IFRS Muhasebe Standardı'nda yatırım kuruluşu ana ortaklığı olan KOBİ'lere yönelik konsolidasyon istisnası getirilmesine karar vermiştir.",
   "yayin_tarihi": "2026-10-26",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",

@@ -76,7 +76,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "tamam",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: G-SIB, systemically important",
@@ -519,14 +519,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "metin_yok",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Bankacılık Düzenleme ve Denetleme",
    "konular": [
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "resmigazete-2026-11-18-5bad37"
  },
  {
   "aday_id": "ecb-2026-11-18-c5ac15",
@@ -963,14 +964,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "metin_yok",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: elektronik para, faaliyet izni",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "resmigazete-2026-11-11-b22ad1"
  },
  {
   "aday_id": "resmigazete-2026-11-11-3c9287",
@@ -985,14 +987,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "metin_yok",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: elektronik para, faaliyet izni",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "resmigazete-2026-11-11-3c9287"
  },
  {
   "aday_id": "fsb-2026-11-11-c55932",
@@ -1246,14 +1249,15 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "metin_yok",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Bankacılık Düzenleme ve Denetleme",
    "konular": [
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "resmigazete-2026-11-06-98f1d1"
  },
  {
   "aday_id": "eba-2026-11-06-e815e0",
@@ -1292,7 +1296,7 @@
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
   "son_gorulme": "2026-11-26T13:46:13+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "metin_yok",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "dahil: Kamu Gözetimi, denetim, gözetim",
@@ -1300,7 +1304,8 @@
     "Genel düzenleme",
     "Kurum adları"
    ]
-  }
+  },
+  "kayit_id": "resmigazete-2026-11-05-54f6e7"
  },
  {
   "aday_id": "eba-2026-11-05-c3f28b",
