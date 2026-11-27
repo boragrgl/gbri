@@ -4,37 +4,41 @@ sys.path.insert(0, ".")
 from pipeline.ortak import getir, robots_izin
 
 URLLER = [
- "https://www.imf.org/en/publications/wp/index.json",
- "https://www.imf.org/en/publications/policy-papers/index.json",
- "https://www.imf.org/en/publications/sdn/index.json",
- "https://www.imf.org/en/publications/gfsr/index.json",
- "https://www.imf.org/en/publications/fsap/index.json",
- "https://www.imf.org/en/publications/cr/index.json",
- "https://www.imf.org/en/publications/dp/index.json",
- "https://www.imf.org/en/publications/fm/index.json",
  "https://www.imf.org/en/publications/index.json",
- "https://www.imf.org/en/news/articles/index.json",
- "https://www.imf.org/en/news/pressreleases/index.json",
- "https://www.imf.org/en/news/press-releases/index.json",
+ "https://www.imf.org/en/publications/gfsr/index.json",
+ "https://www.imf.org/en/publications/fm/index.json",
  "https://www.imf.org/en/blogs/index.json",
- "https://www.imf.org/en/topics/financial-sector/index.json",
+ "https://www.imf.org/en/publications/working-papers/index.json",
+ "https://www.imf.org/en/publications/wp/issues/index.json",
+ "https://www.imf.org/en/publications/staff-discussion-notes/index.json",
+ "https://www.imf.org/en/publications/policy-papers/issues/index.json",
+ "https://www.imf.org/en/publications/fsap/index.json",
+ "https://www.imf.org/en/publications/weo/index.json",
+ "https://www.imf.org/en/publications/ger/index.json",
+ "https://www.imf.org/en/publications/fandd/index.json",
+ "https://www.imf.org/en/news/index.json",
 ]
+import re
 sonuc = []
 for u in URLLER:
     try:
         if not robots_izin(u):
-            sonuc.append({"url": u, "robots": "izin_yok"})
-        else:
-            r = getir(u, deneme=2, zaman_asimi=30)
-            m = r["metin"]
-            sonuc.append({"url": u, "robots": "izinli", "durum": r["durum"], "tur": r.get("tur"), "boyut": len(m), "ilk": m[:400], "item_sayisi": m.count(chr(34)+"position"+chr(34)).replace("\n", " ")})
+            sonuc.append({"url": u, "robots": "izin_yok"}); continue
+        r = getir(u, deneme=2, zaman_asimi=30)
+        m = r["metin"]
+        d = {"url": u, "durum": r["durum"], "boyut": len(m)}
+        try:
+            j = json.loads(m)
+            d["anahtarlar"] = list(j.keys())
+            it = j.get("items") or []
+            d["item_sayisi"] = len(it)
+            d["ilk_itemler"] = it[:2]
+            d["tarihler"] = [x.get("date") for x in it[:40]]
+            d["sections"] = [(x.get("heading"), x.get("content","")[:300]) for x in (j.get("sections") or [])][:6]
+        except Exception as e:
+            d["json_hata"] = str(e)[:100]
+        sonuc.append(d)
     except Exception as e:
         sonuc.append({"url": u, "hata": str(e)[:200]})
-    print(sonuc[-1], flush=True)
-import re
-try:
-    m = getir("https://www.imf.org/en/News", deneme=2)["metin"]
-    print("LINKS", sorted(set(re.findall(r'href="([^"]*(?:rss|RSS|feed|Feed)[^"]*)"', m)))[:30], flush=True)
-    print("ALL", sorted(set(re.findall(r'href="(/en/[^"#?]{3,60})"', m)))[:60], flush=True)
-except Exception as e: print("LINKHATA", e)
+    print(json.dumps(sonuc[-1], ensure_ascii=False)[:3000], flush=True)
 json.dump(sonuc, open("reports/imf-testi.json", "w"), ensure_ascii=False, indent=1)
