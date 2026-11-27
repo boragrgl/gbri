@@ -13,6 +13,10 @@ KOK = os.path.join(os.path.dirname(__file__), "..")
 _HARF = "a-z0-9çğöşü"
 
 
+PARA_POLITIKASI = re.compile(r"faiz oranlar\w*\s+ilişkin\s+basın\s+duyurusu|para politikası kurulu toplantı özeti", re.I)
+PARA_POLITIKASI_NEDEN = "TCMB para politikası duyurusu (süzgeçten muaf)"
+
+
 def normal(s):
     s = (s or "").replace("İ", "i").replace("I", "i").lower().replace("ı", "i")
     return re.sub(r"[-_/]+", " ", s)
@@ -37,6 +41,8 @@ class Suzgec:
     def degerlendir(self, aday):
         metin = normal(" ".join([aday.get("baslik_orijinal", ""), aday.get("ozet_kaynak", ""),
                                  aday.get("url", "")]).replace("by default", ""))
+        if aday["kurum"] == "tcmb" and PARA_POLITIKASI.search(aday.get("baslik_orijinal", "")):
+            return {"sonuc": "gecti", "neden": PARA_POLITIKASI_NEDEN, "konular": ["Diğer"]}
         dis = [t for t, d in self.disla if d.search(metin)]
         konular = sorted({k for k, t, d in self.dahil if d.search(metin)})
         kelimeler = sorted({t for k, t, d in self.dahil if d.search(metin)})[:8]

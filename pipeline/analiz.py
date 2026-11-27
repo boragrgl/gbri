@@ -139,8 +139,15 @@ def isle(aday, yz, bugun, geri_gun=31):
         return {"durum": "metin_yok", "hash": hash_, "karakter": len(belge["tam"])}
     ust = (f"Kurum: {aday['kurum'].upper()}\nListedeki başlık: {aday['baslik_orijinal']}\n"
            f"Listedeki tarih: {aday.get('yayin_tarihi')}\nAdres: {aday['url']}\n")
+    ozel = (aday.get("filtre") or {}).get("neden", "").startswith("TCMB para politikası")
+    if ozel:
+        ust += ("Not: Bu belge TCMB'nin para politikası duyurusudur (faiz kararı veya PPK özeti). İlgili kabul edilir. "
+                "Olası etkiyi fonlama maliyeti, TFRS 9 makroekonomik senaryolar (faiz, enflasyon, büyüme varsayımları), "
+                "kredi riski ve beklenen kredi zararı açısından değerlendir; bunları yalnızca olası etki bölümünde yaz.\n")
     # 1) ilgi kontrolu (kisa metin)
     k, model, _ = yz.json_iste(ILGI_SISTEM, ust + "\nBelge metni (başı):\n" + govde[:7000])
+    if ozel:
+        k["ilgili_mi"] = True
     tarih = aday.get("yayin_tarihi")
     t_model = tarih_ok(k.get("yayin_tarihi"))
     if t_model and not (t_model > bugun) and (bugun - t_model).days < 800:
@@ -185,6 +192,10 @@ def isle(aday, yz, bugun, geri_gun=31):
                            "gonderilen_karakter": len(govde), "alinti_dogrulanan": sayac[0],
                            "alinti_toplam": sayac[1], "guven": guven(sayac, kisaltildi, belge)},
     })
+    if ozel:
+        kayit["konu"] = "Diğer"
+        kayit["onem"] = "Orta"
+        kayit["alt_konular"] = ["Para politikası"] + [x for x in kayit.get("alt_konular", []) if x != "Para politikası"]
     if belge.get("ocr"):
         kayit["analiz_bilgisi"]["not"] = "Taranmış PDF; metin OCR ile okundu, yazım hataları olabilir."
     if kisaltildi:

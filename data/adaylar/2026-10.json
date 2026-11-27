@@ -14,10 +14,10 @@
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
-   "sonuc": "elendi",
-   "neden": "dışlama: Para Politikası Kurulu",
+   "sonuc": "gecti",
+   "neden": "TCMB para politikası duyurusu (süzgeçten muaf)",
    "konular": [
-    "Kurum adları"
+    "Diğer"
    ]
   }
  },
@@ -437,12 +437,12 @@
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "ilgisiz",
+  "analiz_durumu": "bekliyor",
   "filtre": {
    "sonuc": "gecti",
-   "neden": "çekirdek kaynak",
+   "neden": "TCMB para politikası duyurusu (süzgeçten muaf)",
    "konular": [
-    "Kurum adları"
+    "Diğer"
    ]
   },
   "kayit_id": "tcmb-2026-10-22-3a2705"
