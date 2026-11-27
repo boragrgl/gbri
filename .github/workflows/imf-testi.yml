@@ -1,5 +1,8 @@
 name: IMF erisim testi
 on:
+  push:
+    branches: [faz3-site]
+    paths: [".github/workflows/imf-testi.yml", "scripts/imf_testi.py"]
   workflow_dispatch:
 permissions:
   contents: write
