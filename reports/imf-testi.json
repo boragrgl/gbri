@@ -1,0 +1,34 @@
+[
+ {
+  "url": "https://www.imf.org/en/rss-list",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/News/RSS?type=Press%20Release",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/RSS?series=IMF%20Working%20Papers",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/RSS?series=Global%20Financial%20Stability%20Notes",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/News",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "text/html; charset=utf-8",
+  "boyut": 11154,
+  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>IMF News</title> <meta name=\"description\" content=\"The IMF presents the latest news, blogs, podcasts, videos, live events, and mor"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/Search",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/sitemap.xml",
+  "hata": "HTTP Error 404: Not Found"
+ }
+]
