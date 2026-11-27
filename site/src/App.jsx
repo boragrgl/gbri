@@ -95,7 +95,7 @@ export function Uygulama({ veri, rota, izleme, q = '', setQ = () => {} }) {
   const konu = tip === 'konu' ? KONULAR.find((k) => k.slug === ek) : null
   const suz = (l) => l.filter((x) => !q || (x.baslik_tr + ' ' + x.kurum + ' ' + x.konu + ' ' + (x.alt_konular || []).join(' ')).toLowerCase().includes(q.toLowerCase()))
   const tum = suz(veri.yayinlar)
-  const liste = konu ? tum.filter((x) => x.konu === konu.anahtar) : tum
+  const liste = konu ? tum.filter((x) => (konu.eslesir ? konu.eslesir(x) : x.konu === konu.anahtar)) : tum
   const aktif = tip === 'y' ? 'ana' : tip === 'konu' ? 'ana' : tip === 'kurum' ? 'kurumlar' : tip
   let sayfa
   if (tip === 'y') sayfa = <Detay x={veri.yayinlar.find((x) => x.id === ek)} veri={veri} izleme={izleme} />
@@ -121,6 +121,7 @@ export function Uygulama({ veri, rota, izleme, q = '', setQ = () => {} }) {
       </header>
       <div className="tarihsatir"><div className="w" style={{ justifyContent: 'flex-end' }}><span>{trUzun(bugun())}</span></div></div>
       {sayfa}
+      <div className="w sayfasonu"><button type="button" className="btn2" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>↑ Sayfa başına dön</button></div>
       <YukariDugmesi />
     </>
   )

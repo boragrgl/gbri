@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { kn, tr, trKisa, trUzun, AY, AYUZUN, KONULAR, ONEMSIRA } from './ortak.js'
+import { kn, tr, trKisa, trUzun, AY, AYUZUN, KONULAR, ONEMSIRA, KURUM_TAM } from './ortak.js'
 import { puanla, bugun } from './puan.js'
 import { Kart, Tablo, Bos, Sev, Yildiz, TekSatir } from './kucuk.jsx'
 
@@ -29,6 +29,8 @@ export function Genel({ konu, liste, veri, izleme }) {
   const baslik = konu ? `${konu.ad} konusunda: ${k} kritik, ${y} yüksek öncelikli gelişme` : `Özet: ${k} kritik, ${y} yüksek öncelikli gelişme`
   return (
     <main className="w sayfa">
+      {konu && altListe.length > 0 && (
+        <TekSatir etiket="Alt konular" secili={alt} sec={setAlt} ogeler={altListe.map(([a, n]) => ({ k: a, etiket: `${a} (${n})` }))} />)}
       <div className="kahraman">
         <section className="card baslikkutu">
           <h1 className="buyuk">{baslik}</h1>
@@ -39,8 +41,6 @@ export function Genel({ konu, liste, veri, izleme }) {
             .map(([a, n, c, s]) => <div className="kpibox" key={a}><div className="et">{a}</div><div className="n" style={{ color: c }}>{n}</div><div className="alt2">{s}</div></div>)}
         </section>
       </div>
-      {konu && altListe.length > 0 && (
-        <TekSatir etiket="Alt konular" secili={alt} sec={setAlt} ogeler={altListe.map(([a, n]) => ({ k: a, etiket: `${a} (${n})` }))} />)}
       <div className="satirbasi">
         <h2 style={{ fontSize: 24 }}>Önemli değişiklikler</h2><a href="#onemli">Tümü, puana göre →</a>
       </div>
@@ -151,14 +151,14 @@ export function Arsiv({ liste, veri, q }) {
 export function Kurumlar({ veri, izleme }) {
   return (<main className="w sayfa"><section><h1 className="buyuk" style={{ fontSize: 34 }}>Kurumlar</h1>
     <p className="mut" style={{ margin: '8px 0 0' }}>İzlenen resmî kaynaklar. Birine tıklayınca o kaynaktan toplanan tüm haberleri görürsün.</p></section>
-    {['uluslararasi', 'turkiye'].map((b) => (<section key={b}><h2 style={{ fontSize: 20, marginBottom: 12 }}>{b === 'turkiye' ? 'Türkiye' : 'Uluslararası'}</h2>
+    {['uluslararasi', 'tr'].map((b) => (<section key={b}><h2 style={{ fontSize: 20, marginBottom: 12 }}>{b === 'tr' ? 'Türkiye' : 'Uluslararası'}</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))', gap: 12 }}>
-        {veri.kaynaklar.filter((s) => (s.bolge === 'turkiye') === (b === 'turkiye')).map((s) => {
+        {veri.kaynaklar.filter((s) => (s.bolge === 'tr') === (b === 'tr')).map((s) => {
           const ad = veri.adaylar.filter((a) => a.kurum === s.id), an = ad.filter((a) => a.durum === 'analiz').length
           return (<a key={s.id} href={'#kurum-' + s.id} className="card" style={{ color: 'inherit' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}><b>{s.ad}</b>{izleme.kurum.includes(s.id) && <span>★</span>}</div>
-            <div className="mut" style={{ fontSize: 13, marginTop: 4 }}>{ad.length} haber · {an} analiz</div>
-            <div className="mut" style={{ fontSize: 12 }}>{s.aktif ? (s.ardisik_hata ? 'Son taramada hata' : 'Erişilebilir') : 'Kapsam dışı'}</div></a>)
+            {KURUM_TAM[s.id] && <div className="mut" style={{ fontSize: 11.5, lineHeight: 1.35 }}>({KURUM_TAM[s.id]})</div>}
+            <div className="mut" style={{ fontSize: 13, marginTop: 8 }}>{ad.length} haber · {an} analiz</div></a>)
         })}</div></section>))}</main>)
 }
 
@@ -170,7 +170,7 @@ export function Kurum({ id, veri, izleme }) {
   if (!s && !ad.length) return <main className="w sayfa">Kaynak bulunamadı. <a href="#kurumlar">Kurumlar</a></main>
   return (<main className="w sayfa"><section><div className="mut" style={{ fontSize: 13 }}><a href="#kurumlar">Kurumlar</a> / {kn(id)}</div>
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center', justifyContent: 'space-between', marginTop: 6 }}>
-      <h1 className="buyuk" style={{ fontSize: 34 }}>{s ? s.ad : kn(id)}</h1>
+      <div><h1 className="buyuk" style={{ fontSize: 34 }}>{s ? s.ad : kn(id)}</h1>{KURUM_TAM[id] && <div className="mut" style={{ fontSize: 13 }}>{KURUM_TAM[id]}</div>}</div>
       <button className={'yildiz' + (izleme.kurum.includes(id) ? ' on' : '')} onClick={() => izleme.degistir('kurum', id)}>{izleme.kurum.includes(id) ? '★ İzleniyor' : '☆ Kurumu izle'}</button></div>
     <p className="mut" style={{ margin: '8px 0 0' }}>Bu kaynaktan toplanan {ad.length} haber. Süzgeçte elenenler de burada, nedeniyle birlikte listelenir.</p></section>
     <div className="card tablo"><table style={{ minWidth: 700 }}><thead><tr><th>Tarih</th><th>Başlık</th><th>Durum</th><th>Önem</th></tr></thead><tbody>

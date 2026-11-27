@@ -151,3 +151,5 @@ a.kaynak:hover{border-color:var(--g);text-decoration:none;background:#EEF4F2}
 .kpibox .alt2{font-size:11.5px;color:var(--mut);line-height:1.3;overflow-wrap:anywhere}
 @media(max-width:900px){.kahraman{grid-template-columns:1fr}}
 @media(max-width:720px){.baslikkutu{padding:18px 20px}.baslikkutu h1{font-size:26px}.kpibox{padding:10px 12px}.kpibox .n{font-size:26px}}
+
+.sayfasonu{display:flex;justify-content:center;padding-top:8px;padding-bottom:36px}

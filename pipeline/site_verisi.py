@@ -17,6 +17,8 @@ for f in sorted(glob.glob(K + "/data/adaylar/*.json")):
                         "tarih": a.get("yayin_tarihi"), "durum": d, "neden": (a.get("filtre") or {}).get("neden")})
 kay = [{"id": s["id"], "ad": s["ad"], "bolge": s.get("bolge"), "aktif": s["aktif"], "ardisik_hata": s["ardisik_hata"],
         "son_tarama": s.get("son_basarili_tarama")} for s in oku("data/kaynaklar.json")]
+if not any(k["id"] == "imf" for k in kay):
+    kay.append({"id": "imf", "ad": "IMF", "bolge": "uluslararasi", "aktif": False, "ardisik_hata": 0, "son_tarama": None})
 cikti = os.path.join(K, "site/public/data"); os.makedirs(cikti, exist_ok=True)
 for ad, v in (("yayinlar", analizli), ("adaylar", adaylar), ("kaynaklar", kay)):
     json.dump(v, open(f"{cikti}/{ad}.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
