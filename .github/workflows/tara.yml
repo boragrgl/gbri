@@ -3,6 +3,9 @@ name: Haftalik tarama (sali 07:00 / cuma 16:00 TR)
 # NOT: GitHub zamanlanmis calistirmalari yalnizca varsayilan dalda (main) tetikler.
 # Bu dosya main'e tasinana kadar zamanlama pasif kalir; elle calistirilabilir (workflow_dispatch).
 on:
+  push:
+    branches: [faz3-site]
+    paths: ["config/tara-tetik.txt"]
   schedule:
     - cron: "0 4 * * 2"    # Sali 07:00 Turkiye (UTC+3)
     - cron: "0 13 * * 5"   # Cuma 16:00 Turkiye (UTC+3)
@@ -38,12 +41,18 @@ jobs:
       - name: Topla
         env:
           TOPLA_ARGS: ${{ github.event.inputs.topla_args }}
-        run: python pipeline/topla.py ${TOPLA_ARGS:---geri-gun 7} 2>&1 | tee topla.log
+        run: |
+          A="$TOPLA_ARGS"
+          if [ -z "$A" ] && [ "${{ github.event_name }}" = "push" ]; then A="$(grep -v '^#' config/tara-tetik.txt | sed -n 1p)"; fi
+          python pipeline/topla.py ${A:---geri-gun 7} 2>&1 | tee topla.log
       - name: Analiz
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANALIZ_ARGS: ${{ github.event.inputs.analiz_args }}
-        run: python pipeline/analiz.py ${ANALIZ_ARGS:---geri-gun 7} 2>&1 | tee analiz.log
+        run: |
+          A="$ANALIZ_ARGS"
+          if [ -z "$A" ] && [ "${{ github.event_name }}" = "push" ]; then A="$(grep -v '^#' config/tara-tetik.txt | sed -n 2p)"; fi
+          python pipeline/analiz.py ${A:---geri-gun 7} 2>&1 | tee analiz.log
       - name: Site verisi
         run: python pipeline/site_verisi.py
       - name: Ozet
