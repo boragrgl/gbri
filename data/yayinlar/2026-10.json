@@ -1,5 +1,226 @@
 [
  {
+  "id": "tcmb-2026-10-30-8e509c",
+  "kurum": "tcmb",
+  "baslik_orijinal": "Para Politikası Kurulu Toplantı Özeti (2026-47)",
+  "baslik_tr": "Para Politikası Kurulu Toplantı Özeti (2026-47)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-47",
+  "belge_turu": "Bülten",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "Politika faizindeki 100 baz puanlık indirim ve makroihtiyati düzenlemelerdeki değişiklikler, kamu bankasının fonlama maliyetlerini, kredi fiyatlamasını ve TFRS 9 kapsamındaki makroekonomik senaryolarını doğrudan etkilemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "TCMB'nin küresel ve yerel ekonomik görünüm değerlendirmelerini içeren özette, kredi büyüme sınırları ve zorunlu karşılık değişiklikleri ile faiz oranlarındaki seyir bankanın risk ve likidite yönetimini ilgilendirmektedir.",
+  "yayin_tarihi": "2026-10-30",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T00:57:45+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T00:57:45+03:00",
+    "icerik_hash": "c24a4c7f754ee031"
+   }
+  ],
+  "alt_konular": [
+   "Para politikası",
+   "Para Politikası",
+   "Makroihtiyati Tedbirler",
+   "Enflasyon Beklentileri",
+   "Kredi Büyüme Sınırları"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine ve Aktif-Pasif Yönetimi",
+   "Kredi Risk Yönetimi",
+   "Finansal Raporlama",
+   "Ticari ve KOBİ Bankacılığı"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-10-22",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB, politika faizini %37'den %36'ya indirerek dezenflasyon sürecinde ihtiyatlı bir gevşeme sinyali vermiştir. KOBİ kredileri büyüme sınırı %4,5'ten %5'e yükseltilmiş ve TL zorunlu karşılık bloke oranları düşürülerek likidite yönetimi desteklenmiştir. İç talepteki zayıf seyir devam ederken, jeopolitik riskler ve enerji fiyatları enflasyon üzerinde yukarı yönlü risk unsuru olarak kalmaya devam etmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Politika faizinin yüzde 37’den yüzde 36’ya indirilmesi.",
+      "alinti": "politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’den yüzde 36’ya indirilmesine karar vermiştir",
+      "sayfa": 5,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "Makrofinansal istikrarı ve bankaların likidite yönetimini desteklemek.",
+      "alinti": "makrofinansal istikrarı ve bankaların likidite yönetimini desteklemek amacıyla kredi büyümesine dayalı zorunlu karşılık uygulamasında değişiklikler yapmıştır",
+      "sayfa": null,
+      "paragraf": 12,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın fonlama maliyetlerinde ve TL mevduat faizlerinde aşağı yönlü bir seyir oluşabilir.",
+     "Gevşeyen para politikası ve artırılan KOBİ kredi sınırları ile kredi hacminde genişleme hedeflenebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Önceki politika faizi yüzde 37 seviyesindeydi.",
+      "alinti": "politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’den yüzde 36’ya indirilmesine",
+      "sayfa": 5,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Daha sıkı olan kredi büyüme sınırları (%4,5) bankanın KOBİ portföy büyümesini kısıtlıyordu."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "TL zorunlu karşılıklarda bloke tesis oranları düşürülmüştür.",
+      "alinti": "TL zorunlu karşılıklarda bloke tesis oranları düşürülmüştür",
+      "sayfa": 2,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "TFRS 9 modellerinde kullanılan faiz, enflasyon ve büyüme varsayımlarının (forward-looking) güncellenmesi gerekebilir.",
+     "Azalan bloke tesis oranları bankanın serbest likidite pozisyonunu olumlu etkileyebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "KOBİ kredilerinin sekiz haftalık büyüme sınırı güncellenmiştir.",
+      "alinti": "KOBİ kredilerinin sekiz haftalık büyüme sınırı yüzde 4,5’ten yüzde 5’e yükseltilmiştir",
+      "sayfa": 2,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Kredi tahsis birimlerinin KOBİ segmentindeki yeni büyüme sınırlarına göre limitlerini revize etmesi gerekebilir.",
+     "Hazine birimlerinin TCMB likidite yönetim araçlarındaki değişikliklere göre pozisyon alması beklenebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi büyüme sınırlarının esnetilmesiyle artacak kredi hacmi, standart yaklaşım kullanan bankada RWA artışına neden olabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [
+     {
+      "hukum": "El Niño gibi iklim olaylarının arz şoku yaratma riski.",
+      "alinti": "El Niño gibi iklim olaylarının yol açtığı olumsuz küresel hava koşullarının neden olduğu arz şokunun",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "İklim olaylarına bağlı tarımsal emtia fiyat artışları, bankanın tarım portföyündeki kredi riskini dolaylı etkileyebilir."
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "Politika Faizi",
+     "onceki": "%37",
+     "yeni": "%36",
+     "referans": "Sayfa 5, Paragraf 25"
+    },
+    {
+     "konu": "KOBİ Kredileri Büyüme Sınırı",
+     "onceki": "%4,5",
+     "yeni": "%5",
+     "referans": "Sayfa 2, Paragraf 6"
+    },
+    {
+     "konu": "Gecelik Borç Verme Faizi",
+     "onceki": "%40",
+     "yeni": "%39",
+     "referans": "Sayfa 5, Paragraf 25"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Faiz indiriminin borç servis kapasitesini artırması olumlu olsa da, zayıf iç talep ve yüksek enerji maliyetleri ticari segmentte temerrüt riskini canlı tutabilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Teminat değerleri üzerinde doğrudan bir etki belirtilmemiştir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Kredi büyüme sınırlarının artırılması, KOBİ segmentinde maruz kalınan tutarın artmasına yol açabilir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "Makroekonomik senaryolardaki enflasyon ve büyüme tahminlerindeki değişimler beklenen kredi zarar karşılıklarını etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-10-30",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-10-22",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "TFRS 9 Senaryo Güncellemesi",
+     "aciklama": "2026 ve 2027 yılları için revize edilen küresel büyüme (%1,6 ve %2,5) ve enflasyon beklentilerinin modellere yansıtılması."
+    },
+    {
+     "baslik": "Kredi Fiyatlama Stratejisi",
+     "aciklama": "Politika faizindeki 100 baz puanlık düşüşün ticari ve bireysel kredi faiz oranlarına yansıtılma hızının belirlenmesi."
+    },
+    {
+     "baslik": "Likidite ve Zorunlu Karşılık Yönetimi",
+     "aciklama": "Düşürülen bloke tesis oranlarının banka likidite rasyolarına ve maliyetlerine etkisinin analizi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Para Politikası Kurulu Toplantı Özeti",
+     "sayfa": 1,
+     "paragraf": null
+    },
+    {
+     "metin": "Parasal ve Finansal Koşullar",
+     "sayfa": 1,
+     "paragraf": 4
+    },
+    {
+     "metin": "Para Politikası",
+     "sayfa": 5,
+     "paragraf": 25
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T12:17:22+03:00",
+   "gonderilen_karakter": 40350,
+   "alinti_dogrulanan": 6,
+   "alinti_toplam": 6,
+   "guven": "Yüksek"
+  }
+ },
+ {
   "id": "bddk-2026-10-30-b2136b",
   "kurum": "bddk",
   "baslik_orijinal": "Kurumumuz ve Başkanımız Sayın Prof. Dr. Şahap KAVCIOĞLU hakkında kamuoyunu yanıltıcı nitelikte paylaşımlara ilişkin basın açıklaması yayımlanmıştır.",
@@ -769,22 +990,181 @@
   "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-45",
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
-  "onem": "Düşük",
-  "onem_gerekcesi": "Metin, genel para politikası kararlarını ve faiz oranlarını içeren bir basın duyurusu olup, bankalara yönelik doğrudan bir düzenleme, raporlama veya denetim hükmü içermemektedir.",
+  "onem": "Orta",
+  "onem_gerekcesi": "TCMB faiz kararları, bankanın fonlama maliyetlerini, kredi fiyatlamasını ve TFRS 9 kapsamındaki beklenen kredi zararı hesaplamalarında kullanılan makroekonomik modelleri doğrudan etkiler.",
   "konu": "Diğer",
-  "ozet_tek_satir": "TCMB Para Politikası Kurulu, politika faizini yüzde 37'den yüzde 36'ya indirme kararı almıştır.",
+  "ozet_tek_satir": "Politika faizinin %36'ya indirilmesi; fonlama maliyetleri, kredi riski ve TFRS 9 beklenen kredi zararı hesaplamalarındaki makroekonomik varsayımları etkileyecektir.",
   "yayin_tarihi": "2026-10-22",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "ilgili_mi": false,
+  "ilgili_mi": true,
   "surumler": [
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T21:43:03+03:00",
     "icerik_hash": "cd7084eaf4f28f0b"
    }
-  ]
+  ],
+  "alt_konular": [
+   "Para politikası",
+   "Para Politikası",
+   "Faiz Oranları",
+   "TFRS 9 Makroekonomik Senaryolar"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine ve Fon Yönetimi",
+   "Kredi Riski Yönetimi",
+   "Finansal Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-10-22",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB, politika faizini 100 baz puan indirerek %36 seviyesine çekmiş ve faiz koridorunu aşağı yönlü güncellemiştir. Enflasyondaki ana eğilimin gerilediği teyit edilirken, sıkı para politikası duruşunun korunacağı vurgulanmıştır. Banka için bu durum fonlama maliyetlerinde düşüş potansiyeli yaratırken, TFRS 9 modellerindeki makroekonomik varsayımların güncellenmesini gerektirmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Politika faiz oranının düşürülmesi ve dezenflasyon sürecinin güçlendirilmesi.",
+      "alinti": "Para Politikası Kurulu (Kurul), politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’den yüzde 36’ya indirilmesine karar vermiştir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Piyasa faiz oranlarının aşağı çekilmesiyle iktisadi faaliyetin desteklenmesi amaçlanıyor olabilir.",
+     "Fonlama maliyetlerinin düşürülmesi yoluyla bankacılık sektörü kârlılığının kısa vadede olumlu etkilenmesi beklenebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Önceki politika faiz oranı yüzde 37 düzeyindeydi.",
+      "alinti": "politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’den yüzde 36’ya indirilmesine karar vermiştir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Daha önceki sıkılaştırma döngüsünün ardından ilk faiz indirimi ile gevşeme sürecine girilmiş olabilir."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TFRS 9 modellerinde kullanılan risksiz faiz oranı ve iskonto oranlarının güncellenmesi gerekebilir.",
+     "Bankanın içsel fiyatlama modellerinde kullanılan baz puanların revize edilmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "Likidite yönetimi araçlarının etkili kullanımı sürdürülecektir.",
+      "alinti": "Likidite koşulları yakından izlenmeye ve likidite yönetimi araçları etkili şekilde kullanılmaya devam edilecektir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Hazine biriminin günlük likidite yönetiminde yeni faiz koridoruna uyum sağlaması gerekecektir.",
+     "Kredi ve mevduat ürünlerinin faiz oranlarının sistem üzerinde güncellenmesi operasyonu yürütülebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi hacmindeki olası artış, standart yaklaşım kullanan bankada risk ağırlıklı varlıkların (RWA) artmasına neden olabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Politika Faizi",
+     "onceki": "%37",
+     "yeni": "%36",
+     "referans": "Sayfa 1, Paragraf 6"
+    },
+    {
+     "konu": "Gecelik Borç Verme Faizi",
+     "onceki": "%40",
+     "yeni": "%39",
+     "referans": "Sayfa 1, Paragraf 6"
+    },
+    {
+     "konu": "Gecelik Borçlanma Faizi",
+     "onceki": "%35,5",
+     "yeni": "%34,5",
+     "referans": "Sayfa 1, Paragraf 6"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Orta",
+     "not": "Faiz oranlarındaki düşüş, borçluların geri ödeme kapasitesini artırarak temerrüt olasılıklarını (PD) olumlu yönde etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Faiz kararı doğrudan teminat değerleri veya geri kazanım oranları üzerinde birincil bir etkiye sahip değildir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Düşen faiz oranları kredi talebini artırarak toplam risk tutarını (EAD) yükseltebilir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "TFRS 9 makroekonomik senaryolarındaki faiz ve büyüme varsayımlarının güncellenmesi, beklenen kredi zararı (ECL) karşılıklarını değiştirebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-10-22",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-10-22",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "TFRS 9 Makro Senaryo Güncellemesi",
+     "aciklama": "Faiz indirimi ve TCMB'nin enflasyon/büyüme öngörüleri doğrultusunda TFRS 9 modellerindeki ileriye dönük makroekonomik değişkenler revize edilmelidir."
+    },
+    {
+     "baslik": "Aktif-Pasif Yönetimi (APY)",
+     "aciklama": "Fonlama maliyetlerindeki düşüşün mevduat maliyetlerine yansıtılması ve kredi fiyatlama stratejisinin yeni faiz koridoruna göre ayarlanması."
+    },
+    {
+     "baslik": "Likidite Yönetimi",
+     "aciklama": "TCMB'nin likidite yönetimi araçlarındaki olası değişikliklerin ve makroihtiyati adımların banka likidite rasyolarına etkisi takip edilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Faiz Oranlarına İlişkin Basın Duyurusu (2026-45)",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T12:17:47+03:00",
+   "gonderilen_karakter": 5049,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 3,
+   "guven": "Yüksek"
+  }
  },
  {
   "id": "eba-2026-10-22-32b702",

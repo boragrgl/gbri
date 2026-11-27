@@ -10,16 +10,17 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "TCMB para politikası duyurusu (süzgeçten muaf)",
    "konular": [
     "Diğer"
    ]
-  }
+  },
+  "kayit_id": "tcmb-2026-10-30-8e509c"
  },
  {
   "aday_id": "bddk-2026-10-30-b2136b",
@@ -119,7 +120,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "ilgisiz",
   "filtre": {
@@ -435,9 +436,9 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "TCMB para politikası duyurusu (süzgeçten muaf)",
@@ -1115,7 +1116,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "ilgisiz",
   "filtre": {
@@ -1264,7 +1265,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "tamam",
   "filtre": {

@@ -1,5 +1,53 @@
 [
  {
+  "aday_id": "tcmb-2026-11-26-95688e",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-52",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-52",
+  "baslik_orijinal": "Makroihtiyati Çerçeveye İlişkin Basın Duyurusu (2026-52)",
+  "yayin_tarihi": "2026-11-26",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T12:12:43+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları",
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "tcmb-2026-11-26-95688e"
+ },
+ {
+  "aday_id": "tcmb-2026-11-26-68f69f",
+  "kurum": "tcmb",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-51",
+  "url_normal": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-51",
+  "baslik_orijinal": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-51)",
+  "yayin_tarihi": "2026-11-26",
+  "tarih_kaynagi": "rss",
+  "kategori": "Basın Duyuruları",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T12:12:43+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "çekirdek kaynak",
+   "konular": [
+    "Kurum adları",
+    "Risk Yönetimi"
+   ]
+  },
+  "kayit_id": "tcmb-2026-11-26-68f69f"
+ },
+ {
   "aday_id": "ecb-2026-11-26-f198d0",
   "kurum": "ecb",
   "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
@@ -745,7 +793,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
@@ -958,7 +1006,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "tamam",
   "filtre": {
@@ -1225,7 +1273,7 @@
   "kategori": "Basın Duyuruları",
   "ozet_kaynak": "",
   "tespit_zamani": "2026-11-26T00:57:45+03:00",
-  "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "son_gorulme": "2026-11-27T12:12:43+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {

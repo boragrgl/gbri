@@ -1558,6 +1558,198 @@
   }
  },
  {
+  "id": "tcmb-2026-09-17-9e4859",
+  "kurum": "tcmb",
+  "baslik_orijinal": "Para Politikası Kurulu Toplantı Özeti (2026-42)",
+  "baslik_tr": "Para Politikası Kurulu Toplantı Özeti (2026-42)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-42",
+  "belge_turu": "Bülten",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "TCMB'nin faiz kararı ve makroekonomik projeksiyonları, kamu bankasının fonlama maliyetlerini, kredi fiyatlamasını ve TFRS 9 kapsamındaki beklenen kredi zararı (ECL) hesaplamalarını doğrudan etkilemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Küresel ve yerel ekonomik görünüm, kredi büyüme hızları ve faiz oranlarındaki değişimleri detaylandırarak TFRS 9 senaryoları ve kredi riski yönetimi için veri sağlamaktadır.",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-26T21:43:03+03:00",
+    "icerik_hash": "6188b8fde04af35e"
+   }
+  ],
+  "alt_konular": [
+   "Para politikası",
+   "Para Politikası",
+   "TFRS 9 Makroekonomik Senaryolar",
+   "YTAK Limitleri"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi Riski",
+   "Hazine ve Aktif-Pasif Yönetimi",
+   "Finansal Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-09-17",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB politika faizini %37 seviyesinde sabit tutmuş ve sıkı para politikası duruşunun dezenflasyon sağlanana kadar sürdürüleceğini teyit etmiştir. İç talepteki yavaşlama belirginleşirken, küresel jeopolitik riskler ve enerji fiyatlarındaki oynaklık enflasyon üzerinde yukarı yönlü risk oluşturmaya devam etmektedir. Banka için en kritik teknik değişiklik YTAK limitlerinin 750 milyar TL'ye çıkarılmasıdır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Politika faizinin sabit tutulması ve sıkı duruşun korunması.",
+      "alinti": "Para Politikası Kurulu (Kurul), politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’de sabit tutulmasına karar vermiştir.",
+      "sayfa": 6,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Sıkı para politikası duruşunun devamı, bankanın fonlama maliyetlerinin yüksek seviyelerde kalmasına neden olabilir.",
+     "Dezenflasyon süreci vurgusu, uzun vadeli kredi fiyatlamalarında baz alınacak enflasyon beklentilerini şekillendirebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Repo ihalelerine yeniden başlanması.",
+      "alinti": "TCMB, 23 Ağustos 2026 tarihli duyurusu ile 1 Mart 2026 tarihinde ara verilen bir hafta vadeli repo ihalelerine tekrar başlanmasına karar verildiğini ilan etmiştir.",
+      "sayfa": 6,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Likidite yönetiminde miktar bazlı sıkılaştırmadan fiyat bazlı operasyonel çerçeveye tam dönüşün teyit edilmesi."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TFRS 9 modellerinde kullanılan GSYH büyüme varsayımlarının 2026 için %1,6 ve 2027 için %2,5 olarak güncellenmesi gerekebilir.",
+     "Enflasyon beklentilerindeki (2026 sonu %29,4) sınırlı yükseliş, ileriye dönük makroekonomik senaryo ağırlıklarını etkileyebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "YTAK limitlerinin yıllara göre tahsisi.",
+      "alinti": "Kalan limit, 2027 yılına 200 milyar TL ve 2028 yılına 200 milyar TL olacak şekilde tahsis edilmiştir.",
+      "sayfa": 2,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "YTAK kapsamındaki kredi kullandırım süreçlerinin ve limit takibinin yeni tahsisatlara göre güncellenmesi.",
+     "Kredi ve mevduat piyasasındaki gelişmelerin takibi için makroihtiyati raporlama sıklığının artırılması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi büyümesindeki yavaşlama, RWA artış hızını düşürerek sermaye yeterlilik rasyosunu (SYR) olumlu etkileyebilir.",
+     "YTAK limit artışı, bu kredilerin düşük risk ağırlığına sahip olması durumunda sermaye verimliliğini artırabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TFRS 9 senaryolarında tarım emtia fiyatları üzerindeki iklim kaynaklı risklerin 'stres senaryosu' olarak dikkate alınması gerekebilir.",
+     "İklim olaylarının arz şoku riski oluşturması. (belgeden birebir doğrulanamadı)"
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "YTAK Program Limitleri",
+     "onceki": "300 milyar TL",
+     "yeni": "750 milyar TL",
+     "referans": "Sayfa 1, Paragraf 6"
+    },
+    {
+     "konu": "Politika Faizi",
+     "onceki": "%37",
+     "yeni": "%37 (Sabit)",
+     "referans": "Sayfa 6, Paragraf 27"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Orta",
+     "not": "İç talepteki belirgin zayıflama ve sanayi üretimindeki gerileme, özellikle KOBİ ve ticari segmentte temerrüt olasılıklarını artırabilir."
+    },
+    "LGD": {
+     "duzey": "Düşük",
+     "not": "Gayrimenkul ve teminat değerleri enflasyonist ortamda korunsa da, ekonomik yavaşlama likiditeye dönüş hızını azaltabilir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Bireysel kredilerdeki yavaşlama eğilimi (haftalık %2), risk maruziyet tutarlarındaki artış hızını sınırlamaktadır."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "Makroekonomik senaryolardaki zayıf büyüme beklentisi ve yüksek faiz ortamı, karşılık tutarlarında yukarı yönlü baskı oluşturabilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-17",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-09-17",
+     "referans": "Sayfa 6, P27"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "TFRS 9 Makroekonomik Değişken Seti",
+     "aciklama": "Modelde kullanılan GSYH, enflasyon ve faiz tahminleri TCMB'nin güncel beklentileriyle uyumlu hale getirilmelidir."
+    },
+    {
+     "baslik": "YTAK Kredi Tahsis Stratejisi",
+     "aciklama": "750 milyar TL'ye çıkan limit dahilinde bankanın 2026-2028 dönemi için hedef sektör ve müşteri segmentleri belirlenmelidir."
+    },
+    {
+     "baslik": "Mevduat ve Kredi Fiyatlama",
+     "aciklama": "TL mevduat faizlerindeki 255 baz puanlık düşüşün fonlama maliyetine etkisi ve kredi marjları analiz edilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Para Politikası Kurulu Toplantı Özeti (2026-42)",
+     "sayfa": 1,
+     "paragraf": null
+    },
+    {
+     "metin": "Parasal ve Finansal Koşullar",
+     "sayfa": 1,
+     "paragraf": 4
+    },
+    {
+     "metin": "Para Politikası",
+     "sayfa": 6,
+     "paragraf": 26
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T12:18:14+03:00",
+   "gonderilen_karakter": 45196,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 4,
+   "guven": "Orta"
+  }
+ },
+ {
   "id": "bddk-2026-09-17-b8166e",
   "kurum": "bddk",
   "baslik_orijinal": "Bankaların Hisse Geri Alımları Hk. Kurul Kararı",
@@ -1938,22 +2130,183 @@
   "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-38",
   "belge_turu": "Basın duyurusu",
   "statu": "Nihai",
-  "onem": "Düşük",
-  "onem_gerekcesi": "Metin, genel para politikası kararlarını ve faiz oranlarını içeren bir basın duyurusu olup, bankanın doğrudan operasyonel süreçlerini, sermaye yeterliliğini veya raporlama yükümlülüklerini değiştiren spesifik bir düzenleme içermemektedir.",
+  "onem": "Orta",
+  "onem_gerekcesi": "TCMB'nin faiz kararı ve sıkı para politikası duruşu, bankanın fonlama maliyetlerini, kredi fiyatlama stratejilerini ve TFRS 9 makroekonomik senaryo varsayımlarını doğrudan etkilemektedir.",
   "konu": "Diğer",
-  "ozet_tek_satir": "TCMB Para Politikası Kurulu, politika faizini yüzde 37 seviyesinde sabit tutma kararı almıştır.",
+  "ozet_tek_satir": "TCMB politika faizini %37'de sabit bırakmış, dezenflasyon süreci için sıkı duruşun korunacağını ve kredi piyasalarındaki gelişmelere göre ek makroihtiyati önlemler alınabileceğini açıklamıştır.",
   "yayin_tarihi": "2026-09-10",
   "tarih_kaynagi": "belge",
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "baslangic_arsivi": true,
-  "ilgili_mi": false,
+  "ilgili_mi": true,
   "surumler": [
    {
     "no": 1,
     "tespit_zamani": "2026-11-26T21:43:03+03:00",
     "icerik_hash": "da0e9809ddad18e4"
    }
-  ]
+  ],
+  "alt_konular": [
+   "Para politikası",
+   "Para Politikası",
+   "Politika Faizi",
+   "Makroekonomik Senaryolar",
+   "Likidite Yönetimi"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine ve Fonlama",
+   "Kredi Riski Yönetimi",
+   "Finansal Raporlama",
+   "Stratejik Planlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-09-10",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB, Eylül 2026 toplantısında politika faizini %37 seviyesinde sabit bırakmış ve sıkı para politikası duruşunun dezenflasyon sağlanana kadar sürdürüleceğini teyit etmiştir. Enflasyonun ana eğiliminde gerileme gözlenmekle birlikte, enerji fiyatları kaynaklı yukarı yönlü riskler vurgulanmıştır. Banka için yüksek fonlama maliyetlerinin devamı ve TFRS 9 modellerinde ihtiyatlı makroekonomik varsayımların korunması önem arz etmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Politika faizinin %37 düzeyinde sabit tutulması kararlaştırılmıştır.",
+      "alinti": "politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’de sabit tutulmasına karar vermiştir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "Faiz koridoru oranları sabit bırakılmıştır.",
+      "alinti": "Merkez Bankası gecelik vadede borç verme faiz oranını yüzde 40’ta, gecelik vadede borçlanma faiz oranını ise yüzde 35,5’te sabit tutmuştur.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Sıkı para politikası duruşunun korunması, bankanın mevduat ve borçlanma maliyetlerinin yüksek seviyelerde kalmaya devam edeceğini göstermektedir.",
+     "Enflasyon hedeflerine ulaşma kararlılığı, uzun vadeli kredi fiyatlamalarında dezenflasyon beklentilerinin dikkate alınmasını gerektirebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Mevcut faiz oranları bir önceki dönemle aynı seviyededir.",
+      "alinti": "politika faizi olan bir hafta vadeli repo ihale faiz oranının yüzde 37’de sabit tutulmasına karar vermiştir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Para politikasındaki sıkılık düzeyinin korunması, piyasa faizlerinde kısa vadede aşağı yönlü bir hareket beklenmediğini teyit etmektedir."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TFRS 9 modellerinde kullanılan makroekonomik senaryolarda, faiz oranlarının 'uzun süre yüksek' kalacağı varsayımı ağırlık kazanabilir.",
+     "Enerji fiyatlarındaki risklerin, enflasyon tahminleri üzerinden beklenen kredi zararı (ECL) hesaplamalarına dahil edilmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "Likidite yönetimi araçları etkili şekilde kullanılmaya devam edilecektir.",
+      "alinti": "Likidite koşulları yakından izlenmeye ve likidite yönetimi araçları etkili şekilde kullanılmaya devam edilecektir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Kredi ve mevduat piyasalarındaki gelişmelere bağlı olarak TCMB'den yeni makroihtiyati düzenlemeler gelebilir; bu durum raporlama sistemlerinde güncelleme gerektirebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi büyümesindeki olası yavaşlama, RWA artış hızını dizginleyerek sermaye yeterlilik rasyosuna olumlu yansıyabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Politika Faizi",
+     "onceki": "%37",
+     "yeni": "%37 (Değişiklik yok)",
+     "referans": "Sayfa 1, Paragraf 6"
+    },
+    {
+     "konu": "Enflasyon Değerlendirmesi",
+     "onceki": "Belirtilmemiş",
+     "yeni": "Ana eğilimde gerileme ancak enerji fiyatlarında yukarı yönlü risk.",
+     "referans": "Sayfa 1, Paragraf 7"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Orta",
+     "not": "Yüksek faiz oranlarının devam etmesi, değişken faizli kredilerde borç servis kapasitesini zorlayarak temerrüt olasılıklarını artırabilir."
+    },
+    "LGD": {
+     "duzey": "Düşük",
+     "not": "Doğrudan bir etki beklenmemekle birlikte, iktisadi faaliyetteki yavaşlama teminat değerleri üzerinde dolaylı etki yapabilir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Kredi limit kullanımlarında sıkılaşma nedeniyle sınırlı bir azalış görülebilir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "Makroekonomik senaryo güncellemeleri ve PD artış beklentisiyle karşılık tutarlarında yukarı yönlü baskı oluşabilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-10",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-09-10",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "TFRS 9 Senaryo Güncellemesi",
+     "aciklama": "Modeldeki faiz, enflasyon ve büyüme varsayımlarının TCMB'nin son değerlendirmeleriyle uyumlu hale getirilmesi."
+    },
+    {
+     "baslik": "Likidite ve Fonlama Planı",
+     "aciklama": "TCMB'nin likidite yönetimi mesajları doğrultusunda bankanın fonlama kompozisyonunun ve maliyetlerinin gözden geçirilmesi."
+    },
+    {
+     "baslik": "Kredi Portföy Analizi",
+     "aciklama": "Yüksek faiz ortamından en çok etkilenen sektörlerin ve değişken faizli portföyün risk duyarlılığının incelenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Para Politikası Kurulu Kararı",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T12:18:42+03:00",
+   "gonderilen_karakter": 4897,
+   "alinti_dogrulanan": 4,
+   "alinti_toplam": 4,
+   "guven": "Yüksek"
+  }
  },
  {
   "id": "eba-2026-09-09-bfda69",

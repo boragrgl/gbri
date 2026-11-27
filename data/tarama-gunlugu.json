@@ -1,5 +1,19 @@
 [
  {
+  "zaman": "2026-11-27T12:12:43+03:00",
+  "pencere_baslangic": "2026-08-27",
+  "baslangic_arsivi": true,
+  "yeni": 2,
+  "kaynaklar": [
+   {
+    "kaynak": "tcmb",
+    "bulunan": 16,
+    "yeni": 2,
+    "hata": 0
+   }
+  ]
+ },
+ {
   "zaman": "2026-11-27T12:11:26+03:00",
   "pencere_baslangic": "2026-08-27",
   "baslangic_arsivi": true,

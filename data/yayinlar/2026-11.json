@@ -1,5 +1,313 @@
 [
  {
+  "id": "tcmb-2026-11-26-95688e",
+  "kurum": "tcmb",
+  "baslik_orijinal": "Makroihtiyati Çerçeveye İlişkin Basın Duyurusu (2026-52)",
+  "baslik_tr": "Makroihtiyati Çerçeveye İlişkin Basın Duyurusu (2026-52)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-52",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "Kamu bankası olarak yüksek Türk lirası mevduat hacmi nedeniyle zorunlu karşılık gelirlerindeki bu artış bankanın karlılığını ve net faiz marjını doğrudan olumlu etkileyecektir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "TCMB, Türk lirası mevduat zorunlu karşılıklarına ödenen faiz veya telafi ödemesi oranını ağırlıklı ortalama fonlama maliyetinin %86'sından %90'ına çıkarmıştır.",
+  "yayin_tarihi": "2026-11-26",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T12:12:43+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T12:12:43+03:00",
+    "icerik_hash": "ec7efe96f3f592d5"
+   }
+  ],
+  "alt_konular": [
+   "Zorunlu Karşılıklar",
+   "Para Politikası"
+  ],
+  "etkilenen_alanlar": [
+   "Net Faiz Marjı",
+   "Karlılık",
+   "Hazine Yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB, Türk lirası mevduat için tesis edilen zorunlu karşılıklara ödenen faiz veya telafi ödemesi oranını artırmıştır. Mevcut durumda ağırlıklı ortalama fonlama maliyetinin %86'sı olan oran %90'a çıkarılmıştır. Bu karar, makrofinansal istikrarı ve parasal aktarım mekanizmasını desteklemeyi amaçlamaktadır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Makrofinansal istikrarın ve parasal aktarım mekanizmasının desteklenmesi.",
+      "alinti": "makrofinansal istikrarı ve parasal aktarım mekanizmasını desteklemek amacıyla",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankaların Türk lirası mevduat tutma iştahının artırılması ve likidite yönetiminin desteklenmesi hedefleniyor olabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Eski oran ağırlıklı ortalama fonlama maliyetinin yüzde 86'sı olarak uygulanmaktaydı.",
+      "alinti": "TCMB ağırlıklı ortalama fonlama maliyetinin yüzde 86’sı yerine",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "TL zorunlu karşılıklara %90 oranında faiz veya telafi ödemesi yapılacaktır.",
+      "alinti": "yüzde 90’ı oranında faiz veya telafi ödemesi yapılmasına karar vermiştir.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Faiz geliri hesaplamalarında kullanılan katsayının güncellenmesi gerekecektir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hazine ve muhasebe sistemlerinde faiz hesaplama parametrelerinin güncellenmesi gerekebilir.",
+     "TCMB'den gelecek ödemelerin yeni oran üzerinden kontrolü için operasyonel süreçler gözden geçirilmelidir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TCMB nezdindeki TL zorunlu karşılıklar genellikle %0 risk ağırlığına tabi olduğundan RWA üzerinde doğrudan bir etki beklenmemektedir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "TL Zorunlu Karşılık Faiz/Telafi Ödemesi Oranı",
+     "onceki": "TCMB ağırlıklı ortalama fonlama maliyetinin %86'sı",
+     "yeni": "TCMB ağırlıklı ortalama fonlama maliyetinin %90'ı",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "İlgili değil",
+     "not": "Düzenleme doğrudan kredi riski parametrelerini etkilememektedir."
+    },
+    "LGD": {
+     "duzey": "İlgili değil",
+     "not": "Teminat değerleri veya geri kazanım oranları üzerinde bir etkisi yoktur."
+    },
+    "EAD": {
+     "duzey": "İlgili değil",
+     "not": "Kredi riski maruziyet tutarları ile ilgili değildir."
+    },
+    "ECL": {
+     "duzey": "Düşük",
+     "not": "Nakit akışlarını dolaylı etkileyebilir ancak beklenen kredi zarar hesaplamalarını doğrudan değiştirmez."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-26",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Bütçe ve Gelir Tahminleri",
+     "aciklama": "Zorunlu karşılık faiz gelirlerindeki artışın bütçe projeksiyonlarına ve karlılık hedeflerine yansıtılması."
+    },
+    {
+     "baslik": "Sistem Parametre Güncellemesi",
+     "aciklama": "Faiz/telafi ödemesi hesaplama oranının sistemlerde %86'dan %90'a güncellenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Makroihtiyati Çerçeveye İlişkin Basın Duyurusu (2026-52)",
+     "sayfa": 1,
+     "paragraf": 4
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T12:16:23+03:00",
+   "gonderilen_karakter": 1313,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 3,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "tcmb-2026-11-26-68f69f",
+  "kurum": "tcmb",
+  "baslik_orijinal": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-51)",
+  "baslik_tr": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-51)",
+  "url": "http://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/duyurular/basin/2026/duy2026-51",
+  "belge_turu": "Basın duyurusu",
+  "statu": "Nihai",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "TCMB'nin temel fonlama aracını geçici olarak durdurması, bankanın likidite yönetimini ve fonlama maliyetlerini doğrudan etkileyen bir para politikası adımıdır.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "TCMB, açık piyasa işlemleri kapsamında gerçekleştirilen bir hafta vadeli repo ihalelerine geçici olarak ara verildiğini duyurmuştur.",
+  "yayin_tarihi": "2026-11-26",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T12:12:43+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T12:12:43+03:00",
+    "icerik_hash": "2d95ae5993c0e5b3"
+   }
+  ],
+  "alt_konular": [
+   "Likidite Yönetimi",
+   "Açık Piyasa İşlemleri",
+   "Repo İhaleleri"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine Yönetimi",
+   "Likidite Riski",
+   "Fonlama Maliyeti"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": "2026-11-26",
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "TCMB, açık piyasa işlemleri çerçevesinde düzenlediği bir hafta vadeli repo ihalelerine geçici olarak ara vermiştir. Bu karar, piyasadaki TL likiditesini sıkılaştırmayı ve fonlamanın diğer kanallara (gecelik borç verme gibi) kaymasını amaçlamaktadır. Bankanın fonlama kompozisyonu ve maliyetleri üzerinde doğrudan etkisi olması beklenmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Bir hafta vadeli repo ihalelerine geçici olarak ara verilmesi",
+      "alinti": "açık piyasa işlemleri kapsamında gerçekleştirilen bir hafta vadeli repo ihalelerine geçici olarak ara verilmesi kararlaştırılmıştır.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Piyasadaki Türk lirası likiditesinin kontrol altına alınması ve sıkılaştırılması amaçlanıyor olabilir.",
+     "Bankaların fonlama ihtiyacının TCMB gecelik borç verme faiz oranına yönlendirilmesi hedeflenmiş olabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TCMB normal şartlarda haftalık repo ihaleleri yoluyla piyasayı politika faizi üzerinden fonlamaktaydı."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın ağırlıklı ortalama fonlama maliyetinde artış görülebilir.",
+     "İkincil piyasa faiz oranlarında yukarı yönlü baskı oluşabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hazine biriminin günlük likidite yönetim stratejilerini güncellemesi gerekebilir.",
+     "TCMB nezdindeki serbest depo hesaplarının ve gecelik borçlanma limitlerinin takibi önem kazanacaktır."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Piyasa riskine esas tutar hesaplamalarında, faiz oranı riski nedeniyle sınırlı bir etki görülebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Haftalık Repo İhaleleri",
+     "onceki": "Düzenli olarak gerçekleştirilen bir hafta vadeli repo ihaleleri.",
+     "yeni": "İhalelere geçici olarak ara verilmiştir.",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Artan fonlama maliyetleri makroekonomik göstergeler üzerinden PD tahminlerini dolaylı etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Doğrudan bir etki öngörülmemektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Doğrudan bir etki öngörülmemektedir."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "Faiz oranlarındaki olası artış, TFRS 9 kapsamındaki ileriye dönük makroekonomik senaryoları etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-26",
+     "referans": "Sayfa 1"
+    },
+    {
+     "tur": "Yürürlük",
+     "tarih": "2026-11-26",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Likidite Projeksiyonları",
+     "aciklama": "Haftalık repo fonlamasının kesilmesi sonrası oluşacak likidite açığının hangi kaynaklardan ve hangi maliyetle karşılanacağı analiz edilmelidir."
+    },
+    {
+     "baslik": "Fonlama Maliyeti Analizi",
+     "aciklama": "TCMB'nin bu adımının bankanın net faiz marjı üzerindeki olası etkileri simüle edilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Türk Lirası Likidite Yönetimine İlişkin Basın Duyurusu (2026-51)",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T12:16:50+03:00",
+   "gonderilen_karakter": 1053,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
   "id": "eba-2026-11-26-0f22c5",
   "kurum": "eba",
   "baslik_orijinal": "The EBA follow-up review confirms high level of supervisory convergence in applying default rules across the EU/EEA",
