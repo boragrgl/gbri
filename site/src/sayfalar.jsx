@@ -163,22 +163,58 @@ export function Kurumlar({ veri, izleme }) {
 }
 
 const DURUM = { analiz: 'Analiz edildi', ilgisiz: 'İlgisiz bulundu', elendi: 'Anahtar kelime süzgecinde elendi', bekliyor: 'Analiz bekliyor' }
+const TARIHAR = { '': 'Tümü', 7: 'Son 7 gün', 30: 'Son 30 gün', 90: 'Son 90 gün' }
 export function Kurum({ id, veri, izleme }) {
   const s = veri.kaynaklar.find((k) => k.id === id)
-  const ad = veri.adaylar.filter((a) => a.kurum === id).sort((a, b) => (b.tarih || '').localeCompare(a.tarih || ''))
-  const yay = Object.fromEntries(veri.yayinlar.map((x) => [x.id, x]))
-  if (!s && !ad.length) return <main className="w sayfa">Kaynak bulunamadı. <a href="#kurumlar">Kurumlar</a></main>
+  const [f, setF] = useState({ durum: '', onem: '', gun: '', q: '' })
+  const [sira, setSira] = useState({ alan: 'tarih', yon: -1 })
+  const yay = useMemo(() => Object.fromEntries(veri.yayinlar.map((x) => [x.id, x])), [veri])
+  const hepsi = useMemo(() => veri.adaylar.filter((a) => a.kurum === id), [veri, id])
+  const sinir = useMemo(() => { if (!f.gun) return null; const d = new Date(bugun()); d.setDate(d.getDate() - Number(f.gun)); return d.toISOString().slice(0, 10) }, [f.gun])
+  const ad = useMemo(() => {
+    const q = f.q.trim().toLocaleLowerCase('tr')
+    const l = hepsi.filter((a) => {
+      const y = yay[a.id]
+      if (f.durum && a.durum !== f.durum) return false
+      if (f.onem && (!y || y.onem !== f.onem)) return false
+      if (sinir && (!a.tarih || a.tarih < sinir)) return false
+      if (q && !((y ? y.baslik_tr : '') + ' ' + a.baslik).toLocaleLowerCase('tr').includes(q)) return false
+      return true
+    })
+    const anahtar = (a) => sira.alan === 'onem' ? (yay[a.id] ? ONEMSIRA[yay[a.id].onem] : 9) : (a.tarih || '')
+    return l.sort((a, b) => {
+      const x = anahtar(a), y = anahtar(b)
+      if (x === y) return 0
+      if (sira.alan === 'onem' && (x === 9 || y === 9)) return x === 9 ? 1 : -1  // önemi olmayanlar hep sonda
+      return (x < y ? -1 : 1) * sira.yon
+    })
+  }, [hepsi, yay, f, sinir, sira])
+  if (!s && !hepsi.length) return <main className="w sayfa">Kaynak bulunamadı. <a href="#kurumlar">Kurumlar</a></main>
+  const baslik = (alan, e) => (<th className="sirali" onClick={() => setSira((o) => ({ alan, yon: o.alan === alan ? -o.yon : (alan === 'tarih' ? -1 : 1) }))}>
+    {e}{sira.alan === alan ? (sira.yon < 0 ? ' ↓' : ' ↑') : ''}</th>)
+  const durumlar = Object.keys(DURUM).filter((d) => hepsi.some((a) => a.durum === d))
   return (<main className="w sayfa"><section><div className="mut" style={{ fontSize: 13 }}><a href="#kurumlar">Kurumlar</a> / {kn(id)}</div>
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center', justifyContent: 'space-between', marginTop: 6 }}>
       <div><h1 className="buyuk" style={{ fontSize: 34 }}>{s ? s.ad : kn(id)}</h1>{KURUM_TAM[id] && <div className="mut" style={{ fontSize: 13 }}>{KURUM_TAM[id]}</div>}</div>
       <button className={'yildiz' + (izleme.kurum.includes(id) ? ' on' : '')} onClick={() => izleme.degistir('kurum', id)}>{izleme.kurum.includes(id) ? '★ İzleniyor' : '☆ Kurumu izle'}</button></div>
-    <p className="mut" style={{ margin: '8px 0 0' }}>Bu kaynaktan toplanan {ad.length} haber. Süzgeçte elenenler de burada, nedeniyle birlikte listelenir.</p></section>
-    <div className="card tablo"><table style={{ minWidth: 700 }}><thead><tr><th>Tarih</th><th>Başlık</th><th>Durum</th><th>Önem</th></tr></thead><tbody>
+    <p className="mut" style={{ margin: '8px 0 0' }}>Bu kaynaktan toplanan {hepsi.length} haber. Süzgeçte elenenler de burada, nedeniyle birlikte listelenir.</p></section>
+    <div className="filtre">
+      <label>Durum<select value={f.durum} onChange={(e) => setF({ ...f, durum: e.target.value })}><option value="">Tümü</option>
+        {durumlar.map((d) => <option key={d} value={d}>{DURUM[d]}</option>)}</select></label>
+      <label>Önem<select value={f.onem} onChange={(e) => setF({ ...f, onem: e.target.value })}><option value="">Tümü</option>
+        {Object.keys(ONEMSIRA).map((o) => <option key={o} value={o}>{o}</option>)}</select></label>
+      <label>Tarih<select value={f.gun} onChange={(e) => setF({ ...f, gun: e.target.value })}>
+        {Object.entries(TARIHAR).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select></label>
+      <label>Başlıkta ara<input value={f.q} onChange={(e) => setF({ ...f, q: e.target.value })} placeholder="Başlık…" /></label>
+      {(f.durum || f.onem || f.gun || f.q) && <button className="yildiz" onClick={() => setF({ durum: '', onem: '', gun: '', q: '' })}>Temizle</button>}
+      <span className="mut" style={{ fontSize: 13 }}>{hepsi.length} haberden {ad.length} tanesi gösteriliyor</span></div>
+    <div className="card tablo"><table style={{ minWidth: 700 }}><thead><tr>{baslik('tarih', 'Tarih')}<th>Başlık</th><th>Durum</th>{baslik('onem', 'Önem')}</tr></thead><tbody>
       {ad.map((a) => { const y = yay[a.id]; return (<tr key={a.id + a.url}>
         <td className="mut" style={{ whiteSpace: 'nowrap' }}>{a.tarih ? trKisa(a.tarih) : '—'}</td>
         <td>{y ? <a href={'#y-' + y.id}>{y.baslik_tr}</a> : <a href={a.url} target="_blank" rel="noopener noreferrer">{a.baslik} ↗</a>}</td>
         <td style={{ fontSize: 12 }}>{DURUM[a.durum]}{a.durum === 'elendi' && a.neden ? ` (${a.neden})` : ''}</td>
-        <td>{y ? <Sev o={y.onem} /> : '—'}</td></tr>) })}</tbody></table></div></main>)
+        <td>{y ? <Sev o={y.onem} /> : '—'}</td></tr>) })}
+      {!ad.length && <tr><td colSpan={4} className="mut" style={{ textAlign: 'center', padding: 20 }}>Seçilen filtrelere uyan haber yok.</td></tr>}</tbody></table></div></main>)
 }
 
 export function Izleme({ veri, izleme }) {

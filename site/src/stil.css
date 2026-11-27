@@ -153,3 +153,4 @@ a.kaynak:hover{border-color:var(--g);text-decoration:none;background:#EEF4F2}
 @media(max-width:720px){.baslikkutu{padding:18px 20px}.baslikkutu h1{font-size:26px}.kpibox{padding:10px 12px}.kpibox .n{font-size:26px}}
 
 .sayfasonu{display:flex;justify-content:center;padding-top:8px;padding-bottom:36px}
+.sirali{cursor:pointer;user-select:none;white-space:nowrap}.sirali:hover{color:var(--ink,#111)}
