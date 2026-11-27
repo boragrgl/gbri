@@ -421,6 +421,275 @@
   }
  },
  {
+  "id": "imf-2026-11-27-1bb02e",
+  "kurum": "imf",
+  "baslik_orijinal": "Private finance and climate investment needs: an analytical framework",
+  "baslik_tr": "Özel finansman ve iklim yatırımı ihtiyaçları: analitik bir çerçeve",
+  "url": "dosya:data/manuel/imf/wp-iklim-ozel-finansman.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "Belge, gelişmekte olan piyasalarda iklim finansmanı için analitik bir çerçeve sunmakta olup, bankanın kredi riski yönetimi ve sürdürülebilir finans stratejileri için stratejik bir rehber niteliğindedir.",
+  "konu": "Sürdürülebilirlik",
+  "ozet_tek_satir": "Bu rapor, iklim değişikliği kaynaklı risklerin yönetilmesi ve düşük karbonlu ekonomiye geçiş için gerekli olan özel sektör yatırımlarının teşvik edilmesine yönelik makro-yapısal reformlar, iklim önlemleri ve karma finansman modellerini içeren analitik bir çerçeve sunmaktadır.",
+  "yayin_tarihi": "2026-11-27",
+  "tarih_kaynagi": "tespit",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "eba296e9d78c1796"
+   }
+  ],
+  "alt_konular": [
+   "İklim finansmanı",
+   "Geçiş finansmanı",
+   "Blended finance",
+   "Risk yönetimi"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Stratejik planlama",
+   "Sürdürülebilir finans"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF tarafından hazırlanan bu çalışma, gelişmekte olan ekonomilerde iklim yatırımlarının finansmanı için makro-yapısal reformlar, iklim önlemleri ve karma finansman (blended finance) yöntemlerini içeren bir çerçeve sunmaktadır. Bankamızın kamu sermayeli yapısı göz önüne alındığında, bu belge özellikle proje finansmanı, risk azaltma mekanizmaları ve sürdürülebilir varlık portföyünün geliştirilmesi konularında stratejik bir bakış açısı sağlamaktadır. Belge, iklim risklerinin finansal istikrar üzerindeki etkilerini vurgulayarak, bankaların geçiş planlarına ve iklim verisi mimarisine uyum sağlamasının önemine dikkat çekmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "İklim yatırımlarının finansmanı için makro-yapısal reformlar, iklim önlemleri ve karma finansman yöntemlerini içeren bir analitik çerçeve sunulması.",
+      "alinti": "We develop a n analytical framework that categorizes t projects along a financing spectrum based on their broad risk -return profiles.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın iklimle ilgili kredi portföyü oluşturma süreçlerinde, IMF'nin önerdiği 'blended finance' modellerinin kullanılmasıyla risk iştahının optimize edilebileceği değerlendirilmektedir.",
+     "İklim verisi mimarisine uyum sağlanması, bankanın raporlama standartlarını güçlendirebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "İklim risklerinin kredi derecelendirme modellerine entegrasyonu için yeni veri setlerine ihtiyaç duyulabilir.",
+     "Geçiş finansmanı (transition finance) kapsamında, yüksek karbonlu sektörlerdeki müşterilerin geçiş planlarının izlenmesi için yeni bir izleme mekanizması kurulması gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Proje hazırlık kapasitesinin artırılması amacıyla teknik uzmanlık birimlerinin kurulması gerekebilir.",
+     "Sürdürülebilir finans ürünlerinin (yeşil tahvil, sürdürülebilirlik bağlantılı krediler) çeşitlendirilmesi operasyonel süreçleri etkileyebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "İklim riskine duyarlı varlıkların portföydeki payının artması, sermaye yeterlilik rasyoları üzerinde uzun vadeli bir etki yaratabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "İklim risklerinin yönetimi, uzun vadede müşterilerin temerrüt olasılığını etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "İklim değişikliğine uyumlu varlıkların teminat değerleri, iklim risklerinden daha az etkilenebilir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Doğrudan bir etki öngörülmemektedir."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "TFRS 9 kapsamında beklenen kredi zararları, iklim risk senaryolarının modele dahil edilmesiyle değişebilir."
+    }
+   },
+   "tarihler": [],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "İklim Verisi Mimarisi",
+     "aciklama": "Bankanın iklimle ilgili verileri toplama ve analiz etme kapasitesinin, uluslararası standartlarla uyumlu hale getirilmesi."
+    },
+    {
+     "baslik": "Geçiş Planları",
+     "aciklama": "Yüksek karbonlu sektörlerdeki müşteriler için geçiş planlarının değerlendirilmesi ve izlenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Channels Affecting Private Climate Finance Flows",
+     "sayfa": 7,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:16:04+03:00",
+   "gonderilen_karakter": 135104,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "imf-2026-11-27-0e9307",
+  "kurum": "imf",
+  "baslik_orijinal": "2026 Financial Sector Assessment Program Review—Strengthening Agility, Focus, and Impact (IMF Policy Paper 2026/036)",
+  "baslik_tr": "2026 Finansal Sektör Değerlendirme Programı (FSAP) Gözden Geçirmesi—Çevikliği, Odağı ve Etkiyi Güçlendirme",
+  "url": "dosya:data/manuel/imf/fsap-review-2026.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Nihai",
+  "onem": "Orta",
+  "onem_gerekcesi": "IMF'nin FSAP programındaki metodolojik değişiklikler, bankanın tabi olduğu standart yaklaşım ve raporlama süreçlerini dolaylı olarak etkileyebilir. Kamu bankası olarak, FSAP kapsamındaki risk odaklı yaklaşımlar ve modüler yapı, bankanın denetim ve raporlama önceliklerini gözden geçirmesini gerektirebilir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "IMF'nin finansal sistem istikrarını değerlendirdiği FSAP programının, değişen makro-finansal riskler, iklim değişikliği ve dijitalleşme süreçlerine uyum sağlaması için güncellenmesini ve daha risk odaklı bir yapıya kavuşturulmasını hedefleyen stratejik bir incelemedir.",
+  "yayin_tarihi": "2026-11-27",
+  "tarih_kaynagi": "tespit",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "ef26b90003c40baf"
+   }
+  ],
+  "alt_konular": [
+   "FSAP",
+   "Risk odaklı denetim",
+   "Sistemik riskler",
+   "NBFI (Bankacılık dışı finansal kuruluşlar)"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Raporlama",
+   "Stratejik Planlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF, FSAP programını daha çevik, modüler ve risk odaklı hale getirmek için bir reform süreci başlatmıştır. Bu kapsamda, zorunlu FSAP değerlendirmelerinde üç sütunlu yapının korunmasına rağmen, her sütunun derinliğinin ilk teşhis sonuçlarına göre belirleneceği modüler bir yaklaşım benimsenmektedir. Bankamızın, özellikle NBFI etkileşimleri, siber riskler ve iklim değişikliği gibi gelişmekte olan risk alanlarında artan denetim beklentilerine hazırlıklı olması gerekmektedir.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın denetim süreçlerinde daha fazla modüler ve risk odaklı raporlama beklentisi oluşabilir.",
+     "Sistemik öneme sahip bankalar için FSAP değerlendirmelerinin sıklığı ve kapsamı değişebilir.",
+     "FSAP programının daha çevik, modüler ve risk odaklı hale getirilmesi hedeflenmektedir. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın stres testi modellerinde NBFI ve piyasa bazlı finansman kanallarının daha fazla entegre edilmesi gerekebilir.",
+     "Siber risk ve yapay zeka yönetişimi konusunda yeni veri toplama ve raporlama standartları beklenebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "FSAP denetim süreçlerinde banka personelinin ayırması gereken zaman ve kaynak ihtiyacı, modüler yapı nedeniyle değişkenlik gösterebilir.",
+     "Denetim otoriteleri ile veri paylaşımı süreçlerinde daha fazla otomasyon ve dijitalleşme ihtiyacı doğabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Sistemik risklerin daha iyi tanımlanması, sermaye tamponları üzerinde dolaylı bir baskı oluşturabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Fiziksel iklim risklerinin banka portföyü üzerindeki etkisinin daha sık raporlanması istenebilir."
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "FSAP Modüler Yaklaşım",
+     "onceki": "Tüm sütunların kapsamlı ve derinlemesine değerlendirilmesi.",
+     "yeni": "İlk teşhis sonuçlarına göre sütun bazlı modüler ve risk odaklı derinlik seçimi.",
+     "referans": "Sayfa 21"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Sistemik risklerin daha yakından izlenmesi, kredi risk parametrelerinin güncellenmesini tetikleyebilir."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "Teminat yönetimi ve NBFI etkileşimleri LGD tahminlerini etkileyebilir."
+    },
+    "EAD": {
+     "duzey": "Dolaylı",
+     "not": "Piyasa bazlı finansman ve türev ürünlerdeki artış EAD hesaplamalarını etkileyebilir."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "İklim ve siber risklerin TFRS 9 kapsamında ECL modellerine dahil edilmesi beklentisi artabilir."
+    }
+   },
+   "tarihler": [],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "NBFI Etkileşimleri",
+     "aciklama": "Bankanın bankacılık dışı finansal kuruluşlarla olan risk maruziyetlerinin sistemik risk perspektifiyle gözden geçirilmesi."
+    },
+    {
+     "baslik": "Siber Risk Yönetişimi",
+     "aciklama": "Yapay zeka ve kritik üçüncü taraf sağlayıcıların kullanımına ilişkin risk yönetimi çerçevesinin güncellenmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "FSAP SCOPE: CHARTING THE PATH AHEAD",
+     "sayfa": 11,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:16:18+03:00",
+   "gonderilen_karakter": 150000,
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 1,
+   "guven": "Düşük",
+   "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
+  }
+ },
+ {
   "id": "tcmb-2026-11-26-95688e",
   "kurum": "tcmb",
   "baslik_orijinal": "Makroihtiyati Çerçeveye İlişkin Basın Duyurusu (2026-52)",
@@ -6137,6 +6406,137 @@
    "model": "gemini-3.1-flash-lite",
    "olusturma_zamani": "2026-11-26T15:59:45+03:00",
    "gonderilen_karakter": 555,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "imf-2026-11-01-276f82",
+  "kurum": "imf",
+  "baslik_orijinal": "Household Vulnerability, Bank Solvency, and Policy Design in the Middle East War",
+  "baslik_tr": "Hanehalkı Kırılganlığı, Banka Ödeme Gücü ve Orta Doğu Savaşında Politika Tasarımı",
+  "url": "dosya:data/manuel/imf/wp-26-243.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Bu belge bir IMF çalışma kağıdıdır; bağlayıcı bir düzenleme değil, akademik araştırma niteliğindedir. Euro bölgesi verilerine dayandığı için Türk bankacılık sistemi için doğrudan bir uyum zorunluluğu içermemektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "Çalışma, hanehalkı bilançoları ile banka ödeme gücü arasındaki bağlantıyı analiz ederek makroekonomik şokların banka sermayesi ve kredi kayıpları üzerindeki etkilerini stres testi yöntemiyle değerlendirmektedir.",
+  "yayin_tarihi": "2026-11-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "ea898fa531f5efc4"
+   }
+  ],
+  "alt_konular": [
+   "Stres Testi",
+   "Kredi Riski",
+   "Hanehalkı Borçluluğu"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Stratejik Planlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF tarafından hazırlanan bu çalışma, hanehalkı bilançoları, banka ödeme gücü ve tüketim arasındaki bağlantıları inceleyen bir stres testi çerçevesi sunmaktadır. Euro bölgesi verileri kullanılarak, yaşam maliyeti ayarlı borç servis oranının hanehalkı temerrüt riskini tahmin etmede daha etkili olduğu vurgulanmaktadır. Çalışma, makroekonomik şokların banka sermayesi üzerindeki etkilerini ve hedeflenmiş maliye politikalarının bu etkileri nasıl hafifletebileceğini analiz etmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Hanehalkı bilançoları, banka ödeme gücü ve tüketim arasındaki bağlantıları kuran bir çerçeve geliştirilmesi.",
+      "alinti": "We develop a framework that links household balance sheets, bank solvency, and consumption to quantify the transmissi on of macroeconomic shocks",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın stres testi modellerinde yaşam maliyeti ayarlı borç servis oranı gibi yeni göstergelerin kullanılması değerlendirilebilir.",
+     "Hanehalkı kredi portföyünün makroekonomik şoklara karşı duyarlılığını ölçmek için benzer bir metodolojik yaklaşım benimsenebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Kredi riski karşılık hesaplamalarında, yaşam maliyeti artışlarının hanehalkı temerrüt olasılığı üzerindeki etkisinin daha yakından izlenmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Hanehalkı verilerinin daha detaylı analizi için veri toplama ve işleme süreçlerinde iyileştirmeler yapılabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Stresli senaryolarda hanehalkı kredi kayıplarının artması, banka sermaye yeterlilik rasyoları üzerinde baskı oluşturabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Hanehalkı temerrüt riskinin yaşam maliyeti artışlarıyla korelasyonu, PD modellerinde güncellemeyi gerektirebilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "Makroekonomik senaryoların hanehalkı üzerindeki etkisi, TFRS 9 kapsamında beklenen kredi zararı karşılıklarını dolaylı olarak etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-11-01",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Hanehalkı Kredi Riski Modelleri",
+     "aciklama": "Yaşam maliyeti ayarlı borç servis oranlarının mevcut kredi risk modellerine entegrasyonu."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Household Vulnerability, Bank Solvency, and Policy Design in the Middle East War",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:16:31+03:00",
+   "gonderilen_karakter": 10905,
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"

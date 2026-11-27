@@ -4567,6 +4567,413 @@
   }
  },
  {
+  "id": "imf-2026-10-01-9a427b",
+  "kurum": "imf",
+  "baslik_orijinal": "Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation",
+  "baslik_tr": "Küresel Finansal İstikrar Raporu, Ekim 2026: Dayanıklılık, Risk ve Dönüşüm",
+  "url": "dosya:data/manuel/imf/gfsr-2026-ekim.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "Rapor, küresel finansal sistemdeki kırılganlıkları, özellikle banka dışı finansal kuruluşların (NBFI) artan kaldıraç ve likidite risklerini vurgulamaktadır. Kamu bankası olarak, bu piyasa koşullarının kredi riski ve fonlama maliyetleri üzerindeki dolaylı etkileri kritik önem taşımaktadır.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "IMF tarafından hazırlanan bu rapor, küresel finansal piyasalardaki riskleri, hedge fonların finansal istikrar üzerindeki etkilerini ve varlık tokenizasyonunun finansal sistemdeki yerini analiz etmektedir.",
+  "yayin_tarihi": "2026-10-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "16ac5732ac66d8f4"
+   }
+  ],
+  "alt_konular": [
+   "Kredi riski",
+   "Likidite riski",
+   "Kaldıraç",
+   "Siber güvenlik"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Hazine ve piyasa işlemleri",
+   "Raporlama",
+   "Siber güvenlik"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF'nin Ekim 2026 tarihli raporu, küresel finansal piyasaların dirençli kalmasına rağmen, yapay zeka (AI) kaynaklı piyasa düzeltmeleri, devlet tahvili getirilerindeki keskin artışlar ve siber tehditler gibi üç temel riskin yükseldiğini belirtmektedir. Banka dışı finansal kuruluşlardaki (hedge fonlar, özel kredi fonları) yüksek kaldıraç ve likidite uyumsuzlukları, piyasa stresi anında sistemik riskleri tetikleyebilecek temel kırılganlıklar olarak tanımlanmıştır. Kamu bankaları için bu durum, kredi portföyü kalitesinin yakından izlenmesini ve piyasa oynaklığına karşı likidite tamponlarının korunmasını zorunlu kılmaktadır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Finansal sistemin maruz kaldığı temel kırılganlıkların değerlendirilmesi ve sistemik risklerin önlenmesi.",
+      "alinti": "The Global Financial Stability Report (GFSR) assesses key vulnerabilities the global financial system is exposed to.",
+      "sayfa": 8,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Küresel piyasalardaki oynaklık, bankanın fonlama maliyetlerini artırabilir.",
+     "AI sektöründeki olası bir düzeltme, bu sektöre kredi sağlayan veya teminat alan bankalar için kredi riskini artırabilir.",
+     "Siber tehditlerin artması, bankanın operasyonel risk yönetimi ve siber savunma bütçelerinin artmasını gerektirebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankanın kredi riski modellerinde, özellikle özel kredi (private credit) ve AI bağlantılı firmalar için stres testi senaryolarının güncellenmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Siber güvenlik protokollerinin, yapay zeka destekli saldırılara karşı güçlendirilmesi gerekebilir.",
+     "Üçüncü taraf hizmet sağlayıcıların (bulut, yazılım) risk denetimlerinin sıkılaştırılması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Piyasa stresi senaryolarında, bankanın sermaye yeterlilik rasyoları üzerinde baskı oluşabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Hedge fonların piyasa etkisi",
+     "onceki": "Daha düşük piyasa ayak izi ve daha az kaldıraç kullanımı.",
+     "yeni": "Hedge fonların brüt varlıkları 2013'ten bu yana üç katına çıkarak 13 trilyon dolara ulaştı.",
+     "referans": "Sayfa 35"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Orta",
+     "not": "AI sektöründeki veya özel kredi piyasasındaki bir düzeltme, kurumsal kredilerin temerrüt olasılığını artırabilir."
+    },
+    "LGD": {
+     "duzey": "Orta",
+     "not": "Piyasa likiditesinin azalması durumunda, teminatların nakde dönüştürülme süreci zorlaşabilir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Kredi limitlerinin kullanımı, piyasa stresi anında artış gösterebilir."
+    },
+    "ECL": {
+     "duzey": "Yüksek",
+     "not": "TFRS 9 kapsamında, ileriye dönük makroekonomik senaryolarda piyasa oynaklığı ve siber risklerin ağırlığı artırılmalıdır."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-10-01",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Siber Güvenlik Stratejisi",
+     "aciklama": "Yapay zeka destekli siber saldırılara karşı savunma kapasitesinin ve incident reporting süreçlerinin gözden geçirilmesi."
+    },
+    {
+     "baslik": "Kredi Portföyü İzleme",
+     "aciklama": "Özel kredi (private credit) ve AI ekosistemindeki firmalara olan maruziyetlerin, kaldıraç oranları bazında yeniden değerlendirilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Chapter 1. Beneath the Resilience: Rising Risks, Unresolved Vulnerabilities",
+     "sayfa": 13,
+     "paragraf": null
+    },
+    {
+     "metin": "Chapter 2. Hedge Funds and Financial Stability",
+     "sayfa": 35,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:18:41+03:00",
+   "gonderilen_karakter": 150000,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Orta",
+   "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
+  }
+ },
+ {
+  "id": "imf-2026-10-01-713940",
+  "kurum": "imf",
+  "baslik_orijinal": "Corporate Sector Stress Testing with Endogenous Balance Sheet Dynamics (IMF Working Paper WP/26/209)",
+  "baslik_tr": "İçsel Bilanço Dinamikleri ile Kurumsal Sektör Stres Testi",
+  "url": "dosya:data/manuel/imf/wp-26-209.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Bu belge bir IMF çalışma kağıdı olup, akademik araştırma niteliğindedir ve banka için bağlayıcı bir düzenleme içermemektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "Bu çalışma, makro-finansal senaryolara bağlı olarak şirketlerin gelir tabloları ve bilançolarını simüle eden, temerrüt olasılığı (PD) ve temerrüt anında kayıp (LGD) gibi risk metriklerini hesaplayan bir stres testi çerçevesi sunmaktadır.",
+  "yayin_tarihi": "2026-10-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "b6cb21c315961d5b"
+   }
+  ],
+  "alt_konular": [
+   "Stres testleri",
+   "Kurumsal kredi riski"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Stres testi modelleri"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF tarafından yayımlanan bu çalışma kağıdı, finansal olmayan şirketlerin bilanço dinamiklerini makro-finansal senaryolarla ilişkilendiren bir stres testi çerçevesi sunmaktadır. Model, borçlanma maliyetleri ile kredi riski arasında içsel bir geri besleme mekanizması kurarak temerrüt olasılığı (PD) ve temerrüt anında kayıp (LGD) metriklerini hesaplamayı amaçlamaktadır. Bankamızın standart yaklaşım kullanan yapısı için doğrudan bir uygulama zorunluluğu getirmemekle birlikte, stres testi metodolojilerinin geliştirilmesi açısından akademik bir referans niteliği taşımaktadır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Çalışma, finansal olmayan şirketlerin bilanço stres testleri için bir çerçeve sunmaktadır.",
+      "alinti": "This paper presents a stress test framework for nonfinancial corporate (NFC) balance sheets",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın mevcut stres testi modellerinde borçlanma maliyeti ve kredi riski arasındaki içsel etkileşimin daha detaylı modellenmesi için bir metodolojik kaynak olarak kullanılabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Stres testi modellerinde stok-akış muhasebesi entegrasyonu için yeni bir yaklaşım önerilmektedir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Stres testi süreçlerinde veri işleme ve modelleme kapasitesinin artırılması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Stres testi sonuçlarının sermaye yeterlilik planlamasında daha dinamik kullanılmasına katkı sağlayabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Model, PD hesaplamalarında makro-finansal senaryoların etkisini içselleştirmeyi önermektedir."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "LGD hesaplamalarında bilanço dinamiklerinin dikkate alınması önerilmektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belge EAD hesaplamasına odaklanmamaktadır."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "TFRS 9 kapsamında beklenen kredi zararı hesaplamalarında stres testi sonuçlarının kullanımı için bir modelleme perspektifi sunabilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-10-01",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Stres Testi Metodolojisi",
+     "aciklama": "Kurumsal kredi riski stres testlerinde borçlanma maliyeti geri besleme mekanizmalarının modelleme süreçlerine dahil edilip edilemeyeceği değerlendirilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "I. INTRODUCTION",
+     "sayfa": 3,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:22:44+03:00",
+   "gonderilen_karakter": 4069,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "imf-2026-10-01-687035",
+  "kurum": "imf",
+  "baslik_orijinal": "Beyond Clearing: Central Counterparties' Investment and Risk Management of Cash from Margin Calls (IMF Working Paper WP/26/212)",
+  "baslik_tr": "Takasın Ötesinde: Merkezi Karşı Tarafların Teminat Çağrılarından Gelen Nakdin Yatırım ve Risk Yönetimi",
+  "url": "dosya:data/manuel/imf/wp-26-212.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Bu belge bir IMF çalışma kağıdı olup, bağlayıcı bir düzenleme değil, akademik bir araştırma ve analiz niteliğindedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "Bu çalışma, merkezi karşı tarafların (CCP) teminat olarak tuttukları nakdin yatırım süreçlerinde karşılaştıkları piyasa ve karşı taraf kredi risklerini analiz ederek, bu risklerin finansal piyasalardaki stresin yayılımı üzerindeki etkilerini incelemektedir.",
+  "yayin_tarihi": "2026-10-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "1d64ef0e6ee6eecc"
+   }
+  ],
+  "alt_konular": [
+   "Merkezi Karşı Taraf (CCP)",
+   "Yatırım Riski",
+   "Karşı Taraf Kredi Riski"
+  ],
+  "etkilenen_alanlar": [
+   "Hazine yönetimi",
+   "Kredi riski",
+   "Likidite yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF tarafından hazırlanan bu çalışma, merkezi karşı tarafların (CCP) teminat olarak tuttukları nakit varlıkların yatırım süreçlerindeki 'temerrüt dışı' riskleri incelemektedir. Çalışma, özellikle ters repo işlemlerinden kaynaklanan karşı taraf kredi riskinin ve yetersiz teminat iskonto oranlarının (haircut) finansal istikrar üzerindeki potansiyel etkilerine odaklanmaktadır. Bankamızın CCP'ler ile olan ilişkilerinde, bu kurumların nakit yönetimi uygulamalarından kaynaklanabilecek dolaylı risklerin izlenmesi önem arz etmektedir.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Bankamızın CCP'ler nezdindeki teminat yönetimi süreçlerinde, karşı taraf kredi riski maruziyetleri daha yakından izlenebilir.",
+     "CCP'lerin yatırım stratejilerindeki risklerin artması, bankamızın bu kurumlara olan likidite erişimini dolaylı olarak etkileyebilir.",
+     "Çalışma, CCP'lerin nakit yönetimi uygulamaları üzerinden finansal stresin sermaye piyasalarından para piyasalarına nasıl aktarılabileceğini analiz etmektedir. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "CCP'lerin ters repo işlemlerindeki teminat iskonto oranlarının (haircut) yetersizliği, bankamızın CCP'ler nezdindeki teminat değerleme modellerinin gözden geçirilmesini gerektirebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "CCP'lerin yatırım risklerine ilişkin raporlama ve izleme süreçlerinde daha detaylı stres testi senaryoları kullanılabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "CCP'lerin finansal istikrarı üzerindeki risklerin artması, bankamızın CCP'lere yönelik sermaye yükümlülükleri üzerinde dolaylı bir baskı oluşturabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "CCP'lerin yatırım yaptığı karşı tarafların temerrüt riski, bankamızın CCP'ler üzerindeki genel risk algısını etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "Teminat iskonto oranlarının (haircut) yetersizliği, CCP'lerin temerrüt durumunda geri kazanım oranlarını etkileyebilir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": ""
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "CCP'lerin temerrüt dışı kayıplarının artması, sistemik risk üzerinden dolaylı bir etki yaratabilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-10-01",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "CCP Karşı Taraf Kredi Riski",
+     "aciklama": "Bankamızın CCP'ler nezdindeki ters repo ve nakit yönetimi maruziyetlerinin, karşı taraf kredi riski açısından yeniden değerlendirilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Beyond Clearing: Central Counterparties’ Investment and Risk Management of Cash from Margin Calls",
+     "sayfa": 1,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:26:58+03:00",
+   "gonderilen_karakter": 5911,
+   "alinti_dogrulanan": 0,
+   "alinti_toplam": 1,
+   "guven": "Düşük"
+  }
+ },
+ {
   "id": "bddk-2026-10-01-dcfccb",
   "kurum": "bddk",
   "baslik_orijinal": "Kredi Kartı Asgari Ödeme Tutarının Değiştirilmesi Hk. Kurul Kararı",

@@ -210,13 +210,14 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-08-01-325819"
  }
 ]

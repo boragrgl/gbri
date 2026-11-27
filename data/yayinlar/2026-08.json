@@ -571,5 +571,179 @@
    "alinti_toplam": 4,
    "guven": "Yüksek"
   }
+ },
+ {
+  "id": "imf-2026-08-03-619644",
+  "kurum": "imf",
+  "baslik_orijinal": "FSAP Background Paper — NBFI Risk Assessment: Review of IMF Work and Future Strategy",
+  "baslik_tr": "FSAP Arka Plan Raporu — Banka Dışı Finansal Aracılık (NBFI) Risk Değerlendirmesi: IMF Çalışmalarının Gözden Geçirilmesi ve Gelecek Stratejisi",
+  "url": "dosya:data/manuel/imf/fsap-nbfi-risk.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Nihai",
+  "onem": "Orta",
+  "onem_gerekcesi": "Belge, banka dışı finansal aracılık (NBFI) risklerinin banka stres testlerine entegrasyonunu ve sistemik risk izleme yöntemlerinin güncellenmesini önermektedir. Kamu bankası olarak, banka dışı kuruluşlarla olan doğrudan ve dolaylı risklerin yönetimi önem arz etmektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "Rapor, banka dışı finansal kuruluşların (NBFI) sistemik risklerini, bankalarla olan bağlantılarını ve bu risklerin IMF'nin Finansal Sektör Değerlendirme Programı (FSAP) kapsamında nasıl daha etkin analiz edileceğini ele almaktadır.",
+  "yayin_tarihi": "2026-08-03",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "4ccf02f154f320f4"
+   }
+  ],
+  "alt_konular": [
+   "NBFI Risk Değerlendirmesi",
+   "Sistemik Likidite Stres Testleri",
+   "Banka-NBFI Bağlantıları"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Likidite riski",
+   "Stres testleri",
+   "Raporlama"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF, banka dışı finansal aracılık (NBFI) sektörünün artan karmaşıklığı ve bankalarla olan bağlantıları nedeniyle FSAP analizlerinde yeni öncelikler belirlemiştir. Bankaların NBFI sektörüne yönelik on ve off-balance sheet maruziyetlerinin stres testlerine dahil edilmesi ve sistemik likidite risklerinin daha yakından izlenmesi önerilmektedir. Veri eksiklikleri ve erişim kısıtları, analizlerdeki en önemli zorluklar olarak tanımlanmıştır.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "FSAP analizlerinin NBFI risklerini entegre etme yöntemlerinin gözden geçirilmesi ve gelecek dönem için önceliklerin belirlenmesi.",
+      "alinti": "This paper reviews how FSAP analysis has integrated risks from nonbank financial intermediation (NBFI) and proposes priorities for FSAP’s next phase.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın NBFI sektörüne yönelik kredi ve likidite risk yönetimi çerçevesini güncellemesi gerekebilir.",
+     "Banka stres testlerinde NBFI karşı taraf risklerinin daha detaylı ele alınması beklenebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Önceki çerçevede banka merkezli stres testleri ön plandayken, yeni yaklaşım NBFI bağlantılarını ve sistemik likidite yayılım etkilerini daha fazla içerebilir."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Banka dışı kuruluşlarla olan repo ve türev işlem verilerinin daha detaylı raporlanması gerekebilir.",
+     "Sistemik likidite stres testleri için yeni modelleme tekniklerine ihtiyaç duyulabilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "NBFI karşı taraf risklerinin izlenmesi için yeni veri toplama ve işleme kapasitesi gereksinimi doğabilir.",
+     "Banka içi stres testi süreçlerinde NBFI maruziyetlerinin daha sık güncellenmesi gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "NBFI maruziyetlerinin artması, standart yaklaşım altında sermaye yeterlilik rasyoları üzerinde baskı oluşturabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "NBFI Risk Analizi",
+     "onceki": "Banka merkezli stres testleri",
+     "yeni": "NBFI bağlantılarını içeren sistemik stres testleri",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "NBFI sektöründeki stresin banka karşı taraf riskleri üzerinden PD üzerinde dolaylı etkisi olabilir."
+    },
+    "LGD": {
+     "duzey": "Dolaylı",
+     "not": "NBFI ile olan teminatlı işlemlerdeki likidite sorunları LGD tahminlerini etkileyebilir."
+    },
+    "EAD": {
+     "duzey": "Yüksek",
+     "not": "NBFI sektörüne yönelik kredi hatları ve off-balance sheet maruziyetlerin EAD hesaplamalarına dahil edilmesi önerilmektedir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "NBFI bağlantılı risklerin artması, TFRS 9 kapsamında beklenen kredi zararı karşılıklarını etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-08-03",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "NBFI Maruziyetleri",
+     "aciklama": "Bankanın NBFI sektörüne yönelik on ve off-balance sheet maruziyetlerinin kapsamlı bir envanterinin çıkarılması."
+    },
+    {
+     "baslik": "Stres Testi Senaryoları",
+     "aciklama": "Banka stres testlerine NBFI bağlantılı likidite şoklarının dahil edilmesi."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "RECOMMENDATIONS FOR DATA AND RISK ASSESSMENTS",
+     "sayfa": 31,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3.1-flash-lite",
+   "olusturma_zamani": "2026-11-27T16:15:27+03:00",
+   "gonderilen_karakter": 134216,
+   "alinti_dogrulanan": 1,
+   "alinti_toplam": 1,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "imf-2026-08-01-325819",
+  "kurum": "imf",
+  "baslik_orijinal": "Rethinking the Credit-Growth Nexus: New Credit Flows and Private Demand in the Euro Area",
+  "baslik_tr": "Kredi-Büyüme İlişkisini Yeniden Düşünmek: Euro Bölgesi'nde Yeni Kredi Akışları ve Özel Talep",
+  "url": "dosya:data/manuel/imf/wp-26-184.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Belge, Euro Bölgesi'ndeki kredi akışları ve ekonomik büyüme arasındaki ilişkiyi inceleyen akademik bir çalışma olup, bankalar için bağlayıcı bir düzenleme, denetim kuralı veya raporlama standardı içermemektedir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Bu çalışma, kredi stokları yerine yeni kredi akışlarının ekonomik büyüme üzerindeki etkisini Euro Bölgesi verileri üzerinden analiz eden akademik bir IMF çalışma kağıdıdır.",
+  "yayin_tarihi": "2026-08-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "859739f7f39aed0c"
+   }
+  ]
  }
 ]

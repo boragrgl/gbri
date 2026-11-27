@@ -1352,14 +1352,15 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-10-01-9a427b"
  },
  {
   "aday_id": "imf-2026-10-01-713940",
@@ -1375,14 +1376,15 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-10-01-713940"
  },
  {
   "aday_id": "imf-2026-10-01-687035",
@@ -1398,14 +1400,15 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-10-01-687035"
  },
  {
   "aday_id": "bddk-2026-10-01-dcfccb",
