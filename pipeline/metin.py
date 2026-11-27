@@ -80,8 +80,21 @@ def _ana_pdf(ham_html, taban):
     return None
 
 
+def _yerel_metin(url):
+    """'dosya:data/manuel/...md' -> '## PDF Sayfa N' bolumlerine ayrilmis metin."""
+    yol = os.path.join(os.path.dirname(__file__), "..", url[len("dosya:"):])
+    ham = open(yol, encoding="utf-8").read()
+    parcalar = re.split(r"(?m)^## PDF Sayfa \d+\s*$", ham)[1:]
+    sayfalar = [re.sub(r"[ \t]+", " ", p).strip() for p in parcalar]
+    sayfalar = [p for p in sayfalar if p]
+    tam = "\n".join(f"[Sayfa {i}]\n{p}" for i, p in enumerate(sayfalar, 1))
+    return {"tur": "pdf", "sayfalar": sayfalar, "paragraflar": [], "tam": tam, "ham_uzunluk": len(ham), "ocr": False}
+
+
 def metin_al(url):
     """{'tur','sayfalar'(liste[str]),'paragraflar'(liste[str]) ,'tam'} doner."""
+    if url.startswith("dosya:"):
+        return _yerel_metin(url)
     b = _metin_al(url)
     if len(b["tam"]) < 400 and "resmigazete.gov.tr" in url and url.lower().endswith(".pdf"):
         try:  # taranmis PDF: ayni maddenin HTML surumu

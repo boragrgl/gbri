@@ -13,13 +13,16 @@ for f in sorted(glob.glob(K + "/data/adaylar/*.json")):
         if i in yid: d = "ilgisiz" if i in ilgisiz else "analiz"
         elif a.get("url") in yurl: d = "analiz"
         else: d = "elendi" if (a.get("filtre") or {}).get("sonuc") == "elendi" else "bekliyor"
-        adaylar.append({"id": i, "kurum": a["kurum"], "baslik": a.get("baslik_orijinal"), "url": a["url"],
+        adaylar.append({"id": i, "kurum": a["kurum"], "baslik": a.get("baslik_orijinal"), "url": a.get("kaynak_baglantisi") or a["url"],
                         "tarih": a.get("yayin_tarihi"), "durum": d, "neden": (a.get("filtre") or {}).get("neden")})
 kay = [{"id": s["id"], "ad": s["ad"], "bolge": s.get("bolge"), "aktif": s["aktif"], "ardisik_hata": s["ardisik_hata"],
         "son_tarama": s.get("son_basarili_tarama")} for s in oku("data/kaynaklar.json")]
 if not any(k["id"] == "imf" for k in kay):
     kay.append({"id": "imf", "ad": "IMF", "bolge": "uluslararasi", "aktif": False, "ardisik_hata": 0, "son_tarama": None})
 cikti = os.path.join(K, "site/public/data"); os.makedirs(cikti, exist_ok=True)
+for x in analizli:
+    if x.get("kaynak_baglantisi"):
+        x["url"] = x["kaynak_baglantisi"]
 for ad, v in (("yayinlar", analizli), ("adaylar", adaylar), ("kaynaklar", kay)):
     json.dump(v, open(f"{cikti}/{ad}.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(len(analizli), "yayin,", len(adaylar), "aday,", len(kay), "kaynak")

@@ -1434,5 +1434,74 @@
    ]
   },
   "kayit_id": "bcbs-2026-10-01-6f25d6"
+ },
+ {
+  "aday_id": "imf-2026-10-01-687035",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/wp-26-212.md",
+  "url_normal": "dosya:data/manuel/imf/wp-26-212.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "Beyond Clearing: Central Counterparties' Investment and Risk Management of Cash from Margin Calls (IMF Working Paper WP/26/212)",
+  "yayin_tarihi": "2026-10-01",
+  "tarih_kaynagi": "manuel-ay",
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  }
+ },
+ {
+  "aday_id": "imf-2026-10-01-713940",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/wp-26-209.md",
+  "url_normal": "dosya:data/manuel/imf/wp-26-209.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "Corporate Sector Stress Testing with Endogenous Balance Sheet Dynamics (IMF Working Paper WP/26/209)",
+  "yayin_tarihi": "2026-10-01",
+  "tarih_kaynagi": "manuel-ay",
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  }
+ },
+ {
+  "aday_id": "imf-2026-10-01-9a427b",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/gfsr-2026-ekim.md",
+  "url_normal": "dosya:data/manuel/imf/gfsr-2026-ekim.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation (IMF)",
+  "yayin_tarihi": "2026-10-01",
+  "tarih_kaynagi": "manuel-ay",
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  }
  }
 ]

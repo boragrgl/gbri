@@ -195,5 +195,28 @@
    ]
   },
   "kayit_id": "eba-2026-08-26-6dc17e"
+ },
+ {
+  "aday_id": "imf-2026-08-01-325819",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/wp-26-184.md",
+  "url_normal": "dosya:data/manuel/imf/wp-26-184.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "Rethinking the Credit-Growth Nexus: New Credit Flows and Private Demand in the Euro Area (IMF Working Paper WP/26/184)",
+  "yayin_tarihi": "2026-08-01",
+  "tarih_kaynagi": "manuel-ay",
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  }
  }
 ]

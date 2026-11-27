@@ -165,6 +165,7 @@ def isle(aday, yz, bugun, geri_gun=31):
         "baslik_orijinal": (k.get("baslik_orijinal") or aday["baslik_orijinal"]).strip(),
         "baslik_tr": (k.get("baslik_tr") or aday["baslik_orijinal"]).strip(),
         "url": aday["url"],
+        **({"kaynak_baglantisi": aday["kaynak_baglantisi"]} if aday.get("kaynak_baglantisi") else {}),
         "belge_turu": sec(k.get("belge_turu"), TUR, "Basın duyurusu"),
         "statu": sec(k.get("statu"), STATU, "Bilgi amaçlı"),
         "onem": "Düşük", "onem_gerekcesi": str(k.get("gerekce") or ""),
