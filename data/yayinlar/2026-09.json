@@ -146,7 +146,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-09/f6561915-4192-4d73-88ac-10f8bc09abca/EBA%20Work%20programme%202027.pdf"
  },
  {
   "id": "bddk-2026-09-30-27647e",
@@ -307,7 +308,8 @@
    "alinti_toplam": 1,
    "guven": "Orta",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-09/26394108-1837-4b5b-bce2-fba1d3c574b1/EBA%20Dashboard%20-%20Q2%202026.pdf"
  },
  {
   "id": "eba-2026-09-25-377506",
@@ -459,7 +461,8 @@
    "alinti_dogrulanan": 2,
    "alinti_toplam": 2,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2025-10/b8e0ef8e-2d49-43fc-b917-dbca3423588c/Report%20on%20the%20efficiency%20of%20the%20regulatory%20and%20supervisory%20framework.pdf"
  },
  {
   "id": "eba-2026-09-24-07ccfd",
@@ -599,7 +602,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-09/12cb4f01-0d51-46bf-a561-165ac486698f/EBA%20response%20to%20EC%20targeted%20consultation%20on%20MiCA%20review.pdf"
  },
  {
   "id": "eba-2026-09-23-30c6d7",
@@ -736,7 +740,8 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-09/ef331e5c-7bdc-488f-adc8-ca6286530ea0/JC%20Update%20on%20Risks%20and%20Vulnerabilities%20Autumn%202026%29.pdf"
  },
  {
   "id": "bcbs-2026-09-23-a89cce",
@@ -1008,7 +1013,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.bis.org/publications/202609-qis-basel-iii-monitoring-report_1.pdf"
  },
  {
   "id": "eba-2026-09-18-9f1d80",
@@ -1555,7 +1561,8 @@
    "alinti_dogrulanan": 3,
    "alinti_toplam": 3,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.tcmb.gov.tr/wps/wcm/connect/48060a92-a64c-4b93-bcc5-69820a4aaa3f/DUY2026-41.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-48060a92-a64c-4b93-bcc5-69820a4aaa3f-q2K7zgX"
  },
  {
   "id": "tcmb-2026-09-17-9e4859",
@@ -1746,7 +1753,8 @@
    "alinti_dogrulanan": 3,
    "alinti_toplam": 4,
    "guven": "Orta"
-  }
+  },
+  "ek_belge_url": "https://www.tcmb.gov.tr/wps/wcm/connect/150e8b1b-2b7b-4da3-a718-2c095d2a2dff/DUY2026-42.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-150e8b1b-2b7b-4da3-a718-2c095d2a2dff-q2Lb.Rn"
  },
  {
   "id": "bddk-2026-09-17-b8166e",
@@ -2304,7 +2312,8 @@
    "alinti_dogrulanan": 4,
    "alinti_toplam": 4,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.tcmb.gov.tr/wps/wcm/connect/664c6aae-5157-4d05-8b7f-2b4f9169edc9/DUY2026-38.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-664c6aae-5157-4d05-8b7f-2b4f9169edc9-q2a-nP9"
  },
  {
   "id": "eba-2026-09-09-bfda69",
@@ -2440,7 +2449,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-09/0b03b060-3a85-4dc1-a903-ad2efa0ef7ba/3%20months%20letter%20RTS%20OFs-ELs.pdf"
  },
  {
   "id": "imf-2026-09-01-cc8a7f",
@@ -2753,7 +2763,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 2,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.ifrs.org/content/dam/ifrs/about-us/legal-and-governance/legal-docs/modern-slavery-statement.pdf"
  },
  {
   "id": "ifrs-2026-09-01-b08fcc",
@@ -2882,7 +2893,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.ifrs.org/content/dam/ifrs/project/pir-ifrs-9-hedge-accounting/rfi-iasb-2026-1-pir-9-7-hedge-accounting.pdf"
  },
  {
   "id": "ifrs-2026-09-01-98c42a",
@@ -3018,6 +3030,7 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.ifrs.org/content/dam/ifrs/about-us/legal-and-governance/legal-docs/modern-slavery-statement.pdf"
  }
 ]

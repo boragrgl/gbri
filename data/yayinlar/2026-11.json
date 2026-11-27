@@ -844,7 +844,8 @@
    "alinti_dogrulanan": 3,
    "alinti_toplam": 3,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.tcmb.gov.tr/wps/wcm/connect/1ac76266-65fc-4470-8004-0e91fb58849e/DUY2026-52.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-1ac76266-65fc-4470-8004-0e91fb58849e-q8phlSd"
  },
  {
   "id": "tcmb-2026-11-26-68f69f",
@@ -995,7 +996,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.tcmb.gov.tr/wps/wcm/connect/41b545b8-a0f2-424a-b400-ced9df0425f2/DUY2026-51.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-41b545b8-a0f2-424a-b400-ced9df0425f2-q8pgTg6"
  },
  {
   "id": "eba-2026-11-26-0f22c5",
@@ -1132,7 +1134,8 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2024-07/9f4cbab0-8954-4ec8-81f4-2c604eb3c732/Peer%20Review%20report%20on%20the%20EBA%20Guidelines%20on%20the%20application%20of%20the%20DoD_0.pdf"
  },
  {
   "id": "fsb-2026-11-25-ea89d3",
@@ -1282,7 +1285,8 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.fsb.org/uploads/P251126.pdf"
  },
  {
   "id": "eba-2026-11-25-bd2fc0",
@@ -1433,7 +1437,8 @@
    "alinti_toplam": 2,
    "guven": "Düşük",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-11/29b24bca-c188-49ba-89c8-cb6193a56f00/Release%20Notes.4.4.phase1%20hotfix2.pdf"
  },
  {
   "id": "eba-2026-11-25-3a0cc2",
@@ -1564,7 +1569,8 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-11/33382389-2e75-4da8-845c-4201664befe9/Report%20on%20use%20of%20EMTs%20and%20other%20stablecoins%20in%20decentralised%20finance.pdf"
  },
  {
   "id": "bis-2026-11-25-d0dbf6",
@@ -2411,7 +2417,8 @@
    "alinti_toplam": 1,
    "guven": "Orta",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-11/828f300c-6a34-45c0-bbad-82ea626bf8fa/Risk%20Assessment%20Report%20-%20Autumn%202026_0.pdf"
  },
  {
   "id": "bddk-2026-11-19-f6d9f9",
@@ -2953,7 +2960,8 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://site.warrington.ufl.edu/ritter/files/IPOs-Age-of-Companies-Going-Public.pdf"
  },
  {
   "id": "ecb-2026-11-18-b62887",
@@ -3229,7 +3237,8 @@
    "alinti_toplam": 1,
    "guven": "Düşük",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
-  }
+  },
+  "ek_belge_url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202611~e03b919d36.en.pdf"
  },
  {
   "id": "ecb-2026-11-18-5ab2ba",
@@ -3368,7 +3377,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf"
  },
  {
   "id": "eba-2026-11-18-88065c",
@@ -3499,7 +3509,8 @@
    "alinti_dogrulanan": 0,
    "alinti_toplam": 1,
    "guven": "Düşük"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-11/71b9ce4f-3841-42cc-af67-7eec3bc8256c/EBA%20Report%20on%20analysis%20on%20market%20share%20of%20subsidiaries%20of%20third%20country%20banking%20groups.pdf"
  },
  {
   "id": "bis-2026-11-18-088aad",
@@ -3940,7 +3951,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.fsb.org/uploads/Modernisation-outreach-summary-agenda.pdf"
  },
  {
   "id": "ecb-2026-11-16-4125ee",
@@ -4084,7 +4096,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.fsb.org/uploads/P130423-3.pdf"
  },
  {
   "id": "eba-2026-11-16-c9ee06",
@@ -4512,7 +4525,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.tcmb.gov.tr/wps/wcm/connect/55b5ce99-ae46-4e97-88a4-bae6f02636fd/DUY2026-49.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-55b5ce99-ae46-4e97-88a4-bae6f02636fd-q7c1KVA"
  },
  {
   "id": "resmigazete-2026-11-11-b22ad1",
@@ -4928,7 +4942,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.fsb.org/uploads/Peer-Review-of-Turkiye.pdf"
  },
  {
   "id": "fsb-2026-11-11-37ca45",
@@ -5194,7 +5209,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2025-10/d47ae798-fe20-4d22-8113-bf669afb3b3d/Report%20on%20white%20labelling.pdf"
  },
  {
   "id": "eba-2026-11-09-61a683",
@@ -5352,7 +5368,8 @@
    "alinti_dogrulanan": 2,
    "alinti_toplam": 2,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2025-10/b8e0ef8e-2d49-43fc-b917-dbca3423588c/Report%20on%20the%20efficiency%20of%20the%20regulatory%20and%20supervisory%20framework.pdf"
  },
  {
   "id": "bcbs-2026-11-09-cac0f8",
@@ -5501,7 +5518,8 @@
    "alinti_toplam": 1,
    "guven": "Orta",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
-  }
+  },
+  "ek_belge_url": "https://www.bis.org/publications/interest-rate-risk-banking-book-additional-pillar-2-guidance_0.pdf"
  },
  {
   "id": "resmigazete-2026-11-06-98f1d1",
@@ -5768,7 +5786,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-07/5ebd21e8-52f4-4b99-acbc-f7d725c3694e/Opinion%20Finrep%20IFRS%2018%20-%20interim%20period.pdf"
  },
  {
   "id": "resmigazete-2026-11-05-54f6e7",
@@ -6069,7 +6088,8 @@
    "alinti_toplam": 2,
    "guven": "Düşük",
    "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
-  }
+  },
+  "ek_belge_url": "https://www.eba.europa.eu/sites/default/files/2026-11/3c8b1810-c335-499a-803f-6d795ce3d196/Final%20report%20on%20Guidelines%20on%20internal%20governance.pdf"
  },
  {
   "id": "bcbs-2026-11-05-ececd1",
@@ -6205,7 +6225,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.bis.org/publications/consolidated-guidelines-consequential-amendments.pdf"
  },
  {
   "id": "resmigazete-2026-11-04-3a73a4",
@@ -6678,7 +6699,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.ifrs.org/content/dam/ifrs/project/pir-ifrs-16/pir-ifrs16-feedbackstatement-2026.pdf"
  },
  {
   "id": "ifrs-2026-11-01-ba2a76",
@@ -6810,7 +6832,8 @@
    "alinti_dogrulanan": 1,
    "alinti_toplam": 1,
    "guven": "Yüksek"
-  }
+  },
+  "ek_belge_url": "https://www.ifrs.org/content/dam/ifrs/about-us/legal-and-governance/legal-docs/modern-slavery-statement.pdf"
  },
  {
   "id": "ifrs-2026-11-01-2c5d46",
