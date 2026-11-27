@@ -1,58 +1,419 @@
 [
  {
-  "url": "https://www.imf.org/en/publications/wp/index.json",
-  "hata": "HTTP Error 404: Not Found"
- },
- {
-  "url": "https://www.imf.org/en/publications/policy-papers/index.json",
-  "hata": "HTTP Error 404: Not Found"
- },
- {
-  "url": "https://www.imf.org/en/publications/sdn/index.json",
-  "hata": "HTTP Error 404: Not Found"
+  "url": "https://www.imf.org/en/publications/index.json",
+  "durum": 200,
+  "boyut": 8362,
+  "anahtarlar": [
+   "title",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "summary",
+   "sections",
+   "bullets",
+   "related",
+   "alternates",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 0,
+  "ilk_itemler": [],
+  "tarihler": [],
+  "sections": [
+   [
+    "Overview",
+    "- Access IMF Publications including: World Economic Outlook, Global Financial Stability Report, Fiscal Monitor, Regional Economic Outlooks, Annual Reports, Country Reports, Policy Papers, Working Papers, Departmental Papers, Staff Discussion Notes, Climate Notes, Fintech Notes, How-To Notes, Finance"
+   ],
+   [
+    "Latest Releases (selected)",
+    "- Shaping the Future of Asia: Opportunities and Challenges — Book\n  - Focus: how Asia can sustain growth and prosperity amid aging populations, technological change, shifting trade patterns, and climate challenges; offers policy solutions to help the region adapt and unlock new sources of growth.\n- "
+   ],
+   [
+    "Flagship Publications (examples and dates)",
+    "- World Economic Outlook — July 2026 — \"Global Economy in Crosscurrents of War and Technology\"\n- Global Financial Stability Report — April 2026 — \"Global Financial Markets Confront the War in the Middle East and Amplification Risks\"\n- Fiscal Monitor — \"Fiscal Policy under Pressure: High Debt, Rising"
+   ],
+   [
+    "Other Popular Series and Recent Themes",
+    "- Annual Report 2026\n- Global Policy Agenda, Spring 2026 — \"Managing Shocks and Transformations\"\n- F&D Magazine, September 2026 — \"Asia's New Opportunity\"\n- Country Reports — comprehensive background material on economic developments and trends in IMF member countries.\n- Regional Economic Outlook — "
+   ],
+   [
+    "Papers and Notes (series descriptions)",
+    "- IMF Note Series — practical advice and targeted analysis from IMF staff to policymakers on timely issues.\n- Departmental Papers — IMF staff research on issues of broad regional or cross-country interest.\n- Working Papers — in-depth research by IMF authors of theoretical and analytical nature on a "
+   ],
+   [
+    "Resources and Access",
+    "- IMF eLibrary — a comprehensive source of research and statistics with publications in multiple digital formats.\n- IMF Bookstore — an online bookstore where you can order IMF publications in a variety of languages and multiple print and digital formats.\n- Publications Catalog — provides a comprehen"
+   ]
+  ]
  },
  {
   "url": "https://www.imf.org/en/publications/gfsr/index.json",
-  "hata": "'int' object has no attribute 'replace'"
+  "durum": 200,
+  "boyut": 49266,
+  "anahtarlar": [
+   "title",
+   "pageKind",
+   "collectionShape",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "items",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 87,
+  "ilk_itemler": [
+   {
+    "position": 1,
+    "url": "https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026",
+    "title": "Global Financial Markets Confront the War in the Middle East and Amplification Risks",
+    "date": "April 14, 2026",
+    "description": "The global financial system is confronting the ongoing war in the Middle East, potential inflationary pressures, rising risks of further tightening in financial conditions, and several amplification channels that could lead from market turmoil to financial instability."
+   },
+   {
+    "position": 2,
+    "url": "https://www.imf.org/en/publications/gfsr/issues/2025/10/14/global-financial-stability-report-october-2025",
+    "title": "Global Financial Stability Report, October 2025: Shifting Ground beneath the Calm",
+    "date": "October 14, 2025",
+    "description": "<p>Financial stability risks remain elevated amid risks presented by stretched asset valuations, growing pressure in sovereign bond markets, and the increasing role of nonbank financial institutions."
+   }
+  ],
+  "tarihler": [
+   "April 14, 2026",
+   "October 14, 2025",
+   "April 22, 2025",
+   "October 22, 2024",
+   "April 16, 2024",
+   "October 10, 2023",
+   "April 11, 2023",
+   "October 11, 2022",
+   "October 4, 2022",
+   "April 19, 2022",
+   "April 18, 2022",
+   "October 12, 2021",
+   "April 6, 2021",
+   "April 6, 2021",
+   "January 27, 2021",
+   "October 23, 2020",
+   "October 13, 2020",
+   "June 25, 2020",
+   "April 14, 2020",
+   "April 14, 2020",
+   "October 11, 2019",
+   "October 11, 2019",
+   "October 11, 2019",
+   "October 11, 2019",
+   "October 11, 2019",
+   "October 11, 2019",
+   "October 11, 2019",
+   "October 1, 2019",
+   "March 27, 2019",
+   "September 25, 2018",
+   "April 2, 2018",
+   "March 30, 2017",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016"
+  ],
+  "sections": []
+ },
+ {
+  "url": "https://www.imf.org/en/publications/fm/index.json",
+  "durum": 200,
+  "boyut": 6982,
+  "anahtarlar": [
+   "title",
+   "pageKind",
+   "collectionShape",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "items",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 13,
+  "ilk_itemler": [
+   {
+    "position": 1,
+    "url": "https://www.imf.org/en/publications/fm/issues/2017/01/07/fiscal-exit-from-strategy-to-implementation",
+    "title": "IMF Fiscal Monitor -- Fiscal Exit: From Strategy to Implementation; November 2010 -- Contents",
+    "date": "January 7, 2017",
+    "description": "November 2010: With increasing fiscal challenges in the aftermath of the global financial crisis, multilateral surveillance of fiscal developments, a key part of the IMF's surveillance responsibilities, has gained further importance."
+   },
+   {
+    "position": 2,
+    "url": "https://www.imf.org/en/publications/fm/issues/2016/12/31/acting-now-acting-together",
+    "title": "IMF Fiscal Monitor -- Acting Now, Acting Together -- April 2016",
+    "date": "December 31, 2016",
+    "description": "International Monetary Fund, Fiscal Monitor, April 2016"
+   }
+  ],
+  "tarihler": [
+   "January 7, 2017",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016"
+  ],
+  "sections": []
+ },
+ {
+  "url": "https://www.imf.org/en/blogs/index.json",
+  "durum": 200,
+  "boyut": 10787,
+  "anahtarlar": [
+   "title",
+   "pageKind",
+   "collectionShape",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "items",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 24,
+  "ilk_itemler": [
+   {
+    "position": 1,
+    "url": "https://www.imf.org/en/blogs/articles/2026/09/17/what-governments-should-do-when-food-prices-surge",
+    "title": "What Governments Should Do When Food Prices Surge",
+    "date": "September 17, 2026",
+    "authors": [
+     "David Amaglobeli",
+     "Rodrigo Cerda",
+     "Tewodaj Mogues",
+     "Patrizia Tumbarello"
+    ],
+    "description": "The right choice between subsidies, vouchers, or in-kind distribution can help countries save precious resources"
+   },
+   {
+    "position": 2,
+    "url": "https://www.imf.org/en/blogs/articles/2026/09/02/asias-next-growth-story",
+    "title": "Asia’s Next Growth Story",
+    "date": "September 2, 2026",
+    "description": "The question for policymakers is how to seize new opportunities to renew Asia’s economic growth"
+   }
+  ],
+  "tarihler": [
+   "September 17, 2026",
+   "September 2, 2026",
+   "August 26, 2026",
+   "August 25, 2026",
+   "August 6, 2026",
+   "July 31, 2026",
+   "April 14, 2026",
+   "July 14, 2026",
+   "May 7, 2026",
+   "April 14, 2026",
+   "February 18, 2026",
+   "October 14, 2025",
+   "April 22, 2025",
+   "June 18, 2026",
+   "May 20, 2026",
+   "April 15, 2026",
+   "October 7, 2025",
+   "September 25, 2025",
+   "April 23, 2025",
+   "July 23, 2026",
+   "January 14, 2026",
+   "November 20, 2025",
+   "May 13, 2025",
+   "March 20, 2025"
+  ],
+  "sections": []
+ },
+ {
+  "url": "https://www.imf.org/en/publications/working-papers/index.json",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/publications/wp/issues/index.json",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/publications/staff-discussion-notes/index.json",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/publications/policy-papers/issues/index.json",
+  "hata": "HTTP Error 404: Not Found"
  },
  {
   "url": "https://www.imf.org/en/publications/fsap/index.json",
   "hata": "HTTP Error 404: Not Found"
  },
  {
-  "url": "https://www.imf.org/en/publications/cr/index.json",
+  "url": "https://www.imf.org/en/publications/weo/index.json",
+  "durum": 200,
+  "boyut": 47372,
+  "anahtarlar": [
+   "title",
+   "pageKind",
+   "collectionShape",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "items",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 89,
+  "ilk_itemler": [
+   {
+    "position": 1,
+    "url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "title": "World Economic Outlook Update, July 2026: Global Economy in Crosscurrents of War and Technology",
+    "date": "July 8, 2026",
+    "description": "Global growth is steady but uneven across countries amid headwinds from the war and tailwinds from the technology upcycle."
+   },
+   {
+    "position": 2,
+    "url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+    "title": "World Economic Outlook, April 2026: Global Economy in the Shadow of War",
+    "date": "April 14, 2026",
+    "description": "The latest World Economic Outlook reports slowing global growth and renewed inflationary pressures. Policies need to be agile, carefully manage the trade-offs involved in ramping up defense spending, and lay the foundation for a sustained recovery."
+   }
+  ],
+  "tarihler": [
+   "July 8, 2026",
+   "April 14, 2026",
+   "January 19, 2026",
+   "October 14, 2025",
+   "July 29, 2025",
+   "April 22, 2025",
+   "January 17, 2025",
+   "October 22, 2024",
+   "July 16, 2024",
+   "April 16, 2024",
+   "January 30, 2024",
+   "October 10, 2023",
+   "July 10, 2023",
+   "April 11, 2023",
+   "January 31, 2023",
+   "October 11, 2022",
+   "July 26, 2022",
+   "January 25, 2022",
+   "July 27, 2021",
+   "April 6, 2021",
+   "January 26, 2021",
+   "September 30, 2020",
+   "June 24, 2020",
+   "April 14, 2020",
+   "April 14, 2020",
+   "January 20, 2020",
+   "October 21, 2019",
+   "August 31, 2019",
+   "August 31, 2019",
+   "August 30, 2019",
+   "August 30, 2019",
+   "August 30, 2019",
+   "July 18, 2019",
+   "March 28, 2019",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016",
+   "December 31, 2016"
+  ],
+  "sections": []
+ },
+ {
+  "url": "https://www.imf.org/en/publications/ger/index.json",
   "hata": "HTTP Error 404: Not Found"
  },
  {
-  "url": "https://www.imf.org/en/publications/dp/index.json",
-  "hata": "HTTP Error 404: Not Found"
+  "url": "https://www.imf.org/en/publications/fandd/index.json",
+  "durum": 200,
+  "boyut": 6420,
+  "anahtarlar": [
+   "title",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "summary",
+   "sections",
+   "bullets",
+   "related",
+   "alternates",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 0,
+  "ilk_itemler": [],
+  "tarihler": [],
+  "sections": [
+   [
+    "Overview",
+    "- Finance & Development is the IMF's flagship magazine and online editorial platform that publishes cutting-edge analysis and insight on the latest trends and research in international finance, economics, and development.\n- The print edition is published quarterly in English, Arabic, Chinese, French"
+   ],
+   [
+    "Publication frequency, languages, and distribution",
+    "- Frequency: quarterly.\n- Print edition languages: English, Arabic, Chinese, French, Russian, and Spanish.\n- Web edition: supplemented with additional, online-only content.\n- Subscription: free print subscription available; newsletter provides weekly analysis of the world economy."
+   ],
+   [
+    "Featured themes and topics (examples from issues cited)",
+    "- Economic growth | September 2026\n  - Asia’s Next Growth Story — GITA BHATT\n  - Asia’s New Growth Challenge — KRISHNA SRINIVASAN\n  - What Asia Brings to the Table — TAN SU SHAN\n- International trade | September 2026\n  - A World Seeking Balance — MANASA PATNAM\n- Labor | September 2026\n  - Graduating"
+   ],
+   [
+    "Representative editorial formats and recurring sections",
+    "- Editor's pick articles (e.g., International trade | September 2026)\n- Country perspectives and interviews (e.g., Malaysia’s Second Finance Minister Amir Hamzah Azizan interview)\n- Point of View pieces (e.g., What Asia Brings to the Table)\n- Profiles and People in Economics (e.g., Montek Singh Ahlu"
+   ],
+   [
+    "Audience and contributors",
+    "- Contributors: IMF staff and prominent international experts.\n- Readership: leading policymakers, academics, economic practitioners, and other decisionmakers worldwide."
+   ]
+  ]
  },
  {
-  "url": "https://www.imf.org/en/publications/fm/index.json",
-  "hata": "'int' object has no attribute 'replace'"
- },
- {
-  "url": "https://www.imf.org/en/publications/index.json",
-  "hata": "'int' object has no attribute 'replace'"
- },
- {
-  "url": "https://www.imf.org/en/news/articles/index.json",
-  "hata": "HTTP Error 404: Not Found"
- },
- {
-  "url": "https://www.imf.org/en/news/pressreleases/index.json",
-  "hata": "HTTP Error 404: Not Found"
- },
- {
-  "url": "https://www.imf.org/en/news/press-releases/index.json",
-  "hata": "HTTP Error 404: Not Found"
- },
- {
-  "url": "https://www.imf.org/en/blogs/index.json",
-  "hata": "'int' object has no attribute 'replace'"
- },
- {
-  "url": "https://www.imf.org/en/topics/financial-sector/index.json",
-  "hata": "HTTP Error 404: Not Found"
+  "url": "https://www.imf.org/en/news/index.json",
+  "durum": 200,
+  "boyut": 6697,
+  "anahtarlar": [
+   "title",
+   "publication",
+   "sourceUrl",
+   "canonical",
+   "overlayPath",
+   "summary",
+   "sections",
+   "bullets",
+   "alternates",
+   "generatedAtUtc"
+  ],
+  "item_sayisi": 0,
+  "ilk_itemler": [],
+  "tarihler": [],
+  "sections": [
+   [
+    "Overview",
+    "- The IMF presents the latest news, blogs, podcasts, videos, live events, and more.\n- Highlighted content and features:\n  - \"Africa Can Grow Faster With AI—If It Moves Now\" — Artificial intelligence can boost productivity, create better jobs, and improve public services in sub-Saharan Africa.\n  - \"L"
+   ],
+   [
+    "Latest News (selected items)",
+    "- October 7, 2026 — Coming Soon: 2026 Annual Meetings Curtain Raiser\n- October 1, 2026 — Managing Director’s Remarks at the Meeting of the Ministers of Finance and Central Bank Governors of the Gulf Cooperation Council\n- September 30, 2026 — IMF Executive Board Completes the Combined Third and Fourt"
+   ],
+   [
+    "Statements on the war in the Middle East",
+    "- May 29, 2026 — Joint Statement by the Heads of the International Energy Agency, International Monetary Fund, World Bank Group and World Trade Organization\n  - The Heads met on May 28 as part of the high-level coordination group established in April to maximize their institutions’ response to the e"
+   ],
+   [
+    "For Journalists",
+    "- The IMF Press Center is a password-protected site for working journalists.\n- Options provided:\n  - Login\n  - Register\n  - Email Notifications: Sign Up\n  - Modify Profile"
+   ],
+   [
+    "Country Focus (selected features)",
+    "- September 21, 2026 — \"Resilience Under Pressure: Egypt's Economy Defied Expectations\"\n  - A swift policy response, strong macroeconomic buffers, and a flexible exchange rate helped Egypt absorb spillovers from the war in the Middle East, but more decisive reform implementation is needed to reduce "
+   ]
+  ]
  }
 ]
