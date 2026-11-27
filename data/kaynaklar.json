@@ -224,5 +224,20 @@
   "yontem": [],
   "not_": "Site otomatik erisimi engelliyor (Faz 0 testi)",
   "adresler": []
+ },
+ {
+  "id": "imf",
+  "ardisik_hata": 0,
+  "ad": "IMF",
+  "bolge": "uluslararasi",
+  "aktif": true,
+  "yontem": [
+   "imf_koleksiyon"
+  ],
+  "not_": null,
+  "adresler": [],
+  "son_taramada_bulunan": 2,
+  "son_basarili_tarama": "2026-11-27T12:11:26+03:00",
+  "son_hata": null
  }
 ]

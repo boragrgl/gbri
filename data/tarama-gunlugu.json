@@ -1,5 +1,19 @@
 [
  {
+  "zaman": "2026-11-27T12:11:26+03:00",
+  "pencere_baslangic": "2026-08-27",
+  "baslangic_arsivi": true,
+  "yeni": 2,
+  "kaynaklar": [
+   {
+    "kaynak": "imf",
+    "bulunan": 2,
+    "yeni": 2,
+    "hata": 0
+   }
+  ]
+ },
+ {
   "zaman": "2026-11-26T21:43:03+03:00",
   "pencere_baslangic": "2026-08-26",
   "baslangic_arsivi": true,

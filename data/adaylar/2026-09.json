@@ -526,6 +526,26 @@
   }
  },
  {
+  "aday_id": "imf-2026-09-17-5eb5b9",
+  "kurum": "imf",
+  "url": "https://www.imf.org/en/blogs/articles/2026/09/17/what-governments-should-do-when-food-prices-surge",
+  "url_normal": "https://www.imf.org/en/blogs/articles/2026/09/17/what-governments-should-do-when-food-prices-surge",
+  "baslik_orijinal": "What Governments Should Do When Food Prices Surge",
+  "yayin_tarihi": "2026-09-17",
+  "tarih_kaynagi": "koleksiyon",
+  "kategori": "IMF Blog",
+  "ozet_kaynak": "The right choice between subsidies, vouchers, or in-kind distribution can help countries save precious resources",
+  "tespit_zamani": "2026-11-27T12:11:26+03:00",
+  "son_gorulme": "2026-11-27T12:11:26+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
   "aday_id": "bddk-2026-09-17-b8166e",
   "kurum": "bddk",
   "url": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/1346",
@@ -760,6 +780,26 @@
   "ozet_kaynak": "Report on the audit of the financial statements of the FSB Annual Financial Report 2025/2026.",
   "tespit_zamani": "2026-11-26T21:43:03+03:00",
   "son_gorulme": "2026-11-26T21:43:03+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "elendi",
+   "neden": "dahil kelimesi yok",
+   "konular": []
+  }
+ },
+ {
+  "aday_id": "imf-2026-09-02-c41382",
+  "kurum": "imf",
+  "url": "https://www.imf.org/en/blogs/articles/2026/09/02/asias-next-growth-story",
+  "url_normal": "https://www.imf.org/en/blogs/articles/2026/09/02/asias-next-growth-story",
+  "baslik_orijinal": "Asia’s Next Growth Story",
+  "yayin_tarihi": "2026-09-02",
+  "tarih_kaynagi": "koleksiyon",
+  "kategori": "IMF Blog",
+  "ozet_kaynak": "The question for policymakers is how to seize new opportunities to renew Asia’s economic growth",
+  "tespit_zamani": "2026-11-27T12:11:26+03:00",
+  "son_gorulme": "2026-11-27T12:11:26+03:00",
   "baslangic_arsivi": true,
   "analiz_durumu": "bekliyor",
   "filtre": {
