@@ -1,5 +1,57 @@
 [
  {
+  "url": "https://www.imf.org/en/Publications/RSS",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/RSS?language=eng",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/RSS?language=eng&series=Global%20Financial%20Stability%20Report",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/News/RSS",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/News/RSS?language=eng",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Blogs/RSS",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/WP",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/Policy-Papers",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/GFSR",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "text/html; charset=utf-8",
+  "boyut": 77570,
+  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>Global Financial Stability Report</title> <meta name=\"description\" content=\"\"> <meta property=\"og:title\" content=\"Global Financial"
+ },
+ {
+  "url": "https://www.imf.org/en/news/searchnews",
+  "hata": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://www.imf.org/en/Social-Hub",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "text/html; charset=utf-8",
+  "boyut": 5764,
+  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>IMF Social Hub</title> <meta name=\"description\" content=\"The IMF Social Hub is a one-stop-shop for the IMF's latest social media c"
+ },
+ {
   "url": "https://www.imf.org/en/rss-list",
   "hata": "HTTP Error 404: Not Found"
  },
