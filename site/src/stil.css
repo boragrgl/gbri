@@ -19,10 +19,14 @@ h1,h2,h3{font-family:'Source Serif 4',serif;font-weight:600;margin:0}
 .menu a.on{color:var(--bg);border-bottom-color:#E9C46A}
 .menu a:hover{text-decoration:none;color:#fff}
 .konubar{border-top:1px solid #2A3039}
-.konubar .satir{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-height:48px;padding-top:6px;padding-bottom:6px}
+.konusatir{position:relative;display:flex;flex-wrap:nowrap;gap:8px;align-items:center;min-height:50px;padding-top:6px;padding-bottom:6px}
+.konuetiket{font-size:12px;color:#9AA0A8;margin-right:8px;white-space:nowrap}
+.konusatir .pill{white-space:nowrap;flex:none;text-decoration:none}
+.olcu{position:absolute;visibility:hidden;pointer-events:none;height:0;overflow:hidden;white-space:nowrap;display:flex;gap:8px;left:0;top:0}
+.digerkonu{position:relative;flex:none}
 .pill{color:var(--bg);padding:6px 14px;border:1px solid #3A414B;border-radius:999px;font-size:13px;background:none}
 .pill.on{background:var(--bg);color:var(--ink)}
-.ara{background:#20262E;border:1px solid #3A414B;color:var(--bg);border-radius:8px;padding:9px 12px;width:260px;max-width:100%;font:inherit;font-size:13px}
+.ara{background:#20262E;border:1px solid #3A414B;color:var(--bg);border-radius:8px;padding:9px 12px;flex:0 1 260px;min-width:110px;font:inherit;font-size:13px}
 .tarihsatir{background:#fff;border-bottom:1px solid var(--line);font-size:12px;color:var(--mut)}
 .tarihsatir .w{display:flex;justify-content:space-between;gap:12px;padding-top:6px;padding-bottom:6px;flex-wrap:wrap}
 /* ortak */
@@ -67,7 +71,10 @@ a.kaynak:hover{border-color:var(--g);text-decoration:none;background:#EEF4F2}
 .filtre{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
 .filtre label{font-size:12px;color:var(--mut);display:flex;flex-direction:column;gap:4px}
 .filtre select,.filtre input{font:inherit;padding:7px 10px;border:1px solid #CFC9BC;border-radius:8px;background:#fff;min-width:130px}
-.altkonu{display:flex;flex-wrap:wrap;gap:8px}
+.altkonu{position:relative;display:flex;flex-wrap:nowrap;gap:8px;align-items:center}
+.altkonu>button,.altkonu>span>button{flex:none;white-space:nowrap}
+.acilirogesi{background:none!important;border:0!important;border-radius:6px!important;text-align:left;padding:7px 8px!important;font-size:13px}
+.acilirogesi:hover{background:#EEF4F2!important}.acilirogesi.on{font-weight:600;color:var(--g)}
 .altkonu button{background:#fff;border:1px solid #CFC9BC;border-radius:999px;padding:4px 12px;font-size:13px}
 .altkonu button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .uyari{font-size:12px;color:#5C4A12;background:#FBF3DC;border:1px solid #EADDB5;border-radius:8px;padding:8px 12px}
@@ -99,4 +106,35 @@ a.kaynak:hover{border-color:var(--g);text-decoration:none;background:#EEF4F2}
  .ara{width:100%}.iki{gap:20px}.toc{display:none}
  .kart h3{font-size:17px}.meta .e{margin-left:0}
  .kpi .n{font-size:30px}.kpi>div{padding:14px 16px}
+}
+
+/* ana sayfa duzeni */
+.satirbasi{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:-12px}
+.ikiguc{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:32px;align-items:stretch}
+.sutun{display:flex;flex-direction:column;gap:16px;min-width:0}
+.sutun>.kart,.sutun>.card{flex:1 1 auto}
+.satirlink{display:flex;gap:10px;align-items:center;padding:9px 0;border-top:1px solid #EEEAE2;color:var(--ink)}
+.satirlink:hover{text-decoration:none;background:#FAF9F5}
+.kes{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* ust sag simgeler */
+.ikonlar{position:relative;display:flex;gap:4px;flex:none;margin-left:auto}
+.ikon{position:relative;background:none;border:1px solid transparent;color:#C9CDD3;border-radius:8px;width:38px;height:38px;display:grid;place-items:center}
+.ikon:hover,.ikon.on{background:#20262E;color:#fff;border-color:#3A414B}
+.nokta{position:absolute;top:8px;right:9px;width:7px;height:7px;border-radius:50%;background:#E9C46A;border:1px solid var(--ink)}
+.perde{position:fixed;inset:0;z-index:20}
+.acilir{position:absolute;right:0;top:46px;width:300px;max-width:calc(100vw - 32px);background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:16px;z-index:21;box-shadow:0 12px 32px rgba(21,25,31,.18);font-size:14px}
+.acilir.sol{right:auto;left:0;top:40px;width:240px}
+.pasif{border:1px dashed #CFC9BC;border-radius:8px;padding:14px;text-align:center;color:var(--mut);font-size:13px}
+.ayarsatir{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-top:1px solid #EEEAE2;margin-top:8px;font-size:13px}
+.ayarsatir select{font:inherit;padding:4px 8px;border:1px solid #CFC9BC;border-radius:6px;background:#F5F3EE;color:var(--mut)}
+/* yukari don */
+.yukari{position:fixed;right:20px;bottom:20px;width:44px;height:44px;border-radius:12px;background:var(--ink);color:var(--bg);border:0;font-size:20px;box-shadow:0 6px 18px rgba(21,25,31,.3);z-index:15}
+.yukari:hover{background:#2A3039}
+@media(max-width:900px){.ikiguc{grid-template-columns:1fr}.satirbasi{margin-bottom:0}}
+@media(max-width:720px){
+ .konuetiket{display:none}.menu a{padding:10px 9px}
+ .ust .satir{min-height:0;gap:0 12px}
+ .logo{order:1}.ikonlar{order:2}.menu{order:3;flex:1 1 100%}
+ .konusatir{flex-wrap:wrap}.konusatir .ara{flex:1 1 100%;order:9}
+ .acilir{position:fixed;left:16px;right:16px;top:auto;width:auto;max-width:none}
 }

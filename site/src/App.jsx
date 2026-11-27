@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState, useCallback } from 'react'
 import { KONULAR, trUzun } from './ortak.js'
 import { bugun } from './puan.js'
 import Detay from './detay.jsx'
@@ -16,6 +16,78 @@ function useIzleme() {
     return n
   }), [])
   return { ...d, degistir }
+}
+
+
+const Zil = () => (<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>)
+const Ayar = () => (<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 6h8M18 6h2M4 12h2M12 12h8M4 18h10M20 18h0"/><circle cx="15" cy="6" r="2.2"/><circle cx="9" cy="12" r="2.2"/><circle cx="17" cy="18" r="2.2"/></svg>)
+
+function Ikonlar() {
+  const [acik, setAcik] = useState(null)
+  const ac = (k) => setAcik((o) => (o === k ? null : k))
+  return (
+    <div className="ikonlar">
+      <button type="button" className={'ikon' + (acik === 'bildirim' ? ' on' : '')} aria-label="Bildirimler" aria-expanded={acik === 'bildirim'} onClick={() => ac('bildirim')}><Zil /><span className="nokta" /></button>
+      <button type="button" className={'ikon' + (acik === 'ayar' ? ' on' : '')} aria-label="Ayarlar" aria-expanded={acik === 'ayar'} onClick={() => ac('ayar')}><Ayar /></button>
+      {acik && <div className="perde" onClick={() => setAcik(null)} />}
+      {acik === 'bildirim' && (
+        <div className="acilir" role="dialog" aria-label="Bildirimler">
+          <b>Bildirimler</b>
+          <div className="mut" style={{ fontSize: 13, margin: '6px 0 10px' }}>Yeni kritik yayınlar burada listelenecek.</div>
+          <div className="pasif">Henüz bildirim yok</div>
+          <div className="mut" style={{ fontSize: 12, marginTop: 10 }}>Bu bölüm sonraki sürümde açılacak.</div>
+        </div>)}
+      {acik === 'ayar' && (
+        <div className="acilir" role="dialog" aria-label="Ayarlar">
+          <b>Ayarlar</b>
+          {[['Dil', 'Türkçe'], ['Görünüm', 'Açık tema'], ['Bildirim tercihleri', 'Kapalı'], ['Önem eşiği', 'Tümü']].map(([a, d]) => (
+            <label key={a} className="ayarsatir"><span>{a}</span><select disabled><option>{d}</option></select></label>))}
+          <div className="mut" style={{ fontSize: 12, marginTop: 10 }}>Ayarlar sonraki sürümde etkinleşecek.</div>
+        </div>)}
+    </div>
+  )
+}
+
+function KonuSatiri({ konu, q, setQ }) {
+  const kap = useRef(null), olcu = useRef(null)
+  const [n, setN] = useState(KONULAR.length)
+  const [ac, setAc] = useState(false)
+  useLayoutEffect(() => {
+    const hesapla = () => {
+      if (!kap.current || !olcu.current) return
+      const w = [...olcu.current.children].map((c) => c.getBoundingClientRect().width + 8)
+      const masa = window.innerWidth > 720
+      const bos = kap.current.clientWidth - (masa ? 64 : 32) - (masa ? 90 : 0) - (masa ? 270 : 0) - 96
+      let top = 0, say = 0
+      for (const v of w) { if (top + v > bos) break; top += v; say++ }
+      setN(say)
+    }
+    hesapla(); window.addEventListener('resize', hesapla); return () => window.removeEventListener('resize', hesapla)
+  }, [])
+  const gor = KONULAR.slice(0, n), gizli = KONULAR.slice(n)
+  const pil = (k) => <a key={k.slug} className={'pill' + (konu && konu.slug === k.slug ? ' on' : '')} href={konu && konu.slug === k.slug ? '#ana' : '#konu-' + k.slug} onClick={() => setAc(false)}>{k.ad}</a>
+  return (
+    <div className="w konusatir" ref={kap}>
+      <span className="konuetiket">KONULAR</span>
+      {gor.map(pil)}
+      {gizli.length > 0 && (
+        <span className="digerkonu">
+          <button type="button" className={'pill' + (gizli.some((k) => konu && konu.slug === k.slug) ? ' on' : '')} aria-expanded={ac} onClick={() => setAc(!ac)}>Diğer ({gizli.length}) ▾</button>
+          {ac && <><div className="perde" onClick={() => setAc(false)} /><div className="acilir sol">{gizli.map((k) => <a key={k.slug} href={'#konu-' + k.slug} onClick={() => setAc(false)} style={{ padding: '7px 4px', display: 'block' }}>{k.ad}</a>)}</div></>}
+        </span>)}
+      <div ref={olcu} className="olcu" aria-hidden="true">{KONULAR.map((k) => <span key={k.slug} className="pill">{k.ad}</span>)}</div>
+      <div style={{ flex: 1 }} />
+      <label htmlFor="ara" style={{ position: 'absolute', left: -9999 }}>Ara</label>
+      <input id="ara" className="ara" type="search" placeholder="Yayın, kurum veya konu ara" value={q} onChange={(e) => setQ(e.target.value)} />
+    </div>
+  )
+}
+
+function YukariDugmesi() {
+  const [g, setG] = useState(false)
+  useEffect(() => { const f = () => setG(window.scrollY > 300); f(); window.addEventListener('scroll', f, { passive: true }); return () => window.removeEventListener('scroll', f) }, [])
+  if (!g) return null
+  return <button type="button" className="yukari" aria-label="Sayfanın başına dön" title="Sayfanın başına dön" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>↑</button>
 }
 
 export function Uygulama({ veri, rota, izleme, q = '', setQ = () => {} }) {
@@ -43,18 +115,13 @@ export function Uygulama({ veri, rota, izleme, q = '', setQ = () => {} }) {
           <nav className="menu" aria-label="Ana menü">
             {MENU.map(([r, ad]) => <a key={r} href={'#' + r} className={aktif === r ? 'on' : ''}>{ad}</a>)}
           </nav>
+          <Ikonlar />
         </div>
-        <div className="konubar"><div className="w satir">
-          <span style={{ fontSize: 12, color: '#9AA0A8', marginRight: 8 }}>KONULAR</span>
-          {KONULAR.map((k) => <a key={k.slug} className={'pill' + (konu && konu.slug === k.slug ? ' on' : '')} style={{ textDecoration: 'none' }}
-            href={konu && konu.slug === k.slug ? '#ana' : '#konu-' + k.slug}>{k.ad}</a>)}
-          <div style={{ flex: 1 }} />
-          <label htmlFor="ara" style={{ position: 'absolute', left: -9999 }}>Ara</label>
-          <input id="ara" className="ara" type="search" placeholder="Yayın, kurum veya konu ara" value={q} onChange={(e) => setQ(e.target.value)} />
-        </div></div>
+        <div className="konubar"><KonuSatiri konu={konu} q={q} setQ={setQ} /></div>
       </header>
       <div className="tarihsatir"><div className="w" style={{ justifyContent: 'flex-end' }}><span>{trUzun(bugun())}</span></div></div>
       {sayfa}
+      <YukariDugmesi />
     </>
   )
 }

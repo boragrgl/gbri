@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { kn, tr, trKisa, trUzun, AY, AYUZUN, KONULAR, ONEMSIRA } from './ortak.js'
 import { puanla, bugun } from './puan.js'
-import { Kart, Tablo, Bos, Sev, Yildiz } from './kucuk.jsx'
+import { Kart, Tablo, Bos, Sev, Yildiz, TekSatir } from './kucuk.jsx'
 
 const puanSirala = (l, t) => [...l].map((x) => ({ x, p: puanla(x, t) }))
   .sort((a, b) => b.p.toplam - a.p.toplam || b.x.yayin_tarihi.localeCompare(a.x.yayin_tarihi))
@@ -19,7 +19,8 @@ export function Genel({ konu, liste, veri, izleme }) {
   const l = alt ? liste.filter((x) => (x.alt_konular || []).includes(alt)) : liste
   const k = l.filter((x) => x.onem === 'Kritik').length, y = l.filter((x) => x.onem === 'Yüksek').length
   const sirali = useMemo(() => puanSirala(l, t), [l, t])
-  const onem = sirali.slice(0, 5)
+  const onem = sirali.slice(0, 4)
+  const diger = sirali.slice(4, 7)
   const tar = yaklasan(l, t)
   const dagilim = {}; l.forEach((x) => { dagilim[x.konu] = (dagilim[x.konu] || 0) + 1 })
   const mx = Math.max(1, ...Object.values(dagilim))
@@ -30,51 +31,63 @@ export function Genel({ konu, liste, veri, izleme }) {
     <main className="w sayfa">
       <section>
         <h1 className="buyuk" style={{ fontSize: 38, lineHeight: 1.15 }}>{baslik}</h1>
-        <p className="mut" style={{ margin: '12px 0 0', fontSize: 16, maxWidth: 760 }}>
+        <p className="mut" style={{ margin: '10px 0 0', fontSize: 14, maxWidth: 760 }}>
           Son 3 ayın yayınları. Değişiklikler, bankacılık faaliyetlerine olası etkiyi gösteren bir puana (0–100) göre sıralanır.
         </p>
       </section>
       {konu && altListe.length > 0 && (
-        <div className="altkonu" role="group" aria-label="Alt konular">
-          <button className={!alt ? 'on' : ''} onClick={() => setAlt('')}>Tümü</button>
-          {altListe.map(([a, n]) => <button key={a} className={alt === a ? 'on' : ''} onClick={() => setAlt(alt === a ? '' : a)}>{a} ({n})</button>)}
-        </div>)}
+        <TekSatir etiket="Alt konular" secili={alt} sec={setAlt} ogeler={altListe.map(([a, n]) => ({ k: a, etiket: `${a} (${n})` }))} />)}
       <section className="kpi" aria-label="Özet göstergeler">
         {[['Kritik', k, '#B42318', 'son 3 ay'], ['Yüksek', y, '#B54708', 'son 3 ay'], ['Analiz edilen yayın', l.length, '#15191F', 'toplam'], ['Yaklaşan tarih', tar.length, '#15191F', 'görüş / yürürlük / uyum']]
           .map(([a, n, c, s]) => <div key={a}><div className="mut" style={{ fontSize: 13 }}>{a}</div>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, marginTop: 4 }}><span className="n" style={{ color: c }}>{n}</span><span className="mut" style={{ fontSize: 13 }}>{s}</span></div></div>)}
       </section>
-      <div className="iki">
-        <section className="ana">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: 8 }}>
-            <h2 style={{ fontSize: 24 }}>Önemli değişiklikler</h2><a href="#onemli">Tümü, puana göre →</a></div>
+      <div className="satirbasi">
+        <h2 style={{ fontSize: 24 }}>Önemli değişiklikler</h2><a href="#onemli">Tümü, puana göre →</a>
+      </div>
+      <div className="ikiguc">
+        <section className="sutun">
           {onem.length ? onem.map(({ x, p }) => <Kart key={x.id} x={x} p={p} izleme={izleme} />) : <Bos>Bu süzgeçte yayın yok.</Bos>}
         </section>
-        <aside className="yan">
-          <section className="card"><h2 style={{ fontSize: 20 }}>Yaklaşan tarihler</h2>
+        <aside className="sutun">
+          <section className="card">
+            <h2 style={{ fontSize: 20 }}>Yaklaşan tarihler</h2>
             <div className="mut" style={{ fontSize: 12, margin: '4px 0 10px' }}>Yürürlük, uyum ve görüş bildirme</div>
-            {tar.slice(0, 6).map((v, i) => (
+            {tar.slice(0, 4).map((v, i) => (
               <a key={i} className="tarihkutu" href={'#y-' + v.x.id}>
                 <div className="g"><b>{+v.d.slice(8)}</b><span>{AY[+v.d.slice(5, 7) - 1]} {v.d.slice(0, 4)}</span></div>
                 <div style={{ minWidth: 0 }}><div className="mut" style={{ fontSize: 12 }}>{v.n} · {kn(v.x.kurum)}</div><div style={{ fontWeight: 500, lineHeight: 1.4 }}>{v.x.baslik_tr}</div></div></a>))}
             {!tar.length && <div className="mut">Yaklaşan tarih yok.</div>}
-            <a href="#takvim" style={{ fontSize: 13, display: 'inline-block', marginTop: 8 }}>Takvimi aç →</a></section>
-          <section className="card"><h2 style={{ fontSize: 20, marginBottom: 8 }}>Konulara göre dağılım</h2>
+            <a href="#takvim" style={{ fontSize: 13, display: 'inline-block', marginTop: 8 }}>Takvimi aç →</a>
+          </section>
+          <section className="card">
+            <h2 style={{ fontSize: 20, marginBottom: 8 }}>Konulara göre dağılım</h2>
             {Object.entries(dagilim).sort((a, b) => b[1] - a[1]).map(([n, c]) => (
               <div key={n} style={{ padding: '6px 0' }}><div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13 }}><span>{n}</span><b>{c}</b></div>
-                <div className="cubuk"><div style={{ width: (c / mx * 100) + '%' }} /></div></div>))}</section>
-          <section className="card"><h2 style={{ fontSize: 20, marginBottom: 10 }}>Kaynak durumu</h2>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-              {veri.kaynaklar.map((s) => (
-                <a key={s.id} className="kaynak" href={'#kurum-' + s.id} title={'Bu kaynaktan toplanan tüm haberler'}>
-                  <i style={{ background: !s.aktif ? '#9AA0A8' : s.ardisik_hata ? '#B42318' : '#1F7A4D' }} />{s.ad}</a>))}</div>
-            <div className="mut" style={{ fontSize: 12, marginTop: 10 }}>Bir kaynağa tıklayarak ondan toplanan tüm haberleri görebilirsin. Gri: kapsam dışı.</div></section>
+                <div className="cubuk"><div style={{ width: (c / mx * 100) + '%' }} /></div></div>))}
+          </section>
         </aside>
       </div>
-      <section style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-        <h2 style={{ fontSize: 24 }}>Tüm yayınlar</h2>
-        <Tablo liste={[...l].sort((a, b) => b.yayin_tarihi.localeCompare(a.yayin_tarihi))} />
-      </section>
+      <div className="ikiguc">
+        <section className="card">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
+            <h2 style={{ fontSize: 20 }}>Diğer yayınlar</h2><a href="#gunluk" style={{ fontSize: 13 }}>Tümü: Günlük Yayınlar →</a></div>
+          <div className="mut" style={{ fontSize: 12, margin: '4px 0 6px' }}>Puana göre sıradaki yayınlar</div>
+          {diger.map(({ x }) => (
+            <a key={x.id} className="satirlink" href={'#y-' + x.id}>
+              <Sev o={x.onem} /><b style={{ flex: 'none' }}>{kn(x.kurum)}</b><span className="kes">{x.baslik_tr}</span>
+              <span className="mut" style={{ flex: 'none', fontSize: 12 }}>{trKisa(x.yayin_tarihi)}</span></a>))}
+          {!diger.length && <div className="mut">Başka yayın yok.</div>}
+        </section>
+        <section className="card">
+          <h2 style={{ fontSize: 20, marginBottom: 10 }}>Kaynak durumu</h2>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+            {veri.kaynaklar.map((s) => (
+              <a key={s.id} className="kaynak" href={'#kurum-' + s.id} title={'Bu kaynaktan toplanan tüm haberler'}>
+                <i style={{ background: !s.aktif ? '#9AA0A8' : s.ardisik_hata ? '#B42318' : '#1F7A4D' }} />{s.ad}</a>))}</div>
+          <div className="mut" style={{ fontSize: 12, marginTop: 10 }}>Bir kaynağa tıklayarak ondan toplanan tüm haberleri görebilirsin. Gri: kapsam dışı.</div>
+        </section>
+      </div>
       <div className="alt"><span>Yapay zekâ analizleri yorum niteliğindedir; resmî düzenleyici beyanı yerine geçmez. Bağlayıcı metin için orijinal belgeye başvurun.</span>
         <span>Veri kapsamı: son 3 ay (26 Ağustos – 26 Kasım 2026). Resmî Gazete taraması şimdilik son 1 ayı kapsar. {veri.adaylar.filter((a) => a.durum === 'ilgisiz').length} ilgisiz bulunan belge listelerde gösterilmez.</span></div>
     </main>

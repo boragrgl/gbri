@@ -1,3 +1,4 @@
+import { useLayoutEffect, useRef, useState } from 'react'
 import { RENK, kn, tr, trKisa } from './ortak.js'
 import { puanMetni } from './puan.js'
 
@@ -61,3 +62,36 @@ export function Tablo({ liste, puanlar }) {
 }
 
 export const Bos = ({ children }) => <div className="card mut">{children}</div>
+
+// Tek satirlik secenek cubugu: sigmayanlar "Diger" acilirina gider.
+export function TekSatir({ ogeler, secili, sec, etiket }) {
+  const kap = useRef(null), olcu = useRef(null)
+  const [n, setN] = useState(ogeler.length)
+  const [ac, setAc] = useState(false)
+  useLayoutEffect(() => {
+    const hesapla = () => {
+      if (!kap.current || !olcu.current) return
+      const w = [...olcu.current.children].map((c) => c.getBoundingClientRect().width + 8)
+      const bos = kap.current.clientWidth - w[0] - 110
+      let top = 0, say = 0
+      for (const v of w.slice(1)) { if (top + v > bos) break; top += v; say++ }
+      setN(say)
+    }
+    hesapla(); window.addEventListener('resize', hesapla); return () => window.removeEventListener('resize', hesapla)
+  }, [ogeler.length])
+  const gor = ogeler.slice(0, n), gizli = ogeler.slice(n)
+  const dugme = (o) => <button key={o.k} className={secili === o.k ? 'on' : ''} onClick={() => { sec(secili === o.k ? '' : o.k); setAc(false) }}>{o.etiket}</button>
+  return (
+    <div className="altkonu" ref={kap} role="group" aria-label={etiket}>
+      <button className={!secili ? 'on' : ''} onClick={() => sec('')}>Tümü</button>
+      {gor.map(dugme)}
+      {gizli.length > 0 && (
+        <span style={{ position: 'relative', flex: 'none' }}>
+          <button className={gizli.some((o) => o.k === secili) ? 'on' : ''} aria-expanded={ac} onClick={() => setAc(!ac)}>Diğer ({gizli.length}) ▾</button>
+          {ac && <><div className="perde" onClick={() => setAc(false)} /><div className="acilir sol" style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+            {gizli.map((o) => <button key={o.k} className={'acilirogesi' + (secili === o.k ? ' on' : '')} onClick={() => { sec(secili === o.k ? '' : o.k); setAc(false) }}>{o.etiket}</button>)}</div></>}
+        </span>)}
+      <div className="olcu" ref={olcu} aria-hidden="true"><button>Tümü</button>{ogeler.map((o) => <button key={o.k}>{o.etiket}</button>)}</div>
+    </div>
+  )
+}
