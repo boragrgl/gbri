@@ -4,6 +4,11 @@ sys.path.insert(0, ".")
 from pipeline.ortak import getir, robots_izin
 
 URLLER = [
+ "https://www.imf.org/en/news/index.json",
+ "https://www.imf.org/en/news/index.md",
+ "https://www.imf.org/en/news/bundle-manifest.json",
+ "https://www.imf.org/en/Publications/GFSR/index.json",
+
  "https://www.imf.org/en/Publications/RSS",
  "https://www.imf.org/en/Publications/RSS?language=eng",
  "https://www.imf.org/en/Publications/RSS?language=eng&series=Global%20Financial%20Stability%20Report",
@@ -32,7 +37,7 @@ for u in URLLER:
         else:
             r = getir(u, deneme=2, zaman_asimi=30)
             m = r["metin"]
-            sonuc.append({"url": u, "robots": "izinli", "durum": r["durum"], "tur": r.get("tur"), "boyut": len(m), "ilk": m[:200].replace("\n", " ")})
+            sonuc.append({"url": u, "robots": "izinli", "durum": r["durum"], "tur": r.get("tur"), "boyut": len(m), "ilk": m[:1500].replace("\n", " ")})
     except Exception as e:
         sonuc.append({"url": u, "hata": str(e)[:200]})
     print(sonuc[-1], flush=True)
