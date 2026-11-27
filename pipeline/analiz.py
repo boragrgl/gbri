@@ -195,7 +195,7 @@ def isle(aday, yz, bugun, geri_gun=31):
     if ozel:
         kayit["konu"] = "Diğer"
         kayit["onem"] = "Orta"
-        kayit["alt_konular"] = ["Para politikası"] + [x for x in kayit.get("alt_konular", []) if x != "Para politikası"]
+        kayit["alt_konular"] = ["Para politikası"] + [x for x in kayit.get("alt_konular", []) if x.lower() != "para politikası"]
     if belge.get("ocr"):
         kayit["analiz_bilgisi"]["not"] = "Taranmış PDF; metin OCR ile okundu, yazım hataları olabilir."
     if kisaltildi:
