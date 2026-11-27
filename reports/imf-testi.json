@@ -1,5 +1,37 @@
 [
  {
+  "url": "https://www.imf.org/en/news/index.json",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "application/json; charset=utf-8",
+  "boyut": 6697,
+  "ilk": "{   \"title\": \"IMF News\",   \"publication\": \"IMF News\",   \"sourceUrl\": \"https://www.imf.org/en/news\",   \"canonical\": \"https://www.imf.org/en/news\",   \"overlayPath\": \"/en/news/index.md\",   \"summary\": \"The IMF presents the latest news, blogs, podcasts, videos, live events, and more.\",   \"sections\": [     {       \"heading\": \"Overview\",       \"content\": \"- The IMF presents the latest news, blogs, podcasts, videos, live events, and more.\\n- Highlighted content and features:\\n  - \\\"Africa Can Grow Faster With AI—If It Moves Now\\\" — Artificial intelligence can boost productivity, create better jobs, and improve public services in sub-Saharan Africa.\\n  - \\\"Listen to Dani Rodrik on Rethinking Development\\\" — Manufacturing and industrialization have long been the development strategy for many countries in Asia.\\n  - \\\"Press Briefing | September 2026\\\" — Watch IMF Spokesperson Julie Kozack discusses the IMF’s latest developments and answers questions on today’s global economy.\"     },     {       \"heading\": \"Latest News (selected items)\",       \"content\": \"- October 7, 2026 — Coming Soon: 2026 Annual Meetings Curtain Raiser\\n- October 1, 2026 — Managing Director’s Remarks at the Meeting of the Ministers of Finance and Central Bank Governors of the Gulf Cooperation Council\\n- September 30, 2026 — IMF Executive Board Completes the Combined Third and Fourth Reviews Under the Extended Credit Facility and the Resilience and Sustainability Facility Arrangements with the Republic of Madagascar\\"
+ },
+ {
+  "url": "https://www.imf.org/en/news/index.md",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "text/markdown; charset=utf-8",
+  "boyut": 7845,
+  "ilk": "## IMF News  _IMF News_  ## Source details  **Canonical URL:** [IMF News](https://www.imf.org/en/news)  ## Other formats  - [Markdown version](/en/news/index.md) - [Structured JSON version](/en/news/index.json) - [Bundle manifest](/en/news/bundle-manifest.json)  ---  ### Overview - The IMF presents the latest news, blogs, podcasts, videos, live events, and more. - Highlighted content and features:   - \"Africa Can Grow Faster With AI—If It Moves Now\" — Artificial intelligence can boost productivity, create better jobs, and improve public services in sub-Saharan Africa.   - \"Listen to Dani Rodrik on Rethinking Development\" — Manufacturing and industrialization have long been the development strategy for many countries in Asia.   - \"Press Briefing | September 2026\" — Watch IMF Spokesperson Julie Kozack discusses the IMF’s latest developments and answers questions on today’s global economy.  ### Latest News (selected items) - October 7, 2026 — Coming Soon: 2026 Annual Meetings Curtain Raiser - October 1, 2026 — Managing Director’s Remarks at the Meeting of the Ministers of Finance and Central Bank Governors of the Gulf Cooperation Council - September 30, 2026 — IMF Executive Board Completes the Combined Third and Fourth Reviews Under the Extended Credit Facility and the Resilience and Sustainability Facility Arrangements with the Republic of Madagascar - September 29, 2026 — IMF Executive Board Concludes 2026 Article IV Consultation with the People’s Republic of China—Macao Speci"
+ },
+ {
+  "url": "https://www.imf.org/en/news/bundle-manifest.json",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "application/json; charset=utf-8",
+  "boyut": 1194,
+  "ilk": "{   \"bundleVersion\": \"0.1\",   \"title\": \"IMF News\",   \"sourceUrl\": \"https://www.imf.org/en/news\",   \"generatedAtUtc\": \"2026-10-01T18:03:45.066Z\",   \"generator\": {     \"name\": \"imf-overlay-generator\",     \"version\": \"1.0.0\"   },   \"entries\": [     {       \"path\": \"/en/news/index.md\",       \"role\": \"landing-page\",       \"audience\": \"llm\",       \"format\": \"markdown\",       \"title\": \"IMF News\",       \"sourceUrl\": \"https://www.imf.org/en/news\",       \"sizeBytes\": 7907     },     {       \"path\": \"/en/news/index.html\",       \"role\": \"landing-page\",       \"audience\": \"crawler\",       \"format\": \"html\",       \"title\": \"IMF News\",       \"sourceUrl\": \"https://www.imf.org/en/news\",       \"sizeBytes\": 11216     },     {       \"path\": \"/en/news/index.json\",       \"role\": \"landing-page\",       \"audience\": \"agent\",       \"format\": \"json\",       \"title\": \"IMF News\",       \"sourceUrl\": \"https://www.imf.org/en/news\",       \"sizeBytes\": 6785     },     {       \"path\": \"/en/news/bundle-manifest.json\",       \"role\": \"bundle-guide\",       \"audience\": \"agent\",       \"format\": \"json\",       \"title\": \"Bundle Manifest\",       \"sourceUrl\": \"https://www.imf.org/en/news\",       \"sizeBytes\": 946     }   ] } "
+ },
+ {
+  "url": "https://www.imf.org/en/Publications/GFSR/index.json",
+  "robots": "izinli",
+  "durum": 200,
+  "tur": "application/json; charset=utf-8",
+  "boyut": 49266,
+  "ilk": "{   \"title\": \"Global Financial Stability Report\",   \"pageKind\": \"collection\",   \"collectionShape\": \"item-list\",   \"sourceUrl\": \"https://www.imf.org/en/publications/gfsr\",   \"canonical\": \"https://www.imf.org/en/publications/gfsr\",   \"overlayPath\": \"/en/publications/gfsr/index.json\",   \"items\": [     {       \"position\": 1,       \"url\": \"https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026\",       \"title\": \"Global Financial Markets Confront the War in the Middle East and Amplification Risks\",       \"date\": \"April 14, 2026\",       \"description\": \"The global financial system is confronting the ongoing war in the Middle East, potential inflationary pressures, rising risks of further tightening in financial conditions, and several amplification channels that could lead from market turmoil to financial instability.\"     },     {       \"position\": 2,       \"url\": \"https://www.imf.org/en/publications/gfsr/issues/2025/10/14/global-financial-stability-report-october-2025\",       \"title\": \"Global Financial Stability Report, October 2025: Shifting Ground beneath the Calm\",       \"date\": \"October 14, 2025\",       \"description\": \"<p>Financial stability risks remain elevated amid risks presented by stretched asset valuations, growing pressure in sovereign bond markets, and the increasing role of nonbank financial institutions.\"     },     {       \"position\": 3,       \"url\": \"https://www.imf.org/en/publications/gfsr/issues/2025/04/22/global-fi"
+ },
+ {
   "url": "https://www.imf.org/en/Publications/RSS",
   "hata": "HTTP Error 404: Not Found"
  },
@@ -37,7 +69,7 @@
   "durum": 200,
   "tur": "text/html; charset=utf-8",
   "boyut": 77570,
-  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>Global Financial Stability Report</title> <meta name=\"description\" content=\"\"> <meta property=\"og:title\" content=\"Global Financial"
+  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>Global Financial Stability Report</title> <meta name=\"description\" content=\"\"> <meta property=\"og:title\" content=\"Global Financial Stability Report\"> <meta property=\"og:description\" content=\"\"> <link rel=\"canonical\" href=\"https://www.imf.org/en/publications/gfsr\"> <script type=\"application/ld+json\"> {   \"@context\": \"https://schema.org\",   \"@type\": \"CollectionPage\",   \"name\": \"Global Financial Stability Report\",   \"url\": \"https://www.imf.org/en/publications/gfsr\",   \"isBasedOn\": \"https://www.imf.org/en/publications/gfsr\",   \"isPartOf\": {     \"@type\": \"WebSite\",     \"url\": \"https://www.imf.org/en/publications\",     \"name\": \"IMF Publications\"   },   \"publisher\": {     \"@type\": \"Organization\",     \"name\": \"International Monetary Fund\",     \"url\": \"https://www.imf.org\",     \"logo\": {       \"@type\": \"ImageObject\",       \"url\": \"https://www.imf.org/imf_seal.ico\"     }   },   \"dateModified\": \"2026-09-22T03:30:08.635Z\",   \"inLanguage\": \"en\",   \"mainEntity\": {     \"@type\": \"ItemList\",     \"numberOfItems\": 87,     \"itemListElement\": [       {         \"@type\": \"ListItem\",         \"position\": 1,         \"url\": \"https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026\",         \"name\": \"Global Financial Markets Confront the War in the Middle East and Amplification Risks\"       },       {         \"@type\": \"ListItem\",         \"position\": 2,         \"url\": \"https://www.imf.org/"
  },
  {
   "url": "https://www.imf.org/en/news/searchnews",
@@ -49,7 +81,7 @@
   "durum": 200,
   "tur": "text/html; charset=utf-8",
   "boyut": 5764,
-  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>IMF Social Hub</title> <meta name=\"description\" content=\"The IMF Social Hub is a one-stop-shop for the IMF's latest social media c"
+  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>IMF Social Hub</title> <meta name=\"description\" content=\"The IMF Social Hub is a one-stop-shop for the IMF's latest social media content.\"> <meta property=\"og:title\" content=\"IMF Social Hub\"> <meta property=\"og:description\" content=\"The IMF Social Hub is a one-stop-shop for the IMF's latest social media content.\"> <link rel=\"canonical\" href=\"https://www.imf.org/en/social-hub\"> <link rel=\"alternate\" type=\"text/markdown\" href=\"/en/social-hub/index.md\" title=\"Markdown version\"> <link rel=\"alternate\" type=\"application/json\" href=\"/en/social-hub/index.json\" title=\"Structured JSON version\"> <link rel=\"alternate\" type=\"application/json\" href=\"/en/social-hub/bundle-manifest.json\" title=\"Bundle manifest\"> <script type=\"application/ld+json\"> {   \"@context\": \"https://schema.org\",   \"@type\": \"Article\",   \"headline\": \"IMF Social Hub\",   \"description\": \"The IMF Social Hub is a one-stop-shop for the IMF's latest social media content.\",   \"url\": \"https://www.imf.org/en/social-hub\",   \"isBasedOn\": \"https://www.imf.org/en/social-hub\",   \"isPartOf\": {     \"@type\": \"WebSite\",     \"url\": \"https://www.imf.org\",     \"name\": \"International Monetary Fund\"   },   \"publisher\": {     \"@type\": \"Organization\",     \"name\": \"International Monetary Fund\",     \"url\": \"https://www.imf.org\",     \"logo\": {       \"@type\": \"ImageObject\",       \"url\": \"https://www.imf.org/imf_seal.ico\"     }   },   \"dateModified\": \"2026-10-01T20:24:22.935Z\",   \"a"
  },
  {
   "url": "https://www.imf.org/en/rss-list",
@@ -73,7 +105,7 @@
   "durum": 200,
   "tur": "text/html; charset=utf-8",
   "boyut": 11154,
-  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>IMF News</title> <meta name=\"description\" content=\"The IMF presents the latest news, blogs, podcasts, videos, live events, and mor"
+  "ilk": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>IMF News</title> <meta name=\"description\" content=\"The IMF presents the latest news, blogs, podcasts, videos, live events, and more.\"> <meta property=\"og:title\" content=\"IMF News\"> <meta property=\"og:description\" content=\"The IMF presents the latest news, blogs, podcasts, videos, live events, and more.\"> <link rel=\"canonical\" href=\"https://www.imf.org/en/news\"> <link rel=\"alternate\" type=\"text/markdown\" href=\"/en/news/index.md\" title=\"Markdown version\"> <link rel=\"alternate\" type=\"application/json\" href=\"/en/news/index.json\" title=\"Structured JSON version\"> <link rel=\"alternate\" type=\"application/json\" href=\"/en/news/bundle-manifest.json\" title=\"Bundle manifest\"> <script type=\"application/ld+json\"> {   \"@context\": \"https://schema.org\",   \"@type\": \"Article\",   \"headline\": \"IMF News\",   \"description\": \"The IMF presents the latest news, blogs, podcasts, videos, live events, and more.\",   \"url\": \"https://www.imf.org/en/news\",   \"isBasedOn\": \"https://www.imf.org/en/news\",   \"isPartOf\": {     \"@type\": \"WebSite\",     \"url\": \"https://www.imf.org\",     \"name\": \"International Monetary Fund\"   },   \"publisher\": {     \"@type\": \"Organization\",     \"name\": \"International Monetary Fund\",     \"url\": \"https://www.imf.org\",     \"logo\": {       \"@type\": \"ImageObject\",       \"url\": \"https://www.imf.org/imf_seal.ico\"     }   },   \"dateModified\": \"2026-10-01T18:03:45.066Z\",   \"author\": [     {       \"@type\": \"Organization\",     "
  },
  {
   "url": "https://www.imf.org/en/Publications/Search",
