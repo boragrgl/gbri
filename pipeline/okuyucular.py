@@ -197,6 +197,25 @@ def dunya_bankasi(kurum, sorgular, baslangic, satir=25, **_):
                    "yayin_tarihi": tarih, "ozet_kaynak": d.get("docty", ""), "kategori": q, "tarih_kaynagi": "api"}
 
 
+def imf_koleksiyon(kurum, adresler, baslangic, **_):
+    """IMF'in resmi, makine-okunur koleksiyon dosyalari (index.json; robots.txt'ye uyar)."""
+    for u, kat in adresler:
+        try:
+            j = json.loads(getir(u)["metin"])
+        except Exception:
+            continue
+        for it in j.get("items") or []:
+            try:
+                t = dt.datetime.strptime(it.get("date", ""), "%B %d, %Y").date()
+            except ValueError:
+                continue
+            if t < baslangic:
+                continue
+            yield {"kurum": kurum, "url": it.get("url", ""), "baslik_orijinal": temiz(it.get("title", "")),
+                   "yayin_tarihi": t, "ozet_kaynak": temiz(re.sub(r"<[^>]+>", " ", it.get("description", ""))),
+                   "kategori": kat, "tarih_kaynagi": "koleksiyon"}
+
+
 def rss_kesif(kurum, url, kategori="", **_):
     """Adres dogrudan besleme degilse sayfadaki besleme baglantilarini dener (TCMB, IFRS)."""
     r = getir(url)
@@ -242,5 +261,5 @@ def site_haritasi(kurum, url, href_desen, baslangic, kategori="", **_):
                "ozet_kaynak": "", "kategori": kategori, "tarih_kaynagi": "url_ay"}
 
 
-OKUYUCULAR = {"site_haritasi": site_haritasi, "rss": rss, "liste": liste, "resmi_gazete": resmi_gazete, "bddk_mevzuat": bddk_mevzuat,
+OKUYUCULAR = {"imf_koleksiyon": imf_koleksiyon, "site_haritasi": site_haritasi, "rss": rss, "liste": liste, "resmi_gazete": resmi_gazete, "bddk_mevzuat": bddk_mevzuat,
               "tarihsiz_pdf_listesi": tarihsiz_pdf_listesi, "dunya_bankasi": dunya_bankasi, "rss_kesif": rss_kesif}

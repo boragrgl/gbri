@@ -66,6 +66,13 @@ KAYNAKLAR = [
     {"id": "resmigazete", "ad": "Resmî Gazete", "bolge": "tr", "okuyucular": [
         {"tip": "resmi_gazete", "anahtar_kelimeler": RG_KELIMELER},
     ]},
+    {"id": "imf", "ad": "IMF", "bolge": "uluslararasi", "okuyucular": [
+        {"tip": "imf_koleksiyon", "adresler": [
+            ("https://www.imf.org/en/publications/gfsr/index.json", "Global Financial Stability Report"),
+            ("https://www.imf.org/en/publications/weo/index.json", "World Economic Outlook"),
+            ("https://www.imf.org/en/publications/fm/index.json", "Fiscal Monitor"),
+            ("https://www.imf.org/en/blogs/index.json", "IMF Blog")]},
+    ]},
     {"id": "oecd", "ad": "OECD", "bolge": "uluslararasi", "aktif": False,
      "not": "Site otomatik erisimi engelliyor (Faz 0 testi)", "okuyucular": []},
 ]
