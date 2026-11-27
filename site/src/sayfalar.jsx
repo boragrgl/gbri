@@ -29,19 +29,18 @@ export function Genel({ konu, liste, veri, izleme }) {
   const baslik = konu ? `${konu.ad} konusunda: ${k} kritik, ${y} yüksek öncelikli gelişme` : `Özet: ${k} kritik, ${y} yüksek öncelikli gelişme`
   return (
     <main className="w sayfa">
-      <section>
-        <h1 className="buyuk" style={{ fontSize: 38, lineHeight: 1.15 }}>{baslik}</h1>
-        <p className="mut" style={{ margin: '10px 0 0', fontSize: 14, maxWidth: 760 }}>
-          Son 3 ayın yayınları. Değişiklikler, bankacılık faaliyetlerine olası etkiyi gösteren bir puana (0–100) göre sıralanır.
-        </p>
-      </section>
+      <div className="kahraman">
+        <section className="card baslikkutu">
+          <h1 className="buyuk">{baslik}</h1>
+          <p className="mut">Son 3 ayın yayınları. Değişiklikler, bankacılık faaliyetlerine olası etkiyi gösteren bir puana (0–100) göre sıralanır.</p>
+        </section>
+        <section className="kpi2" aria-label="Özet göstergeler">
+          {[['Kritik', k, '#B42318', 'son 3 ay'], ['Yüksek', y, '#B54708', 'son 3 ay'], ['Analiz edilen yayın', l.length, '#15191F', 'toplam'], ['Yaklaşan tarih', tar.length, '#15191F', 'görüş · yürürlük · uyum']]
+            .map(([a, n, c, s]) => <div className="kpibox" key={a}><div className="et">{a}</div><div className="n" style={{ color: c }}>{n}</div><div className="alt2">{s}</div></div>)}
+        </section>
+      </div>
       {konu && altListe.length > 0 && (
         <TekSatir etiket="Alt konular" secili={alt} sec={setAlt} ogeler={altListe.map(([a, n]) => ({ k: a, etiket: `${a} (${n})` }))} />)}
-      <section className="kpi" aria-label="Özet göstergeler">
-        {[['Kritik', k, '#B42318', 'son 3 ay'], ['Yüksek', y, '#B54708', 'son 3 ay'], ['Analiz edilen yayın', l.length, '#15191F', 'toplam'], ['Yaklaşan tarih', tar.length, '#15191F', 'görüş / yürürlük / uyum']]
-          .map(([a, n, c, s]) => <div key={a}><div className="mut" style={{ fontSize: 13 }}>{a}</div>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, marginTop: 4 }}><span className="n" style={{ color: c }}>{n}</span><span className="mut" style={{ fontSize: 13 }}>{s}</span></div></div>)}
-      </section>
       <div className="satirbasi">
         <h2 style={{ fontSize: 24 }}>Önemli değişiklikler</h2><a href="#onemli">Tümü, puana göre →</a>
       </div>
