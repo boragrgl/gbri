@@ -1,4 +1,4 @@
 # satir1: topla.py argumanlari, satir2: analiz.py argumanlari (yalniz faz3-site push tetikleyicisi)
 --kaynak imf --geri-gun 1 --baslangic-arsivi
 --kurum imf --geri-gun 400
-# yeniden deneme 2
+# ek belge doldurma

@@ -132,6 +132,8 @@ export default function Detay({ x, veri, izleme }) {
           <Bolum n={12}>
             {(a.referanslar || []).map((r, i) => <div key={i} style={{ padding: '4px 0' }}>{r.metin} <span className="mut" style={{ fontSize: 12 }}>{r.sayfa ? 's. ' + r.sayfa : ''}</span></div>)}
             <div style={{ marginTop: 8 }}><a href={x.url} target="_blank" rel="noopener noreferrer">Orijinal belge ↗</a></div>
+            {x.ek_belge_url && <div style={{ marginTop: 6 }}><a href={x.ek_belge_url} target="_blank" rel="noopener noreferrer">Ekli belge (PDF) ↗</a>
+              <span className="mut" style={{ fontSize: 12 }}> — analizdeki sayfa ve paragraf numaraları (örn. “Sayfa 2”) bu ekli belgeye göredir; ana sayfa duyurusu tek sayfadır.</span></div>}
           </Bolum>
           {benzer.length > 0 && <section className="bolum"><h2 style={{ fontSize: 18 }}>İlgili yayınlar</h2>
             {benzer.map((v) => <div key={v.id} style={{ padding: '4px 0' }}><a href={'#y-' + v.id}>{kn(v.kurum)} · {v.baslik_tr}</a></div>)}</section>}
