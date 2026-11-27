@@ -4,30 +4,20 @@ sys.path.insert(0, ".")
 from pipeline.ortak import getir, robots_izin
 
 URLLER = [
- "https://www.imf.org/en/news/index.json",
- "https://www.imf.org/en/news/index.md",
- "https://www.imf.org/en/news/bundle-manifest.json",
- "https://www.imf.org/en/Publications/GFSR/index.json",
-
- "https://www.imf.org/en/Publications/RSS",
- "https://www.imf.org/en/Publications/RSS?language=eng",
- "https://www.imf.org/en/Publications/RSS?language=eng&series=Global%20Financial%20Stability%20Report",
- "https://www.imf.org/en/News/RSS",
- "https://www.imf.org/en/News/RSS?language=eng",
- "https://www.imf.org/en/Blogs/RSS",
- "https://www.imf.org/en/Publications/WP",
- "https://www.imf.org/en/Publications/Policy-Papers",
- "https://www.imf.org/en/Publications/GFSR",
- "https://www.imf.org/en/news/searchnews",
- "https://www.imf.org/en/Social-Hub",
-
- "https://www.imf.org/en/rss-list",
- "https://www.imf.org/en/News/RSS?type=Press%20Release",
- "https://www.imf.org/en/Publications/RSS?series=IMF%20Working%20Papers",
- "https://www.imf.org/en/Publications/RSS?series=Global%20Financial%20Stability%20Notes",
- "https://www.imf.org/en/News",
- "https://www.imf.org/en/Publications/Search",
- "https://www.imf.org/sitemap.xml",
+ "https://www.imf.org/en/publications/wp/index.json",
+ "https://www.imf.org/en/publications/policy-papers/index.json",
+ "https://www.imf.org/en/publications/sdn/index.json",
+ "https://www.imf.org/en/publications/gfsr/index.json",
+ "https://www.imf.org/en/publications/fsap/index.json",
+ "https://www.imf.org/en/publications/cr/index.json",
+ "https://www.imf.org/en/publications/dp/index.json",
+ "https://www.imf.org/en/publications/fm/index.json",
+ "https://www.imf.org/en/publications/index.json",
+ "https://www.imf.org/en/news/articles/index.json",
+ "https://www.imf.org/en/news/pressreleases/index.json",
+ "https://www.imf.org/en/news/press-releases/index.json",
+ "https://www.imf.org/en/blogs/index.json",
+ "https://www.imf.org/en/topics/financial-sector/index.json",
 ]
 sonuc = []
 for u in URLLER:
@@ -37,7 +27,7 @@ for u in URLLER:
         else:
             r = getir(u, deneme=2, zaman_asimi=30)
             m = r["metin"]
-            sonuc.append({"url": u, "robots": "izinli", "durum": r["durum"], "tur": r.get("tur"), "boyut": len(m), "ilk": m[:1500].replace("\n", " ")})
+            sonuc.append({"url": u, "robots": "izinli", "durum": r["durum"], "tur": r.get("tur"), "boyut": len(m), "ilk": m[:400], "item_sayisi": m.count(chr(34)+"position"+chr(34)).replace("\n", " ")})
     except Exception as e:
         sonuc.append({"url": u, "hata": str(e)[:200]})
     print(sonuc[-1], flush=True)
