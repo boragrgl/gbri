@@ -2443,6 +2443,192 @@
   }
  },
  {
+  "id": "imf-2026-09-01-cc8a7f",
+  "kurum": "imf",
+  "baslik_orijinal": "Italy: Financial Sector Assessment Program — Technical Note on Banking Regulation and Supervision of Less Significant Institutions (IMF Country Report No. 26/241)",
+  "baslik_tr": "İtalya: Finansal Sektör Değerlendirme Programı — Az Önemli Kuruluşların Bankacılık Düzenlemesi ve Denetimi Hakkında Teknik Not",
+  "url": "dosya:data/manuel/imf/italya-fsap-lsi.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "Belge İtalya özelinde olsa da IMF'nin Basel standartları çerçevesindeki denetim beklentilerini yansıtması ve kamu bankası profili için kritik olan kredi riski ve yönetişim alanlarına odaklanması nedeniyle stratejik bilgi değeri taşımaktadır.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "İtalya'daki daha küçük ölçekli bankaların (LSI) denetim çerçevesini, sermaye yeterliliği, risk yönetimi, kurumsal yönetişim ve uluslararası standartlara uyum açısından değerlendiren IMF teknik raporudur.",
+  "yayin_tarihi": "2026-09-01",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "a79e80d3ecd3e8ca"
+   }
+  ],
+  "alt_konular": [
+   "SREP",
+   "Kredi Riski",
+   "Kurumsal Yönetişim",
+   "Likidite Riski"
+  ],
+  "etkilenen_alanlar": [
+   "Kredi riski",
+   "Raporlama",
+   "Operasyonel risk",
+   "Likidite yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF'nin İtalya bankacılık sistemi üzerine yaptığı bu teknik inceleme, Daha Az Önemli Kurumlar (LSI) üzerindeki denetim çerçevesini değerlendirmektedir. Raporda, denetim otoritelerinin kredi sınıflandırması ve karşılık ayırma süreçlerine doğrudan müdahale yetkisinin artırılması, kurumsal yönetişimin güçlendirilmesi ve dijitalleşen finansal ortamda likidite risklerinin (çevrimiçi mevduat platformları gibi) daha sıkı takibi önerilmektedir. Bankamız için özellikle kredi riski denetimindeki ihtiyati beklentiler ve dijitalleşmenin fonlama istikrarı üzerindeki etkileri ön plana çıkmaktadır.",
+   "amac": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Denetim otoritelerinin küresel ölçekte benzer yaklaşımlar benimseyerek bankaların kredi sınıflandırma politikalarına daha müdahaleci olması beklenebilir.",
+     "Dijital mevduat platformlarına olan bağımlılığın likidite stres testlerinde daha muhafazakar senaryolarla ele alınması gerekebilir.",
+     "İtalya'daki Daha Az Önemli Kurumların (LSI) bankacılık düzenlemesi ve denetimi üzerine hedeflenmiş bir inceleme yapılması. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "Denetim otoritesinin kredi sınıflandırmasını ayarlama ve karşılıkları artırma konusunda açık bir yetkisinin bulunmaması.",
+      "alinti": "BdI does not have the power to require LSIs to adjust the classifications of individual exposures or impose provisioning levels for specific exposures.",
+      "sayfa": 40,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Önceki dönemde denetim otoriteleri daha çok 'ikna' (moral suasion) yöntemini kullanırken, yeni dönemde doğrudan yasal yaptırım ve düzeltme yetkilerinin artırılması öngörülmektedir."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [],
+    "olasi_etki": [
+     "TFRS 9 kapsamında ayrılan karşılıkların denetim otoritesi tarafından yetersiz bulunması durumunda, doğrudan sermaye yeterlilik rasyosunu etkileyecek ek yükümlülükler gelebilir.",
+     "Standart yaklaşım kullanan bankalar için konsantrasyon riski hesaplamalarında daha karmaşık modellerin kullanılması gerekebilir.",
+     "SREP sürecinin iş modelleri, yönetişim, sermaye yeterliliği ve likidite risklerini kapsayacak şekilde yapılandırılması. (belgeden birebir doğrulanamadı)"
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "BT hizmet sağlayıcılarına yönelik yerinde incelemelerin artırılması ve dış kaynak kullanımının denetimi.",
+      "alinti": "BdI conducted seven on-site inspections of IT providers, and continued prioritization of this type of on-site inspections is essential.",
+      "sayfa": 9,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Dış kaynaklı BT hizmeti alımlarında denetim otoritesinin hizmet sağlayıcıyı doğrudan denetleme yetkisi nedeniyle sözleşme süreçlerinin güncellenmesi gerekebilir.",
+     "Yönetim kurulu üyeleriyle yapılacak denetim toplantılarının sıklığının ve derinliğinin artması operasyonel iş yükü yaratabilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [
+     {
+      "hukum": "Pillar 2 sermaye ek yüklerinin belirlenmesinde konsantrasyon riskinin tüm formlarının dikkate alınması.",
+      "alinti": "Consider all forms of material concentration risk, when setting Pillar 2 capital add-ons.",
+      "sayfa": 11,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Egemen risk konsantrasyonu için getirilebilecek olası ek sermaye yükümlülüğü, RWA üzerinde artış baskısı yaratabilir.",
+     "SREP puanlamasındaki zayıflıkların doğrudan Pillar 2 sermaye gereksinimini artırması olasıdır."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [
+     "SREP değerlendirmelerinde ESG (Çevresel, Sosyal, Yönetişim) faktörlerinin bir risk bileşeni olarak daha fazla ağırlık kazanması beklenebilir."
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "Kredi Sınıflandırma ve Karşılık Yetkileri",
+     "onceki": "Denetim otoritesinin bireysel krediler için sınıflandırma ve karşılık seviyelerini değiştirme yetkisi sınırlıydı.",
+     "yeni": "Denetim otoritesine ihtiyati amaçlarla varlık sınıflandırmasını ayarlama ve karşılık seviyelerini artırma konusunda açık yetki verilmesi önerilmektedir.",
+     "referans": "Sayfa 10"
+    },
+    {
+     "konu": "Pillar 2 ve Konsantrasyon Riski",
+     "onceki": "Konsantrasyon riski ağırlıklı olarak kredi riski altında ele alınıyordu.",
+     "yeni": "Egemen risk konsantrasyonu dahil olmak üzere tüm maddi konsantrasyon risklerinin Pillar 2 sermaye ek yükü hesaplamalarına dahil edilmesi önerilmektedir.",
+     "referans": "Sayfa 11"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "İlgili değil",
+     "not": "Banka standart yaklaşım kullandığı için içsel PD parametreleri bu aşamada doğrudan etkilenmemektedir."
+    },
+    "LGD": {
+     "duzey": "İlgili değil",
+     "not": "Standart yaklaşım kullanımı nedeniyle içsel LGD hesaplaması yapılmamaktadır."
+    },
+    "EAD": {
+     "duzey": "İlgili değil",
+     "not": "Kredi riski standart yaklaşımı kapsamında maruz kalınan tutar hesaplamaları sabittir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "Denetim otoritesinin karşılık seviyelerine müdahale yetkisinin artırılması önerisi, TFRS 9 kapsamındaki beklenen kredi zararı hesaplamalarını denetim baskısı altına sokabilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-09-01",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Kredi Sınıflandırma ve Karşılık Politikası",
+     "aciklama": "Denetim otoritesinin ihtiyati karşılık artırımı taleplerine hazırlıklı olmak amacıyla mevcut TFRS 9 sınıflandırma kriterleri ve veri kalitesi gözden geçirilmelidir."
+    },
+    {
+     "baslik": "Dijital Mevduat ve Likidite Stres Testleri",
+     "aciklama": "Çevrimiçi platformlar üzerinden toplanan mevduatların oynaklığına ilişkin senaryoların likidite acil durum planlarına entegre edilmesi sağlanmalıdır."
+    },
+    {
+     "baslik": "Yönetim Kurulu Denetim Rolü",
+     "aciklama": "Bağımsız yönetim kurulu üyelerinin denetim süreçlerindeki etkinliği ve denetim otoritesiyle olan iletişim protokolleri güçlendirilmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Regulation and Supervision of Key Risks",
+     "sayfa": 32,
+     "paragraf": null
+    },
+    {
+     "metin": "Credit Risk and Problem Assets",
+     "sayfa": 38,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T15:44:16+03:00",
+   "gonderilen_karakter": 150000,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 5,
+   "guven": "Düşük",
+   "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
+  }
+ },
+ {
   "id": "ifrs-2026-09-01-c75ca7",
   "kurum": "ifrs",
   "baslik_orijinal": "IASB seeks investor views on cash flow information reported by financial institutions",

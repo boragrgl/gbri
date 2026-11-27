@@ -1576,6 +1576,29 @@
   }
  },
  {
+  "aday_id": "imf-2026-11-01-276f82",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/wp-26-243.md",
+  "url_normal": "dosya:data/manuel/imf/wp-26-243.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "Household Vulnerability, Bank Solvency, and Policy Design in the Middle East War (IMF Working Paper WP/26/243)",
+  "yayin_tarihi": "2026-11-01",
+  "tarih_kaynagi": "manuel-ay",
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  }
+ },
+ {
   "aday_id": "ifrs-2026-11-01-bf116f",
   "kurum": "ifrs",
   "url": "https://www.ifrs.org/news-and-events/news/2026/11/pir-ifrs-16-concludes-identifies-targeted-improvements/",
@@ -1707,29 +1730,6 @@
    "neden": "dışlama: podcast",
    "konular": [
     "TFRS 9 / IFRS 9"
-   ]
-  }
- },
- {
-  "aday_id": "imf-2026-11-01-276f82",
-  "kurum": "imf",
-  "url": "dosya:data/manuel/imf/wp-26-243.md",
-  "url_normal": "dosya:data/manuel/imf/wp-26-243.md",
-  "kaynak_baglantisi": "https://www.imf.org/en/publications",
-  "baslik_orijinal": "Household Vulnerability, Bank Solvency, and Policy Design in the Middle East War (IMF Working Paper WP/26/243)",
-  "yayin_tarihi": "2026-11-01",
-  "tarih_kaynagi": "manuel-ay",
-  "kategori": "Manuel arşiv",
-  "ozet_kaynak": "",
-  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
-  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
-  "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
-  "filtre": {
-   "sonuc": "gecti",
-   "neden": "manuel arşiv (kullanıcı ekledi)",
-   "konular": [
-    "Genel düzenleme"
    ]
   }
  }

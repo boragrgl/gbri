@@ -377,5 +377,199 @@
    "alinti_toplam": 1,
    "guven": "Yüksek"
   }
+ },
+ {
+  "id": "imf-2026-08-03-f9e777",
+  "kurum": "imf",
+  "baslik_orijinal": "2026 FSAP Review — Background Note on Survey Results",
+  "baslik_tr": "2026 FSAP İncelemesi — Anket Sonuçlarına İlişkin Arka Plan Notu",
+  "url": "dosya:data/manuel/imf/fsap-review-anket.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Orta",
+  "onem_gerekcesi": "IMF'nin ülke risk değerlendirme metodolojisindeki (FSAP) değişimler, kamu bankalarının risk yönetimi standartlarını ve yerel düzenleyici otoritelerin denetim odak noktalarını doğrudan etkileme potansiyeline sahiptir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "2026 FSAP incelemesi için yapılan anket sonuçlarını özetleyen bu rapor; siber riskler, sistem genelinde risk analizi ve stres testleri gibi gelecekteki analitik öncelikleri ve denetim tavsiyelerinin uygulanmasını ele almaktadır.",
+  "yayin_tarihi": "2026-08-03",
+  "tarih_kaynagi": "belge",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "02d772393948f4bb"
+   }
+  ],
+  "alt_konular": [
+   "Stress testi",
+   "Siber risk",
+   "NBFI",
+   "Makro-finansal gözetim"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Stratejik Planlama",
+   "Uyum"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF'nin 2026 FSAP Gözden Geçirmesi anket sonuçları, programın bağımsız değerlendirme ve risk tespiti konusundaki değerini teyit etmektedir. Gelecek dönemde siber riskler, banka dışı finansal kuruluşlar (NBFI) ve sistem genelindeki risklerin analizine öncelik verilecektir. Banka için bu durum, uluslararası denetim standartlarının ve stres testi metodolojilerinin bu yeni risk alanlarını kapsayacak şekilde evrilebileceğini göstermektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "FSAP'ın performansına ilişkin nicel ve nitel geri bildirim toplamak",
+      "alinti": "This survey serves as a critical input, gathering quantitative and qualitative feedback on the program's performance since the 2021 Review.",
+      "sayfa": 4,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "IMF'nin ülke değerlendirmelerinde kullanacağı yeni metodolojilerin yerel düzenlemelere yansıması olasıdır.",
+     "Gelecekteki FSAP misyonlarının bankanın risk yönetimi süreçlerini daha derinlemesine incelemesi beklenebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "FSAP'ın üç sütunlu yapısının (risk değerlendirmesi, politika çerçevesi ve güvenlik ağları) korunması",
+      "alinti": "Authorities continue to support the three-pillar structure—risk assessment, financial sector policy framework, and financial safety nets",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Geleneksel bankacılık risklerine odaklanan eski yaklaşımın yerini daha geniş kapsamlı bir sistemik risk analizine bırakması olasıdır."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "Sistem genelindeki risk analizlerine ve siber risklere daha fazla vurgu yapılması",
+      "alinti": "Analytical work should place greater emphasis on systemwide and cross-border interconnectedness, cyber risk, fintech and digitalization, and nonbank stress testing.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın stres testi modellerine siber risk senaryolarının entegre edilmesi gerekebilir.",
+     "Banka dışı finansal kuruluşlarla olan karşılıklı etkileşimlerin risk raporlamasına dahil edilmesi gerekebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "Gelişmekte olan ekonomilerde kapasite kısıtlarının uygulama üzerinde belirleyici olması",
+      "alinti": "Technical disagreement is more prominent in advanced economies, while capacity constraints are more binding in EMDEs.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Kamu bankası olarak, IMF tavsiyelerinin uygulanması sürecinde teknik kapasite artırımı ve personel eğitimi ihtiyacı doğabilir.",
+     "Veri toplama ve raporlama süreçlerinin yeni risk alanlarını (fintech, dijitalleşme) kapsayacak şekilde güncellenmesi gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "FSAP sonrası yerel otoritenin (BDDK) getirebileceği ek sermaye tamponları veya risk ağırlığı düzenlemeleri sermaye yeterlilik rasyosunu etkileyebilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [
+     "İklim riskleri anketlerde bir öncelik olarak listelenmiş olsa da, siber risk ve NBFI kadar yüksek öncelik almadığı görülmektedir; ancak uzun vadede stres testlerine dahil edilmesi olasıdır."
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "Analitik Öncelikler",
+     "onceki": "Geleneksel bankacılık sektörü odaklı risk analizi.",
+     "yeni": "Sistem genelinde risk analizi, siber risk ve banka dışı finansal kuruluşların stres testi.",
+     "referans": "Sayfa 1"
+    },
+    {
+     "konu": "FSAP Döngü Sıklığı",
+     "onceki": "Genellikle 5 yıllık döngüler.",
+     "yeni": "Paydaşlar 5-10 yıllık daha uzun döngüleri tercih etmeye başlamıştır.",
+     "referans": "Sayfa 23"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "FSAP'ın makro-finansal risk tespitleri, TFRS 9 kapsamında kullanılan ileriye dönük makroekonomik senaryoları etkileyebilir."
+    },
+    "LGD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Belge doğrudan teminat değerlemesi veya geri kazanım oranlarına ilişkin teknik bir değişiklik içermemektedir."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Maruzat tutarı hesaplamalarına ilişkin doğrudan bir hüküm bulunmamaktadır."
+    },
+    "ECL": {
+     "duzey": "Dolaylı",
+     "not": "Ülke risk primindeki veya makro senaryolardaki değişimler beklenen kredi zarar karşılıklarını dolaylı etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2026-08-03",
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Siber Risk Yönetimi",
+     "aciklama": "Bankanın siber risklere karşı dayanıklılık çerçevesi ve bu risklerin finansal etkilerinin ölçümlenmesi."
+    },
+    {
+     "baslik": "NBFI Etkileşimi",
+     "aciklama": "Bankanın banka dışı finansal kuruluşlarla (sigorta, yatırım fonları vb.) olan kredi ve likidite ilişkilerinin sistemik risk açısından analizi."
+    },
+    {
+     "baslik": "Stres Testi Metodolojisi",
+     "aciklama": "Mevcut stres testi senaryolarının IMF'nin vurguladığı makro-finansal aktarım kanallarıyla uyumu."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "EXECUTIVE SUMMARY",
+     "sayfa": 1,
+     "paragraf": null
+    },
+    {
+     "metin": "FUTURE PRIORITIES",
+     "sayfa": 1,
+     "paragraf": null
+    },
+    {
+     "metin": "ANALYTICAL FOUNDATIONS",
+     "sayfa": 11,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T15:43:37+03:00",
+   "gonderilen_karakter": 111356,
+   "alinti_dogrulanan": 4,
+   "alinti_toplam": 4,
+   "guven": "Yüksek"
+  }
  }
 ]

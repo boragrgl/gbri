@@ -231,12 +231,12 @@
   }
  },
  {
-  "aday_id": "imf-tarihsiz-1bb02e",
+  "aday_id": "imf-tarihsiz-f9e777",
   "kurum": "imf",
-  "url": "dosya:data/manuel/imf/wp-iklim-ozel-finansman.md",
-  "url_normal": "dosya:data/manuel/imf/wp-iklim-ozel-finansman.md",
+  "url": "dosya:data/manuel/imf/fsap-review-anket.md",
+  "url_normal": "dosya:data/manuel/imf/fsap-review-anket.md",
   "kaynak_baglantisi": "https://www.imf.org/en/publications",
-  "baslik_orijinal": "Private finance and climate investment needs: an analytical framework (IMF Working Paper)",
+  "baslik_orijinal": "2026 FSAP Review — Background Note on Survey Results (IMF)",
   "yayin_tarihi": null,
   "tarih_kaynagi": null,
   "kategori": "Manuel arşiv",
@@ -244,14 +244,39 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-08-03-f9e777"
+ },
+ {
+  "aday_id": "imf-tarihsiz-cc8a7f",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/italya-fsap-lsi.md",
+  "url_normal": "dosya:data/manuel/imf/italya-fsap-lsi.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "Italy: Financial Sector Assessment Program — Technical Note on Banking Regulation and Supervision of Less Significant Institutions (IMF Country Report No. 26/241)",
+  "yayin_tarihi": null,
+  "tarih_kaynagi": null,
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "tamam",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  },
+  "kayit_id": "imf-2026-09-01-cc8a7f"
  },
  {
   "aday_id": "imf-tarihsiz-8927b9",
@@ -267,14 +292,15 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-11-27-8927b9"
  },
  {
   "aday_id": "imf-tarihsiz-83b81b",
@@ -290,14 +316,15 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "ilgisiz",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
+  },
+  "kayit_id": "imf-2026-11-27-83b81b"
  },
  {
   "aday_id": "imf-tarihsiz-6378f8",
@@ -313,60 +340,15 @@
   "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
   "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
   "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
+  "analiz_durumu": "tamam",
   "filtre": {
    "sonuc": "gecti",
    "neden": "manuel arşiv (kullanıcı ekledi)",
    "konular": [
     "Genel düzenleme"
    ]
-  }
- },
- {
-  "aday_id": "imf-tarihsiz-0e9307",
-  "kurum": "imf",
-  "url": "dosya:data/manuel/imf/fsap-review-2026.md",
-  "url_normal": "dosya:data/manuel/imf/fsap-review-2026.md",
-  "kaynak_baglantisi": "https://www.imf.org/en/publications",
-  "baslik_orijinal": "2026 Financial Sector Assessment Program Review—Strengthening Agility, Focus, and Impact (IMF Policy Paper 2026/036)",
-  "yayin_tarihi": null,
-  "tarih_kaynagi": null,
-  "kategori": "Manuel arşiv",
-  "ozet_kaynak": "",
-  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
-  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
-  "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
-  "filtre": {
-   "sonuc": "gecti",
-   "neden": "manuel arşiv (kullanıcı ekledi)",
-   "konular": [
-    "Genel düzenleme"
-   ]
-  }
- },
- {
-  "aday_id": "imf-tarihsiz-f9e777",
-  "kurum": "imf",
-  "url": "dosya:data/manuel/imf/fsap-review-anket.md",
-  "url_normal": "dosya:data/manuel/imf/fsap-review-anket.md",
-  "kaynak_baglantisi": "https://www.imf.org/en/publications",
-  "baslik_orijinal": "2026 FSAP Review — Background Note on Survey Results (IMF)",
-  "yayin_tarihi": null,
-  "tarih_kaynagi": null,
-  "kategori": "Manuel arşiv",
-  "ozet_kaynak": "",
-  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
-  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
-  "baslangic_arsivi": true,
-  "analiz_durumu": "bekliyor",
-  "filtre": {
-   "sonuc": "gecti",
-   "neden": "manuel arşiv (kullanıcı ekledi)",
-   "konular": [
-    "Genel düzenleme"
-   ]
-  }
+  },
+  "kayit_id": "imf-2026-11-27-6378f8"
  },
  {
   "aday_id": "imf-tarihsiz-619644",
@@ -392,12 +374,35 @@
   }
  },
  {
-  "aday_id": "imf-tarihsiz-cc8a7f",
+  "aday_id": "imf-tarihsiz-1bb02e",
   "kurum": "imf",
-  "url": "dosya:data/manuel/imf/italya-fsap-lsi.md",
-  "url_normal": "dosya:data/manuel/imf/italya-fsap-lsi.md",
+  "url": "dosya:data/manuel/imf/wp-iklim-ozel-finansman.md",
+  "url_normal": "dosya:data/manuel/imf/wp-iklim-ozel-finansman.md",
   "kaynak_baglantisi": "https://www.imf.org/en/publications",
-  "baslik_orijinal": "Italy: Financial Sector Assessment Program — Technical Note on Banking Regulation and Supervision of Less Significant Institutions (IMF Country Report No. 26/241)",
+  "baslik_orijinal": "Private finance and climate investment needs: an analytical framework (IMF Working Paper)",
+  "yayin_tarihi": null,
+  "tarih_kaynagi": null,
+  "kategori": "Manuel arşiv",
+  "ozet_kaynak": "",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "son_gorulme": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "analiz_durumu": "bekliyor",
+  "filtre": {
+   "sonuc": "gecti",
+   "neden": "manuel arşiv (kullanıcı ekledi)",
+   "konular": [
+    "Genel düzenleme"
+   ]
+  }
+ },
+ {
+  "aday_id": "imf-tarihsiz-0e9307",
+  "kurum": "imf",
+  "url": "dosya:data/manuel/imf/fsap-review-2026.md",
+  "url_normal": "dosya:data/manuel/imf/fsap-review-2026.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "baslik_orijinal": "2026 Financial Sector Assessment Program Review—Strengthening Agility, Focus, and Impact (IMF Policy Paper 2026/036)",
   "yayin_tarihi": null,
   "tarih_kaynagi": null,
   "kategori": "Manuel arşiv",

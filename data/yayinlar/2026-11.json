@@ -1,5 +1,426 @@
 [
  {
+  "id": "imf-2026-11-27-8927b9",
+  "kurum": "imf",
+  "baslik_orijinal": "Systemwide liquidity stress testing in FSAPs",
+  "baslik_tr": "FSAP'larda Sistem Genelinde Likidite Stres Testi",
+  "url": "dosya:data/manuel/imf/fsap-sistem-likidite.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Yüksek",
+  "onem_gerekcesi": "Belgede 2023 Türkiye FSAP sonuçlarına ve kamu bankalarının TCMB ile olan FX likidite ilişkisine (nexus) doğrudan atıf yapılması, bankanın likidite risk yönetimi stratejilerini etkilemektedir.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "Finansal Sektör Değerlendirme Programları (FSAP) kapsamında bankalar ve banka dışı finansal kuruluşlar arasındaki likidite etkileşimlerini ve sistemik riskleri analiz eden metodolojik araçları tanıtmaktadır.",
+  "yayin_tarihi": "2026-11-27",
+  "tarih_kaynagi": "tespit",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "01ce11e4dbf481cc"
+   }
+  ],
+  "alt_konular": [
+   "Likidite Stres Testi",
+   "NBFI Etkileşimi",
+   "FX Likidite Riski",
+   "Sistemik Risk"
+  ],
+  "etkilenen_alanlar": [
+   "Likidite Yönetimi",
+   "Risk Raporlama",
+   "Hazine Operasyonları"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF, finansal istikrar analizlerinde bankalar ile banka dışı finansal kuruluşlar (NBFI) arasındaki etkileşimi ölçen 'sistem genelinde likidite stres testi' metodolojilerini ön plana çıkarmaktadır. Özellikle gelişmekte olan piyasalarda FX likidite çıkışlarının ve sektörler arası bulaşma kanallarının (marj çağrıları, varlık satışları) bankacılık sistemini nasıl etkilediği analiz edilmektedir. Türkiye özelinde 2023 FSAP bulgularına atıf yapılarak, bankaların TCMB'deki FX rezervleri ve swap işlemleri üzerinden oluşan karşılıklı bağımlılık risklerine dikkat çekilmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "Sistem genelinde stres testi yaklaşımları, bankalar ve NBFI'lar arasındaki sektörler arası güçlendirme kanallarını yakalamayı amaçlar.",
+      "alinti": "international financial stability groups have increasingly called for systemwide stress testing approaches that can capture cross-sectoral amplification channels among banks and NBFIs",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "Excel tabanlı araç, likidite şoklarını ve bunların yurt içi finansal bağlantılar yoluyla iletimini izlemek için sektörel akım verilerini kullanır.",
+      "alinti": "The first is an Excel-based systemwide liquidity analysis tool, leveraging sector-aggregate flow-of-funds data to monitor liquidity shocks and their transmission across domestic financial linkages",
+      "sayfa": 2,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Gelecekteki FSAP denetimlerinde bankanın likidite tamponlarının sadece miktar olarak değil, NBFI ve TCMB ile olan bağlantıları üzerinden niteliksel olarak da sorgulanması olasıdır.",
+     "Bankanın likidite stres testlerinde sadece kendi bilançosuna değil, fon piyasalarındaki diğer oyuncuların davranışlarına da odaklanması gerekebilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Geleneksel stres testleri genellikle tek bir sektöre (örneğin sadece bankalar) odaklanırken, yeni yaklaşım sektörler arası bulaşma kanallarını (contagion) merkeze almaktadır.",
+     "Önceki modellerde marj çağrıları ve varlık yangın satışlarının (fire sales) ikincil etkileri genellikle ihmal ediliyordu."
+    ],
+    "karsilastirma_kaynagi": "genel_bilgi"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "MILD çerçevesi, itfa baskılarını, varlık satışlarını ve ikincil fiyat etkilerini değerlendirmek için granüler yatırım fonu ve varlık verilerini kullanır.",
+      "alinti": "The second tool is the Market Impact from Investment Funds Liquidity Distress (MILD) framework, which uses granular investment funds and their asset data",
+      "sayfa": 2,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Bankanın likidite modellerine 'yangın satışı' (fire sale) fiyat etkisi parametrelerinin eklenmesi gerekebilir.",
+     "TFRS 9 kapsamında beklenen kredi zararı (ECL) hesaplamalarında kullanılan makroekonomik senaryolara sistemik likidite şoklarının dahil edilmesi olasıdır."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Risk yönetimi birimlerinin, banka dışı finansal kuruluşlarla (emeklilik fonları, yatırım fonları) olan marj ve teminat yönetimi süreçlerini daha sıkı izlemesi gerekebilir.",
+     "Veri yönetimi tarafında, karşı taraf bazlı granüler işlem verilerinin (repo, türev) sistemik risk analizi için hazır bulundurulması gerekebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [],
+    "olasi_etki": [
+     "Likidite riskindeki artışın doğrudan RWA etkisi olmasa da, Pillar 2 (İSEDES) kapsamında ek sermaye yükümlülüğü getirilmesi olasıdır."
+    ]
+   },
+   "iklim": {
+    "teyitli": [],
+    "olasi_etki": [],
+    "ilgili_degil": true
+   },
+   "degisiklikler": [
+    {
+     "konu": "Stres Testi Metodolojisi",
+     "onceki": "Tekil sektör odaklı, statik likidite rasyoları (LCR, NSFR) analizi.",
+     "yeni": "Sektörler arası etkileşimi, marj çağrılarını ve varlık fiyatı geri besleme döngülerini içeren dinamik sistem analizi.",
+     "referans": "Sayfa 1-2"
+    },
+    {
+     "konu": "FX Likidite Analizi",
+     "onceki": "Banka bazlı FX pozisyon takibi.",
+     "yeni": "Merkez Bankası rezerv yeterliliği ile banka FX likidite tamponlarının entegre analizi.",
+     "referans": "Sayfa 9, 18"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Dolaylı",
+     "not": "Sistemik likidite krizi, karşı tarafların nakit akışını bozarak temerrüt olasılıklarını artırabilir."
+    },
+    "LGD": {
+     "duzey": "Orta",
+     "not": "Varlık yangın satışları (fire sales), teminat değerlerini düşürerek temerrüt anındaki kayıp oranlarını artırabilir."
+    },
+    "EAD": {
+     "duzey": "Düşük",
+     "not": "Likidite sıkışıklığı anında kredi limitlerinin kullanımı (drawdown) artabilir."
+    },
+    "ECL": {
+     "duzey": "Orta",
+     "not": "Piyasa şokları ve varlık fiyatlarındaki düşüşler, TFRS 9 karşılıklarını doğrudan etkileyebilir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": "2025-01-01",
+     "referans": "Sayfa 3 (FSB 2025 referansı)"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "FX Likidite Tamponları",
+     "aciklama": "TCMB nezdindeki FX rezervlerinin ve swap işlemlerinin, sistemik bir şok anında 'gerçekten ulaşılabilir' olup olmadığı analiz edilmelidir."
+    },
+    {
+     "baslik": "NBFI Karşı Taraf Riski",
+     "aciklama": "Yatırım fonları ve emeklilik fonları ile yapılan repo ve türev işlemlerindeki marj çağrısı dinamikleri gözden geçirilmelidir."
+    },
+    {
+     "baslik": "Varlık Likiditesi",
+     "aciklama": "Portföydeki menkul kıymetlerin piyasa stres anındaki likidite dereceleri ve olası fiyat iskontoları (haircut) güncellenmelidir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "Turkiye (2023 FSAP)",
+     "sayfa": 18,
+     "paragraf": null
+    },
+    {
+     "metin": "IMF’s Generic Systemwide Analysis Models",
+     "sayfa": 12,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-3-flash-preview",
+   "olusturma_zamani": "2026-11-27T15:44:50+03:00",
+   "gonderilen_karakter": 118481,
+   "alinti_dogrulanan": 3,
+   "alinti_toplam": 3,
+   "guven": "Yüksek"
+  }
+ },
+ {
+  "id": "imf-2026-11-27-83b81b",
+  "kurum": "imf",
+  "baslik_orijinal": "Mexico: Sociedades Financieras Populares (SOFIPOs), NBFIs and digital lending",
+  "baslik_tr": "Meksika: Halk Finans Şirketleri (SOFIPO'lar), Banka Dışı Finansal Kuruluşlar ve Dijital Borç Verme",
+  "url": "dosya:data/manuel/imf/wp-meksika-sofipo.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Belge, Meksika yerel finansal piyasasına ve banka dışı kuruluşlara odaklanan bir araştırma raporu olduğundan Türkiye'deki bankacılık düzenlemeleriyle doğrudan ilgili değildir.",
+  "konu": "Diğer",
+  "ozet_tek_satir": "Meksika'daki banka dışı finansal kuruluşların dijitalleşme süreçlerinin ve bu durumun bankacılık sektörü rekabeti ile sistemik risk üzerindeki etkilerinin analiz edildiği IMF çalışma raporu.",
+  "yayin_tarihi": "2026-11-27",
+  "tarih_kaynagi": "tespit",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": false,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "53aeb7e2d3df0090"
+   }
+  ]
+ },
+ {
+  "id": "imf-2026-11-27-6378f8",
+  "kurum": "imf",
+  "baslik_orijinal": "Italy: Financial Sector Assessment Program — Technical Note on systemic risk and banking sector resilience (IMF Country Report)",
+  "baslik_tr": "İtalya: Finansal Sektör Değerlendirme Programı — Sistemik Risk ve Bankacılık Sektörü Dayanıklılığı Üzerine Teknik Not (IMF Ülke Raporu)",
+  "url": "dosya:data/manuel/imf/italya-fsap-sistemik.md",
+  "kaynak_baglantisi": "https://www.imf.org/en/publications",
+  "belge_turu": "Rapor",
+  "statu": "Bilgi amaçlı",
+  "onem": "Düşük",
+  "onem_gerekcesi": "Rapor, IMF tarafından İtalya bankacılık sektörü için yayımlanan bir FSAP teknik notu olup Türk bankacılık sistemi veya bankamız üzerinde doğrudan bağlayıcı bir düzenleme içermemekte, uluslararası stres testi ve risk analitiği açısından kıyaslama niteliği taşımaktadır.",
+  "konu": "Risk Yönetimi",
+  "ozet_tek_satir": "İtalya bankacılık sektörünün makro-finansal şoklara karşı dayanıklılığını, sermaye ve likidite stres testleri ile sistemik risk analizleri üzerinden değerlendiren kapsamlı bir teknik rapordur.",
+  "yayin_tarihi": "2026-11-27",
+  "tarih_kaynagi": "tespit",
+  "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+  "baslangic_arsivi": true,
+  "ilgili_mi": true,
+  "surumler": [
+   {
+    "no": 1,
+    "tespit_zamani": "2026-11-27T15:42:17.554264+03:00",
+    "icerik_hash": "234c1062c607b27b"
+   }
+  ],
+  "alt_konular": [
+   "Sistemik Risk",
+   "Ödeme Gücü Stres Testi",
+   "Likidite Stres Testi",
+   "TFRS 9",
+   "Standart Yaklaşım"
+  ],
+  "etkilenen_alanlar": [
+   "Risk Yönetimi",
+   "Finansal Raporlama",
+   "Sermaye ve Likidite Yönetimi"
+  ],
+  "gorus_son_tarihi": null,
+  "yururluk_tarihi": null,
+  "uyum_son_tarihi": null,
+  "analiz": {
+   "yonetici_ozeti": "IMF'nin İtalya Finansal Sektör Değerlendirme Programı (FSAP) kapsamında hazırlanan bu teknik not, İtalyan bankacılık sektörünün sistemik risklerini ve makrofinansal şoklara karşı dayanıklılığını değerlendirmektedir. Çalışmada 31 bankayı kapsayan (sistem varlıklarının %98'i) kapsamlı ödeme gücü ve nakit akışı bazlı likidite stres testleri gerçekleştirilmiştir. Sonuçlar bankacılık sektörünün yüksek sermaye ve likidite tamponları sayesinde genel olarak şoklara karşı dirençli olduğunu, ancak kredi zararları ve devlet tahvili yoğunlaşması nedeniyle bazı uzmanlaşmış ve küçük ölçekli bankalarda zafiyetler bulunduğunu göstermektedir. Bankamız açısından çalışma, Standart Yaklaşım ve TFRS 9 çerçevesinde makro senaryo simülasyonları ile likidite-sermaye etkileşimi modellemeleri için uluslararası iyi uygulama örneği teşkil etmektedir.",
+   "amac": {
+    "teyitli": [
+     {
+      "hukum": "İtalya FSAP çalışması, bankacılık sektörünün dayanıklılığını ve sistemik riskleri kapsamlı bir stres testi çerçevesi kullanarak detaylı biçimde değerlendirmiştir.",
+      "alinti": "The Financial Sector Assessment Program (FSAP) for Italy conducted a comprehensive assessment of systemic risks and the resilience of the banking sector.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "IMF'nin uyguladığı stres testi metodolojileri, bankamızın içsel sermaye ve likidite yeterliliği değerlendirme süreçlerinde (İSEDES/ICAAP ve İLYDES/ILAAP) benchmark olarak kullanılabilir."
+    ]
+   },
+   "onceki_cerceve": {
+    "teyitli": [
+     {
+      "hukum": "2020 İtalya FSAP ödeme gücü stres testi yalnızca toplam bankacılık sektörü varlıklarının yüzde 68'ini oluşturan 9 önemli kuruluşu (SI) kapsamaktaydı.",
+      "alinti": "The 2020 Italy FSAP solvency stress test covered only 9 SIs, accounting for 68 percent of banking sector total assets.",
+      "sayfa": 17,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Önceki dönemlerde daha dar kapsamlı örneklemlerle yapılan değerlendirmelerin yerini, sistemik riskleri bütüncül analiz edebilmek adına kooperatif ve küçük ölçekli bankaları da içeren geniş kapsamlı çerçevelere bıraktığı görülmektedir."
+    ],
+    "karsilastirma_kaynagi": "arsiv"
+   },
+   "teknik_etkiler": {
+    "teyitli": [
+     {
+      "hukum": "Karşılıklar, temerrüt anında maruziyete (EAD) sahip tüm varlık sınıfları için beklenen kredi zararları (ECL) olarak hesaplanmıştır.",
+      "alinti": "Provisions are calculated as expected credit losses (ECLs) for all asset classes with exposure at default .",
+      "sayfa": 31,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     },
+     {
+      "hukum": "Standart Yaklaşım (STA) altındaki maruziyetler için kredi riski sermaye yükümlülükleri, referans tarihte gözlemlenen RWA yoğunlukları kullanılarak tahmin edilmiştir.",
+      "alinti": "For exposures under the Standardized Approach (STA), credit risk charges are estimated using RWA densities observed at the cut-off date.",
+      "sayfa": 33,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Standart Yaklaşım uygulayan bankamız için, stres testi simülasyonlarında RWA yoğunluğu (RWA density) modellemesinin kullanılması makro senaryo yansıtma süreçlerini sadeleştirebilir."
+    ]
+   },
+   "operasyonel_etki": {
+    "teyitli": [
+     {
+      "hukum": "Banca d’Italia, gelişen riskleri ve değişen makroekonomik koşulları stres testi çerçevesine dahil etmeye devam etmelidir.",
+      "alinti": "Banca d’Italia (BdI) should continue to incorporate emerging risks and the evolving macroeconomic environment into its stress ‑testing framework .",
+      "sayfa": 3,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Risk yönetimi birimlerimiz, nakit akışı bazlı likidite stres testleri ile teminat iskonto şoklarını senaryo analizlerine daha entegre şekilde dahil etmeyi değerlendirebilir."
+    ]
+   },
+   "sermaye_rwa": {
+    "teyitli": [
+     {
+      "hukum": "Takipteki alacaklar (NPE), yüzde 100 risk ağırlığı varsayılarak başlangıç RWA tutarından düşülmüş ve canlı kredilere ilişkin RWA yoğunluğu projeksiyonlarda kullanılmıştır.",
+      "alinti": "Non-performing exposures (NPEs) are first subtracted from initial RWAs, assuming a risk weight of 100 percent.",
+      "sayfa": 33,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "Standart yaklaşımda NPE ayrıştırması yapılarak RWA yoğunluğu projeksiyonu yapılması, bankamızın stres testi sermaye projeksiyonlarında dikkate alınabilir."
+    ]
+   },
+   "iklim": {
+    "teyitli": [
+     {
+      "hukum": "Şoklar daha sık ve şiddetli hale geldikçe iklim ve siber riskler yoğunlaşmaktadır.",
+      "alinti": "while climate and cyber risks are intensifying as shocks become more frequent and severe.",
+      "sayfa": 1,
+      "paragraf": null,
+      "alinti_dogrulandi": true
+     }
+    ],
+    "olasi_etki": [
+     "İklim risklerinin orta-uzun vadede sistemik stres testlerine doğrudan bir risk faktörü olarak daha fazla entegre edilmesi olasıdır."
+    ],
+    "ilgili_degil": false
+   },
+   "degisiklikler": [
+    {
+     "konu": "Stres Testi Kapsamı ve Kurum Evreni",
+     "onceki": "2020 yılındaki değerlendirmede yalnızca 9 büyük banka (varlıkların %68'i) tam kapsamlı stres testine tabi tutulmuştu.",
+     "yeni": "31 bankayı (12 SI, 2 yabancı bağlı ortaklık ve 17 LSI) kapsayan ve sistem varlıklarının %98'ini temsil eden tam kapsamlı ödeme gücü ve likidite stres testi yürütülmüştür.",
+     "referans": "Sayfa 17, Dipnot 10"
+    }
+   ],
+   "parametre_etkisi": {
+    "PD": {
+     "duzey": "Düşük",
+     "not": "Bankamız parametrelerine doğrudan etkisi yoktur; raporda mikro veri tabanlı modellerle kurumsal ve hanehalkı PD projeksiyonları gerçekleştirilmiştir."
+    },
+    "LGD": {
+     "duzey": "Düşük",
+     "not": "Doğrudan bir etki bulunmamaktadır; raporda konut kredileri için konut fiyat endeksiyle bağlantılı, diğer portföyler için ise Frye-Jacobs yöntemiyle döngüsel LGD projeksiyonu uygulanmıştır."
+    },
+    "EAD": {
+     "duzey": "Etki beklenmiyor",
+     "not": "Statik bilanço varsayımı uygulandığından EAD parametrelerinde düzenleyici bir değişiklik öngörülmemiştir."
+    },
+    "ECL": {
+     "duzey": "Düşük",
+     "not": "Muhasebesel karşılıklar üzerinde doğrudan etkisi yoktur; çalışma IFRS 9 geçiş matrisleri ve makro senaryolar üzerinden karşılık projeksiyonu dinamiklerini sergilemektedir."
+    }
+   },
+   "tarihler": [
+    {
+     "tur": "Yayın",
+     "tarih": null,
+     "referans": "Sayfa 1"
+    }
+   ],
+   "gozden_gecirilecekler": [
+    {
+     "baslik": "Likidite ve Sermaye Etkileşim Testleri",
+     "aciklama": "Likidite sıkışıklığı anında itfa edilmiş maliyetle ölçülen tahvillerin zorunlu satışından kaynaklanabilecek sermaye erimesi simülasyonu bankamız içsel stres testleri için metodolojik açıdan incelenebilir."
+    },
+    {
+     "baslik": "Kamu Tahvili Yoğunlaşması ve Bulaşma Riski",
+     "aciklama": "Likidite tamponlarında yer alan kamu borçlanma araçlarının piyasa değeri ve teminat iskonto duyarlılıkları bilanço dayanıklılığı kapsamında gözden geçirilebilir."
+    }
+   ],
+   "referanslar": [
+    {
+     "metin": "EXECUTIVE SUMMARY",
+     "sayfa": 1,
+     "paragraf": null
+    },
+    {
+     "metin": "Table 1. Italy: Key FSAP Recommendations",
+     "sayfa": 4,
+     "paragraf": null
+    },
+    {
+     "metin": "SYSTEMIC RISK ASSESSMENT",
+     "sayfa": 16,
+     "paragraf": null
+    },
+    {
+     "metin": "BANK SOLVENCY STRESS TESTS",
+     "sayfa": 30,
+     "paragraf": null
+    },
+    {
+     "metin": "BANK LIQUIDITY RISK ANALYSIS",
+     "sayfa": 48,
+     "paragraf": null
+    }
+   ]
+  },
+  "analiz_bilgisi": {
+   "model": "gemini-flash-latest",
+   "olusturma_zamani": "2026-11-27T15:48:16+03:00",
+   "gonderilen_karakter": 150000,
+   "alinti_dogrulanan": 7,
+   "alinti_toplam": 7,
+   "guven": "Orta",
+   "not": "Belge uzun olduğu için ilk 150000 karakter analiz edildi."
+  }
+ },
+ {
   "id": "tcmb-2026-11-26-95688e",
   "kurum": "tcmb",
   "baslik_orijinal": "Makroihtiyati Çerçeveye İlişkin Basın Duyurusu (2026-52)",
